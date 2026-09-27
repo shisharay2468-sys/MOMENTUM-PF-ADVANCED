@@ -1,1 +1,31 @@
-{"holdings":{},"last_rebalance":null,"history":[],"buyable":[]}
+{
+  "holdings": {},
+  "last_rebalance": null,
+  "history": [],
+  "buyable": [
+    "AARTIPHARM.NS",
+    "ACE.NS",
+    "ADOR.NS",
+    "AETHER.NS",
+    "AGI.NS",
+    "AKUMS.NS",
+    "ALIVUS.NS",
+    "ANDHRAPAP.NS",
+    "ARROWGREEN.NS",
+    "ASIANENE.NS",
+    "AVALON.NS",
+    "AVTNPL.NS",
+    "BIRLACABLE.NS",
+    "BLSE.NS",
+    "BLUSPRING.NS",
+    "BOSCH-HCIL.NS",
+    "CAPLIPOINT.NS",
+    "CASTROLIND.NS",
+    "COMSYN.NS",
+    "CONFIPET.NS",
+    "DEEPINDS.NS",
+    "DOLPHIN.NS",
+    "DYNAMATECH.NS",
+    "EIMCOELECO.NS"
+  ]
+}

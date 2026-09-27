@@ -1,0 +1,242 @@
+{
+ "2026-09-25": {
+  "Entry": [
+   {
+    "symbol": "AVTNPL",
+    "name": "AVT NATURAL PRODUCTS LTD",
+    "sector": "Basic Materials",
+    "price": 92.58,
+    "mcap": 1410,
+    "rank": 1
+   },
+   {
+    "symbol": "ASIANENE",
+    "name": "ASIAN ENERGY SERVICES LTD",
+    "sector": "Energy",
+    "price": 487.75,
+    "mcap": 2370,
+    "rank": 2
+   },
+   {
+    "symbol": "CONFIPET",
+    "name": "CONFIDENCE PETRO IND LTD.",
+    "sector": "Energy",
+    "price": 88.28,
+    "mcap": 2933,
+    "rank": 4
+   },
+   {
+    "symbol": "DOLPHIN",
+    "name": "DOLPHIN OFF ENT (IND) L",
+    "sector": "Energy",
+    "price": 687.45,
+    "mcap": 2750,
+    "rank": 8
+   },
+   {
+    "symbol": "DEEPINDS",
+    "name": "DEEP INDUSTRIES LIMITED",
+    "sector": "Energy",
+    "price": 781.1,
+    "mcap": 4999,
+    "rank": 10
+   },
+   {
+    "symbol": "AARTIPHARM",
+    "name": "AARTI PHARMALABS LIMITED",
+    "sector": "Healthcare",
+    "price": 939.55,
+    "mcap": 8520,
+    "rank": 12
+   },
+   {
+    "symbol": "COMSYN",
+    "name": "COMMERCIAL SYN BAGS LTD",
+    "sector": "Consumer Cyclical",
+    "price": 282.85,
+    "mcap": 1141,
+    "rank": 14
+   },
+   {
+    "symbol": "ARROWGREEN",
+    "name": "ARROW GREENTECH LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 905.8,
+    "mcap": 1367,
+    "rank": 16
+   },
+   {
+    "symbol": "ALIVUS",
+    "name": "ALIVUS LIFE SCIENCES LTD",
+    "sector": "Healthcare",
+    "price": 1365.6,
+    "mcap": 16766,
+    "rank": 17
+   },
+   {
+    "symbol": "EIMCOELECO",
+    "name": "EIMCO ELECON (INDIA) LTD",
+    "sector": "Industrials",
+    "price": 2301.6,
+    "mcap": 1328,
+    "rank": 19
+   },
+   {
+    "symbol": "CAPLIPOINT",
+    "name": "CAPLIN POINT LAB LTD.",
+    "sector": "Healthcare",
+    "price": 2835.1,
+    "mcap": 21550,
+    "rank": 23
+   },
+   {
+    "symbol": "BLSE",
+    "name": "BLS E-SERVICES LIMITED",
+    "sector": "Industrials",
+    "price": 324.55,
+    "mcap": 2942,
+    "rank": 26
+   },
+   {
+    "symbol": "ANDHRAPAP",
+    "name": "ANDHRA PAPER LIMITED",
+    "sector": "Basic Materials",
+    "price": 74.05,
+    "mcap": 1472,
+    "rank": 28
+   },
+   {
+    "symbol": "BIRLACABLE",
+    "name": "BIRLA CABLE LIMITED",
+    "sector": "Technology",
+    "price": 362.45,
+    "mcap": 1087,
+    "rank": 30
+   },
+   {
+    "symbol": "AGI",
+    "name": "AGI GREENPAC LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 803.35,
+    "mcap": 5197,
+    "rank": 34
+   },
+   {
+    "symbol": "AETHER",
+    "name": "AETHER INDUSTRIES LIMITED",
+    "sector": "Basic Materials",
+    "price": 1767.0,
+    "mcap": 23453,
+    "rank": 35
+   },
+   {
+    "symbol": "AVALON",
+    "name": "AVALON TECHNOLOGIES LTD",
+    "sector": "Technology",
+    "price": 2328.5,
+    "mcap": 15574,
+    "rank": 36
+   },
+   {
+    "symbol": "ADOR",
+    "name": "ADOR WELDING LTD",
+    "sector": "Industrials",
+    "price": 1638.9,
+    "mcap": 2852,
+    "rank": 41
+   },
+   {
+    "symbol": "AKUMS",
+    "name": "AKUMS DRUGS AND PHARMA L",
+    "sector": "Healthcare",
+    "price": 819.55,
+    "mcap": 12547,
+    "rank": 46
+   },
+   {
+    "symbol": "CASTROLIND",
+    "name": "CASTROL INDIA LIMITED",
+    "sector": "Energy",
+    "price": 201.67,
+    "mcap": 19948,
+    "rank": 52
+   },
+   {
+    "symbol": "BLUSPRING",
+    "name": "BLUSPRING ENTERPRISES LTD",
+    "sector": "Industrials",
+    "price": 145.12,
+    "mcap": 2170,
+    "rank": 54
+   },
+   {
+    "symbol": "BOSCH-HCIL",
+    "name": "BOSCH HOME COMFRT IND LTD",
+    "sector": "Consumer Cyclical",
+    "price": 1811.6,
+    "mcap": 4926,
+    "rank": 56
+   },
+   {
+    "symbol": "DYNAMATECH",
+    "name": "DYNAMATIC TECHNOLOGIES",
+    "sector": "Consumer Cyclical",
+    "price": 13153.0,
+    "mcap": 8933,
+    "rank": 57
+   },
+   {
+    "symbol": "ACE",
+    "name": "ACTION CONST EQUIP LTD",
+    "sector": "Industrials",
+    "price": 1226.6,
+    "mcap": 14600,
+    "rank": 61
+   }
+  ],
+  "OBV": [
+   {
+    "symbol": "CYIENTDLM",
+    "name": "CYIENT DLM LIMITED",
+    "sector": "Industrials",
+    "price": 931.4,
+    "mcap": 7392,
+    "rank": 20
+   },
+   {
+    "symbol": "ANDHRAPAP",
+    "name": "ANDHRA PAPER LIMITED",
+    "sector": "Basic Materials",
+    "price": 74.05,
+    "mcap": 1472,
+    "rank": 28
+   },
+   {
+    "symbol": "BOSCH-HCIL",
+    "name": "BOSCH HOME COMFRT IND LTD",
+    "sector": "Consumer Cyclical",
+    "price": 1811.6,
+    "mcap": 4926,
+    "rank": 56
+   }
+  ],
+  "IPO": [
+   {
+    "symbol": "AEROPLANE",
+    "name": "AMIR CHAND JAG KUM (E) L",
+    "sector": "Consumer Defensive",
+    "price": 209.47,
+    "mcap": 2169,
+    "rank": null
+   },
+   {
+    "symbol": "ELANTAS",
+    "name": "ELANTAS BECK INDIA LTD.",
+    "sector": "Basic Materials",
+    "price": 13881.0,
+    "mcap": 11004,
+    "rank": null
+   }
+  ]
+ }
+}
