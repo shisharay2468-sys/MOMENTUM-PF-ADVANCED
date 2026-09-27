@@ -1,7 +1,75 @@
 {
-  "holdings": {},
-  "last_rebalance": null,
-  "history": [],
+  "holdings": {
+    "TNPETRO.NS": {
+      "entry_price": 132.92999267578125,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "MANALIPETC.NS": {
+      "entry_price": 84.6500015258789,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "AVTNPL.NS": {
+      "entry_price": 92.58000183105469,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "WINDLAS.NS": {
+      "entry_price": 1102.550048828125,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "SYNCOMF.NS": {
+      "entry_price": 20.049999237060547,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "ROSSTECH.NS": {
+      "entry_price": 1402.699951171875,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "ASIANENE.NS": {
+      "entry_price": 487.75,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "RAMRAT.NS": {
+      "entry_price": 570.0,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "VINDHYATEL.NS": {
+      "entry_price": 2719.800048828125,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    },
+    "SOLARA.NS": {
+      "entry_price": 739.1500244140625,
+      "entry_date": "2026-09-27",
+      "weight": 0.0475
+    }
+  },
+  "last_rebalance": "2026-09-27",
+  "history": [
+    {
+      "date": "2026-09-27",
+      "bought": [
+        "TNPETRO",
+        "MANALIPETC",
+        "AVTNPL",
+        "WINDLAS",
+        "SYNCOMF",
+        "ROSSTECH",
+        "ASIANENE",
+        "RAMRAT",
+        "VINDHYATEL",
+        "SOLARA"
+      ],
+      "sold": []
+    }
+  ],
   "buyable": [
     "AARTIPHARM.NS",
     "ACE.NS",
@@ -82,6 +150,37 @@
     "RPEL.NS",
     "RPGLIFE.NS",
     "SANATHAN.NS",
-    "SBCL.NS"
+    "SBCL.NS",
+    "SETL.NS",
+    "SHRIPISTON.NS",
+    "SMLMAH.NS",
+    "SOLARA.NS",
+    "SOMANYCERA.NS",
+    "SONACOMS.NS",
+    "SPLPETRO.NS",
+    "STOVEKRAFT.NS",
+    "SUNDRMFAST.NS",
+    "SYNCOMF.NS",
+    "SYRMA.NS",
+    "TALBROAUTO.NS",
+    "TATVA.NS",
+    "TBOTEK.NS",
+    "THELEELA.NS",
+    "TI.NS",
+    "TNPETRO.NS",
+    "UFLEX.NS",
+    "UNIMECH.NS",
+    "UNIPARTS.NS",
+    "VADILALIND.NS",
+    "VARROC.NS",
+    "VENUSPIPES.NS",
+    "VIJAYA.NS",
+    "VINCOFE.NS",
+    "VINDHYATEL.NS",
+    "VISHNU.NS",
+    "WINDLAS.NS",
+    "WOCKPHARMA.NS",
+    "WSTCSTPAPR.NS",
+    "YATHARTH.NS"
   ]
 }
