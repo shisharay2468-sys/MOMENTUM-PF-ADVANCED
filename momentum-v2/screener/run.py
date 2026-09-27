@@ -8,7 +8,7 @@ import sys
 import numpy as np
 import pandas as pd
 
-from . import config, data, portfolio, render, scoring, signals
+from . import config, data, portfolio, render, scoring, signals, charts, rs
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "docs", "index.html")
@@ -82,6 +82,9 @@ def main(argv=None) -> int:
         print("  relative strength measured against an equal-weight proxy "
               "built from the universe")
     metrics = scoring.compute_metrics(close, volume, meta, bench, rs_bench)
+    # RS rating 1-99, for the dashboard filter only (nothing ranks on it).
+    rs_ratings = rs.ratings(close)
+    print(f"  RS ratings computed for {len(rs_ratings)} stocks")
     metrics = scoring.catalyst_scores(metrics, catalysts, themes)
     gated = scoring.apply_gates(metrics)
     # Sector strength is measured across everything liquid and large enough.
@@ -344,6 +347,9 @@ def main(argv=None) -> int:
     # the workflow ran — a Sunday re-run files under Friday.
     price_day = pd.Timestamp(close.index[-1]).strftime("%Y-%m-%d") if len(close.index) else stamp
     daily = {} if args.offline_test else signals.load_daily()
+    for _items in current.values():
+        for _c in _items:
+            _c["rs_rating"] = rs_ratings.get(_c["symbol"], rs_ratings.get(f"{_c['symbol']}.NS"))
     daily = signals.record_day(daily, price_day, current)
     if not args.offline_test:
         signals.save_daily(daily)
@@ -383,6 +389,12 @@ def main(argv=None) -> int:
         "rebalanced": bool(due),
     }
 
+    # Candlestick chart files for every stock on the page (display only).
+    rs.attach(payload, rs_ratings)
+    n_charts = charts.write(payload, close, volume, high, os.path.dirname(OUT),
+                            data.CHART_OPEN, data.CHART_LOW)
+    payload["charts"] = n_charts > 0
+    print(f"  charts: {n_charts} stock charts written")
     render.render(payload, OUT)
     print(f"Dashboard written to {OUT}")
 

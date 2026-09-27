@@ -168,6 +168,7 @@ def record_day(daily: dict, day: str, current: dict[str, list[dict]]) -> dict:
                 "price": round(float(c["price"]), 2) if c.get("price") else None,
                 "mcap": round(float(mc)) if mc else None,
                 "rank": c.get("rank"),
+                "rs": c.get("rs_rating"),   # RS rating on that day
             })
         rows.sort(key=_priority_key)
         rec[kind] = rows

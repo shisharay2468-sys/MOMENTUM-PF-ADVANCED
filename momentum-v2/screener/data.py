@@ -136,6 +136,10 @@ def _sme_symbols() -> set[str]:
 
 
 # ----------------------------------------------------------------- prices
+CHART_OPEN = None   # set by fetch_prices; used only by charts.py
+CHART_LOW = None
+
+
 def fetch_prices(tickers: list[str], period: str | None = None
                  ) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
     """Download adjusted daily bars. Returns (close, volume, high) frames.
@@ -145,6 +149,7 @@ def fetch_prices(tickers: list[str], period: str | None = None
     import yfinance as yf
 
     closes, volumes, highs = [], [], []
+    opens, lows = [], []   # kept only for the candlestick charts
     total = len(tickers)
     failed_batches = 0
     for i in range(0, total, config.BATCH_SIZE):
@@ -173,10 +178,18 @@ def fetch_prices(tickers: list[str], period: str | None = None
             closes.append(raw["Close"])
             volumes.append(raw["Volume"])
             highs.append(raw["High"])
+            if "Open" in raw.columns.get_level_values(0):
+                opens.append(raw["Open"])
+            if "Low" in raw.columns.get_level_values(0):
+                lows.append(raw["Low"])
         else:  # single ticker in the batch
             closes.append(raw[["Close"]].rename(columns={"Close": batch[0]}))
             volumes.append(raw[["Volume"]].rename(columns={"Volume": batch[0]}))
             highs.append(raw[["High"]].rename(columns={"High": batch[0]}))
+            if "Open" in raw.columns:
+                opens.append(raw[["Open"]].rename(columns={"Open": batch[0]}))
+            if "Low" in raw.columns:
+                lows.append(raw[["Low"]].rename(columns={"Low": batch[0]}))
         print(f"  prices {min(i + config.BATCH_SIZE, total)}/{total}")
 
     if not closes:
@@ -196,6 +209,19 @@ def fetch_prices(tickers: list[str], period: str | None = None
     close = close.dropna(axis=1, how="all")
     volume = volume.reindex(columns=close.columns)
     high = high.reindex(index=close.index, columns=close.columns)
+
+    # Opens and lows feed the candlestick charts only; nothing in the scoring
+    # reads them. Stored on the module so fetch_prices keeps its signature.
+    global CHART_OPEN, CHART_LOW
+    try:
+        if opens and lows:
+            o = pd.concat(opens, axis=1).sort_index()
+            l = pd.concat(lows, axis=1).sort_index()
+            CHART_OPEN = o.loc[:, ~o.columns.duplicated()].reindex(index=close.index, columns=close.columns)
+            CHART_LOW = l.loc[:, ~l.columns.duplicated()].reindex(index=close.index, columns=close.columns)
+    except Exception as exc:  # noqa: BLE001 — charts must never break a run
+        print(f"  chart data: opens/lows unavailable ({exc})")
+        CHART_OPEN = CHART_LOW = None
 
     got, want = len(close.columns), total
     print(f"  usable price history for {got} of {want} names")
