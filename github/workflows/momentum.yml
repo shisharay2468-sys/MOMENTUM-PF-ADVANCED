@@ -1,9 +1,8 @@
-name: Momentum run
+         name: Momentum run
 
 on:
   schedule:
-    # 12:30 UTC = 18:00 IST, comfortably after the NSE close and after
-    # Yahoo has settled the day's adjusted closes.
+    # 12:30 UTC = 18:00 IST, after the NSE close
     - cron: "30 12 * * 1-5"
   workflow_dispatch:
     inputs:
@@ -14,6 +13,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: momentum
@@ -23,6 +24,13 @@ jobs:
   run:
     runs-on: ubuntu-latest
     timeout-minutes: 90
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        # All the system's files live inside the momentum-v2 folder
+        working-directory: momentum-v2
     steps:
       - uses: actions/checkout@v4
 
@@ -30,12 +38,11 @@ jobs:
         with:
           python-version: "3.12"
           cache: pip
+          cache-dependency-path: momentum-v2/requirements.txt
 
       - run: pip install -r requirements.txt
 
       - name: Self-test on synthetic data
-        # Runs the whole pipeline without touching the network. If the code
-        # is broken, this fails in ten seconds instead of an hour in.
         run: python -m screener.run --offline-test
 
       - name: Run the screen
@@ -50,18 +57,17 @@ jobs:
         run: |
           git config user.name  "momentum-bot"
           git config user.email "momentum-bot@users.noreply.github.com"
-          # Add only what exists. On the very first run universe.csv may not
-          # have been created yet, and 'git add' on a missing path aborts the
-          # whole step even though the run itself succeeded.
           for p in docs state universe.csv catalysts.csv themes.csv exclude.csv; do
             if [ -e "$p" ]; then git add "$p"; fi
           done
           git diff --staged --quiet || git commit -m "Run $(date -u +%Y-%m-%d)"
           git push
 
-      - name: Upload dashboard artifact
-        uses: actions/upload-artifact@v4
+      - name: Prepare dashboard for publishing
+        uses: actions/upload-pages-artifact@v3
         with:
-          name: dashboard
-          path: docs/
-          retention-days: 30
+          path: momentum-v2/docs
+
+      - name: Publish dashboard
+        id: deployment
+        uses: actions/deploy-pages@v4
