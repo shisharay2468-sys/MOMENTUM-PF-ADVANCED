@@ -1,0 +1,676 @@
+"""Momentum metrics, trend gates, sector overlay and the composite score."""
+from __future__ import annotations
+
+import numpy as np
+import pandas as pd
+
+from . import config
+
+TRADING_DAYS = {"1m": 21, "3m": 63, "6m": 126, "12m": 252}
+
+
+def _z(s: pd.Series) -> pd.Series:
+    """Winsorised z-score. Clipping at 3 sigma stops one 8x name from
+    swamping every other component in the composite."""
+    s = s.astype(float)
+    mu, sd = s.mean(), s.std(ddof=0)
+    if not sd or np.isnan(sd):
+        return pd.Series(0.0, index=s.index)
+    return ((s - mu) / sd).clip(-3, 3)
+
+
+def weekly_rsi(px: pd.Series, period: int = 14) -> float:
+    """Wilder's RSI on weekly closes."""
+    wk = px.resample("W-FRI").last().dropna()
+    if len(wk) < period + 5:
+        return float("nan")
+    delta = wk.diff()
+    gain = delta.clip(lower=0)
+    loss = -delta.clip(upper=0)
+    avg_gain = gain.ewm(alpha=1 / period, adjust=False).mean()
+    avg_loss = loss.ewm(alpha=1 / period, adjust=False).mean()
+    rs = avg_gain / avg_loss.replace(0, np.nan)
+    rsi = 100 - (100 / (1 + rs))
+    return float(rsi.iloc[-1])
+
+
+def weekly_ema(px: pd.Series, span: int = 21) -> tuple[float, float]:
+    """Returns (last weekly close, 21-week EMA)."""
+    wk = px.resample("W-FRI").last().dropna()
+    if len(wk) < span + 3:
+        return float("nan"), float("nan")
+    ema = wk.ewm(span=span, adjust=False).mean()
+    return float(wk.iloc[-1]), float(ema.iloc[-1])
+
+
+def atr(px: pd.Series, period: int = 20) -> float:
+    """Close-only ATR proxy. Intraday highs and lows are not needed here —
+    the extension check only cares about typical daily range."""
+    tr = px.diff().abs()
+    if len(tr.dropna()) < period:
+        return float("nan")
+    return float(tr.ewm(alpha=1 / period, adjust=False).mean().iloc[-1])
+
+
+def _tv_ema(s: pd.Series, span: int) -> pd.Series:
+    """EMA seeded with a simple average of the first `span` values, the way
+    TradingView builds it. Values before the seed are NaN."""
+    out = pd.Series(np.nan, index=s.index, dtype=float)
+    if len(s) < span:
+        return out
+    alpha = 2 / (span + 1)
+    prev = float(s.iloc[:span].mean())
+    out.iloc[span - 1] = prev
+    for i in range(span, len(s)):
+        prev = alpha * float(s.iloc[i]) + (1 - alpha) * prev
+        out.iloc[i] = prev
+    return out
+
+
+def monthly_obv(px: pd.Series, vol: pd.Series) -> dict:
+    """Monthly on-balance volume against its own EMA.
+
+    Built on monthly bars, as a monthly chart would: a month's total volume
+    is added when it closes above the prior month and subtracted when it
+    closes below. The running total's starting point does not matter — an
+    EMA shifts with it — so history before the download window is not needed.
+    """
+    span = config.OBV_EMA_SPAN
+    out = {"obv_cross": False, "obv_cross_month": None, "obv_above": False,
+           "obv_months": 0}
+    mc = px.resample("ME").last().dropna()
+    mv = vol.reindex(px.index).fillna(0).resample("ME").sum().reindex(mc.index).fillna(0)
+    out["obv_months"] = int(len(mc))
+    if len(mc) < span + config.OBV_CROSS_WITHIN_MONTHS + 1:
+        return out
+    direction = np.sign(mc.diff().fillna(0))
+    obv = (direction * mv).cumsum()
+    ema = _tv_ema(obv, span)
+    above = obv > ema
+    out["obv_above"] = bool(above.iloc[-1])
+    for k in range(1, config.OBV_CROSS_WITHIN_MONTHS + 1):
+        i = len(obv) - k
+        if pd.isna(ema.iloc[i - 1]):
+            continue
+        if above.iloc[i] and not above.iloc[i - 1]:
+            out["obv_cross"] = True
+            out["obv_cross_month"] = mc.index[i].strftime("%b %Y")
+            break
+    if config.OBV_REQUIRE_STILL_ABOVE and not out["obv_above"]:
+        out["obv_cross"] = False
+    return out
+
+
+def episodic_pivot(px: pd.Series, vol: pd.Series) -> dict:
+    """Detect the chart signature of a major announcement: one day of
+    outsized volume and range that the stock has since held.
+
+    This is a proxy for an order win or a capacity announcement. It catches
+    most of them and mislabels the occasional block deal, which is why the
+    hand-tagged catalyst file outranks it.
+    """
+    n = min(config.PIVOT_LOOKBACK, len(px) - 51)
+    if n < 5:
+        return {"found": False}
+    avg_vol = vol.rolling(50).mean()
+    rets = px.pct_change()
+    last = float(px.iloc[-1])
+    best = None
+    for i in range(len(px) - n, len(px)):
+        v, av = float(vol.iloc[i]), float(avg_vol.iloc[i])
+        r = float(rets.iloc[i])
+        if not np.isfinite(av) or av <= 0 or not np.isfinite(r):
+            continue
+        if v >= config.PIVOT_VOLUME_MULT * av and r >= config.PIVOT_MOVE:
+            if last >= float(px.iloc[i]) * config.PIVOT_MUST_HOLD:
+                cand = {"found": True, "date": px.index[i].strftime("%d %b %Y"),
+                        "move": r, "vol_mult": v / av,
+                        "days_ago": len(px) - 1 - i}
+                if best is None or cand["move"] > best["move"]:
+                    best = cand
+    return best or {"found": False}
+
+
+def compute_metrics(close: pd.DataFrame, volume: pd.DataFrame,
+                    meta: pd.DataFrame, bench: pd.Series,
+                    rs_bench: pd.Series | None = None) -> pd.DataFrame:
+    """One row per ticker with every raw measure the system needs."""
+    close = close.dropna(axis=1, how="all")
+    rows = []
+
+    bench = bench.reindex(close.index).ffill() if len(bench) else None
+    if rs_bench is None or not len(rs_bench):
+        rs_bench = bench
+    else:
+        rs_bench = rs_bench.reindex(close.index).ffill()
+
+    for t in close.columns:
+        px = close[t].dropna()
+        if len(px) < config.MIN_HISTORY_DAYS:
+            continue
+        vol = volume[t].reindex(px.index).fillna(0) if t in volume else pd.Series(0, index=px.index)
+
+        last = float(px.iloc[-1])
+        rets = px.pct_change().dropna()
+
+        d = TRADING_DAYS
+        r12_1 = float(px.iloc[-d["1m"]] / px.iloc[-d["12m"]] - 1)
+        r6 = float(last / px.iloc[-d["6m"]] - 1)
+        r3 = float(last / px.iloc[-d["3m"]] - 1)
+        r1 = float(last / px.iloc[-d["1m"]] - 1)
+        r12 = float(last / px.iloc[-d["12m"]] - 1)
+
+        ann_vol = float(rets.tail(d["12m"]).std(ddof=0) * np.sqrt(252))
+        if ann_vol <= 0.01:
+            continue
+
+        raw_blend = (config.W_R12_1 * r12_1 + config.W_R6 * r6 + config.W_R3 * r3)
+        risk_adj = raw_blend / ann_vol
+
+        # consistency: share of the last 12 calendar months that were positive
+        monthly = px.resample("ME").last().pct_change().dropna().tail(12)
+        consistency = float((monthly > 0).mean()) if len(monthly) >= 6 else 0.0
+
+        # acceleration: 3m annualised running ahead of the 12m trend
+        acceleration = 1.0 if (r3 * 4) > r12_1 else 0.0
+
+        high52 = float(px.tail(d["12m"]).max())
+        proximity = last / high52 if high52 else 0.0
+
+        sma50 = float(px.rolling(50).mean().iloc[-1])
+        sma200 = float(px.rolling(200).mean().iloc[-1])
+        sma200_prev = float(px.rolling(200).mean().iloc[-1 - config.SMA200_SLOPE_LOOKBACK])
+
+        adv_cr = float((px.tail(20) * vol.tail(20)).mean() / 1e7)
+
+        sma20 = float(px.rolling(20).mean().iloc[-1])
+        atr20 = atr(px, 20)
+        ext20 = last / sma20 - 1 if sma20 else np.nan
+        ext50 = last / sma50 - 1 if sma50 else np.nan
+        ext_atr = (last - sma20) / atr20 if atr20 and atr20 > 0 else np.nan
+
+        # --- emergence metrics: is this coiling or already gone?
+        # Volatility contraction: recent range against its own year. Below 1
+        # means the stock has gone quiet, which is what precedes expansion.
+        atr_year = atr(px.tail(d["12m"]), 60)
+        vol_contraction = (atr20 / atr_year) if (atr_year and atr_year > 0) else np.nan
+
+        # Base quality: share of the past year spent within 25% of the
+        # running 52-week high. A long shelf near highs beats a vertical line.
+        roll_high = px.tail(d["12m"]).cummax()
+        near = (px.tail(d["12m"]) / roll_high) >= 0.75
+        base_quality = float(near.mean())
+
+        # Quiet run-up: near the highs while NOT having already tripled.
+        # This is the single most important separator between a stock about
+        # to move and one that already has.
+        quiet_runup = float(proximity / (1 + max(r12, 0)))
+
+        # Volume thrust: recent participation against the longer average.
+        v20 = float(vol.tail(20).mean())
+        v100 = float(vol.tail(100).mean())
+        volume_thrust = (v20 / v100) if v100 > 0 else np.nan
+
+        rsi_w = weekly_rsi(px)
+        wk_close, ema21w = weekly_ema(px, 21)
+        pivot = episodic_pivot(px, vol)
+        obv = monthly_obv(px, vol)
+
+        # Relative strength line against the mid-and-smallcap market: how
+        # close it sits to its own 12-month high, and how long since it last
+        # made a 50-day high.
+        rs_near_high = 0.0
+        rs_days_since_high = 9999
+        if rs_bench is not None:
+            b = rs_bench.reindex(px.index).ffill().dropna()
+            common = px.index.intersection(b.index)
+            if len(common) > d["12m"]:
+                rs = (px.loc[common] / b.loc[common]).dropna()
+                rs_high = float(rs.tail(d["12m"]).max())
+                rs_near_high = float(rs.iloc[-1] / rs_high) if rs_high else 0.0
+
+                # Rolling 50-day max of the ratio line. A new high means the
+                # value equals that day's rolling max.
+                win = config.RS_HIGH_LOOKBACK
+                if len(rs) > win:
+                    roll = rs.rolling(win).max()
+                    at_high = rs >= roll * 0.999   # tolerance for float noise
+                    recent = at_high.tail(config.RS_HIGH_RECENT_DAYS * 3)
+                    hits = recent[recent].index
+                    if len(hits):
+                        rs_days_since_high = int(
+                            len(rs.loc[hits[-1]:]) - 1)
+
+        m = meta.loc[t] if t in meta.index else {}
+        rows.append({
+            "ticker": t,
+            "symbol": t.replace(".NS", ""),
+            "name": m.get("name", t.replace(".NS", "")),
+            "sector": m.get("sector", "Unclassified"),
+            "industry": m.get("industry", "Unclassified"),
+            "market_cap_cr": float(m.get("market_cap_cr") or 0),
+            "price": last,
+            "r1m": r1, "r3m": r3, "r6m": r6, "r12m": r12, "r12_1": r12_1,
+            "ann_vol": ann_vol,
+            "risk_adj_mom": risk_adj,
+            "consistency": consistency,
+            "acceleration": acceleration,
+            "proximity": proximity,
+            "rs_near_high": rs_near_high,
+            "rs_days_since_high": rs_days_since_high,
+            "vol_contraction": vol_contraction,
+            "base_quality": base_quality,
+            "quiet_runup": quiet_runup,
+            "volume_thrust": volume_thrust,
+            "sma20": sma20, "sma50": sma50, "sma200": sma200,
+            "atr20": atr20, "ext20": ext20, "ext50": ext50, "ext_atr": ext_atr,
+            "weekly_rsi": rsi_w, "weekly_close": wk_close, "ema21w": ema21w,
+            "pivot": bool(pivot.get("found")),
+            "pivot_date": pivot.get("date"),
+            "pivot_move": pivot.get("move"),
+            "pivot_vol_mult": pivot.get("vol_mult"),
+            "sma200_rising": sma200 > sma200_prev,
+            "obv_cross": obv["obv_cross"],
+            "obv_cross_month": obv["obv_cross_month"],
+            "obv_above": obv["obv_above"],
+            "adv_cr": adv_cr,
+            "revenue_growth": m.get("revenue_growth"),
+            "earnings_growth": m.get("earnings_growth"),
+            "roe": m.get("roe"),
+            "debt_to_equity": m.get("debt_to_equity"),
+            "op_cashflow": m.get("op_cashflow"),
+            "net_income": m.get("net_income"),
+            "pe": m.get("pe"),
+        })
+
+    return pd.DataFrame(rows).set_index("ticker")
+
+
+def quality_flags(df: pd.DataFrame) -> pd.Series:
+    """Count of the five fundamental checks each name passes.
+
+    Missing data counts as a fail, not a pass — a name with no reported
+    numbers should not sneak through on silence.
+    """
+    checks = pd.DataFrame(index=df.index)
+    checks["sales"] = df["revenue_growth"].fillna(-1) > 0.10
+    checks["profit"] = df["earnings_growth"].fillna(-1) > df["revenue_growth"].fillna(0)
+    checks["roe"] = df["roe"].fillna(-1) > 0.15
+    checks["leverage"] = df["debt_to_equity"].fillna(999) < 100  # yf reports as %
+    if config.USE_CASHFLOW_CHECK:
+        ocf_ratio = df["op_cashflow"].fillna(0) / df["net_income"].replace(0, np.nan)
+        checks["cashflow"] = ocf_ratio.fillna(-1) > 0.6
+    return checks.sum(axis=1)
+
+
+def apply_gates(df: pd.DataFrame) -> pd.DataFrame:
+    """Attach every gate as a boolean column plus a combined `eligible`."""
+    df = df.copy()
+    df["g_mcap"] = ((df["market_cap_cr"] >= config.MIN_MARKET_CAP_CR)
+                    & (df["market_cap_cr"] <= config.MAX_MARKET_CAP_CR))
+    df["g_liquidity"] = df["adv_cr"] >= config.MIN_ADV_CR
+    df["g_price"] = df["price"] >= config.MIN_PRICE
+    df["g_above_200"] = df["price"] > df["sma200"]
+    df["g_above_50"] = df["price"] > df["sma50"]
+    if config.REQUIRE_GOLDEN_CROSS:
+        df["g_golden"] = df["sma50"] > df["sma200"]
+    if config.REQUIRE_SMA200_RISING:
+        df["g_slope"] = df["sma200_rising"]
+    df["g_near_high"] = df["proximity"] >= (1 - config.MAX_DIST_FROM_52W_HIGH)
+    df["quality_score"] = quality_flags(df)
+    df["g_quality"] = df["quality_score"] >= config.QUALITY_MIN_PASSES
+
+    gate_cols = [c for c in df.columns if c.startswith("g_")]
+    df["eligible"] = df[gate_cols].all(axis=1)
+    df["gates_failed"] = df[gate_cols].apply(
+        lambda r: ", ".join(c[2:] for c in gate_cols if not r[c]), axis=1)
+
+    # Entry-only conditions. A name must clear these to be BOUGHT; a name
+    # already held is judged by the exit rules instead, so a winner that
+    # runs away from its 20-day average is not thrown out for succeeding.
+    df["e_rsi"] = ((df["weekly_rsi"].fillna(0) >= config.WEEKLY_RSI_MIN)
+                   & (df["weekly_rsi"].fillna(999) <= config.WEEKLY_RSI_MAX))
+    df["e_ext20"] = df["ext20"].fillna(9) <= config.MAX_EXT_20DMA
+    df["e_ext50"] = df["ext50"].fillna(9) <= config.MAX_EXT_50DMA
+    if config.USE_ATR_EXTENSION:
+        df["e_ext_atr"] = df["ext_atr"].fillna(99) <= config.MAX_EXT_ATR
+    if config.MAX_1Y_RETURN is not None:
+        df["e_run_up"] = df["r12m"].fillna(0) <= config.MAX_1Y_RETURN
+    df["e_rs_high"] = (df["rs_days_since_high"].fillna(9999)
+                       <= config.RS_HIGH_RECENT_DAYS)
+    if config.OBV_REQUIRED_FOR_ENTRY:
+        df["e_obv"] = df["obv_cross"].fillna(False).astype(bool)
+    entry_cols = [c for c in df.columns if c.startswith("e_")]
+    df["entry_ok"] = df[entry_cols].all(axis=1) & df["eligible"]
+    df["entry_blocked_by"] = df[entry_cols].apply(
+        lambda r: ", ".join({"e_rsi": f"weekly RSI outside "
+                                      f"{config.WEEKLY_RSI_MIN:.0f}-{config.WEEKLY_RSI_MAX:.0f}",
+                             "e_ext20": "extended from the 20-day",
+                             "e_ext50": "extended from the 50-day",
+                             "e_ext_atr": "extended in ATR terms",
+                             "e_rs_high": "no fresh 50-day relative strength high",
+                             "e_obv": "no fresh monthly OBV cross",
+                             "e_run_up": f"already up more than "
+                                         f"{(config.MAX_1Y_RETURN or 0) * 100:.0f}% in a year"}[c]
+                            for c in entry_cols if not r[c]), axis=1)
+    return df
+
+
+def catalyst_scores(df: pd.DataFrame, tagged: dict, themes: dict) -> pd.DataFrame:
+    """Attach the catalyst inputs that now outrank raw momentum.
+
+    tagged: {symbol: {"note": str, "date": "YYYY-MM-DD"}} from catalysts.csv
+    themes: {keyword: weight} matched against sector and industry text
+    """
+    df = df.copy()
+    today = pd.Timestamp.today()
+
+    notes, bonus = [], []
+    for t, r in df.iterrows():
+        b, parts = 0.0, []
+        tag = tagged.get(r["symbol"])
+        if tag:
+            age = (today - pd.Timestamp(tag["date"])).days if tag.get("date") else 0
+            if age <= config.CATALYST_MAX_AGE_DAYS:
+                b += config.CATALYST_BONUS
+                parts.append(tag.get("note", "Tagged catalyst"))
+        if r.get("pivot"):
+            b += config.PIVOT_BONUS
+            parts.append(f"Volume pivot {r.get('pivot_date')} "
+                         f"({(r.get('pivot_move') or 0) * 100:.0f}% on "
+                         f"{(r.get('pivot_vol_mult') or 0):.1f}x volume)")
+        text = f"{r.get('sector', '')} {r.get('industry', '')}".lower()
+        hits = [k for k in themes if k.lower() in text]
+        if hits:
+            b += config.THEME_BONUS * max(themes[k] for k in hits)
+            parts.append(f"Sunrise theme: {hits[0]}")
+        bonus.append(b)
+        notes.append(" | ".join(parts))
+
+    df["catalyst_bonus"] = bonus
+    df["catalyst_note"] = notes
+    return df
+
+
+def sub_scores(df: pd.DataFrame, sectors: pd.DataFrame) -> pd.DataFrame:
+    """Three readable 0-100 scores that sit alongside the composite.
+
+    They are percentile ranks within the eligible pool, so 70 means the name
+    beats 70% of its peers on that measure. They explain the composite rather
+    than feed it — the composite is already built from the raw inputs.
+    """
+    df = df.copy()
+    pool = df[df["eligible"]] if df["eligible"].any() else df
+
+    def pctile(col: pd.Series) -> pd.Series:
+        v = col.reindex(pool.index).astype(float)
+        if v.notna().sum() < 3:
+            return pd.Series(np.nan, index=pool.index)
+        return v.rank(pct=True, na_option="keep") * 100
+
+    # Sector score: where this name's sector sits in the sector ranking.
+    n_sec = max(len(sectors), 1)
+    rank_map = sectors["rank"].to_dict()
+    sector_score = pool["sector"].map(
+        lambda s: (100 * (n_sec - rank_map[s] + 1) / n_sec) if s in rank_map else np.nan)
+
+    # Earnings score: profit growth and return on equity together.
+    earn = pd.concat([pctile(pool["earnings_growth"]), pctile(pool["roe"])],
+                     axis=1).mean(axis=1, skipna=True)
+
+    # Growth score: top line, with the momentum of the business itself.
+    growth = pd.concat([pctile(pool["revenue_growth"]), pctile(pool["r6m"])],
+                       axis=1).mean(axis=1, skipna=True)
+
+    for name, series in (("sector_score", sector_score),
+                         ("earnings_score", earn),
+                         ("growth_score", growth)):
+        df[name] = series.round(0)
+    return df
+
+
+def new_listings(close: pd.DataFrame, volume: pd.DataFrame, meta: pd.DataFrame,
+                 rs_bench: pd.Series | None = None,
+                 high: pd.DataFrame | None = None) -> list[dict]:
+    """First pass: mainboard listings under six months old, inside the cap
+    band, trading above the listing day's high and technically strong.
+
+    The growth tests need extra data that is only worth fetching for names
+    that get this far, so they run in filter_new_listings.
+    """
+    out = []
+    if close.empty:
+        return out
+    asof = close.index[-1]
+    for t in close.columns:
+        px = close[t].dropna()
+        if len(px) < config.IPO_MIN_DAYS:
+            continue
+        listed = px.index[0]
+        age_days = (asof - listed).days
+        # A stock whose history starts at the very beginning of the download
+        # window is old, not new.
+        if age_days > config.IPO_MAX_AGE_DAYS or listed <= close.index[0]:
+            continue
+        m = meta.loc[t] if t in meta.index else {}
+        mcap = float(m.get("market_cap_cr") or 0)
+        if not (config.IPO_MIN_MARKET_CAP_CR <= mcap <= config.IPO_MAX_MARKET_CAP_CR):
+            continue
+
+        last = float(px.iloc[-1])
+        listing_high = None
+        if high is not None and t in high.columns:
+            h = high[t].dropna()
+            if len(h) and h.index[0] == listed:
+                listing_high = float(h.iloc[0])
+        if not listing_high or listing_high <= 0:
+            listing_high = float(px.iloc[0])   # fall back to the listing close
+        above_listing = last / listing_high - 1
+
+        n_avg = 20 if len(px) >= 20 else 10
+        avg = float(px.tail(n_avg).mean())
+        peak = float(px.max())
+        from_peak = 1 - last / peak if peak else 1.0
+
+        vs_market = None
+        if rs_bench is not None and len(rs_bench):
+            b = rs_bench.reindex(px.index).ffill().dropna()
+            if len(b) >= 2:
+                vs_market = (last / float(px.loc[b.index[0]]) - 1) - (
+                    float(b.iloc[-1]) / float(b.iloc[0]) - 1)
+
+        vol = volume[t].reindex(px.index).fillna(0) if t in volume else None
+        adv = float((px.tail(20) * vol.tail(20)).mean() / 1e7) if vol is not None else 0.0
+
+        fails = []
+        if config.IPO_REQUIRE_ABOVE_LISTING_HIGH and last <= listing_high:
+            fails.append("below listing-day high")
+        if config.IPO_REQUIRE_ABOVE_20DMA and last < avg:
+            fails.append(f"below {n_avg}-day average")
+        if from_peak > config.IPO_MAX_FROM_HIGH:
+            fails.append("too far off its high")
+        if config.IPO_REQUIRE_BEAT_MARKET and vs_market is not None and vs_market <= 0:
+            fails.append("lagging the market")
+        if adv < config.IPO_MIN_ADV_CR:
+            fails.append("illiquid")
+        if fails:
+            continue
+
+        out.append({
+            "ticker": t,
+            "symbol": t.replace(".NS", ""),
+            "name": str(m.get("name", t.replace(".NS", "")))[:38],
+            "sector": m.get("sector", "Unclassified"),
+            "price": last,
+            "listed_date": listed.strftime("%d %b %Y"),
+            "age_days": int(age_days),
+            "sessions": len(px),
+            "listing_high": listing_high,
+            "above_listing_high": above_listing,
+            "since_listing": last / float(px.iloc[0]) - 1,
+            "from_peak": from_peak,
+            "vs_market": vs_market,
+            "avg_days": n_avg,
+            "market_cap_cr": mcap,
+            "adv_cr": adv,
+            "roe": (float(m["roe"]) if pd.notna(m.get("roe")) else None),
+            "sales_growth": (float(m["revenue_growth"])
+                             if pd.notna(m.get("revenue_growth")) else None),
+            "eps_growth": (float(m["earnings_growth"])
+                           if pd.notna(m.get("earnings_growth")) else None),
+        })
+    return out
+
+
+def filter_new_listings(cands: list[dict], sectors: pd.DataFrame,
+                        roce: dict, quarterly: dict) -> list[dict]:
+    """Second pass: the growth tests.
+
+    Growth is taken from the company snapshot, or failing that from the
+    latest quarter against the same quarter a year earlier. A company with no
+    growth figure at all fails — silence is not a reason to give a six-month
+    -old listing the benefit of the doubt.
+    """
+    strong_sectors = set(sectors[sectors["rank"] <= config.IPO_TOP_SECTORS].index) \
+        if len(sectors) else set()
+    out = []
+    for c in cands:
+        t = c["ticker"]
+        c["roce"] = roce.get(t)
+        q = quarterly.get(t, {})
+        c["eps_qoq"] = q.get("eps_qoq")
+        c["sales_qoq"] = q.get("sales_qoq")
+        c["eps_yoy_q"] = q.get("eps_yoy_q")
+        c["quarter"] = q.get("quarter")
+        if c["sales_growth"] is None and q.get("sales_yoy_q") is not None:
+            c["sales_growth"] = q.get("sales_yoy_q")
+        if c["eps_growth"] is None and q.get("eps_yoy_q") is not None:
+            c["eps_growth"] = q.get("eps_yoy_q")
+        c["sector_rank"] = (int(sectors.loc[c["sector"], "rank"])
+                            if c["sector"] in sectors.index else None)
+
+        reasons = []
+        if c["sales_growth"] is None or c["sales_growth"] < config.IPO_MIN_SALES_GROWTH:
+            reasons.append("sales growth")
+        if c["eps_growth"] is None or c["eps_growth"] <= config.IPO_MIN_PROFIT_GROWTH:
+            reasons.append("profit growth")
+        if config.IPO_REQUIRE_RETURNS:
+            if (c["roe"] or -1) < config.IPO_MIN_ROE:
+                reasons.append("return on equity")
+            if c["roce"] is None or c["roce"] < config.IPO_MIN_ROCE:
+                reasons.append("return on capital")
+        if config.IPO_REQUIRE_TOP_SECTOR and c["sector"] not in strong_sectors:
+            reasons.append("sector strength")
+        if reasons:
+            continue
+        out.append(c)
+
+    # Under Rs 50,000 cr first, then the strongest above its listing high.
+    out.sort(key=lambda x: (-(float(x.get("market_cap_cr") or 0) < config.PRIORITY_MCAP_CR),
+                            -x["above_listing_high"]))
+    for x in out:
+        x["priority"] = float(x.get("market_cap_cr") or 0) < config.PRIORITY_MCAP_CR
+    return out
+
+
+def sector_table(df: pd.DataFrame) -> pd.DataFrame:
+    """Sector strength: median 6m return and breadth above the 200-DMA."""
+    g = df.groupby("sector")
+    tbl = pd.DataFrame({
+        "members": g.size(),
+        "median_r6m": g["r6m"].median(),
+        "breadth": g.apply(lambda x: float((x["price"] > x["sma200"]).mean()),
+                           include_groups=False),
+    })
+    tbl = tbl[tbl["members"] >= config.MIN_SECTOR_MEMBERS]
+    tbl["score"] = _z(tbl["median_r6m"]) + _z(tbl["breadth"])
+    tbl = tbl.sort_values("score", ascending=False)
+    tbl["rank"] = range(1, len(tbl) + 1)
+    return tbl
+
+
+def composite(df: pd.DataFrame, sectors: pd.DataFrame) -> pd.DataFrame:
+    """Rank on the likelihood of a move ahead, not the size of the one behind.
+
+    Four blocks. Trend asks whether the stock is moving at all. Emergence asks
+    whether it has been coiling rather than running — this carries the most
+    weight, because a name that has already tripled has spent its potential.
+    Fundamentals asks whether the business underneath is accelerating. Value
+    asks whether there is room in the multiple for a rerating, since a 3x from
+    12x earnings needs far less than a 3x from 60x.
+    """
+    df = df.copy()
+    pool = df[df["eligible"]].copy()
+    if pool.empty:
+        for c in ("composite", "rank", "emergence_score"):
+            df[c] = np.nan
+        return df
+
+    # --- trend: moving, and moving smoothly
+    # Consistency weighted equally with magnitude. Rewarding magnitude too
+    # heavily is what drags the ranking back towards names that have already
+    # made their move — the exact thing this design is trying to avoid.
+    trend = 0.50 * _z(pool["risk_adj_mom"]) + 0.50 * _z(pool["consistency"])
+
+    # --- emergence: coiled rather than spent
+    emergence = (
+        config.W_VOL_CONTRACTION * _z(-pool["vol_contraction"].fillna(1.0))
+        + config.W_BASE * _z(pool["base_quality"])
+        + config.W_QUIET_RUNUP * (_z(pool["quiet_runup"]) + _z(-pool["r12m"].fillna(0)))
+        + config.W_VOLUME_THRUST * _z(pool["volume_thrust"].fillna(1.0))
+    )
+
+    # --- fundamentals: acceleration first, level second
+    accel = pool["eps_accel"] if "eps_accel" in pool else pd.Series(np.nan, index=pool.index)
+    fundamentals = (
+        config.W_EARNINGS_ACCEL * _z(accel.fillna(accel.median() if accel.notna().any() else 0))
+        + config.W_EARNINGS_LEVEL * _z(pool["earnings_growth"].fillna(0))
+        + config.W_SALES_LEVEL * _z(pool["revenue_growth"].fillna(0))
+    )
+
+    # --- value: cheaper is better, but only where the multiple is meaningful
+    pe = pool["pe"].where((pool["pe"] > 3) & (pool["pe"] < 120))
+    value = _z(-pe.fillna(pe.median() if pe.notna().any() else 0))
+
+    score = (config.W_TREND * trend
+             + config.W_EMERGENCE * emergence
+             + config.W_FUNDAMENTALS * fundamentals
+             + config.W_VALUE * value)
+
+    # Smaller companies inside the band get a nudge — multibaggers are far
+    # more common at the bottom of a cap range than the top.
+    cap = np.log(pool["market_cap_cr"].clip(lower=1))
+    score = score + config.W_SMALLCAP_TILT * _z(-cap)
+
+    # Hard priority for anything under PRIORITY_MCAP_CR (Rs 50,000 cr by
+    # default). A flat bonus rather than a tilt: every name below the line is
+    # lifted by the same amount, so a Rs 55,000 cr company needs a clearly
+    # better score to outrank a Rs 45,000 cr one.
+    score = score + np.where(pool["market_cap_cr"] < config.PRIORITY_MCAP_CR,
+                             config.PRIORITY_BONUS, 0.0)
+
+    # Sector strength and catalysts sit on top rather than inside, so a real
+    # trigger can lift a name several ranks on its own.
+    strong = set(sectors[(sectors["rank"] <= 3)
+                         & (sectors["breadth"] >= config.SECTOR_BONUS_BREADTH)].index)
+    top3 = set(sectors[sectors["rank"] <= 3].index)
+    bonus = pool["sector"].map(lambda s: config.SECTOR_BONUS if s in strong else 0.0)
+    cat = pool["catalyst_bonus"] if "catalyst_bonus" in pool else 0.0
+    score = score + bonus + cat
+
+    pool["composite"] = score
+    pool["emergence_score"] = (_z(emergence).rank(pct=True) * 100).round(0)
+    pool["sector_bonus"] = bonus
+    pool["sector_top3"] = pool["sector"].isin(top3)
+
+    allowed = set(sectors[sectors["rank"] <= config.TOP_SECTORS].index)
+    pool["g_sector"] = pool["sector"].isin(allowed)
+
+    pool = pool.sort_values("composite", ascending=False)
+    pool["rank"] = range(1, len(pool) + 1)
+
+    for col in ["composite", "rank", "emergence_score", "sector_bonus",
+                "sector_top3", "g_sector"]:
+        df[col] = pool[col]
+    df["g_sector"] = df["g_sector"].fillna(False)
+    return df
