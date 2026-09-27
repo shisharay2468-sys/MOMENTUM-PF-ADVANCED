@@ -2,8 +2,12 @@ name: Momentum run
 
 on:
   schedule:
-    # 12:30 UTC = 18:00 IST, after the NSE close
-    - cron: "30 12 * * 1-5"
+    # Four runs every weekday evening after the NSE close (15:30 IST).
+    # Times are in UTC; IST = UTC + 5:30. An hour apart so runs never overlap.
+    - cron: "5 11 * * 1-5"   # 16:35 IST
+    - cron: "5 12 * * 1-5"   # 17:35 IST
+    - cron: "5 13 * * 1-5"   # 18:35 IST
+    - cron: "5 14 * * 1-5"   # 19:35 IST
   workflow_dispatch:
     inputs:
       force_rebalance:
