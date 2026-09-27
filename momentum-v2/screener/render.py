@@ -157,6 +157,11 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;color:inhe
 .rsbar input:focus{outline:none;border-color:var(--blue)}
 .rsbar .sortbtn{background:var(--bg)}
 .rsbar .sortbtn.on{background:var(--ink);color:#fff}
+.rsgap{flex:0 0 14px}
+.rsbar select{padding:8px 10px;border:2px solid var(--line);border-radius:9px;font:inherit;
+  font-size:13.5px;font-weight:800;background:var(--bg);color:var(--ink);max-width:100%}
+.rsbar select:focus{outline:none;border-color:var(--blue)}
+#sortDir{background:var(--ink);color:#fff}
 .rsnote{flex-basis:100%;font-size:12px;font-weight:600;color:var(--muted)}
 .rsnote b{color:var(--ink)}
 .rstag{display:inline-block;margin-left:8px;padding:2px 7px;border-radius:999px;font-size:11px;
@@ -320,12 +325,9 @@ function candidates(){
       var hay=(c.symbol+' '+(c.sector||'')).toLowerCase();
       if(!q||hay.indexOf(q)>-1){a.push(c);}
     }
-    if(key==='ready'){
-      a=a.filter(function(x){return x.buyable;});
-    }else{
-      a=a.slice().sort(function(p,n){
-        return key==='rank'?(p.rank-n.rank):((n[key]||0)-(p[key]||0));});
-    }
+    if(key==='ready'){a=a.filter(function(x){return x.buyable;});}
+    a=a.slice().sort(function(p,n){return (p.rank||9999)-(n.rank||9999);});
+    a=sortRows(a);
     list(host,a,function(x){
       return {tag:x.held?['hold','In book']:(x.buyable?['buy','Ready']:['wait','Too extended'])};
     },'Nothing matches that search.');
@@ -336,7 +338,8 @@ function candidates(){
       var all=document.querySelectorAll('.candbtn');
       for(var j=0;j<all.length;j++){all[j].className='sortbtn candbtn';}
       this.className='sortbtn candbtn on';
-      key=this.getAttribute('data-key');render();
+      var k=this.getAttribute('data-key');key=(key===k&&k==='ready')?'rank':k;
+      if(key==='rank')this.className='sortbtn candbtn';render();
     };
   }
   RSR.candR=render;box.oninput=render;render();
@@ -407,7 +410,7 @@ function dateWise(){
   function render(){
     var q=(box.value||'').toLowerCase().trim(),out=[],days=0;
     for(var i=0;i<D.length;i++){
-      var rows=(D[i][kind]||[]).filter(rsOk);
+      var rows=sortRows((D[i][kind]||[]).filter(rsOk),true);
       if(q){var any=false;for(var j=0;j<rows.length;j++){if(match(rows[j],q)){any=true;break;}}
         if(!any)continue;}
       days++;
@@ -492,7 +495,7 @@ function emaVals(vals,n){ // seeded with a simple average of the first n, as Tra
   for(i=0;i<vals.length;i++){if(i<n-1){o.push(null);continue;}if(i>=n)p=a*vals[i]+(1-a)*p;o.push(p);}return o;}
 function emaLine(b,n){var e=emaVals(b.map(function(x){return x.close;}),n),o=[];
   for(var i=0;i<b.length;i++)if(e[i]!=null)o.push({time:b[i].time,value:+e[i].toFixed(2)});return o;}
-var CX_COL={up:'#00A24A',down:'#E01B1B',a:'#E08A00',b:'#1F4FFF',c:'#7A3FE0',obv:'#1F4FFF',obvE:'#E08A00'};
+var CX_COL={up:'#00A24A',down:'#E01B1B',e10:'#E08A00',e20:'#E0457B',e50:'#1F4FFF',e200:'#7A3FE0',obv:'#0A7F6F',obvE:'#9AA3B8'};
 function drawChart(){
   var host=document.getElementById('cxBox');host.innerHTML='';
   if(CH.chart){CH.chart.remove();CH.chart=null;}
@@ -514,9 +517,17 @@ function drawChart(){
   var lines=[],L=function(data,color,label){
     if(!data.length)return;
     var s=chart.addLineSeries({color:color,lineWidth:1.5,priceLineVisible:false,lastValueVisible:false,
-      crosshairMarkerVisible:false});s.setData(data);lines.push({s:s,label:label,color:color});};
-  if(CH.tf==='D'){L(smaLine(bars,20),CX_COL.a,'20-day');L(smaLine(bars,50),CX_COL.b,'50-day');L(smaLine(bars,200),CX_COL.c,'200-day');}
-  else if(CH.tf==='W'){L(emaLine(bars,21),CX_COL.b,'21-week EMA');L(smaLine(bars,40),CX_COL.c,'40-week');}
+      crosshairMarkerVisible:false});s.setData(data);
+    var vals={},m={};for(var z=0;z<data.length;z++)m[data[z].time]=data[z].value;
+    for(z=0;z<bars.length;z++)if(m[bars[z].time]!=null)vals[z]=m[bars[z].time];
+    lines.push({s:s,label:label,color:color,vals:vals});};
+  // EMA 10, 20, 50 and 200 on every timeframe, each on that timeframe's own
+  // bars. An EMA only appears once there are enough bars to seed it (a
+  // 200-month EMA needs 200 months, so it never shows on the monthly chart).
+  var miss=[];
+  [[10,'e10'],[20,'e20'],[50,'e50'],[200,'e200']].forEach(function(p){
+    var ln=emaLine(bars,p[0]);if(ln.length)L(ln,CX_COL[p[1]],'EMA '+p[0]);else miss.push(p[0]);
+  });
   var lower=null,lowerE=null;
   if(CH.tf==='M'){
     // Monthly OBV and its 21-month EMA, built the same way as the screen
@@ -546,7 +557,9 @@ function drawChart(){
     var b=bars[k],p=k>0?bars[k-1].close:b.open,ch=p?b.close/p-1:0;
     var h='<b>'+b.time+'</b> O <b>'+F.rs(b.open)+'</b> H <b>'+F.rs(b.high)+'</b> L <b>'+F.rs(b.low)
       +'</b> C <b>'+F.rs(b.close)+'</b> <b class="'+dirOf(ch)+'">'+F.spct(ch,1)+'</b>';
-    for(var q=0;q<lines.length;q++)h+=' <span class="cxl"><i style="background:'+lines[q].color+'"></i>'+lines[q].label+'</span>';
+    for(var q=0;q<lines.length;q++){var lv=lines[q].vals[k];
+      h+=' <span class="cxl"><i style="background:'+lines[q].color+'"></i>'+lines[q].label+(lv!=null?' <b>'+F.rs(lv)+'</b>':'')+'</span>';}
+    if(miss.length)h+=' <span class="cxl" title="Not enough history on this timeframe">(EMA '+miss.join(', ')+': not enough history)</span>';
     if(CH.tf==='M'&&obvV){var above=obvEV[k]!=null&&obvV[k]>obvEV[k];
       h+=' <span class="cxl"><i style="background:'+CX_COL.obv+'"></i>OBV</span><span class="cxl"><i style="background:'+CX_COL.obvE+'"></i>21-month EMA</span> '
         +(obvEV[k]==null?'':'<b class="'+(above?'up':'down')+'">OBV '+(above?'above':'below')+' EMA</b>');}
@@ -595,10 +608,10 @@ function rsTag(r,suffix){
   return '<span class="rstag '+c+'" title="RS rating'+(suffix?' '+suffix:'')+': outperforms '+r+'% of the market">RS '+r+'</span>';
 }
 function drawFiltered(){
-  list(document.getElementById('signalList'),DATA.new_signals.filter(rsOk),{tag:['buy','New']},
+  list(document.getElementById('signalList'),sortRows(DATA.new_signals.filter(rsOk)),{tag:['buy','New']},
     'Nothing new cleared the entry rules since the last run.');
   var ip=[];
-  var IP=DATA.ipos.filter(rsOk);
+  var IP=sortRows(DATA.ipos.filter(rsOk));
   for(var q=0;q<IP.length;q++){
     var o=IP[q];
     ip.push('<button class="row"><div class="rk">'+(q+1)+'</div><div class="bd">'
@@ -621,7 +634,7 @@ function drawFiltered(){
   }
   document.getElementById('ipoList').innerHTML=ip.length?ip.join(''):
     '<div class="empty">No listing under six months old passes every test today. Past qualifiers stay in the Signal log.</div>';
-  list(document.getElementById('obvList'),(DATA.obv||[]).filter(rsOk),function(x){
+  list(document.getElementById('obvList'),sortRows((DATA.obv||[]).filter(rsOk)),function(x){
       return {noObv:true,tag:x.held?['hold','In book']:(x.buyable?['buy','Ready']:['wait','Not ready'])};},
     'No name that clears the momentum gates has a fresh monthly OBV cross today. Past crosses stay in the Signal log.');
 }
@@ -653,6 +666,11 @@ function applyRS(){
       +(DATA.obv||[]).filter(rsOk).length+DATA.ipos.filter(rsOk).length;
     note.innerHTML='Showing RS <b>'+mn+'\u2013'+mx+'</b> only: '+kept+' of '+tot+' stocks across New signals, Candidates, OBV and IPOs. Stocks with no rating are hidden. The book, Entering and Exiting always show everything.';
   }else{note.innerHTML='Filter applies to New signals, Candidates, OBV, IPOs, Date-wise and Signal log.';}
+  if(SORT.key!=='default'){
+    var lab=document.getElementById('sortKey');lab=lab.options[lab.selectedIndex].text;
+    note.innerHTML+=' Sorted by <b>'+esc(lab)+'</b>, '+(SORT.dir<0?'highest':'lowest')+' first; stocks without that figure go last.'
+      +(SORT_DAY[SORT.key]?'':' Date-wise columns keep their usual order for this sort.');
+  }
 }
 function rsSetup(){
   try{var saved=JSON.parse(localStorage.getItem('rsf')||'null');
@@ -666,6 +684,40 @@ function rsSetup(){
     document.getElementById('rsMax').value=this.getAttribute('data-max');applyRS();
   };
   applyRS();
+}
+
+// ------------------------------------------------------------ sorting
+var SORT={key:'default',dir:-1};
+var SORT_DAY={rs_rating:'rs',market_cap_cr:'mcap'};   // fields the date-wise record keeps
+function sortRows(a,dayMode){
+  if(SORT.key==='default')return a;
+  var k=dayMode?SORT_DAY[SORT.key]:SORT.key;
+  if(!k)return a;
+  var idx=a.map(function(x,i){return {x:x,i:i};});
+  idx.sort(function(p,q){
+    var u=p.x[k],v=q.x[k],nu=(u==null||isNaN(u)),nv=(v==null||isNaN(v));
+    if(nu&&nv)return p.i-q.i; if(nu)return 1; if(nv)return -1;   // missing values always last
+    return u===v?p.i-q.i:(u<v?-SORT.dir:SORT.dir);
+  });
+  return idx.map(function(o){return o.x;});
+}
+function applySort(){
+  SORT.key=document.getElementById('sortKey').value;
+  try{localStorage.setItem('sortv',JSON.stringify(SORT));}catch(e){}
+  var d=document.getElementById('sortDir');
+  d.textContent=SORT.dir<0?'High \u2192 Low':'Low \u2192 High';
+  d.style.display=SORT.key==='default'?'none':'';
+  if(typeof applyRS==='function')applyRS();
+}
+function sortSetup(){
+  try{var sv=JSON.parse(localStorage.getItem('sortv')||'null');
+    if(sv&&sv.key){document.getElementById('sortKey').value=sv.key;SORT.dir=sv.dir===1?1:-1;}}catch(e){}
+  if(!document.getElementById('sortKey').value)document.getElementById('sortKey').value='default';
+  document.getElementById('sortKey').onchange=applySort;
+  document.getElementById('sortDir').onclick=function(){SORT.dir=-SORT.dir;applySort();};
+  SORT.key=document.getElementById('sortKey').value;
+  var d=document.getElementById('sortDir');
+  d.textContent=SORT.dir<0?'High \u2192 Low':'Low \u2192 High';d.style.display=SORT.key==='default'?'none':'';
 }
 
 function boot(){
@@ -696,6 +748,7 @@ function boot(){
   signalLog();
   dateWise();
   candidates();
+  sortSetup();
   rsSetup();
 }
 if(document.readyState==='loading'){
@@ -739,6 +792,23 @@ TEMPLATE = """<!doctype html>
   <button class="sortbtn rsp" data-min="70" data-max="99">70+</button>
   <button class="sortbtn rsp" data-min="80" data-max="99">80+</button>
   <button class="sortbtn rsp" data-min="90" data-max="99">90+</button>
+  <span class="rsgap"></span>
+  <span class="rsl">Sort by</span>
+  <select id="sortKey" aria-label="Sort lists by">
+    <option value="default">System rank</option>
+    <option value="rs_rating">RS rating</option>
+    <option value="eps_growth">Profit growth (YoY)</option>
+    <option value="sales_growth">Sales growth (YoY)</option>
+    <option value="eps_qoq">Profit growth (QoQ)</option>
+    <option value="sales_qoq">Sales growth (QoQ)</option>
+    <option value="r12m">1-year return</option>
+    <option value="r6m">6-month return</option>
+    <option value="r3m">3-month return</option>
+    <option value="composite">Momentum score</option>
+    <option value="weekly_rsi">Weekly RSI</option>
+    <option value="market_cap_cr">Market cap</option>
+  </select>
+  <button class="sortbtn" id="sortDir" type="button"></button>
   <div class="rsnote" id="rsNote"></div>
 </div>
 <div class="tabs" role="tablist">
@@ -778,11 +848,7 @@ TEMPLATE = """<!doctype html>
   <p class="lede">Every name that cleared the gates, ranked. Search by symbol or sector.</p>
   <div class="controls">
     <input id="candSearch" type="search" placeholder="Search symbol or sector" aria-label="Search candidates">
-    <button class="sortbtn candbtn on" data-key="rank">Rank</button>
     <button class="sortbtn candbtn" data-key="ready">Ready only</button>
-    <button class="sortbtn candbtn" data-key="rs_rating">RS rating</button>
-    <button class="sortbtn candbtn" data-key="r12m">1-year return</button>
-    <button class="sortbtn candbtn" data-key="r3m">3-month return</button>
   </div>
   <div id="candList"></div>
 </div>

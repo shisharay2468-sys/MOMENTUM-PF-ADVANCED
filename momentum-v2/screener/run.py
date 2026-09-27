@@ -391,6 +391,33 @@ def main(argv=None) -> int:
 
     # Candlestick chart files for every stock on the page (display only).
     rs.attach(payload, rs_ratings)
+    # Give every list the same fields so the dashboard can sort any of them
+    # by RS, profit growth, returns, etc. Only fills gaps; display only.
+    def _f(v):
+        return float(v) if v is not None and pd.notna(v) else None
+    for _key in ("new_signals", "obv", "candidates", "ipos"):
+        for _r in payload.get(_key) or []:
+            _t = _r.get("ticker") or (_r["symbol"] if _r["symbol"] in scored.index else f"{_r['symbol']}.NS")
+            _row = scored.loc[_t] if _t in scored.index else None
+            _fill = {
+                "eps_growth": _row.get("earnings_growth") if _row is not None else None,
+                "sales_growth": _row.get("revenue_growth") if _row is not None else None,
+                "r12m": _row.get("r12m") if _row is not None else None,
+                "r6m": _row.get("r6m") if _row is not None else None,
+                "r3m": _row.get("r3m") if _row is not None else None,
+                "market_cap_cr": _row.get("market_cap_cr") if _row is not None else None,
+                "weekly_rsi": _row.get("weekly_rsi") if _row is not None else None,
+                "composite": _row.get("composite") if _row is not None else None,
+            }
+            for _k, _v in _fill.items():
+                if _r.get(_k) is None:
+                    _r[_k] = _f(_v)
+            for _k in ("eps_qoq", "sales_qoq"):
+                if _r.get(_k) is None:
+                    try:
+                        _r[_k] = qtr(_t, _k)
+                    except Exception:  # noqa: BLE001
+                        pass
     n_charts = charts.write(payload, close, volume, high, os.path.dirname(OUT),
                             data.CHART_OPEN, data.CHART_LOW)
     payload["charts"] = n_charts > 0
