@@ -4728,5 +4728,850 @@
     "rs": 95
    }
   ]
+ },
+ "2026-10-01": {
+  "Entry": [
+   {
+    "symbol": "GANDHAR",
+    "name": "GANDHAR OIL REFINE IND L",
+    "sector": "Energy",
+    "price": 282.6,
+    "mcap": 2561,
+    "rank": 1,
+    "rs": 95
+   },
+   {
+    "symbol": "SOTL",
+    "name": "SAVITA OIL TECHNOLO. LTD",
+    "sector": "Basic Materials",
+    "price": 729.5,
+    "mcap": 4890,
+    "rank": 3,
+    "rs": 93
+   },
+   {
+    "symbol": "WINDLAS",
+    "name": "WINDLAS BIOTECH LIMITED",
+    "sector": "Healthcare",
+    "price": 1082.4,
+    "mcap": 2275,
+    "rank": 4,
+    "rs": 79
+   },
+   {
+    "symbol": "RAMRAT",
+    "name": "RAM RATNA WIRES LIMITED",
+    "sector": "Industrials",
+    "price": 616.55,
+    "mcap": 5321,
+    "rank": 10,
+    "rs": 95
+   },
+   {
+    "symbol": "SOLARA",
+    "name": "SOLARA ACTIVE PHA SCI LTD",
+    "sector": "Healthcare",
+    "price": 714.85,
+    "mcap": 3566,
+    "rank": 15,
+    "rs": 79
+   },
+   {
+    "symbol": "KROSS",
+    "name": "KROSS LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 258.4,
+    "mcap": 1768,
+    "rank": 18,
+    "rs": 83
+   },
+   {
+    "symbol": "MWL",
+    "name": "MANGALAM WORLDWIDE LTD",
+    "sector": "Basic Materials",
+    "price": 43.13,
+    "mcap": 1279,
+    "rank": 22,
+    "rs": 86
+   },
+   {
+    "symbol": "CENTUM",
+    "name": "CENTUM ELECTRONICS LTD",
+    "sector": "Technology",
+    "price": 4701.7,
+    "mcap": 7089,
+    "rank": 24,
+    "rs": 91
+   },
+   {
+    "symbol": "IGPL",
+    "name": "I G PETROCHEMICALS LTD",
+    "sector": "Basic Materials",
+    "price": 569.55,
+    "mcap": 1827,
+    "rank": 25,
+    "rs": 84
+   },
+   {
+    "symbol": "NEOGEN",
+    "name": "NEOGEN CHEMICALS LIMITED",
+    "sector": "Basic Materials",
+    "price": 2407.1,
+    "mcap": 7166,
+    "rank": 28,
+    "rs": 91
+   },
+   {
+    "symbol": "MMP",
+    "name": "MMP INDUSTRIES LIMITED",
+    "sector": "Basic Materials",
+    "price": 449.6,
+    "mcap": 1169,
+    "rank": 30,
+    "rs": 94
+   },
+   {
+    "symbol": "DEEPINDS",
+    "name": "DEEP INDUSTRIES LIMITED",
+    "sector": "Energy",
+    "price": 749.0,
+    "mcap": 4999,
+    "rank": 31,
+    "rs": 91
+   },
+   {
+    "symbol": "FINCABLES",
+    "name": "FINOLEX CABLES LTD",
+    "sector": "Industrials",
+    "price": 1458.8,
+    "mcap": 22343,
+    "rank": 32,
+    "rs": 92
+   },
+   {
+    "symbol": "DOLPHIN",
+    "name": "DOLPHIN OFF ENT (IND) L",
+    "sector": "Energy",
+    "price": 628.1,
+    "mcap": 2750,
+    "rank": 33,
+    "rs": 90
+   },
+   {
+    "symbol": "RGL",
+    "name": "RENAISSANCE GLOBAL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 162.5,
+    "mcap": 1799,
+    "rank": 34,
+    "rs": 83
+   },
+   {
+    "symbol": "ARROWGREEN",
+    "name": "ARROW GREENTECH LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 865.2,
+    "mcap": 1367,
+    "rank": 42,
+    "rs": 89
+   },
+   {
+    "symbol": "AARTIPHARM",
+    "name": "AARTI PHARMALABS LIMITED",
+    "sector": "Healthcare",
+    "price": 968.5,
+    "mcap": 8520,
+    "rank": 45,
+    "rs": 82
+   },
+   {
+    "symbol": "ALIVUS",
+    "name": "ALIVUS LIFE SCIENCES LTD",
+    "sector": "Healthcare",
+    "price": 1374.2,
+    "mcap": 16766,
+    "rank": 47,
+    "rs": 81
+   },
+   {
+    "symbol": "VSSL",
+    "name": "VARDHMAN SPC STEEL LTD",
+    "sector": "Basic Materials",
+    "price": 383.3,
+    "mcap": 3979,
+    "rank": 48,
+    "rs": 86
+   },
+   {
+    "symbol": "MARINE",
+    "name": "MARINE ELECTRICAL (I) LTD",
+    "sector": "Industrials",
+    "price": 436.55,
+    "mcap": 5790,
+    "rank": 49,
+    "rs": 96
+   },
+   {
+    "symbol": "EIMCOELECO",
+    "name": "EIMCO ELECON (INDIA) LTD",
+    "sector": "Industrials",
+    "price": 2268.8,
+    "mcap": 1328,
+    "rank": 51,
+    "rs": 81
+   },
+   {
+    "symbol": "UFLEX",
+    "name": "UFLEX LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 649.85,
+    "mcap": 4796,
+    "rank": 52,
+    "rs": 87
+   },
+   {
+    "symbol": "RML",
+    "name": "RANE (MADRAS) LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 1343.2,
+    "mcap": 3654,
+    "rank": 56,
+    "rs": 88
+   },
+   {
+    "symbol": "MARKSANS",
+    "name": "MARKSANS PHARMA LIMITED",
+    "sector": "Healthcare",
+    "price": 325.6,
+    "mcap": 15269,
+    "rank": 63,
+    "rs": 92
+   },
+   {
+    "symbol": "BLSE",
+    "name": "BLS E-SERVICES LIMITED",
+    "sector": "Industrials",
+    "price": 322.05,
+    "mcap": 2942,
+    "rank": 67,
+    "rs": 90
+   },
+   {
+    "symbol": "BIRLACABLE",
+    "name": "BIRLA CABLE LIMITED",
+    "sector": "Technology",
+    "price": 383.0,
+    "mcap": 1087,
+    "rank": 72,
+    "rs": 99
+   },
+   {
+    "symbol": "JGCHEM",
+    "name": "J.G.CHEMICALS LIMITED",
+    "sector": "Basic Materials",
+    "price": 610.3,
+    "mcap": 2430,
+    "rank": 74,
+    "rs": 91
+   },
+   {
+    "symbol": "NRBBEARING",
+    "name": "NRB BEARING LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 542.6,
+    "mcap": 5183,
+    "rank": 77,
+    "rs": 94
+   },
+   {
+    "symbol": "JASH",
+    "name": "JASH ENGINEERING LIMITED",
+    "sector": "Industrials",
+    "price": 576.3,
+    "mcap": 3736,
+    "rank": 81,
+    "rs": 76
+   },
+   {
+    "symbol": "BOSCH-HCIL",
+    "name": "BOSCH HOME COMFRT IND LTD",
+    "sector": "Consumer Cyclical",
+    "price": 1967.2,
+    "mcap": 4926,
+    "rank": 84,
+    "rs": 85
+   },
+   {
+    "symbol": "FCL",
+    "name": "FINEOTEX CHEMICAL LIMITED",
+    "sector": "Basic Materials",
+    "price": 55.72,
+    "mcap": 7043,
+    "rank": 86,
+    "rs": 97
+   },
+   {
+    "symbol": "REDINGTON",
+    "name": "REDINGTON LIMITED",
+    "sector": "Technology",
+    "price": 397.95,
+    "mcap": 31838,
+    "rank": 89,
+    "rs": 89
+   },
+   {
+    "symbol": "VENUSPIPES",
+    "name": "VENUS PIPES & TUBES LTD",
+    "sector": "Basic Materials",
+    "price": 2204.9,
+    "mcap": 4481,
+    "rank": 91,
+    "rs": 92
+   },
+   {
+    "symbol": "GLAND",
+    "name": "GLAND PHARMA LIMITED",
+    "sector": "Healthcare",
+    "price": 2874.4,
+    "mcap": 48137,
+    "rank": 105,
+    "rs": 85
+   },
+   {
+    "symbol": "SOMANYCERA",
+    "name": "SOMANY CERAMICS LIMITED",
+    "sector": "Industrials",
+    "price": 614.2,
+    "mcap": 2535,
+    "rank": 106,
+    "rs": 82
+   },
+   {
+    "symbol": "SYRMA",
+    "name": "SYRMA SGS TECHNOLOGY LTD",
+    "sector": "Technology",
+    "price": 1717.9,
+    "mcap": 33374,
+    "rank": 108,
+    "rs": 96
+   },
+   {
+    "symbol": "AVALON",
+    "name": "AVALON TECHNOLOGIES LTD",
+    "sector": "Technology",
+    "price": 2280.2,
+    "mcap": 15574,
+    "rank": 113,
+    "rs": 97
+   },
+   {
+    "symbol": "TEGA",
+    "name": "TEGA INDUSTRIES LIMITED",
+    "sector": "Industrials",
+    "price": 2093.4,
+    "mcap": 15714,
+    "rank": 114,
+    "rs": 70
+   },
+   {
+    "symbol": "KINGFA",
+    "name": "KINGFA SCI & TEC IND LTD.",
+    "sector": "Basic Materials",
+    "price": 6586.5,
+    "mcap": 8453,
+    "rank": 116,
+    "rs": 86
+   },
+   {
+    "symbol": "EMIL",
+    "name": "ELECTRONICS MART IND LTD",
+    "sector": "Consumer Cyclical",
+    "price": 204.05,
+    "mcap": 7703,
+    "rank": 121,
+    "rs": 93
+   },
+   {
+    "symbol": "SBCL",
+    "name": "SHIVALIK BIMETAL CON. LTD",
+    "sector": "Industrials",
+    "price": 1066.4,
+    "mcap": 6650,
+    "rank": 130,
+    "rs": 97
+   },
+   {
+    "symbol": "AETHER",
+    "name": "AETHER INDUSTRIES LIMITED",
+    "sector": "Basic Materials",
+    "price": 1670.0,
+    "mcap": 23453,
+    "rank": 131,
+    "rs": 91
+   },
+   {
+    "symbol": "IOLCP",
+    "name": "IOL CHEM AND PHARMA LTD",
+    "sector": "Healthcare",
+    "price": 209.39,
+    "mcap": 5994,
+    "rank": 135,
+    "rs": 97
+   },
+   {
+    "symbol": "VARROC",
+    "name": "VARROC ENGINEERING LTD.",
+    "sector": "Consumer Cyclical",
+    "price": 830.6,
+    "mcap": 12756,
+    "rank": 139,
+    "rs": 84
+   },
+   {
+    "symbol": "AZAD",
+    "name": "AZAD ENGINEERING LIMITED",
+    "sector": "Industrials",
+    "price": 2860.9,
+    "mcap": 17618,
+    "rank": 140,
+    "rs": 91
+   },
+   {
+    "symbol": "PGIL",
+    "name": "PEARL GLOBAL IND LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 1263.0,
+    "mcap": 12278,
+    "rank": 144,
+    "rs": 90
+   },
+   {
+    "symbol": "CYIENT",
+    "name": "CYIENT LIMITED",
+    "sector": "Industrials",
+    "price": 1104.6,
+    "mcap": 11396,
+    "rank": 145,
+    "rs": 68
+   },
+   {
+    "symbol": "ENGINERSIN",
+    "name": "ENGINEERS INDIA LTD",
+    "sector": "Industrials",
+    "price": 312.75,
+    "mcap": 17741,
+    "rank": 146,
+    "rs": 87
+   },
+   {
+    "symbol": "HARSHA",
+    "name": "HARSHA ENGINEERS INT LTD",
+    "sector": "Industrials",
+    "price": 474.5,
+    "mcap": 4207,
+    "rank": 147,
+    "rs": 72
+   },
+   {
+    "symbol": "IRISDOREME",
+    "name": "IRIS CLOTHINGS LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 60.46,
+    "mcap": 1259,
+    "rank": 151,
+    "rs": 92
+   },
+   {
+    "symbol": "AKUMS",
+    "name": "AKUMS DRUGS AND PHARMA L",
+    "sector": "Healthcare",
+    "price": 813.1,
+    "mcap": 12547,
+    "rank": 154,
+    "rs": 90
+   },
+   {
+    "symbol": "CASTROLIND",
+    "name": "CASTROL INDIA LIMITED",
+    "sector": "Energy",
+    "price": 199.04,
+    "mcap": 19948,
+    "rank": 156,
+    "rs": 63
+   },
+   {
+    "symbol": "AJANTPHARM",
+    "name": "AJANTA PHARMA LIMITED",
+    "sector": "Healthcare",
+    "price": 3581.0,
+    "mcap": 44333,
+    "rank": 161,
+    "rs": 75
+   },
+   {
+    "symbol": "WSTCSTPAPR",
+    "name": "WEST COAST PAPER MILLS LT",
+    "sector": "Basic Materials",
+    "price": 727.65,
+    "mcap": 4834,
+    "rank": 162,
+    "rs": 89
+   },
+   {
+    "symbol": "BLUSPRING",
+    "name": "BLUSPRING ENTERPRISES LTD",
+    "sector": "Industrials",
+    "price": 147.82,
+    "mcap": 2170,
+    "rank": 163,
+    "rs": 95
+   },
+   {
+    "symbol": "KDDL",
+    "name": "KDDL LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 3911.2,
+    "mcap": 4961,
+    "rank": 167,
+    "rs": 86
+   },
+   {
+    "symbol": "SUDARSCHEM",
+    "name": "SUDARSHAN CHEMICAL INDS L",
+    "sector": "Basic Materials",
+    "price": 1241.5,
+    "mcap": 9704,
+    "rank": 172,
+    "rs": 79
+   },
+   {
+    "symbol": "LALPATHLAB",
+    "name": "DR. LAL PATH LABS LTD.",
+    "sector": "Healthcare",
+    "price": 2005.1,
+    "mcap": 32599,
+    "rank": 174,
+    "rs": 78
+   },
+   {
+    "symbol": "QPOWER",
+    "name": "QUALITY POWER ELEC EQUP L",
+    "sector": "Industrials",
+    "price": 1564.6,
+    "mcap": 11754,
+    "rank": 179,
+    "rs": 91
+   },
+   {
+    "symbol": "STOVEKRAFT",
+    "name": "STOVE KRAFT LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 809.15,
+    "mcap": 2696,
+    "rank": 180,
+    "rs": 77
+   },
+   {
+    "symbol": "DYNAMATECH",
+    "name": "DYNAMATIC TECHNOLOGIES",
+    "sector": "Consumer Cyclical",
+    "price": 13756.0,
+    "mcap": 8933,
+    "rank": 184,
+    "rs": 88
+   },
+   {
+    "symbol": "KTKBANK",
+    "name": "KARNATAKA BANK LIMITED",
+    "sector": "Financial Services",
+    "price": 321.6,
+    "mcap": 12688,
+    "rank": 186,
+    "rs": 87
+   },
+   {
+    "symbol": "MAHSEAMLES",
+    "name": "MAHARASHTRA SEAMLESS LTD",
+    "sector": "Basic Materials",
+    "price": 698.75,
+    "mcap": 9590,
+    "rank": 189,
+    "rs": 72
+   },
+   {
+    "symbol": "ACE",
+    "name": "ACTION CONST EQUIP LTD",
+    "sector": "Industrials",
+    "price": 1212.3,
+    "mcap": 14600,
+    "rank": 193,
+    "rs": 75
+   },
+   {
+    "symbol": "EDELWEISS",
+    "name": "EDELWEISS FIN SERV LTD",
+    "sector": "Financial Services",
+    "price": 137.9,
+    "mcap": 12951,
+    "rank": 194,
+    "rs": 73
+   },
+   {
+    "symbol": "SAILIFE",
+    "name": "SAI LIFE SCIENCES LIMITED",
+    "sector": "Healthcare",
+    "price": 1541.2,
+    "mcap": 33821,
+    "rank": 196,
+    "rs": 89
+   },
+   {
+    "symbol": "AEGISLOG",
+    "name": "AEGIS LOGISTICS LIMITED",
+    "sector": "Energy",
+    "price": 1401.1,
+    "mcap": 47926,
+    "rank": 200,
+    "rs": 92
+   },
+   {
+    "symbol": "THELEELA",
+    "name": "LEELA PALACES HOTEL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 568.95,
+    "mcap": 18239,
+    "rank": 202,
+    "rs": 77
+   },
+   {
+    "symbol": "PAISALO",
+    "name": "PAISALO DIGITAL LIMITED",
+    "sector": "Financial Services",
+    "price": 79.9,
+    "mcap": 8138,
+    "rank": 203,
+    "rs": 94
+   },
+   {
+    "symbol": "SETL",
+    "name": "STANDARD ENGNG TCNLGY LTD",
+    "sector": "Industrials",
+    "price": 416.95,
+    "mcap": 8031,
+    "rank": 216,
+    "rs": 99
+   },
+   {
+    "symbol": "SONACOMS",
+    "name": "SONA BLW PRECISION FRGS L",
+    "sector": "Consumer Cyclical",
+    "price": 805.0,
+    "mcap": 51459,
+    "rank": 220,
+    "rs": 89
+   }
+  ],
+  "OBV": [
+   {
+    "symbol": "KIRIINDUS",
+    "name": "KIRI INDUSTRIES LIMITED",
+    "sector": "Basic Materials",
+    "price": 544.6,
+    "mcap": 3633,
+    "rank": 11,
+    "rs": 73
+   },
+   {
+    "symbol": "MVGJL",
+    "name": "MANOJ VAIBHAV GEM N JEW L",
+    "sector": "Consumer Cyclical",
+    "price": 206.69,
+    "mcap": 1096,
+    "rank": 20,
+    "rs": 76
+   },
+   {
+    "symbol": "VALIANTORG",
+    "name": "VALIANT ORGANICS LIMITED",
+    "sector": "Basic Materials",
+    "price": 477.15,
+    "mcap": 1151,
+    "rank": 27,
+    "rs": 94
+   },
+   {
+    "symbol": "MANINFRA",
+    "name": "MAN INFRA LTD",
+    "sector": "Industrials",
+    "price": 124.3,
+    "mcap": 5168,
+    "rank": 43,
+    "rs": 64
+   },
+   {
+    "symbol": "ALICON",
+    "name": "ALICON CASTALLOY LIMITED",
+    "sector": "Industrials",
+    "price": 871.95,
+    "mcap": 1193,
+    "rank": 64,
+    "rs": 75
+   },
+   {
+    "symbol": "JASH",
+    "name": "JASH ENGINEERING LIMITED",
+    "sector": "Industrials",
+    "price": 576.3,
+    "mcap": 3736,
+    "rank": 81,
+    "rs": 76
+   },
+   {
+    "symbol": "TEXRAIL",
+    "name": "TEXMACO RAIL & ENG. LTD.",
+    "sector": "Industrials",
+    "price": 126.86,
+    "mcap": 5113,
+    "rank": 111,
+    "rs": 58
+   },
+   {
+    "symbol": "NPST",
+    "name": "NETWORK PEOPLE SRV TECH L",
+    "sector": "Technology",
+    "price": 1766.5,
+    "mcap": 3748,
+    "rank": 122,
+    "rs": 69
+   },
+   {
+    "symbol": "SUNTV",
+    "name": "SUN TV NETWORK LIMITED",
+    "sector": "Communication Services",
+    "price": 599.9,
+    "mcap": 20224,
+    "rank": 134,
+    "rs": 64
+   },
+   {
+    "symbol": "PRIVISCL",
+    "name": "PRIVI SPECIALITY CHE LTD",
+    "sector": "Basic Materials",
+    "price": 3573.0,
+    "mcap": 14040,
+    "rank": 153,
+    "rs": 67
+   },
+   {
+    "symbol": "IBULLSLTD",
+    "name": "INDIABULLS LIMITED",
+    "sector": "Real Estate",
+    "price": 29.43,
+    "mcap": 6686,
+    "rank": 175,
+    "rs": 92
+   },
+   {
+    "symbol": "GESHIP",
+    "name": "THE GE SHPG.LTD",
+    "sector": "Industrials",
+    "price": 1530.6,
+    "mcap": 21105,
+    "rank": 182,
+    "rs": 75
+   },
+   {
+    "symbol": "MAHSEAMLES",
+    "name": "MAHARASHTRA SEAMLESS LTD",
+    "sector": "Basic Materials",
+    "price": 698.75,
+    "mcap": 9590,
+    "rank": 189,
+    "rs": 72
+   },
+   {
+    "symbol": "JUBLPHARMA",
+    "name": "JUBILANT PHARMOVA LTD",
+    "sector": "Healthcare",
+    "price": 999.3,
+    "mcap": 16978,
+    "rank": 195,
+    "rs": 51
+   }
+  ],
+  "IPO": [
+   {
+    "symbol": "AEROPLANE",
+    "name": "AMIR CHAND JAG KUM (E) L",
+    "sector": "Consumer Defensive",
+    "price": 208.14,
+    "mcap": 2169,
+    "rank": null,
+    "rs": 74
+   },
+   {
+    "symbol": "JNPR",
+    "name": "JUNIPER GREEN ENERGY LTD",
+    "sector": "Utilities",
+    "price": 268.25,
+    "mcap": 15138,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "KISSHT",
+    "name": "ONEMI TECHNOLOGY SOL LTD",
+    "sector": "Financial Services",
+    "price": 371.15,
+    "mcap": 6176,
+    "rank": null,
+    "rs": 89
+   },
+   {
+    "symbol": "KMCSHIL",
+    "name": "K M C SPECIALITY HOSP I L",
+    "sector": "Healthcare",
+    "price": 171.94,
+    "mcap": 2548,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "PANORAMA",
+    "name": "PANORAMA STUDIOS INTL. L",
+    "sector": "Communication Services",
+    "price": 60.91,
+    "mcap": 1575,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "POWERICA",
+    "name": "POWERICA LIMITED",
+    "sector": "Industrials",
+    "price": 589.15,
+    "mcap": 7377,
+    "rank": null,
+    "rs": 81
+   },
+   {
+    "symbol": "SHUKRAPHAR",
+    "name": "SHUKRA PHARMACEUTICALS L",
+    "sector": "Healthcare",
+    "price": 61.8,
+    "mcap": 2465,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "TIMEX",
+    "name": "TIMEX GROUP INDIA LTD.",
+    "sector": "Consumer Cyclical",
+    "price": 729.5,
+    "mcap": 7390,
+    "rank": null,
+    "rs": 95
+   }
+  ]
  }
 }
