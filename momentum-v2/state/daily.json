@@ -5590,7 +5590,7 @@
     "name": "SAVITA OIL TECHNOLO. LTD",
     "sector": "Basic Materials",
     "price": 727.2,
-    "mcap": 4890,
+    "mcap": 4986,
     "rank": 4,
     "rs": 94
    },
@@ -5645,7 +5645,7 @@
     "sector": "Energy",
     "price": 747.05,
     "mcap": 4781,
-    "rank": 27,
+    "rank": 26,
     "rs": 92
    },
    {
@@ -5698,8 +5698,17 @@
     "name": "VARDHMAN SPC STEEL LTD",
     "sector": "Basic Materials",
     "price": 386.1,
-    "mcap": 3979,
-    "rank": 42,
+    "mcap": 3733,
+    "rank": 40,
+    "rs": 86
+   },
+   {
+    "symbol": "UFLEX",
+    "name": "UFLEX LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 639.2,
+    "mcap": 4616,
+    "rank": 48,
     "rs": 86
    },
    {
@@ -5708,17 +5717,8 @@
     "sector": "Healthcare",
     "price": 1373.7,
     "mcap": 16865,
-    "rank": 46,
+    "rank": 49,
     "rs": 81
-   },
-   {
-    "symbol": "UFLEX",
-    "name": "UFLEX LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 639.2,
-    "mcap": 4796,
-    "rank": 47,
-    "rs": 86
    },
    {
     "symbol": "RML",
@@ -5726,7 +5726,7 @@
     "sector": "Consumer Cyclical",
     "price": 1372.2,
     "mcap": 3792,
-    "rank": 51,
+    "rank": 52,
     "rs": 88
    },
    {
@@ -5735,7 +5735,7 @@
     "sector": "Healthcare",
     "price": 946.6,
     "mcap": 8584,
-    "rank": 52,
+    "rank": 53,
     "rs": 79
    },
    {
@@ -5744,7 +5744,7 @@
     "sector": "Industrials",
     "price": 507.4,
     "mcap": 9276,
-    "rank": 54,
+    "rank": 56,
     "rs": 95
    },
    {
@@ -5753,7 +5753,7 @@
     "sector": "Healthcare",
     "price": 331.65,
     "mcap": 15029,
-    "rank": 59,
+    "rank": 61,
     "rs": 92
    },
    {
@@ -5771,7 +5771,7 @@
     "sector": "Industrials",
     "price": 319.15,
     "mcap": 2893,
-    "rank": 65,
+    "rank": 67,
     "rs": 89
    },
    {
@@ -5780,7 +5780,7 @@
     "sector": "Basic Materials",
     "price": 609.65,
     "mcap": 2389,
-    "rank": 69,
+    "rank": 70,
     "rs": 90
    },
    {
@@ -5788,8 +5788,8 @@
     "name": "TATVA CHIN PHARM CHEM LTD",
     "sector": "Basic Materials",
     "price": 1799.0,
-    "mcap": 4195,
-    "rank": 73,
+    "mcap": 4208,
+    "rank": 75,
     "rs": 87
    },
    {
@@ -5847,15 +5847,6 @@
     "rs": 96
    },
    {
-    "symbol": "VENUSPIPES",
-    "name": "VENUS PIPES & TUBES LTD",
-    "sector": "Basic Materials",
-    "price": 2206.4,
-    "mcap": 4481,
-    "rank": 91,
-    "rs": 91
-   },
-   {
     "symbol": "KRISHANA",
     "name": "KRISHANA PHOSCHEM LIMITED",
     "sector": "Basic Materials",
@@ -5863,6 +5854,15 @@
     "mcap": 5745,
     "rank": 93,
     "rs": 93
+   },
+   {
+    "symbol": "VENUSPIPES",
+    "name": "VENUS PIPES & TUBES LTD",
+    "sector": "Basic Materials",
+    "price": 2206.4,
+    "mcap": 4571,
+    "rank": 94,
+    "rs": 91
    },
    {
     "symbol": "SANATHAN",
@@ -5878,8 +5878,8 @@
     "name": "STEELCAST LIMITED",
     "sector": "Basic Materials",
     "price": 363.7,
-    "mcap": 3810,
-    "rank": 100,
+    "mcap": 3681,
+    "rank": 99,
     "rs": 86
    },
    {
@@ -5896,8 +5896,8 @@
     "name": "SOMANY CERAMICS LIMITED",
     "sector": "Industrials",
     "price": 610.9,
-    "mcap": 2535,
-    "rank": 107,
+    "mcap": 2505,
+    "rank": 106,
     "rs": 82
    },
    {
@@ -5905,7 +5905,7 @@
     "name": "SYRMA SGS TECHNOLOGY LTD",
     "sector": "Technology",
     "price": 1700.4,
-    "mcap": 33374,
+    "mcap": 32754,
     "rank": 110,
     "rs": 95
    },
@@ -5916,7 +5916,7 @@
     "price": 281.0,
     "mcap": 3527,
     "rank": 113,
-    "rs": 68
+    "rs": 67
    },
    {
     "symbol": "MANORAMA",
@@ -5933,8 +5933,17 @@
     "sector": "Industrials",
     "price": 22530.0,
     "mcap": 33778,
-    "rank": 117,
+    "rank": 115,
     "rs": 81
+   },
+   {
+    "symbol": "SBCL",
+    "name": "SHIVALIK BIMETAL CON. LTD",
+    "sector": "Industrials",
+    "price": 1076.5,
+    "mcap": 6201,
+    "rank": 116,
+    "rs": 97
    },
    {
     "symbol": "AVALON",
@@ -5944,15 +5953,6 @@
     "mcap": 15091,
     "rank": 118,
     "rs": 96
-   },
-   {
-    "symbol": "SBCL",
-    "name": "SHIVALIK BIMETAL CON. LTD",
-    "sector": "Industrials",
-    "price": 1076.5,
-    "mcap": 6650,
-    "rank": 121,
-    "rs": 97
    },
    {
     "symbol": "EMIL",
@@ -6004,8 +6004,8 @@
     "name": "VARROC ENGINEERING LTD.",
     "sector": "Consumer Cyclical",
     "price": 820.0,
-    "mcap": 12756,
-    "rank": 144,
+    "mcap": 12530,
+    "rank": 143,
     "rs": 84
    },
    {
@@ -6014,7 +6014,7 @@
     "sector": "Industrials",
     "price": 2927.2,
     "mcap": 18904,
-    "rank": 146,
+    "rank": 144,
     "rs": 90
    },
    {
@@ -6023,7 +6023,7 @@
     "sector": "Healthcare",
     "price": 205.71,
     "mcap": 6038,
-    "rank": 147,
+    "rank": 146,
     "rs": 96
    },
    {
@@ -6032,7 +6032,7 @@
     "sector": "Basic Materials",
     "price": 888.25,
     "mcap": 6663,
-    "rank": 148,
+    "rank": 147,
     "rs": 97
    },
    {
@@ -6041,7 +6041,7 @@
     "sector": "Energy",
     "price": 199.51,
     "mcap": 19734,
-    "rank": 154,
+    "rank": 153,
     "rs": 62
    },
    {
@@ -6076,8 +6076,8 @@
     "name": "WEST COAST PAPER MILLS LT",
     "sector": "Basic Materials",
     "price": 717.75,
-    "mcap": 4834,
-    "rank": 160,
+    "mcap": 4741,
+    "rank": 161,
     "rs": 88
    },
    {
@@ -6095,7 +6095,7 @@
     "sector": "Industrials",
     "price": 143.92,
     "mcap": 2152,
-    "rank": 178,
+    "rank": 179,
     "rs": 95
    },
    {
@@ -6104,7 +6104,7 @@
     "sector": "Industrials",
     "price": 1620.2,
     "mcap": 12547,
-    "rank": 179,
+    "rank": 181,
     "rs": 92
    },
    {
@@ -6113,7 +6113,7 @@
     "sector": "Financial Services",
     "price": 326.75,
     "mcap": 12357,
-    "rank": 186,
+    "rank": 185,
     "rs": 87
    },
    {
@@ -6122,7 +6122,16 @@
     "sector": "Healthcare",
     "price": 1971.3,
     "mcap": 32916,
-    "rank": 189,
+    "rank": 188,
+    "rs": 77
+   },
+   {
+    "symbol": "THELEELA",
+    "name": "LEELA PALACES HOTEL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 577.6,
+    "mcap": 19289,
+    "rank": 194,
     "rs": 77
    },
    {
@@ -6131,17 +6140,8 @@
     "sector": "Industrials",
     "price": 1227.5,
     "mcap": 14611,
-    "rank": 194,
+    "rank": 195,
     "rs": 76
-   },
-   {
-    "symbol": "THELEELA",
-    "name": "LEELA PALACES HOTEL LTD",
-    "sector": "Consumer Cyclical",
-    "price": 577.6,
-    "mcap": 18239,
-    "rank": 196,
-    "rs": 77
    },
    {
     "symbol": "SAILIFE",
@@ -6166,7 +6166,7 @@
     "name": "WELSPUN LIVING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 230.27,
-    "mcap": 21152,
+    "mcap": 21679,
     "rank": 213,
     "rs": 93
    },
@@ -6175,8 +6175,8 @@
     "name": "STANDARD ENGNG TCNLGY LTD",
     "sector": "Industrials",
     "price": 430.05,
-    "mcap": 8031,
-    "rank": 215,
+    "mcap": 8579,
+    "rank": 216,
     "rs": 99
    }
   ],
@@ -6195,8 +6195,8 @@
     "name": "VALIANT ORGANICS LIMITED",
     "sector": "Basic Materials",
     "price": 475.65,
-    "mcap": 1151,
-    "rank": 24,
+    "mcap": 1333,
+    "rank": 36,
     "rs": 94
    },
    {
@@ -6205,7 +6205,7 @@
     "sector": "Industrials",
     "price": 123.78,
     "mcap": 4908,
-    "rank": 38,
+    "rank": 39,
     "rs": 63
    },
    {
@@ -6231,8 +6231,8 @@
     "name": "TEXMACO RAIL & ENG. LTD.",
     "sector": "Industrials",
     "price": 117.18,
-    "mcap": 5113,
-    "rank": 135,
+    "mcap": 4768,
+    "rank": 128,
     "rs": 47
    },
    {
@@ -6249,8 +6249,8 @@
     "name": "SUN TV NETWORK LIMITED",
     "sector": "Communication Services",
     "price": 626.85,
-    "mcap": 20224,
-    "rank": 141,
+    "mcap": 24703,
+    "rank": 151,
     "rs": 66
    },
    {
@@ -6268,7 +6268,7 @@
     "sector": "Industrials",
     "price": 1559.3,
     "mcap": 21949,
-    "rank": 185,
+    "rank": 184,
     "rs": 78
    },
    {
@@ -6277,7 +6277,7 @@
     "sector": "Basic Materials",
     "price": 685.05,
     "mcap": 9180,
-    "rank": 190,
+    "rank": 189,
     "rs": 69
    },
    {
@@ -6287,7 +6287,7 @@
     "price": 981.6,
     "mcap": 15547,
     "rank": 199,
-    "rs": 50
+    "rs": 49
    }
   ],
   "IPO": [
@@ -6350,7 +6350,7 @@
     "name": "SHUKRA PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 70.49,
-    "mcap": 2465,
+    "mcap": 3107,
     "rank": null,
     "rs": null
    },
@@ -6359,7 +6359,7 @@
     "name": "TIMEX GROUP INDIA LTD.",
     "sector": "Consumer Cyclical",
     "price": 734.6,
-    "mcap": 7390,
+    "mcap": 7416,
     "rank": null,
     "rs": 95
    }
