@@ -5591,7 +5591,7 @@
     "sector": "Basic Materials",
     "price": 727.2,
     "mcap": 4890,
-    "rank": 3,
+    "rank": 4,
     "rs": 94
    },
    {
@@ -5600,7 +5600,7 @@
     "sector": "Basic Materials",
     "price": 87.19,
     "mcap": 1500,
-    "rank": 5,
+    "rank": 6,
     "rs": 87
    },
    {
@@ -5609,7 +5609,7 @@
     "sector": "Technology",
     "price": 4584.1,
     "mcap": 6767,
-    "rank": 6,
+    "rank": 7,
     "rs": 91
    },
    {
@@ -5618,8 +5618,8 @@
     "sector": "Healthcare",
     "price": 268.7,
     "mcap": 1299,
-    "rank": 8,
-    "rs": 92
+    "rank": 9,
+    "rs": 91
    },
    {
     "symbol": "KROSS",
@@ -5627,7 +5627,7 @@
     "sector": "Consumer Cyclical",
     "price": 253.6,
     "mcap": 1674,
-    "rank": 14,
+    "rank": 15,
     "rs": 81
    },
    {
@@ -5635,8 +5635,8 @@
     "name": "QUADRANT FUTURE TEK LTD",
     "sector": "Industrials",
     "price": 529.25,
-    "mcap": 2190,
-    "rank": 19,
+    "mcap": 2117,
+    "rank": 18,
     "rs": 84
    },
    {
@@ -5645,17 +5645,8 @@
     "sector": "Energy",
     "price": 747.05,
     "mcap": 4781,
-    "rank": 26,
-    "rs": 92
-   },
-   {
-    "symbol": "RGL",
-    "name": "RENAISSANCE GLOBAL LTD",
-    "sector": "Consumer Cyclical",
-    "price": 161.52,
-    "mcap": 1799,
     "rank": 27,
-    "rs": 82
+    "rs": 92
    },
    {
     "symbol": "GNA",
@@ -5663,16 +5654,25 @@
     "sector": "Consumer Cyclical",
     "price": 585.05,
     "mcap": 2512,
-    "rank": 28,
+    "rank": 29,
     "rs": 89
+   },
+   {
+    "symbol": "RGL",
+    "name": "RENAISSANCE GLOBAL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 161.52,
+    "mcap": 1735,
+    "rank": 30,
+    "rs": 82
    },
    {
     "symbol": "MMP",
     "name": "MMP INDUSTRIES LIMITED",
     "sector": "Basic Materials",
     "price": 468.05,
-    "mcap": 1169,
-    "rank": 30,
+    "mcap": 1189,
+    "rank": 32,
     "rs": 95
    },
    {
@@ -5681,7 +5681,7 @@
     "sector": "Consumer Cyclical",
     "price": 858.55,
     "mcap": 1295,
-    "rank": 33,
+    "rank": 34,
     "rs": 88
    },
    {
@@ -5690,7 +5690,7 @@
     "sector": "Industrials",
     "price": 1467.3,
     "mcap": 22441,
-    "rank": 34,
+    "rank": 35,
     "rs": 92
    },
    {
@@ -5699,7 +5699,7 @@
     "sector": "Basic Materials",
     "price": 386.1,
     "mcap": 3979,
-    "rank": 45,
+    "rank": 42,
     "rs": 86
    },
    {
@@ -5725,8 +5725,8 @@
     "name": "RANE (MADRAS) LIMITED",
     "sector": "Consumer Cyclical",
     "price": 1372.2,
-    "mcap": 3654,
-    "rank": 49,
+    "mcap": 3792,
+    "rank": 51,
     "rs": 88
    },
    {
@@ -5735,7 +5735,7 @@
     "sector": "Healthcare",
     "price": 946.6,
     "mcap": 8584,
-    "rank": 53,
+    "rank": 52,
     "rs": 79
    },
    {
@@ -5743,27 +5743,27 @@
     "name": "PRECISION WIRES INDIA LTD",
     "sector": "Industrials",
     "price": 507.4,
-    "mcap": 9188,
+    "mcap": 9276,
     "rank": 54,
     "rs": 95
-   },
-   {
-    "symbol": "QUESS",
-    "name": "QUESS CORP LIMITED",
-    "sector": "Industrials",
-    "price": 341.85,
-    "mcap": 5093,
-    "rank": 62,
-    "rs": 86
    },
    {
     "symbol": "MARKSANS",
     "name": "MARKSANS PHARMA LIMITED",
     "sector": "Healthcare",
     "price": 331.65,
-    "mcap": 15269,
-    "rank": 63,
-    "rs": 93
+    "mcap": 15029,
+    "rank": 59,
+    "rs": 92
+   },
+   {
+    "symbol": "QUESS",
+    "name": "QUESS CORP LIMITED",
+    "sector": "Industrials",
+    "price": 341.85,
+    "mcap": 5107,
+    "rank": 62,
+    "rs": 86
    },
    {
     "symbol": "BLSE",
@@ -5771,7 +5771,7 @@
     "sector": "Industrials",
     "price": 319.15,
     "mcap": 2893,
-    "rank": 66,
+    "rank": 65,
     "rs": 89
    },
    {
@@ -5780,7 +5780,7 @@
     "sector": "Basic Materials",
     "price": 609.65,
     "mcap": 2389,
-    "rank": 70,
+    "rank": 69,
     "rs": 90
    },
    {
@@ -5798,7 +5798,7 @@
     "sector": "Consumer Cyclical",
     "price": 3943.4,
     "mcap": 4850,
-    "rank": 75,
+    "rank": 76,
     "rs": 87
    },
    {
@@ -5806,8 +5806,8 @@
     "name": "NRB BEARING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 535.7,
-    "mcap": 5183,
-    "rank": 79,
+    "mcap": 5192,
+    "rank": 80,
     "rs": 94
    },
    {
@@ -5833,7 +5833,7 @@
     "name": "REDINGTON LIMITED",
     "sector": "Technology",
     "price": 412.75,
-    "mcap": 31838,
+    "mcap": 32268,
     "rank": 86,
     "rs": 91
    },
@@ -5843,7 +5843,7 @@
     "sector": "Basic Materials",
     "price": 54.03,
     "mcap": 6292,
-    "rank": 90,
+    "rank": 89,
     "rs": 96
    },
    {
@@ -5852,7 +5852,7 @@
     "sector": "Basic Materials",
     "price": 2206.4,
     "mcap": 4481,
-    "rank": 92,
+    "rank": 91,
     "rs": 91
    },
    {
@@ -5861,7 +5861,7 @@
     "sector": "Basic Materials",
     "price": 185.83,
     "mcap": 5745,
-    "rank": 94,
+    "rank": 93,
     "rs": 93
    },
    {
@@ -5869,8 +5869,8 @@
     "name": "SANATHAN TEXTILES LIMITED",
     "sector": "Consumer Cyclical",
     "price": 528.35,
-    "mcap": 4416,
-    "rank": 98,
+    "mcap": 4459,
+    "rank": 97,
     "rs": 68
    },
    {
@@ -5910,30 +5910,30 @@
     "rs": 95
    },
    {
-    "symbol": "MANORAMA",
-    "name": "MANORAMA INDUSTRIES LTD",
-    "sector": "Consumer Defensive",
-    "price": 1944.9,
-    "mcap": 11822,
-    "rank": 111,
-    "rs": 82
-   },
-   {
     "symbol": "PARAGMILK",
     "name": "PARAG MILK FOODS LTD.",
     "sector": "Consumer Defensive",
     "price": 281.0,
-    "mcap": 3402,
+    "mcap": 3527,
     "rank": 113,
     "rs": 68
+   },
+   {
+    "symbol": "MANORAMA",
+    "name": "MANORAMA INDUSTRIES LTD",
+    "sector": "Consumer Defensive",
+    "price": 1944.9,
+    "mcap": 12277,
+    "rank": 114,
+    "rs": 82
    },
    {
     "symbol": "PTCIL",
     "name": "PTC INDUSTRIES LIMITED",
     "sector": "Industrials",
     "price": 22530.0,
-    "mcap": 32699,
-    "rank": 115,
+    "mcap": 33778,
+    "rank": 117,
     "rs": 81
    },
    {
@@ -5951,7 +5951,7 @@
     "sector": "Industrials",
     "price": 1076.5,
     "mcap": 6650,
-    "rank": 120,
+    "rank": 121,
     "rs": 97
    },
    {
@@ -5960,7 +5960,7 @@
     "sector": "Consumer Cyclical",
     "price": 205.1,
     "mcap": 7891,
-    "rank": 121,
+    "rank": 122,
     "rs": 93
    },
    {
@@ -5969,7 +5969,7 @@
     "sector": "Basic Materials",
     "price": 6669.0,
     "mcap": 9037,
-    "rank": 130,
+    "rank": 129,
     "rs": 86
    },
    {
@@ -5978,8 +5978,17 @@
     "sector": "Consumer Cyclical",
     "price": 103.89,
     "mcap": 4613,
-    "rank": 134,
+    "rank": 133,
     "rs": 98
+   },
+   {
+    "symbol": "PGIL",
+    "name": "PEARL GLOBAL IND LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 1266.5,
+    "mcap": 11700,
+    "rank": 140,
+    "rs": 89
    },
    {
     "symbol": "IRISDOREME",
@@ -5989,15 +5998,6 @@
     "mcap": 1136,
     "rank": 142,
     "rs": 92
-   },
-   {
-    "symbol": "PGIL",
-    "name": "PEARL GLOBAL IND LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 1266.5,
-    "mcap": 12278,
-    "rank": 143,
-    "rs": 89
    },
    {
     "symbol": "VARROC",
@@ -6015,7 +6015,7 @@
     "price": 2927.2,
     "mcap": 18904,
     "rank": 146,
-    "rs": 91
+    "rs": 90
    },
    {
     "symbol": "IOLCP",
@@ -6025,6 +6025,15 @@
     "mcap": 6038,
     "rank": 147,
     "rs": 96
+   },
+   {
+    "symbol": "MANINDS",
+    "name": "MAN INDUSTRIES (I) LTD.",
+    "sector": "Basic Materials",
+    "price": 888.25,
+    "mcap": 6663,
+    "rank": 148,
+    "rs": 97
    },
    {
     "symbol": "CASTROLIND",
@@ -6041,7 +6050,7 @@
     "sector": "Industrials",
     "price": 1140.2,
     "mcap": 11870,
-    "rank": 155,
+    "rank": 156,
     "rs": 72
    },
    {
@@ -6050,7 +6059,7 @@
     "sector": "Industrials",
     "price": 307.85,
     "mcap": 17302,
-    "rank": 156,
+    "rank": 157,
     "rs": 85
    },
    {
@@ -6059,7 +6068,7 @@
     "sector": "Healthcare",
     "price": 801.35,
     "mcap": 12269,
-    "rank": 157,
+    "rank": 158,
     "rs": 89
    },
    {
@@ -6072,31 +6081,13 @@
     "rs": 88
    },
    {
-    "symbol": "MANINDS",
-    "name": "MAN INDUSTRIES (I) LTD.",
-    "sector": "Basic Materials",
-    "price": 888.25,
-    "mcap": 7654,
-    "rank": 161,
-    "rs": 97
-   },
-   {
     "symbol": "GMMPFAUDLR",
     "name": "GMM PFAUDLER LIMITED",
     "sector": "Industrials",
     "price": 1386.6,
     "mcap": 6234,
-    "rank": 174,
+    "rank": 173,
     "rs": 89
-   },
-   {
-    "symbol": "QPOWER",
-    "name": "QUALITY POWER ELEC EQUP L",
-    "sector": "Industrials",
-    "price": 1620.2,
-    "mcap": 11754,
-    "rank": 176,
-    "rs": 92
    },
    {
     "symbol": "BLUSPRING",
@@ -6104,8 +6095,17 @@
     "sector": "Industrials",
     "price": 143.92,
     "mcap": 2152,
-    "rank": 179,
+    "rank": 178,
     "rs": 95
+   },
+   {
+    "symbol": "QPOWER",
+    "name": "QUALITY POWER ELEC EQUP L",
+    "sector": "Industrials",
+    "price": 1620.2,
+    "mcap": 12547,
+    "rank": 179,
+    "rs": 92
    },
    {
     "symbol": "KTKBANK",
@@ -6131,7 +6131,7 @@
     "sector": "Industrials",
     "price": 1227.5,
     "mcap": 14611,
-    "rank": 195,
+    "rank": 194,
     "rs": 76
    },
    {
@@ -6140,7 +6140,7 @@
     "sector": "Consumer Cyclical",
     "price": 577.6,
     "mcap": 18239,
-    "rank": 198,
+    "rank": 196,
     "rs": 77
    },
    {
@@ -6148,7 +6148,7 @@
     "name": "SAI LIFE SCIENCES LIMITED",
     "sector": "Healthcare",
     "price": 1511.3,
-    "mcap": 33821,
+    "mcap": 32103,
     "rank": 201,
     "rs": 87
    },
@@ -6157,8 +6157,8 @@
     "name": "PAISALO DIGITAL LIMITED",
     "sector": "Financial Services",
     "price": 81.13,
-    "mcap": 8138,
-    "rank": 203,
+    "mcap": 7627,
+    "rank": 202,
     "rs": 94
    },
    {
@@ -6187,7 +6187,7 @@
     "sector": "Basic Materials",
     "price": 87.19,
     "mcap": 1500,
-    "rank": 5,
+    "rank": 6,
     "rs": 87
    },
    {
@@ -6196,25 +6196,16 @@
     "sector": "Basic Materials",
     "price": 475.65,
     "mcap": 1151,
-    "rank": 22,
+    "rank": 24,
     "rs": 94
-   },
-   {
-    "symbol": "MVGJL",
-    "name": "MANOJ VAIBHAV GEM N JEW L",
-    "sector": "Consumer Cyclical",
-    "price": 204.36,
-    "mcap": 1096,
-    "rank": 25,
-    "rs": 76
    },
    {
     "symbol": "MANINFRA",
     "name": "MAN INFRA LTD",
     "sector": "Industrials",
     "price": 123.78,
-    "mcap": 5168,
-    "rank": 41,
+    "mcap": 4908,
+    "rank": 38,
     "rs": 63
    },
    {
@@ -6232,7 +6223,7 @@
     "sector": "Industrials",
     "price": 848.95,
     "mcap": 1387,
-    "rank": 91,
+    "rank": 90,
     "rs": 73
    },
    {
@@ -6249,8 +6240,8 @@
     "name": "NETWORK PEOPLE SRV TECH L",
     "sector": "Technology",
     "price": 1833.5,
-    "mcap": 3748,
-    "rank": 137,
+    "mcap": 3825,
+    "rank": 138,
     "rs": 74
    },
    {
@@ -6259,7 +6250,7 @@
     "sector": "Communication Services",
     "price": 626.85,
     "mcap": 20224,
-    "rank": 140,
+    "rank": 141,
     "rs": 66
    },
    {
@@ -6268,7 +6259,7 @@
     "sector": "Real Estate",
     "price": 29.48,
     "mcap": 6607,
-    "rank": 177,
+    "rank": 176,
     "rs": 92
    },
    {
@@ -6285,8 +6276,8 @@
     "name": "MAHARASHTRA SEAMLESS LTD",
     "sector": "Basic Materials",
     "price": 685.05,
-    "mcap": 9590,
-    "rank": 192,
+    "mcap": 9180,
+    "rank": 190,
     "rs": 69
    },
    {
@@ -6295,8 +6286,8 @@
     "sector": "Healthcare",
     "price": 981.6,
     "mcap": 15547,
-    "rank": 200,
-    "rs": 49
+    "rank": 199,
+    "rs": 50
    }
   ],
   "IPO": [
@@ -6341,7 +6332,16 @@
     "name": "PANORAMA STUDIOS INTL. L",
     "sector": "Communication Services",
     "price": 63.5,
-    "mcap": 1575,
+    "mcap": 1654,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "PRASOLCHEM",
+    "name": "PRASOL CHEMICALS LIMITED",
+    "sector": "Basic Materials",
+    "price": 789.05,
+    "mcap": 4670,
     "rank": null,
     "rs": null
    },
