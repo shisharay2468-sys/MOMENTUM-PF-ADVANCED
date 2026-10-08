@@ -8,9 +8,9 @@
   "price": 939.5499877929688,
   "detail": "Cleared every entry rule \u00b7 rank 12",
   "last_seen": "2026-10-07",
-  "last_price": 953.3499755859375,
-  "active": true,
-  "ended": null
+  "last_price": 879.0499877929688,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -21,9 +21,9 @@
   "price": 1226.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 61",
   "last_seen": "2026-10-07",
-  "last_price": 1249.9000244140625,
-  "active": true,
-  "ended": null
+  "last_price": 1179.800048828125,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -34,7 +34,7 @@
   "price": 1638.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 41",
   "last_seen": "2026-09-30",
-  "last_price": 1552.0999755859375,
+  "last_price": 1486.0999755859375,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -46,8 +46,8 @@
   "date": "2026-09-27",
   "price": 1767.0,
   "detail": "Cleared every entry rule \u00b7 rank 35",
-  "last_seen": "2026-10-07",
-  "last_price": 1787.5999755859375,
+  "last_seen": "2026-10-08",
+  "last_price": 1744.0999755859375,
   "active": true,
   "ended": null
  },
@@ -60,7 +60,7 @@
   "price": 803.3499755859375,
   "detail": "Cleared every entry rule \u00b7 rank 34",
   "last_seen": "2026-09-30",
-  "last_price": 787.5,
+  "last_price": 782.5999755859375,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -72,8 +72,8 @@
   "date": "2026-09-27",
   "price": 819.5499877929688,
   "detail": "Cleared every entry rule \u00b7 rank 46",
-  "last_seen": "2026-10-07",
-  "last_price": 822.5499877929688,
+  "last_seen": "2026-10-08",
+  "last_price": 786.7000122070312,
   "active": true,
   "ended": null
  },
@@ -86,9 +86,9 @@
   "price": 1365.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 17",
   "last_seen": "2026-10-07",
-  "last_price": 1370.199951171875,
-  "active": true,
-  "ended": null
+  "last_price": 1337.199951171875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -99,7 +99,7 @@
   "price": 74.05000305175781,
   "detail": "Cleared every entry rule \u00b7 rank 28",
   "last_seen": "2026-09-30",
-  "last_price": 70.06999969482422,
+  "last_price": 67.44999694824219,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -112,9 +112,9 @@
   "price": 905.7999877929688,
   "detail": "Cleared every entry rule \u00b7 rank 16",
   "last_seen": "2026-10-07",
-  "last_price": 893.3499755859375,
-  "active": true,
-  "ended": null
+  "last_price": 847.4500122070312,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -125,7 +125,7 @@
   "price": 487.75,
   "detail": "Cleared every entry rule \u00b7 rank 2",
   "last_seen": "2026-09-27",
-  "last_price": 480.1499938964844,
+  "last_price": 459.45001220703125,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -137,8 +137,8 @@
   "date": "2026-09-27",
   "price": 2328.5,
   "detail": "Cleared every entry rule \u00b7 rank 36",
-  "last_seen": "2026-10-07",
-  "last_price": 2429.699951171875,
+  "last_seen": "2026-10-08",
+  "last_price": 2302.0,
   "active": true,
   "ended": null
  },
@@ -151,7 +151,7 @@
   "price": 92.58000183105469,
   "detail": "Cleared every entry rule \u00b7 rank 1",
   "last_seen": "2026-09-30",
-  "last_price": 88.75,
+  "last_price": 85.44999694824219,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -163,8 +163,8 @@
   "date": "2026-09-27",
   "price": 362.45001220703125,
   "detail": "Cleared every entry rule \u00b7 rank 30",
-  "last_seen": "2026-10-07",
-  "last_price": 385.04998779296875,
+  "last_seen": "2026-10-08",
+  "last_price": 366.8999938964844,
   "active": true,
   "ended": null
  },
@@ -177,7 +177,7 @@
   "price": 324.54998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 26",
   "last_seen": "2026-10-06",
-  "last_price": 158.1999969482422,
+  "last_price": 157.5500030517578,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -190,9 +190,9 @@
   "price": 145.1199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 54",
   "last_seen": "2026-10-07",
-  "last_price": 142.7100067138672,
-  "active": true,
-  "ended": null
+  "last_price": 135.7899932861328,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -202,8 +202,8 @@
   "date": "2026-09-27",
   "price": 1811.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 56",
-  "last_seen": "2026-10-07",
-  "last_price": 1948.0999755859375,
+  "last_seen": "2026-10-08",
+  "last_price": 1943.800048828125,
   "active": true,
   "ended": null
  },
@@ -216,7 +216,7 @@
   "price": 2835.10009765625,
   "detail": "Cleared every entry rule \u00b7 rank 23",
   "last_seen": "2026-09-29",
-  "last_price": 2649.10009765625,
+  "last_price": 2548.800048828125,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -229,9 +229,9 @@
   "price": 201.6699981689453,
   "detail": "Cleared every entry rule \u00b7 rank 52",
   "last_seen": "2026-10-07",
-  "last_price": 197.14999389648438,
-  "active": true,
-  "ended": null
+  "last_price": 196.0800018310547,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -242,7 +242,7 @@
   "price": 282.8500061035156,
   "detail": "Cleared every entry rule \u00b7 rank 14",
   "last_seen": "2026-09-28",
-  "last_price": 260.8500061035156,
+  "last_price": 256.5,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -255,9 +255,9 @@
   "price": 88.27999877929688,
   "detail": "Cleared every entry rule \u00b7 rank 4",
   "last_seen": "2026-10-07",
-  "last_price": 91.75,
-  "active": true,
-  "ended": null
+  "last_price": 84.9000015258789,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -267,8 +267,8 @@
   "date": "2026-09-27",
   "price": 781.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 10",
-  "last_seen": "2026-10-07",
-  "last_price": 795.5999755859375,
+  "last_seen": "2026-10-08",
+  "last_price": 777.5999755859375,
   "active": true,
   "ended": null
  },
@@ -281,7 +281,7 @@
   "price": 687.4500122070312,
   "detail": "Cleared every entry rule \u00b7 rank 8",
   "last_seen": "2026-10-02",
-  "last_price": 652.9000244140625,
+  "last_price": 620.0499877929688,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -293,8 +293,8 @@
   "date": "2026-09-27",
   "price": 13153.0,
   "detail": "Cleared every entry rule \u00b7 rank 57",
-  "last_seen": "2026-10-07",
-  "last_price": 13723.0,
+  "last_seen": "2026-10-08",
+  "last_price": 13391.0,
   "active": true,
   "ended": null
  },
@@ -306,8 +306,8 @@
   "date": "2026-09-27",
   "price": 2301.60009765625,
   "detail": "Cleared every entry rule \u00b7 rank 19",
-  "last_seen": "2026-10-07",
-  "last_price": 2247.300048828125,
+  "last_seen": "2026-10-08",
+  "last_price": 2234.199951171875,
   "active": true,
   "ended": null
  },
@@ -320,7 +320,7 @@
   "price": 931.4000244140625,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 988.2999877929688,
+  "last_price": 981.2999877929688,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -333,7 +333,7 @@
   "price": 74.05000305175781,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 70.06999969482422,
+  "last_price": 67.44999694824219,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -346,7 +346,7 @@
   "price": 1811.5999755859375,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 1948.0999755859375,
+  "last_price": 1943.800048828125,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -359,9 +359,9 @@
   "price": 13881.0,
   "detail": "Listed 22 Apr 2026 \u00b7 listing-day high Rs 9,281",
   "last_seen": "2026-10-07",
-  "last_price": 14022.0,
-  "active": true,
-  "ended": null
+  "last_price": 13597.0,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "IPO",
@@ -372,7 +372,7 @@
   "price": 209.47000122070312,
   "detail": "Listed 02 Apr 2026 \u00b7 listing-day high Rs 200",
   "last_seen": "2026-10-02",
-  "last_price": 218.44000244140625,
+  "last_price": 216.08999633789062,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -384,8 +384,8 @@
   "date": "2026-09-27",
   "price": 200.22000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 67",
-  "last_seen": "2026-10-07",
-  "last_price": 211.5399932861328,
+  "last_seen": "2026-10-08",
+  "last_price": 193.30999755859375,
   "active": true,
   "ended": null
  },
@@ -398,7 +398,7 @@
   "price": 1821.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 55",
   "last_seen": "2026-09-30",
-  "last_price": 1713.300048828125,
+  "last_price": 1688.800048828125,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -410,8 +410,8 @@
   "date": "2026-09-27",
   "price": 1460.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 25",
-  "last_seen": "2026-10-07",
-  "last_price": 1483.5,
+  "last_seen": "2026-10-08",
+  "last_price": 1402.199951171875,
   "active": true,
   "ended": null
  },
@@ -424,7 +424,7 @@
   "price": 6468.0,
   "detail": "Cleared every entry rule \u00b7 rank 34",
   "last_seen": "2026-10-06",
-  "last_price": 6373.0,
+  "last_price": 6343.5,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -437,7 +437,7 @@
   "price": 139.1199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 49",
   "last_seen": "2026-09-28",
-  "last_price": 130.0399932861328,
+  "last_price": 125.0999984741211,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -449,8 +449,8 @@
   "date": "2026-09-27",
   "price": 2917.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 61",
-  "last_seen": "2026-10-07",
-  "last_price": 3150.60009765625,
+  "last_seen": "2026-10-08",
+  "last_price": 3079.10009765625,
   "active": true,
   "ended": null
  },
@@ -463,7 +463,7 @@
   "price": 617.6500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 13",
   "last_seen": "2026-10-06",
-  "last_price": 583.6500244140625,
+  "last_price": 557.7000122070312,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -476,9 +476,9 @@
   "price": 630.2999877929688,
   "detail": "Cleared every entry rule \u00b7 rank 36",
   "last_seen": "2026-10-07",
-  "last_price": 618.2000122070312,
-  "active": true,
-  "ended": null
+  "last_price": 599.25,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -489,7 +489,7 @@
   "price": 820.7000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 27",
   "last_seen": "2026-09-27",
-  "last_price": 834.0499877929688,
+  "last_price": 802.1500244140625,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -502,7 +502,7 @@
   "price": 2063.5,
   "detail": "Cleared every entry rule \u00b7 rank 142",
   "last_seen": "2026-09-30",
-  "last_price": 1934.300048828125,
+  "last_price": 1940.9000244140625,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -515,7 +515,7 @@
   "price": 1165.300048828125,
   "detail": "Cleared every entry rule \u00b7 rank 151",
   "last_seen": "2026-09-27",
-  "last_price": 1148.0999755859375,
+  "last_price": 1120.699951171875,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -528,7 +528,7 @@
   "price": 593.1500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 20",
   "last_seen": "2026-10-06",
-  "last_price": 586.25,
+  "last_price": 568.4000244140625,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -541,7 +541,7 @@
   "price": 608.9500122070312,
   "detail": "Cleared every entry rule \u00b7 rank 100",
   "last_seen": "2026-09-29",
-  "last_price": 607.0999755859375,
+  "last_price": 586.1500244140625,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -554,7 +554,7 @@
   "price": 1318.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 37",
   "last_seen": "2026-09-28",
-  "last_price": 1231.4000244140625,
+  "last_price": 1187.4000244140625,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -567,7 +567,7 @@
   "price": 1281.0,
   "detail": "Cleared every entry rule \u00b7 rank 85",
   "last_seen": "2026-09-29",
-  "last_price": 1166.199951171875,
+  "last_price": 1129.5,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -579,10 +579,10 @@
   "date": "2026-09-27",
   "price": 204.19000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 32",
-  "last_seen": "2026-10-06",
-  "last_price": 220.22000122070312,
-  "active": false,
-  "ended": "2026-10-07"
+  "last_seen": "2026-10-08",
+  "last_price": 205.5500030517578,
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
@@ -593,7 +593,7 @@
   "price": 1970.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 137",
   "last_seen": "2026-09-27",
-  "last_price": 1938.5,
+  "last_price": 1938.4000244140625,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -605,8 +605,8 @@
   "date": "2026-09-27",
   "price": 620.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 39",
-  "last_seen": "2026-10-07",
-  "last_price": 654.9500122070312,
+  "last_seen": "2026-10-08",
+  "last_price": 638.7000122070312,
   "active": true,
   "ended": null
  },
@@ -619,9 +619,9 @@
   "price": 1065.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 125",
   "last_seen": "2026-10-07",
-  "last_price": 1071.0,
-  "active": true,
-  "ended": null
+  "last_price": 1009.9000244140625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -632,9 +632,9 @@
   "price": 4033.39990234375,
   "detail": "Cleared every entry rule \u00b7 rank 50",
   "last_seen": "2026-10-07",
-  "last_price": 3997.199951171875,
-  "active": true,
-  "ended": null
+  "last_price": 3873.199951171875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -644,8 +644,8 @@
   "date": "2026-09-27",
   "price": 6237.5,
   "detail": "Cleared every entry rule \u00b7 rank 77",
-  "last_seen": "2026-10-07",
-  "last_price": 6932.5,
+  "last_seen": "2026-10-08",
+  "last_price": 6804.0,
   "active": true,
   "ended": null
  },
@@ -658,7 +658,7 @@
   "price": 557.5,
   "detail": "Cleared every entry rule \u00b7 rank 12",
   "last_seen": "2026-09-27",
-  "last_price": 556.25,
+  "last_price": 542.5499877929688,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -671,7 +671,7 @@
   "price": 2865.10009765625,
   "detail": "Cleared every entry rule \u00b7 rank 131",
   "last_seen": "2026-09-28",
-  "last_price": 3214.0,
+  "last_price": 3256.699951171875,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -683,8 +683,8 @@
   "date": "2026-09-27",
   "price": 187.24000549316406,
   "detail": "Cleared every entry rule \u00b7 rank 47",
-  "last_seen": "2026-10-07",
-  "last_price": 191.3800048828125,
+  "last_seen": "2026-10-08",
+  "last_price": 188.69000244140625,
   "active": true,
   "ended": null
  },
@@ -697,7 +697,7 @@
   "price": 964.7000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 79",
   "last_seen": "2026-09-30",
-  "last_price": 932.6500244140625,
+  "last_price": 945.0499877929688,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -710,9 +710,9 @@
   "price": 335.5,
   "detail": "Cleared every entry rule \u00b7 rank 115",
   "last_seen": "2026-10-07",
-  "last_price": 326.45001220703125,
-  "active": true,
-  "ended": null
+  "last_price": 320.79998779296875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -723,9 +723,9 @@
   "price": 1952.300048828125,
   "detail": "Cleared every entry rule \u00b7 rank 117",
   "last_seen": "2026-10-07",
-  "last_price": 1945.0999755859375,
-  "active": true,
-  "ended": null
+  "last_price": 1898.9000244140625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -736,7 +736,7 @@
   "price": 173.3800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 171.8800048828125,
+  "last_price": 169.39999389648438,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -749,9 +749,9 @@
   "price": 557.5,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 556.25,
-  "active": true,
-  "ended": null
+  "last_price": 542.5499877929688,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -762,7 +762,7 @@
   "price": 593.1500244140625,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 586.25,
+  "last_price": 568.4000244140625,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -774,8 +774,8 @@
   "date": "2026-09-27",
   "price": 593.8499755859375,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 586.1500244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 565.8499755859375,
   "active": true,
   "ended": null
  },
@@ -788,7 +788,7 @@
   "price": 1821.800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-27",
-  "last_price": 1713.300048828125,
+  "last_price": 1688.800048828125,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -800,8 +800,8 @@
   "date": "2026-09-27",
   "price": 29.829999923706055,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 32.4900016784668,
+  "last_seen": "2026-10-08",
+  "last_price": 34.880001068115234,
   "active": true,
   "ended": null
  },
@@ -813,8 +813,8 @@
   "date": "2026-09-27",
   "price": 1497.199951171875,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 1567.9000244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 1529.699951171875,
   "active": true,
   "ended": null
  },
@@ -827,7 +827,7 @@
   "price": 1505.199951171875,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 1438.0,
+  "last_price": 1340.4000244140625,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -840,9 +840,9 @@
   "price": 1071.949951171875,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 974.5999755859375,
-  "active": true,
-  "ended": null
+  "last_price": 932.2000122070312,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "IPO",
@@ -852,8 +852,8 @@
   "date": "2026-09-27",
   "price": 348.3999938964844,
   "detail": "Listed 08 May 2026 \u00b7 listing-day high Rs 227",
-  "last_seen": "2026-10-07",
-  "last_price": 377.3500061035156,
+  "last_seen": "2026-10-08",
+  "last_price": 372.1499938964844,
   "active": true,
   "ended": null
  },
@@ -865,8 +865,8 @@
   "date": "2026-09-27",
   "price": 594.7000122070312,
   "detail": "Listed 30 Jul 2026 \u00b7 listing-day high Rs 509",
-  "last_seen": "2026-10-07",
-  "last_price": 624.0999755859375,
+  "last_seen": "2026-10-08",
+  "last_price": 608.7000122070312,
   "active": true,
   "ended": null
  },
@@ -878,8 +878,8 @@
   "date": "2026-09-27",
   "price": 156.22999572753906,
   "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 146",
-  "last_seen": "2026-10-07",
-  "last_price": 183.22000122070312,
+  "last_seen": "2026-10-08",
+  "last_price": 177.27999877929688,
   "active": true,
   "ended": null
  },
@@ -891,8 +891,8 @@
   "date": "2026-09-27",
   "price": 266.04998779296875,
   "detail": "Listed 06 Aug 2026 \u00b7 listing-day high Rs 265",
-  "last_seen": "2026-10-07",
-  "last_price": 280.6499938964844,
+  "last_seen": "2026-10-08",
+  "last_price": 274.45001220703125,
   "active": true,
   "ended": null
  },
@@ -905,7 +905,7 @@
   "price": 2062.5,
   "detail": "Cleared every entry rule \u00b7 rank 56",
   "last_seen": "2026-09-27",
-  "last_price": 2062.89990234375,
+  "last_price": 1981.0,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -918,7 +918,7 @@
   "price": 715.6500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 186",
   "last_seen": "2026-10-02",
-  "last_price": 692.75,
+  "last_price": 644.25,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -930,8 +930,8 @@
   "date": "2026-09-27",
   "price": 84.6500015258789,
   "detail": "Cleared every entry rule \u00b7 rank 1",
-  "last_seen": "2026-10-07",
-  "last_price": 90.4800033569336,
+  "last_seen": "2026-10-08",
+  "last_price": 85.87999725341797,
   "active": true,
   "ended": null
  },
@@ -943,10 +943,10 @@
   "date": "2026-09-27",
   "price": 413.75,
   "detail": "Cleared every entry rule \u00b7 rank 50",
-  "last_seen": "2026-10-02",
-  "last_price": 476.3999938964844,
-  "active": false,
-  "ended": "2026-10-05"
+  "last_seen": "2026-10-08",
+  "last_price": 452.6000061035156,
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
@@ -957,9 +957,9 @@
   "price": 336.95001220703125,
   "detail": "Cleared every entry rule \u00b7 rank 54",
   "last_seen": "2026-10-07",
-  "last_price": 325.45001220703125,
-  "active": true,
-  "ended": null
+  "last_price": 307.79998779296875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -970,7 +970,7 @@
   "price": 1495.4000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 207",
   "last_seen": "2026-09-27",
-  "last_price": 1294.0999755859375,
+  "last_price": 1276.5,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -983,7 +983,7 @@
   "price": 616.1500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 130",
   "last_seen": "2026-09-27",
-  "last_price": 566.0499877929688,
+  "last_price": 553.7000122070312,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -996,7 +996,7 @@
   "price": 740.7999877929688,
   "detail": "Cleared every entry rule \u00b7 rank 170",
   "last_seen": "2026-09-27",
-  "last_price": 698.75,
+  "last_price": 668.4000244140625,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1009,9 +1009,9 @@
   "price": 43.06999969482422,
   "detail": "Cleared every entry rule \u00b7 rank 37",
   "last_seen": "2026-10-07",
-  "last_price": 42.040000915527344,
-  "active": true,
-  "ended": null
+  "last_price": 40.7599983215332,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1022,7 +1022,7 @@
   "price": 8584.5,
   "detail": "Cleared every entry rule \u00b7 rank 167",
   "last_seen": "2026-09-28",
-  "last_price": 8490.0,
+  "last_price": 8417.5,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -1034,8 +1034,8 @@
   "date": "2026-09-27",
   "price": 2385.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 31",
-  "last_seen": "2026-10-07",
-  "last_price": 2431.300048828125,
+  "last_seen": "2026-10-08",
+  "last_price": 2379.699951171875,
   "active": true,
   "ended": null
  },
@@ -1048,7 +1048,7 @@
   "price": 612.3499755859375,
   "detail": "Cleared every entry rule \u00b7 rank 44",
   "last_seen": "2026-09-27",
-  "last_price": 615.5999755859375,
+  "last_price": 596.4000244140625,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1060,8 +1060,8 @@
   "date": "2026-09-27",
   "price": 534.7999877929688,
   "detail": "Cleared every entry rule \u00b7 rank 94",
-  "last_seen": "2026-10-07",
-  "last_price": 529.9500122070312,
+  "last_seen": "2026-10-08",
+  "last_price": 510.20001220703125,
   "active": true,
   "ended": null
  },
@@ -1074,7 +1074,7 @@
   "price": 1064.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 35",
   "last_seen": "2026-09-27",
-  "last_price": 1023.9500122070312,
+  "last_price": 981.2000122070312,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1086,8 +1086,8 @@
   "date": "2026-09-27",
   "price": 1329.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 147",
-  "last_seen": "2026-10-07",
-  "last_price": 1273.0999755859375,
+  "last_seen": "2026-10-08",
+  "last_price": 1272.300048828125,
   "active": true,
   "ended": null
  },
@@ -1100,7 +1100,7 @@
   "price": 1162.4000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 66",
   "last_seen": "2026-09-27",
-  "last_price": 1118.4000244140625,
+  "last_price": 1066.0999755859375,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1113,7 +1113,7 @@
   "price": 230.8699951171875,
   "detail": "Cleared every entry rule \u00b7 rank 59",
   "last_seen": "2026-09-27",
-  "last_price": 225.82000732421875,
+  "last_price": 212.30999755859375,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1126,7 +1126,7 @@
   "price": 1254.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 211",
   "last_seen": "2026-09-27",
-  "last_price": 1343.800048828125,
+  "last_price": 1309.199951171875,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1138,8 +1138,8 @@
   "date": "2026-09-27",
   "price": 1517.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 197",
-  "last_seen": "2026-10-07",
-  "last_price": 1615.0,
+  "last_seen": "2026-10-08",
+  "last_price": 1532.199951171875,
   "active": true,
   "ended": null
  },
@@ -1152,7 +1152,7 @@
   "price": 340.8999938964844,
   "detail": "Cleared every entry rule \u00b7 rank 81",
   "last_seen": "2026-10-05",
-  "last_price": 328.3999938964844,
+  "last_price": 320.75,
   "active": false,
   "ended": "2026-10-06"
  },
@@ -1164,8 +1164,8 @@
   "date": "2026-09-27",
   "price": 570.0,
   "detail": "Cleared every entry rule \u00b7 rank 9",
-  "last_seen": "2026-10-07",
-  "last_price": 637.4000244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 611.1500244140625,
   "active": true,
   "ended": null
  },
@@ -1177,8 +1177,8 @@
   "date": "2026-09-27",
   "price": 407.25,
   "detail": "Cleared every entry rule \u00b7 rank 96",
-  "last_seen": "2026-10-07",
-  "last_price": 406.5,
+  "last_seen": "2026-10-08",
+  "last_price": 388.0,
   "active": true,
   "ended": null
  },
@@ -1190,8 +1190,8 @@
   "date": "2026-09-27",
   "price": 167.47000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 33",
-  "last_seen": "2026-10-07",
-  "last_price": 168.47000122070312,
+  "last_seen": "2026-10-08",
+  "last_price": 155.6300048828125,
   "active": true,
   "ended": null
  },
@@ -1204,9 +1204,9 @@
   "price": 1322.300048828125,
   "detail": "Cleared every entry rule \u00b7 rank 51",
   "last_seen": "2026-10-07",
-  "last_price": 1336.4000244140625,
-  "active": true,
-  "ended": null
+  "last_price": 1279.5999755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1217,7 +1217,7 @@
   "price": 1402.699951171875,
   "detail": "Cleared every entry rule \u00b7 rank 6",
   "last_seen": "2026-09-28",
-  "last_price": 1622.4000244140625,
+  "last_price": 1570.0999755859375,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -1230,7 +1230,7 @@
   "price": 1699.5,
   "detail": "Cleared every entry rule \u00b7 rank 150",
   "last_seen": "2026-09-27",
-  "last_price": 1820.9000244140625,
+  "last_price": 1717.199951171875,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1243,7 +1243,7 @@
   "price": 3050.60009765625,
   "detail": "Cleared every entry rule \u00b7 rank 32",
   "last_seen": "2026-09-30",
-  "last_price": 2892.800048828125,
+  "last_price": 2811.699951171875,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1256,9 +1256,9 @@
   "price": 523.2000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 100",
   "last_seen": "2026-10-07",
-  "last_price": 522.8499755859375,
-  "active": true,
-  "ended": null
+  "last_price": 502.6499938964844,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1268,8 +1268,8 @@
   "date": "2026-09-27",
   "price": 1154.5,
   "detail": "Cleared every entry rule \u00b7 rank 140",
-  "last_seen": "2026-10-07",
-  "last_price": 1099.300048828125,
+  "last_seen": "2026-10-08",
+  "last_price": 1050.5999755859375,
   "active": true,
   "ended": null
  },
@@ -1295,9 +1295,9 @@
   "price": 129.9499969482422,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 122.5199966430664,
-  "active": true,
-  "ended": null
+  "last_price": 117.73999786376953,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -1308,7 +1308,7 @@
   "price": 339.6000061035156,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 326.8999938964844,
+  "last_price": 319.25,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1320,8 +1320,8 @@
   "date": "2026-09-27",
   "price": 1796.300048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 1854.9000244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 1790.199951171875,
   "active": true,
   "ended": null
  },
@@ -1334,9 +1334,9 @@
   "price": 3594.10009765625,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 3519.199951171875,
-  "active": true,
-  "ended": null
+  "last_price": 3446.300048828125,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -1347,9 +1347,9 @@
   "price": 715.6500244140625,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 692.75,
-  "active": true,
-  "ended": null
+  "last_price": 644.25,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -1360,7 +1360,7 @@
   "price": 532.5,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 500.20001220703125,
+  "last_price": 489.8999938964844,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1373,7 +1373,7 @@
   "price": 1254.5999755859375,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 1343.800048828125,
+  "last_price": 1309.199951171875,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1386,7 +1386,7 @@
   "price": 582.9500122070312,
   "detail": "Listed 02 Apr 2026 \u00b7 listing-day high Rs 397",
   "last_seen": "2026-10-02",
-  "last_price": 600.9500122070312,
+  "last_price": 585.0,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -1398,8 +1398,8 @@
   "date": "2026-09-27",
   "price": 60.459999084472656,
   "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 48",
-  "last_seen": "2026-10-07",
-  "last_price": 66.29000091552734,
+  "last_seen": "2026-10-08",
+  "last_price": 63.650001525878906,
   "active": true,
   "ended": null
  },
@@ -1411,8 +1411,8 @@
   "date": "2026-09-27",
   "price": 402.54998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 286",
-  "last_seen": "2026-10-07",
-  "last_price": 429.79998779296875,
+  "last_seen": "2026-10-08",
+  "last_price": 408.3500061035156,
   "active": true,
   "ended": null
  },
@@ -1425,7 +1425,7 @@
   "price": 4746.7998046875,
   "detail": "Cleared every entry rule \u00b7 rank 277",
   "last_seen": "2026-09-30",
-  "last_price": 4411.60009765625,
+  "last_price": 4270.39990234375,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1438,7 +1438,7 @@
   "price": 6825.5,
   "detail": "Cleared every entry rule \u00b7 rank 226",
   "last_seen": "2026-09-30",
-  "last_price": 6095.0,
+  "last_price": 5850.5,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1451,7 +1451,7 @@
   "price": 739.1500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 19",
   "last_seen": "2026-10-02",
-  "last_price": 683.7000122070312,
+  "last_price": 654.9000244140625,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -1463,8 +1463,8 @@
   "date": "2026-09-27",
   "price": 618.0499877929688,
   "detail": "Cleared every entry rule \u00b7 rank 135",
-  "last_seen": "2026-10-07",
-  "last_price": 621.1500244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 600.5999755859375,
   "active": true,
   "ended": null
  },
@@ -1477,9 +1477,9 @@
   "price": 824.5,
   "detail": "Cleared every entry rule \u00b7 rank 293",
   "last_seen": "2026-10-07",
-  "last_price": 810.5,
-  "active": true,
-  "ended": null
+  "last_price": 793.0,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1490,7 +1490,7 @@
   "price": 880.0,
   "detail": "Cleared every entry rule \u00b7 rank 59",
   "last_seen": "2026-09-28",
-  "last_price": 806.6500244140625,
+  "last_price": 783.6500244140625,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -1503,9 +1503,9 @@
   "price": 814.4000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 235",
   "last_seen": "2026-10-07",
-  "last_price": 817.3499755859375,
-  "active": true,
-  "ended": null
+  "last_price": 803.0999755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1516,7 +1516,7 @@
   "price": 1178.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 180",
   "last_seen": "2026-09-27",
-  "last_price": 1127.0,
+  "last_price": 1108.300048828125,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1529,7 +1529,7 @@
   "price": 20.049999237060547,
   "detail": "Cleared every entry rule \u00b7 rank 9",
   "last_seen": "2026-09-27",
-  "last_price": 24.940000534057617,
+  "last_price": 23.56999969482422,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1541,8 +1541,8 @@
   "date": "2026-09-27",
   "price": 1732.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 128",
-  "last_seen": "2026-10-07",
-  "last_price": 1746.699951171875,
+  "last_seen": "2026-10-08",
+  "last_price": 1680.9000244140625,
   "active": true,
   "ended": null
  },
@@ -1555,7 +1555,7 @@
   "price": 457.3500061035156,
   "detail": "Cleared every entry rule \u00b7 rank 71",
   "last_seen": "2026-09-27",
-  "last_price": 417.04998779296875,
+  "last_price": 405.3500061035156,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1567,10 +1567,10 @@
   "date": "2026-09-27",
   "price": 1793.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 89",
-  "last_seen": "2026-10-06",
-  "last_price": 1991.199951171875,
-  "active": false,
-  "ended": "2026-10-07"
+  "last_seen": "2026-10-08",
+  "last_price": 1855.5999755859375,
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
@@ -1581,7 +1581,7 @@
   "price": 1696.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 281",
   "last_seen": "2026-09-27",
-  "last_price": 1704.5,
+  "last_price": 1666.5,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1593,8 +1593,8 @@
   "date": "2026-09-27",
   "price": 546.1500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 266",
-  "last_seen": "2026-10-07",
-  "last_price": 602.4500122070312,
+  "last_seen": "2026-10-08",
+  "last_price": 586.9500122070312,
   "active": true,
   "ended": null
  },
@@ -1607,7 +1607,7 @@
   "price": 581.7000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 273",
   "last_seen": "2026-09-27",
-  "last_price": 551.5499877929688,
+  "last_price": 548.0499877929688,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1620,7 +1620,7 @@
   "price": 132.92999267578125,
   "detail": "Cleared every entry rule \u00b7 rank 1",
   "last_seen": "2026-09-29",
-  "last_price": 125.77999877929688,
+  "last_price": 118.9800033569336,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1633,9 +1633,9 @@
   "price": 664.2000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 68",
   "last_seen": "2026-10-07",
-  "last_price": 643.1500244140625,
-  "active": true,
-  "ended": null
+  "last_price": 617.0499877929688,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1646,7 +1646,7 @@
   "price": 1665.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 101",
   "last_seen": "2026-09-30",
-  "last_price": 1854.5,
+  "last_price": 1751.9000244140625,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1659,7 +1659,7 @@
   "price": 847.2000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 83",
   "last_seen": "2026-09-30",
-  "last_price": 812.2999877929688,
+  "last_price": 776.5999755859375,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1672,7 +1672,7 @@
   "price": 7534.5,
   "detail": "Cleared every entry rule \u00b7 rank 82",
   "last_seen": "2026-09-27",
-  "last_price": 7247.0,
+  "last_price": 7167.5,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1685,9 +1685,9 @@
   "price": 834.8499755859375,
   "detail": "Cleared every entry rule \u00b7 rank 171",
   "last_seen": "2026-10-07",
-  "last_price": 823.75,
-  "active": true,
-  "ended": null
+  "last_price": 802.9000244140625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -1697,8 +1697,8 @@
   "date": "2026-09-27",
   "price": 2163.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 131",
-  "last_seen": "2026-10-07",
-  "last_price": 2238.5,
+  "last_seen": "2026-10-08",
+  "last_price": 2119.800048828125,
   "active": true,
   "ended": null
  },
@@ -1711,7 +1711,7 @@
   "price": 1513.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 245",
   "last_seen": "2026-09-27",
-  "last_price": 1462.4000244140625,
+  "last_price": 1431.0999755859375,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1724,7 +1724,7 @@
   "price": 184.14999389648438,
   "detail": "Cleared every entry rule \u00b7 rank 202",
   "last_seen": "2026-09-29",
-  "last_price": 184.19000244140625,
+  "last_price": 175.7899932861328,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1736,8 +1736,8 @@
   "date": "2026-09-27",
   "price": 2719.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 17",
-  "last_seen": "2026-10-07",
-  "last_price": 2810.10009765625,
+  "last_seen": "2026-10-08",
+  "last_price": 2776.699951171875,
   "active": true,
   "ended": null
  },
@@ -1750,7 +1750,7 @@
   "price": 697.6500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 126",
   "last_seen": "2026-09-27",
-  "last_price": 683.4000244140625,
+  "last_price": 665.6500244140625,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1763,7 +1763,7 @@
   "price": 1102.550048828125,
   "detail": "Cleared every entry rule \u00b7 rank 6",
   "last_seen": "2026-10-02",
-  "last_price": 1022.0,
+  "last_price": 991.5999755859375,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -1776,7 +1776,7 @@
   "price": 2265.60009765625,
   "detail": "Cleared every entry rule \u00b7 rank 229",
   "last_seen": "2026-09-27",
-  "last_price": 2150.39990234375,
+  "last_price": 2029.5999755859375,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1788,8 +1788,8 @@
   "date": "2026-09-27",
   "price": 731.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 207",
-  "last_seen": "2026-10-07",
-  "last_price": 732.2999877929688,
+  "last_seen": "2026-10-08",
+  "last_price": 713.0999755859375,
   "active": true,
   "ended": null
  },
@@ -1802,7 +1802,7 @@
   "price": 1121.4000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 122",
   "last_seen": "2026-09-29",
-  "last_price": 1032.699951171875,
+  "last_price": 1014.2000122070312,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1815,7 +1815,7 @@
   "price": 2719.800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 2810.10009765625,
+  "last_price": 2776.699951171875,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1828,7 +1828,7 @@
   "price": 1652.800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-29",
-  "last_price": 1655.5999755859375,
+  "last_price": 1608.199951171875,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1841,7 +1841,7 @@
   "price": 21.40999984741211,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-29",
-  "last_price": 19.149999618530273,
+  "last_price": 18.40999984741211,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1854,7 +1854,7 @@
   "price": 8646.0,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-09-30",
-  "last_price": 7991.0,
+  "last_price": 7712.0,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1867,9 +1867,9 @@
   "price": 125.66999816894531,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 114.73999786376953,
-  "active": true,
-  "ended": null
+  "last_price": 107.08000183105469,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "IPO",
@@ -1879,8 +1879,8 @@
   "date": "2026-09-27",
   "price": 732.0499877929688,
   "detail": "Listed 23 Apr 2026 \u00b7 listing-day high Rs 348",
-  "last_seen": "2026-10-07",
-  "last_price": 724.4500122070312,
+  "last_seen": "2026-10-08",
+  "last_price": 709.25,
   "active": true,
   "ended": null
  },
@@ -1892,8 +1892,8 @@
   "date": "2026-09-27",
   "price": 55.93000030517578,
   "detail": "Listed 14 Aug 2026 \u00b7 listing-day high Rs 43",
-  "last_seen": "2026-10-07",
-  "last_price": 68.31999969482422,
+  "last_seen": "2026-10-08",
+  "last_price": 66.77999877929688,
   "active": true,
   "ended": null
  },
@@ -1906,7 +1906,7 @@
   "price": 1085.4000244140625,
   "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 854",
   "last_seen": "2026-09-29",
-  "last_price": 1087.9000244140625,
+  "last_price": 1041.5,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1919,7 +1919,7 @@
   "price": 1159.449951171875,
   "detail": "Cleared every entry rule \u00b7 rank 39",
   "last_seen": "2026-09-30",
-  "last_price": 1130.199951171875,
+  "last_price": 1105.800048828125,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1932,7 +1932,7 @@
   "price": 650.3499755859375,
   "detail": "Cleared every entry rule \u00b7 rank 149",
   "last_seen": "2026-09-30",
-  "last_price": 626.5499877929688,
+  "last_price": 594.5999755859375,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1945,7 +1945,7 @@
   "price": 4571.2001953125,
   "detail": "Cleared every entry rule \u00b7 rank 26",
   "last_seen": "2026-10-06",
-  "last_price": 4345.89990234375,
+  "last_price": 4142.10009765625,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -1957,8 +1957,8 @@
   "date": "2026-09-28",
   "price": 57.400001525878906,
   "detail": "Cleared every entry rule \u00b7 rank 108",
-  "last_seen": "2026-10-07",
-  "last_price": 57.79999923706055,
+  "last_seen": "2026-10-08",
+  "last_price": 55.9900016784668,
   "active": true,
   "ended": null
  },
@@ -1970,8 +1970,8 @@
   "date": "2026-09-28",
   "price": 477.54998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 27",
-  "last_seen": "2026-10-07",
-  "last_price": 480.8999938964844,
+  "last_seen": "2026-10-08",
+  "last_price": 482.20001220703125,
   "active": true,
   "ended": null
  },
@@ -1984,7 +1984,7 @@
   "price": 62.779998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 171",
   "last_seen": "2026-10-05",
-  "last_price": 59.2599983215332,
+  "last_price": 58.709999084472656,
   "active": false,
   "ended": "2026-10-06"
  },
@@ -1997,9 +1997,9 @@
   "price": 260.2300109863281,
   "detail": "Cleared every entry rule \u00b7 rank 29",
   "last_seen": "2026-10-07",
-  "last_price": 263.8999938964844,
-  "active": true,
-  "ended": null
+  "last_price": 239.6999969482422,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2010,7 +2010,7 @@
   "price": 452.25,
   "detail": "Cleared every entry rule \u00b7 rank 14",
   "last_seen": "2026-10-05",
-  "last_price": 498.79998779296875,
+  "last_price": 483.25,
   "active": false,
   "ended": "2026-10-06"
  },
@@ -2036,7 +2036,7 @@
   "price": 1918.0,
   "detail": "Cleared every entry rule \u00b7 rank 59",
   "last_seen": "2026-09-28",
-  "last_price": 1831.699951171875,
+  "last_price": 1854.300048828125,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -2048,8 +2048,8 @@
   "date": "2026-09-28",
   "price": 79.5999984741211,
   "detail": "Cleared every entry rule \u00b7 rank 238",
-  "last_seen": "2026-10-07",
-  "last_price": 84.2300033569336,
+  "last_seen": "2026-10-08",
+  "last_price": 81.12999725341797,
   "active": true,
   "ended": null
  },
@@ -2062,7 +2062,7 @@
   "price": 58.849998474121094,
   "detail": "Cleared every entry rule \u00b7 rank 103",
   "last_seen": "2026-09-28",
-  "last_price": 52.849998474121094,
+  "last_price": 50.25,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -2075,7 +2075,7 @@
   "price": 154.0,
   "detail": "Cleared every entry rule \u00b7 rank 98",
   "last_seen": "2026-09-28",
-  "last_price": 158.32000732421875,
+  "last_price": 157.30999755859375,
   "active": false,
   "ended": "2026-09-29"
  },
@@ -2087,8 +2087,8 @@
   "date": "2026-09-28",
   "price": 370.75,
   "detail": "Cleared every entry rule \u00b7 rank 106",
-  "last_seen": "2026-10-07",
-  "last_price": 373.29998779296875,
+  "last_seen": "2026-10-08",
+  "last_price": 360.25,
   "active": true,
   "ended": null
  },
@@ -2101,7 +2101,7 @@
   "price": 20.329999923706055,
   "detail": "Cleared every entry rule \u00b7 rank 62",
   "last_seen": "2026-09-29",
-  "last_price": 19.149999618530273,
+  "last_price": 18.40999984741211,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -2114,7 +2114,7 @@
   "price": 4117.89990234375,
   "detail": "Cleared every entry rule \u00b7 rank 78",
   "last_seen": "2026-09-29",
-  "last_price": 4337.60009765625,
+  "last_price": 4114.7001953125,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -2127,7 +2127,7 @@
   "price": 108.44000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 13",
   "last_seen": "2026-09-29",
-  "last_price": 103.56999969482422,
+  "last_price": 99.72000122070312,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -2139,8 +2139,8 @@
   "date": "2026-09-29",
   "price": 2914.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 158",
-  "last_seen": "2026-10-07",
-  "last_price": 3048.199951171875,
+  "last_seen": "2026-10-08",
+  "last_price": 2883.699951171875,
   "active": true,
   "ended": null
  },
@@ -2153,7 +2153,7 @@
   "price": 1212.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 84",
   "last_seen": "2026-09-29",
-  "last_price": 1092.9000244140625,
+  "last_price": 1025.5999755859375,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -2166,7 +2166,7 @@
   "price": 137.77000427246094,
   "detail": "Cleared every entry rule \u00b7 rank 225",
   "last_seen": "2026-10-02",
-  "last_price": 133.8000030517578,
+  "last_price": 127.70999908447266,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -2179,9 +2179,9 @@
   "price": 310.20001220703125,
   "detail": "Cleared every entry rule \u00b7 rank 187",
   "last_seen": "2026-10-07",
-  "last_price": 308.29998779296875,
-  "active": true,
-  "ended": null
+  "last_price": 289.0,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2191,8 +2191,8 @@
   "date": "2026-09-29",
   "price": 273.54998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 2",
-  "last_seen": "2026-10-07",
-  "last_price": 299.20001220703125,
+  "last_seen": "2026-10-08",
+  "last_price": 296.45001220703125,
   "active": true,
   "ended": null
  },
@@ -2205,7 +2205,7 @@
   "price": 7016.5,
   "detail": "Cleared every entry rule \u00b7 rank 228",
   "last_seen": "2026-10-06",
-  "last_price": 6903.5,
+  "last_price": 6929.0,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -2218,7 +2218,7 @@
   "price": 555.7000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 51",
   "last_seen": "2026-09-30",
-  "last_price": 545.4500122070312,
+  "last_price": 542.4000244140625,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -2230,8 +2230,8 @@
   "date": "2026-09-29",
   "price": 22535.0,
   "detail": "Cleared every entry rule \u00b7 rank 151",
-  "last_seen": "2026-10-07",
-  "last_price": 24685.0,
+  "last_seen": "2026-10-08",
+  "last_price": 24470.0,
   "active": true,
   "ended": null
  },
@@ -2244,9 +2244,9 @@
   "price": 1559.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 233",
   "last_seen": "2026-10-07",
-  "last_price": 1561.800048828125,
-  "active": true,
-  "ended": null
+  "last_price": 1505.5999755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -2256,8 +2256,8 @@
   "date": "2026-09-29",
   "price": 553.25,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 636.5,
+  "last_seen": "2026-10-08",
+  "last_price": 614.2000122070312,
   "active": true,
   "ended": null
  },
@@ -2270,9 +2270,9 @@
   "price": 3620.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 177",
   "last_seen": "2026-10-07",
-  "last_price": 3569.800048828125,
-  "active": true,
-  "ended": null
+  "last_price": 3435.60009765625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2283,7 +2283,7 @@
   "price": 470.29998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 165",
   "last_seen": "2026-10-02",
-  "last_price": 460.3999938964844,
+  "last_price": 442.3999938964844,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -2296,9 +2296,9 @@
   "price": 460.3999938964844,
   "detail": "Cleared every entry rule \u00b7 rank 163",
   "last_seen": "2026-10-07",
-  "last_price": 471.1000061035156,
-  "active": true,
-  "ended": null
+  "last_price": 449.0,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2309,9 +2309,9 @@
   "price": 591.6500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 75",
   "last_seen": "2026-10-07",
-  "last_price": 586.1500244140625,
-  "active": true,
-  "ended": null
+  "last_price": 565.8499755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2322,7 +2322,7 @@
   "price": 2076.699951171875,
   "detail": "Cleared every entry rule \u00b7 rank 136",
   "last_seen": "2026-09-30",
-  "last_price": 1849.199951171875,
+  "last_price": 1770.199951171875,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -2335,7 +2335,7 @@
   "price": 131.72999572753906,
   "detail": "Cleared every entry rule \u00b7 rank 125",
   "last_seen": "2026-09-30",
-  "last_price": 114.73999786376953,
+  "last_price": 107.08000183105469,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -2347,8 +2347,8 @@
   "date": "2026-09-30",
   "price": 401.04998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 43",
-  "last_seen": "2026-10-07",
-  "last_price": 393.75,
+  "last_seen": "2026-10-08",
+  "last_price": 376.1499938964844,
   "active": true,
   "ended": null
  },
@@ -2360,8 +2360,8 @@
   "date": "2026-09-30",
   "price": 869.7999877929688,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 901.4000244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 859.0,
   "active": true,
   "ended": null
  },
@@ -2374,9 +2374,9 @@
   "price": 1401.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 200",
   "last_seen": "2026-10-07",
-  "last_price": 1460.199951171875,
-  "active": true,
-  "ended": null
+  "last_price": 1382.300048828125,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2387,9 +2387,9 @@
   "price": 1104.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 145",
   "last_seen": "2026-10-07",
-  "last_price": 1115.0,
-  "active": true,
-  "ended": null
+  "last_price": 1084.699951171875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2399,8 +2399,8 @@
   "date": "2026-10-01",
   "price": 729.5,
   "detail": "Cleared every entry rule \u00b7 rank 3",
-  "last_seen": "2026-10-07",
-  "last_price": 803.7999877929688,
+  "last_seen": "2026-10-08",
+  "last_price": 764.2000122070312,
   "active": true,
   "ended": null
  },
@@ -2413,7 +2413,7 @@
   "price": 1241.5,
   "detail": "Cleared every entry rule \u00b7 rank 172",
   "last_seen": "2026-10-02",
-  "last_price": 1226.5999755859375,
+  "last_price": 1176.800048828125,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -2426,9 +2426,9 @@
   "price": 2093.39990234375,
   "detail": "Cleared every entry rule \u00b7 rank 114",
   "last_seen": "2026-10-07",
-  "last_price": 2123.60009765625,
-  "active": true,
-  "ended": null
+  "last_price": 1958.0999755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "OBV",
@@ -2439,9 +2439,9 @@
   "price": 477.1499938964844,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-07",
-  "last_price": 479.8500061035156,
-  "active": true,
-  "ended": null
+  "last_price": 450.6000061035156,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2452,7 +2452,7 @@
   "price": 103.88999938964844,
   "detail": "Cleared every entry rule \u00b7 rank 132",
   "last_seen": "2026-10-05",
-  "last_price": 111.62999725341797,
+  "last_price": 109.73999786376953,
   "active": false,
   "ended": "2026-10-06"
  },
@@ -2464,8 +2464,8 @@
   "date": "2026-10-05",
   "price": 1386.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 184",
-  "last_seen": "2026-10-07",
-  "last_price": 1438.0,
+  "last_seen": "2026-10-08",
+  "last_price": 1340.4000244140625,
   "active": true,
   "ended": null
  },
@@ -2477,8 +2477,8 @@
   "date": "2026-10-05",
   "price": 268.70001220703125,
   "detail": "Cleared every entry rule \u00b7 rank 8",
-  "last_seen": "2026-10-07",
-  "last_price": 276.5,
+  "last_seen": "2026-10-08",
+  "last_price": 254.3000030517578,
   "active": true,
   "ended": null
  },
@@ -2491,9 +2491,9 @@
   "price": 888.25,
   "detail": "Cleared every entry rule \u00b7 rank 160",
   "last_seen": "2026-10-07",
-  "last_price": 905.75,
-  "active": true,
-  "ended": null
+  "last_price": 857.8499755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2503,8 +2503,8 @@
   "date": "2026-10-05",
   "price": 1944.9000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 110",
-  "last_seen": "2026-10-07",
-  "last_price": 1996.0,
+  "last_seen": "2026-10-08",
+  "last_price": 1998.5,
   "active": true,
   "ended": null
  },
@@ -2516,10 +2516,10 @@
   "date": "2026-10-05",
   "price": 281.0,
   "detail": "Cleared every entry rule \u00b7 rank 111",
-  "last_seen": "2026-10-05",
-  "last_price": 311.79998779296875,
-  "active": false,
-  "ended": "2026-10-06"
+  "last_seen": "2026-10-08",
+  "last_price": 303.25,
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
@@ -2530,9 +2530,9 @@
   "price": 507.3999938964844,
   "detail": "Cleared every entry rule \u00b7 rank 54",
   "last_seen": "2026-10-07",
-  "last_price": 516.5999755859375,
-  "active": true,
-  "ended": null
+  "last_price": 493.1499938964844,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2543,9 +2543,9 @@
   "price": 529.25,
   "detail": "Cleared every entry rule \u00b7 rank 18",
   "last_seen": "2026-10-07",
-  "last_price": 534.4000244140625,
-  "active": true,
-  "ended": null
+  "last_price": 505.75,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2555,10 +2555,10 @@
   "date": "2026-10-05",
   "price": 230.27000427246094,
   "detail": "Cleared every entry rule \u00b7 rank 213",
-  "last_seen": "2026-10-05",
-  "last_price": 235.86000061035156,
-  "active": false,
-  "ended": "2026-10-06"
+  "last_seen": "2026-10-08",
+  "last_price": 225.07000732421875,
+  "active": true,
+  "ended": null
  },
  {
   "type": "OBV",
@@ -2568,8 +2568,8 @@
   "date": "2026-10-05",
   "price": 87.19000244140625,
   "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
-  "last_seen": "2026-10-07",
-  "last_price": 90.4800033569336,
+  "last_seen": "2026-10-08",
+  "last_price": 85.87999725341797,
   "active": true,
   "ended": null
  },
@@ -2581,8 +2581,8 @@
   "date": "2026-10-05",
   "price": 789.0499877929688,
   "detail": "Listed 16 Sep 2026 \u00b7 listing-day high Rs 671",
-  "last_seen": "2026-10-07",
-  "last_price": 878.9000244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 878.2000122070312,
   "active": true,
   "ended": null
  },
@@ -2595,7 +2595,7 @@
   "price": 1269.5999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 252",
   "last_seen": "2026-10-06",
-  "last_price": 1256.699951171875,
+  "last_price": 1209.4000244140625,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -2608,9 +2608,9 @@
   "price": 5537.0,
   "detail": "Cleared every entry rule \u00b7 rank 172",
   "last_seen": "2026-10-07",
-  "last_price": 5625.5,
-  "active": true,
-  "ended": null
+  "last_price": 5380.5,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2621,9 +2621,9 @@
   "price": 2442.39990234375,
   "detail": "Cleared every entry rule \u00b7 rank 29",
   "last_seen": "2026-10-07",
-  "last_price": 2434.0,
-  "active": true,
-  "ended": null
+  "last_price": 2406.699951171875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2634,9 +2634,9 @@
   "price": 851.2000122070312,
   "detail": "Cleared every entry rule \u00b7 rank 61",
   "last_seen": "2026-10-07",
-  "last_price": 834.0499877929688,
-  "active": true,
-  "ended": null
+  "last_price": 802.1500244140625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2647,7 +2647,7 @@
   "price": 30.950000762939453,
   "detail": "Cleared every entry rule \u00b7 rank 202",
   "last_seen": "2026-10-06",
-  "last_price": 32.4900016784668,
+  "last_price": 34.880001068115234,
   "active": false,
   "ended": "2026-10-07"
  },
@@ -2660,9 +2660,9 @@
   "price": 564.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 16",
   "last_seen": "2026-10-07",
-  "last_price": 556.25,
-  "active": true,
-  "ended": null
+  "last_price": 542.5499877929688,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2672,8 +2672,8 @@
   "date": "2026-10-06",
   "price": 8536.0,
   "detail": "Cleared every entry rule \u00b7 rank 191",
-  "last_seen": "2026-10-07",
-  "last_price": 8490.0,
+  "last_seen": "2026-10-08",
+  "last_price": 8417.5,
   "active": true,
   "ended": null
  },
@@ -2685,10 +2685,10 @@
   "date": "2026-10-06",
   "price": 97.2300033569336,
   "detail": "Cleared every entry rule \u00b7 rank 3",
-  "last_seen": "2026-10-06",
-  "last_price": 101.2300033569336,
-  "active": false,
-  "ended": "2026-10-07"
+  "last_seen": "2026-10-08",
+  "last_price": 98.25,
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
@@ -2698,8 +2698,8 @@
   "date": "2026-10-06",
   "price": 335.25,
   "detail": "Cleared every entry rule \u00b7 rank 47",
-  "last_seen": "2026-10-07",
-  "last_price": 336.45001220703125,
+  "last_seen": "2026-10-08",
+  "last_price": 331.3500061035156,
   "active": true,
   "ended": null
  },
@@ -2711,8 +2711,8 @@
   "date": "2026-10-06",
   "price": 162.19000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 100",
-  "last_seen": "2026-10-07",
-  "last_price": 158.32000732421875,
+  "last_seen": "2026-10-08",
+  "last_price": 157.30999755859375,
   "active": true,
   "ended": null
  },
@@ -2725,9 +2725,9 @@
   "price": 126.02999877929688,
   "detail": "Cleared every entry rule \u00b7 rank 1",
   "last_seen": "2026-10-07",
-  "last_price": 125.77999877929688,
-  "active": true,
-  "ended": null
+  "last_price": 118.9800033569336,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2738,9 +2738,9 @@
   "price": 1649.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 19",
   "last_seen": "2026-10-07",
-  "last_price": 1633.0999755859375,
-  "active": true,
-  "ended": null
+  "last_price": 1549.9000244140625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2751,9 +2751,9 @@
   "price": 187.2100067138672,
   "detail": "Cleared every entry rule \u00b7 rank 184",
   "last_seen": "2026-10-07",
-  "last_price": 184.19000244140625,
-  "active": true,
-  "ended": null
+  "last_price": 175.7899932861328,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "IPO",
@@ -2764,9 +2764,9 @@
   "price": 1093.4000244140625,
   "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 854",
   "last_seen": "2026-10-07",
-  "last_price": 1087.9000244140625,
-  "active": true,
-  "ended": null
+  "last_price": 1041.5,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "IPO",
@@ -2776,8 +2776,8 @@
   "date": "2026-10-06",
   "price": 511.1499938964844,
   "detail": "Listed 01 Jul 2026 \u00b7 listing-day high Rs 469",
-  "last_seen": "2026-10-07",
-  "last_price": 526.9000244140625,
+  "last_seen": "2026-10-08",
+  "last_price": 532.5999755859375,
   "active": true,
   "ended": null
  },
@@ -2789,8 +2789,8 @@
   "date": "2026-10-06",
   "price": 197.33999633789062,
   "detail": "Listed 08 Jul 2026 \u00b7 listing-day high Rs 192",
-  "last_seen": "2026-10-07",
-  "last_price": 211.86000061035156,
+  "last_seen": "2026-10-08",
+  "last_price": 202.16000366210938,
   "active": true,
   "ended": null
  },
@@ -2803,9 +2803,9 @@
   "price": 626.5499877929688,
   "detail": "Cleared every entry rule \u00b7 rank 148",
   "last_seen": "2026-10-07",
-  "last_price": 626.5499877929688,
-  "active": true,
-  "ended": null
+  "last_price": 594.5999755859375,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2815,8 +2815,8 @@
   "date": "2026-10-07",
   "price": 1612.300048828125,
   "detail": "Cleared every entry rule \u00b7 rank 73",
-  "last_seen": "2026-10-07",
-  "last_price": 1612.300048828125,
+  "last_seen": "2026-10-08",
+  "last_price": 1531.0,
   "active": true,
   "ended": null
  },
@@ -2829,9 +2829,9 @@
   "price": 172.4600067138672,
   "detail": "Cleared every entry rule \u00b7 rank 169",
   "last_seen": "2026-10-07",
-  "last_price": 172.4600067138672,
-  "active": true,
-  "ended": null
+  "last_price": 166.63999938964844,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2842,9 +2842,9 @@
   "price": 607.0999755859375,
   "detail": "Cleared every entry rule \u00b7 rank 161",
   "last_seen": "2026-10-07",
-  "last_price": 607.0999755859375,
-  "active": true,
-  "ended": null
+  "last_price": 586.1500244140625,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2854,8 +2854,8 @@
   "date": "2026-10-07",
   "price": 101.0999984741211,
   "detail": "Cleared every entry rule \u00b7 rank 168",
-  "last_seen": "2026-10-07",
-  "last_price": 101.0999984741211,
+  "last_seen": "2026-10-08",
+  "last_price": 96.18000030517578,
   "active": true,
   "ended": null
  },
@@ -2868,9 +2868,9 @@
   "price": 190.35000610351562,
   "detail": "Cleared every entry rule \u00b7 rank 180",
   "last_seen": "2026-10-07",
-  "last_price": 190.35000610351562,
-  "active": true,
-  "ended": null
+  "last_price": 182.02999877929688,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2881,9 +2881,9 @@
   "price": 537.0,
   "detail": "Cleared every entry rule \u00b7 rank 50",
   "last_seen": "2026-10-07",
-  "last_price": 537.0,
-  "active": true,
-  "ended": null
+  "last_price": 501.29998779296875,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "Entry",
@@ -2893,8 +2893,8 @@
   "date": "2026-10-07",
   "price": 1343.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 154",
-  "last_seen": "2026-10-07",
-  "last_price": 1343.800048828125,
+  "last_seen": "2026-10-08",
+  "last_price": 1309.199951171875,
   "active": true,
   "ended": null
  },
@@ -2907,9 +2907,9 @@
   "price": 1704.5,
   "detail": "Cleared every entry rule \u00b7 rank 237",
   "last_seen": "2026-10-07",
-  "last_price": 1704.5,
-  "active": true,
-  "ended": null
+  "last_price": 1666.5,
+  "active": false,
+  "ended": "2026-10-08"
  },
  {
   "type": "IPO",
@@ -2919,8 +2919,112 @@
   "date": "2026-10-07",
   "price": 227.05999755859375,
   "detail": "Listed 08 Sep 2026 \u00b7 listing-day high Rs 222",
-  "last_seen": "2026-10-07",
-  "last_price": 227.05999755859375,
+  "last_seen": "2026-10-08",
+  "last_price": 232.8000030517578,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "ALICON",
+  "name": "ALICON CASTALLOY LIMITED",
+  "sector": "Industrials",
+  "date": "2026-10-08",
+  "price": 859.0,
+  "detail": "Cleared every entry rule \u00b7 rank 75",
+  "last_seen": "2026-10-08",
+  "last_price": 859.0,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "INDOAMIN",
+  "name": "INDO AMINES LIMITED",
+  "sector": "Basic Materials",
+  "date": "2026-10-08",
+  "price": 151.6999969482422,
+  "detail": "Cleared every entry rule \u00b7 rank 13",
+  "last_seen": "2026-10-08",
+  "last_price": 151.6999969482422,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "MACPOWER",
+  "name": "MACPOWER CNC MACHINES LTD",
+  "sector": "Industrials",
+  "date": "2026-10-08",
+  "price": 1981.0,
+  "detail": "Cleared every entry rule \u00b7 rank 53",
+  "last_seen": "2026-10-08",
+  "last_price": 1981.0,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "MUKANDLTD",
+  "name": "MUKAND LTD.",
+  "sector": "Basic Materials",
+  "date": "2026-10-08",
+  "price": 174.2899932861328,
+  "detail": "Cleared every entry rule \u00b7 rank 39",
+  "last_seen": "2026-10-08",
+  "last_price": 174.2899932861328,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "RPEL",
+  "name": "RAGHAV PRODUCTIVITY ENH L",
+  "sector": "Basic Materials",
+  "date": "2026-10-08",
+  "price": 1717.199951171875,
+  "detail": "Cleared every entry rule \u00b7 rank 115",
+  "last_seen": "2026-10-08",
+  "last_price": 1717.199951171875,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "UNIMECH",
+  "name": "UNIMECH AEROSPACE N MFG L",
+  "sector": "Industrials",
+  "date": "2026-10-08",
+  "price": 1751.9000244140625,
+  "detail": "Cleared every entry rule \u00b7 rank 26",
+  "last_seen": "2026-10-08",
+  "last_price": 1751.9000244140625,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "WHEELS",
+  "name": "WHEELS INDIA LTD",
+  "sector": "Consumer Cyclical",
+  "date": "2026-10-08",
+  "price": 2208.199951171875,
+  "detail": "Cleared every entry rule \u00b7 rank 83",
+  "last_seen": "2026-10-08",
+  "last_price": 2208.199951171875,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "IPO",
+  "symbol": "FREDUN",
+  "name": "FREDUN PHARMACEUTICALS L",
+  "sector": "Healthcare",
+  "date": "2026-10-08",
+  "price": 1531.699951171875,
+  "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 1,500",
+  "last_seen": "2026-10-08",
+  "last_price": 1531.699951171875,
   "active": true,
   "ended": null
  }

@@ -1,17 +1,7 @@
 {
   "holdings": {
-    "TNPETRO.NS": {
-      "entry_price": 132.92999267578125,
-      "entry_date": "2026-09-27",
-      "weight": 0.0475
-    },
     "MANALIPETC.NS": {
       "entry_price": 84.6500015258789,
-      "entry_date": "2026-09-27",
-      "weight": 0.0475
-    },
-    "WINDLAS.NS": {
-      "entry_price": 1102.550048828125,
       "entry_date": "2026-09-27",
       "weight": 0.0475
     },
@@ -40,18 +30,28 @@
       "entry_date": "2026-09-27",
       "weight": 0.0475
     },
-    "SOLARA.NS": {
-      "entry_price": 739.1500244140625,
-      "entry_date": "2026-09-27",
-      "weight": 0.0475
-    },
     "GANDHAR.NS": {
       "entry_price": 282.6000061035156,
       "entry_date": "2026-10-01",
       "weight": 0.0475
+    },
+    "PREMIERPOL.NS": {
+      "entry_price": 98.25,
+      "entry_date": "2026-10-08",
+      "weight": 0.0475
+    },
+    "SOTL.NS": {
+      "entry_price": 764.2000122070312,
+      "entry_date": "2026-10-08",
+      "weight": 0.0475
+    },
+    "KOPRAN.NS": {
+      "entry_price": 254.3000030517578,
+      "entry_date": "2026-10-08",
+      "weight": 0.0475
     }
   },
-  "last_rebalance": "2026-10-01",
+  "last_rebalance": "2026-10-08",
   "history": [
     {
       "date": "2026-09-27",
@@ -77,101 +77,82 @@
       "sold": [
         "AVTNPL"
       ]
+    },
+    {
+      "date": "2026-10-08",
+      "bought": [
+        "PREMIERPOL",
+        "SOTL",
+        "KOPRAN"
+      ],
+      "sold": [
+        "TNPETRO",
+        "WINDLAS",
+        "SOLARA"
+      ]
     }
   ],
   "buyable": [
-    "AARTIPHARM.NS",
-    "ACE.NS",
-    "AEGISLOG.NS",
     "AETHER.NS",
-    "AJANTPHARM.NS",
     "AKUMS.NS",
-    "ALIVUS.NS",
-    "ARROWGREEN.NS",
-    "ASKAUTOLTD.NS",
+    "ALICON.NS",
     "AVALON.NS",
     "AZAD.NS",
     "BIRLACABLE.NS",
-    "BLUSPRING.NS",
     "BOSCH-HCIL.NS",
-    "CASTROLIND.NS",
     "CHENNPETRO.NS",
-    "CONFIPET.NS",
-    "CYIENT.NS",
     "DEEPINDS.NS",
     "DYNAMATECH.NS",
     "EIMCOELECO.NS",
     "EMIL.NS",
-    "ENGINERSIN.NS",
     "FCL.NS",
     "FINCABLES.NS",
-    "FINEORG.NS",
-    "GALAXYSURF.NS",
     "GANDHAR.NS",
     "GLAND.NS",
     "GMMPFAUDLR.NS",
-    "GNFC.NS",
-    "GPPL.NS",
-    "GRAPHITE.NS",
-    "ICIL.NS",
-    "INDGN.NS",
+    "INDOAMIN.NS",
     "INDOBORAX.NS",
-    "JASH.NS",
+    "IOLCP.NS",
     "JGCHEM.NS",
-    "JYOTICNC.NS",
-    "KDDL.NS",
     "KINGFA.NS",
-    "KIRIINDUS.NS",
     "KOPRAN.NS",
     "KRISHANA.NS",
-    "KROSS.NS",
-    "KTKBANK.NS",
-    "LALPATHLAB.NS",
     "LLOYDSENGG.NS",
-    "LXCHEM.NS",
+    "MACPOWER.NS",
     "MANALIPETC.NS",
-    "MANINDS.NS",
     "MANORAMA.NS",
-    "MARKSANS.NS",
-    "MWL.NS",
+    "MARINE.NS",
+    "MUKANDLTD.NS",
     "NAVINFLUOR.NS",
     "NEOGEN.NS",
     "NRBBEARING.NS",
     "PAISALO.NS",
-    "PANAMAPET.NS",
+    "PARAGMILK.NS",
     "PGIL.NS",
-    "PRECWIRE.NS",
+    "PREMIERPOL.NS",
     "PTCIL.NS",
     "PVRINOX.NS",
     "QPOWER.NS",
-    "QUADFUTURE.NS",
     "RAMRAT.NS",
     "RATNAVEER.NS",
     "REDINGTON.NS",
     "RGL.NS",
-    "RML.NS",
-    "SAILIFE.NS",
+    "RPEL.NS",
     "SAMBHV.NS",
-    "SANATHAN.NS",
     "SBCL.NS",
     "SETL.NS",
     "SOMANYCERA.NS",
-    "SONACOMS.NS",
     "SOTL.NS",
     "STEELCAS.NS",
-    "STOVEKRAFT.NS",
     "SYRMA.NS",
-    "TBOTEK.NS",
-    "TEGA.NS",
+    "TATVA.NS",
     "THELEELA.NS",
-    "TNPETRO.NS",
-    "UFLEX.NS",
-    "UNIVCABLES.NS",
-    "VARROC.NS",
+    "UNIMECH.NS",
     "VENUSPIPES.NS",
-    "VINCOFE.NS",
     "VINDHYATEL.NS",
     "VSSL.NS",
+    "WELSPUNLIV.NS",
+    "WHEELS.NS",
     "WSTCSTPAPR.NS"
   ]
 }
