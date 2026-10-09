@@ -9233,7 +9233,7 @@
     "price": 98.25,
     "mcap": 1064,
     "rank": 2,
-    "rs": 96
+    "rs": 95
    },
    {
     "symbol": "SOTL",
@@ -9394,7 +9394,7 @@
     "sector": "Energy",
     "price": 1531.0,
     "mcap": 20862,
-    "rank": 60,
+    "rank": 59,
     "rs": 93
    },
    {
@@ -9412,8 +9412,8 @@
     "sector": "Industrials",
     "price": 1981.0,
     "mcap": 2161,
-    "rank": 63,
-    "rs": 96
+    "rank": 62,
+    "rs": 95
    },
    {
     "symbol": "JGCHEM",
@@ -9421,7 +9421,7 @@
     "sector": "Basic Materials",
     "price": 638.7,
     "mcap": 2389,
-    "rank": 66,
+    "rank": 67,
     "rs": 92
    },
    {
@@ -9430,7 +9430,7 @@
     "sector": "Consumer Cyclical",
     "price": 1943.8,
     "mcap": 5433,
-    "rank": 70,
+    "rank": 71,
     "rs": 85
    },
    {
@@ -9439,17 +9439,8 @@
     "sector": "Consumer Cyclical",
     "price": 510.2,
     "mcap": 5192,
-    "rank": 71,
+    "rank": 73,
     "rs": 93
-   },
-   {
-    "symbol": "SAMBHV",
-    "name": "SAMBHV STEEL TUBES LTD",
-    "sector": "Basic Materials",
-    "price": 157.31,
-    "mcap": 4852,
-    "rank": 76,
-    "rs": 86
    },
    {
     "symbol": "BIRLACABLE",
@@ -9461,13 +9452,22 @@
     "rs": 99
    },
    {
+    "symbol": "SAMBHV",
+    "name": "SAMBHV STEEL TUBES LTD",
+    "sector": "Basic Materials",
+    "price": 157.31,
+    "mcap": 4852,
+    "rank": 78,
+    "rs": 85
+   },
+   {
     "symbol": "TATVA",
     "name": "TATVA CHIN PHARM CHEM LTD",
     "sector": "Basic Materials",
     "price": 1855.6,
     "mcap": 4208,
-    "rank": 79,
-    "rs": 91
+    "rank": 80,
+    "rs": 90
    },
    {
     "symbol": "FCL",
@@ -9475,7 +9475,7 @@
     "sector": "Basic Materials",
     "price": 55.99,
     "mcap": 6292,
-    "rank": 80,
+    "rank": 81,
     "rs": 97
    },
    {
@@ -9484,7 +9484,7 @@
     "sector": "Industrials",
     "price": 859.0,
     "mcap": 1387,
-    "rank": 83,
+    "rank": 84,
     "rs": 76
    },
    {
@@ -9493,8 +9493,8 @@
     "sector": "Basic Materials",
     "price": 360.25,
     "mcap": 3681,
-    "rank": 84,
-    "rs": 87
+    "rank": 85,
+    "rs": 86
    },
    {
     "symbol": "REDINGTON",
@@ -9502,7 +9502,7 @@
     "sector": "Technology",
     "price": 388.0,
     "mcap": 32268,
-    "rank": 89,
+    "rank": 90,
     "rs": 88
    },
    {
@@ -9511,7 +9511,7 @@
     "sector": "Basic Materials",
     "price": 2119.8,
     "mcap": 4571,
-    "rank": 91,
+    "rank": 92,
     "rs": 90
    },
    {
@@ -9520,7 +9520,7 @@
     "sector": "Technology",
     "price": 1680.9,
     "mcap": 32754,
-    "rank": 99,
+    "rank": 101,
     "rs": 95
    },
    {
@@ -9529,7 +9529,7 @@
     "sector": "Consumer Defensive",
     "price": 1998.5,
     "mcap": 12277,
-    "rank": 100,
+    "rank": 102,
     "rs": 85
    },
    {
@@ -9538,7 +9538,7 @@
     "sector": "Healthcare",
     "price": 3079.1,
     "mcap": 48043,
-    "rank": 101,
+    "rank": 103,
     "rs": 89
    },
    {
@@ -9547,7 +9547,7 @@
     "sector": "Industrials",
     "price": 600.6,
     "mcap": 2505,
-    "rank": 102,
+    "rank": 104,
     "rs": 82
    },
    {
@@ -9556,7 +9556,7 @@
     "sector": "Technology",
     "price": 2302.0,
     "mcap": 15091,
-    "rank": 104,
+    "rank": 106,
     "rs": 97
    },
    {
@@ -9565,7 +9565,7 @@
     "sector": "Consumer Defensive",
     "price": 303.25,
     "mcap": 3527,
-    "rank": 105,
+    "rank": 107,
     "rs": 78
    },
    {
@@ -9574,8 +9574,8 @@
     "sector": "Consumer Cyclical",
     "price": 1272.3,
     "mcap": 11700,
-    "rank": 111,
-    "rs": 91
+    "rank": 113,
+    "rs": 90
    },
    {
     "symbol": "PTCIL",
@@ -9583,7 +9583,7 @@
     "sector": "Industrials",
     "price": 24470.0,
     "mcap": 33778,
-    "rank": 112,
+    "rank": 114,
     "rs": 87
    },
    {
@@ -9592,7 +9592,7 @@
     "sector": "Industrials",
     "price": 1050.6,
     "mcap": 6201,
-    "rank": 113,
+    "rank": 115,
     "rs": 97
    },
    {
@@ -9601,7 +9601,7 @@
     "sector": "Basic Materials",
     "price": 1744.1,
     "mcap": 22046,
-    "rank": 114,
+    "rank": 116,
     "rs": 92
    },
    {
@@ -9610,7 +9610,7 @@
     "sector": "Basic Materials",
     "price": 6804.0,
     "mcap": 9037,
-    "rank": 117,
+    "rank": 119,
     "rs": 87
    },
    {
@@ -9619,7 +9619,7 @@
     "sector": "Communication Services",
     "price": 1309.2,
     "mcap": 11583,
-    "rank": 120,
+    "rank": 122,
     "rs": 80
    },
    {
@@ -9628,7 +9628,7 @@
     "sector": "Consumer Cyclical",
     "price": 193.31,
     "mcap": 7891,
-    "rank": 124,
+    "rank": 126,
     "rs": 92
    },
    {
@@ -9637,7 +9637,7 @@
     "sector": "Industrials",
     "price": 2883.7,
     "mcap": 18904,
-    "rank": 131,
+    "rank": 132,
     "rs": 90
    },
    {
@@ -9646,7 +9646,7 @@
     "sector": "Healthcare",
     "price": 205.55,
     "mcap": 6038,
-    "rank": 136,
+    "rank": 137,
     "rs": 96
    },
    {
@@ -9655,8 +9655,8 @@
     "sector": "Basic Materials",
     "price": 8417.5,
     "mcap": 42442,
-    "rank": 138,
-    "rs": 84
+    "rank": 140,
+    "rs": 83
    },
    {
     "symbol": "LLOYDSENGG",
@@ -9664,7 +9664,7 @@
     "sector": "Industrials",
     "price": 96.18,
     "mcap": 15836,
-    "rank": 140,
+    "rank": 142,
     "rs": 90
    },
    {
@@ -9673,7 +9673,7 @@
     "sector": "Healthcare",
     "price": 786.7,
     "mcap": 12269,
-    "rank": 143,
+    "rank": 145,
     "rs": 88
    },
    {
@@ -9682,7 +9682,7 @@
     "sector": "Basic Materials",
     "price": 713.1,
     "mcap": 4741,
-    "rank": 148,
+    "rank": 151,
     "rs": 88
    },
    {
@@ -9691,7 +9691,7 @@
     "sector": "Consumer Cyclical",
     "price": 3873.2,
     "mcap": 4850,
-    "rank": 154,
+    "rank": 156,
     "rs": 86
    },
    {
@@ -9700,7 +9700,7 @@
     "sector": "Basic Materials",
     "price": 188.69,
     "mcap": 5745,
-    "rank": 155,
+    "rank": 157,
     "rs": 92
    },
    {
@@ -9709,7 +9709,7 @@
     "sector": "Industrials",
     "price": 1340.4,
     "mcap": 6234,
-    "rank": 157,
+    "rank": 159,
     "rs": 88
    },
    {
@@ -9718,7 +9718,7 @@
     "sector": "Industrials",
     "price": 1532.2,
     "mcap": 12547,
-    "rank": 168,
+    "rank": 170,
     "rs": 90
    },
    {
@@ -9727,7 +9727,7 @@
     "sector": "Consumer Cyclical",
     "price": 13391.0,
     "mcap": 9678,
-    "rank": 171,
+    "rank": 173,
     "rs": 87
    },
    {
@@ -9736,7 +9736,7 @@
     "sector": "Consumer Cyclical",
     "price": 586.95,
     "mcap": 19289,
-    "rank": 174,
+    "rank": 176,
     "rs": 80
    },
    {
@@ -9745,7 +9745,7 @@
     "sector": "Financial Services",
     "price": 81.13,
     "mcap": 7627,
-    "rank": 176,
+    "rank": 178,
     "rs": 94
    },
    {
@@ -9754,8 +9754,8 @@
     "sector": "Healthcare",
     "price": 1505.6,
     "mcap": 32103,
-    "rank": 177,
-    "rs": 88
+    "rank": 179,
+    "rs": 87
    },
    {
     "symbol": "WELSPUNLIV",
@@ -9763,7 +9763,7 @@
     "sector": "Consumer Cyclical",
     "price": 225.07,
     "mcap": 21679,
-    "rank": 185,
+    "rank": 187,
     "rs": 92
    },
    {
@@ -9772,7 +9772,7 @@
     "sector": "Industrials",
     "price": 408.35,
     "mcap": 8579,
-    "rank": 187,
+    "rank": 189,
     "rs": 99
    }
   ],
@@ -9801,7 +9801,7 @@
     "sector": "Industrials",
     "price": 565.85,
     "mcap": 3762,
-    "rank": 78,
+    "rank": 79,
     "rs": 74
    },
    {
@@ -9810,7 +9810,7 @@
     "sector": "Industrials",
     "price": 859.0,
     "mcap": 1387,
-    "rank": 83,
+    "rank": 84,
     "rs": 76
    },
    {
@@ -9819,7 +9819,7 @@
     "sector": "Real Estate",
     "price": 34.88,
     "mcap": 6607,
-    "rank": 86,
+    "rank": 87,
     "rs": 96
    },
    {
@@ -9828,7 +9828,7 @@
     "sector": "Technology",
     "price": 1790.2,
     "mcap": 3825,
-    "rank": 116,
+    "rank": 118,
     "rs": 72
    },
    {
@@ -9837,7 +9837,7 @@
     "sector": "Communication Services",
     "price": 614.2,
     "mcap": 24703,
-    "rank": 123,
+    "rank": 125,
     "rs": 68
    },
    {
@@ -9846,8 +9846,8 @@
     "sector": "Industrials",
     "price": 1529.7,
     "mcap": 21949,
-    "rank": 161,
-    "rs": 77
+    "rank": 163,
+    "rs": 76
    }
   ],
   "IPO": [
@@ -9885,7 +9885,7 @@
     "price": 372.15,
     "mcap": 6754,
     "rank": null,
-    "rs": 90
+    "rs": 89
    },
    {
     "symbol": "KMCSHIL",
