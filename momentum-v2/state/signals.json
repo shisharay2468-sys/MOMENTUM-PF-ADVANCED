@@ -1281,8 +1281,8 @@
   "date": "2026-09-27",
   "price": 224.3800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
-  "last_seen": "2026-10-05",
-  "last_price": 204.36000061035156,
+  "last_seen": "2026-10-13",
+  "last_price": 207.8699951171875,
   "active": true,
   "ended": null
  },
@@ -2023,7 +2023,7 @@
   "price": 215.94000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 20",
   "last_seen": "2026-09-29",
-  "last_price": 204.36000061035156,
+  "last_price": 207.8699951171875,
   "active": false,
   "ended": "2026-09-30"
  },
