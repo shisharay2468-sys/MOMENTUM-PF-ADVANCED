@@ -10018,22 +10018,22 @@
     "rs": 93
    },
    {
+    "symbol": "UNIMECH",
+    "name": "UNIMECH AEROSPACE N MFG L",
+    "sector": "Industrials",
+    "price": 1734.8,
+    "mcap": 9148,
+    "rank": 22,
+    "rs": 94
+   },
+   {
     "symbol": "GALAXYSURF",
     "name": "GALAXY SURFACTANTS LTD",
     "sector": "Basic Materials",
     "price": 2502.2,
     "mcap": 8979,
-    "rank": 22,
+    "rank": 23,
     "rs": 78
-   },
-   {
-    "symbol": "UNIMECH",
-    "name": "UNIMECH AEROSPACE N MFG L",
-    "sector": "Industrials",
-    "price": 1734.8,
-    "mcap": 9392,
-    "rank": 24,
-    "rs": 94
    },
    {
     "symbol": "DHAMPURSUG",
@@ -10094,9 +10094,9 @@
     "name": "VARDHMAN SPC STEEL LTD",
     "sector": "Basic Materials",
     "price": 373.4,
-    "mcap": 3733,
+    "mcap": 3654,
     "rank": 41,
-    "rs": 84
+    "rs": 85
    },
    {
     "symbol": "ARROWGREEN",
@@ -10203,17 +10203,8 @@
     "sector": "Industrials",
     "price": 861.7,
     "mcap": 1409,
-    "rank": 77,
+    "rank": 78,
     "rs": 77
-   },
-   {
-    "symbol": "TATVA",
-    "name": "TATVA CHIN PHARM CHEM LTD",
-    "sector": "Basic Materials",
-    "price": 1804.8,
-    "mcap": 4208,
-    "rank": 82,
-    "rs": 88
    },
    {
     "symbol": "REDINGTON",
@@ -10221,7 +10212,16 @@
     "sector": "Technology",
     "price": 380.0,
     "mcap": 30505,
-    "rank": 83,
+    "rank": 82,
+    "rs": 88
+   },
+   {
+    "symbol": "TATVA",
+    "name": "TATVA CHIN PHARM CHEM LTD",
+    "sector": "Basic Materials",
+    "price": 1804.8,
+    "mcap": 4377,
+    "rank": 84,
     "rs": 88
    },
    {
@@ -10229,7 +10229,7 @@
     "name": "SYRMA SGS TECHNOLOGY LTD",
     "sector": "Technology",
     "price": 1719.9,
-    "mcap": 32754,
+    "mcap": 33463,
     "rank": 93,
     "rs": 95
    },
@@ -10239,7 +10239,7 @@
     "sector": "Consumer Defensive",
     "price": 2043.4,
     "mcap": 12523,
-    "rank": 98,
+    "rank": 97,
     "rs": 85
    },
    {
@@ -10248,7 +10248,7 @@
     "sector": "Technology",
     "price": 2300.5,
     "mcap": 15905,
-    "rank": 99,
+    "rank": 98,
     "rs": 97
    },
    {
@@ -10256,7 +10256,7 @@
     "name": "SOMANY CERAMICS LIMITED",
     "sector": "Industrials",
     "price": 591.45,
-    "mcap": 2505,
+    "mcap": 2508,
     "rank": 101,
     "rs": 81
    },
@@ -10266,7 +10266,7 @@
     "sector": "Consumer Defensive",
     "price": 306.4,
     "mcap": 3839,
-    "rank": 105,
+    "rank": 106,
     "rs": 78
    },
    {
@@ -10274,8 +10274,8 @@
     "name": "SHIVALIK BIMETAL CON. LTD",
     "sector": "Industrials",
     "price": 1041.6,
-    "mcap": 6201,
-    "rank": 108,
+    "mcap": 6340,
+    "rank": 110,
     "rs": 96
    },
    {
@@ -10302,7 +10302,7 @@
     "sector": "Basic Materials",
     "price": 1748.1,
     "mcap": 23616,
-    "rank": 114,
+    "rank": 116,
     "rs": 92
    },
    {
@@ -10329,7 +10329,7 @@
     "sector": "Basic Materials",
     "price": 1734.1,
     "mcap": 8259,
-    "rank": 120,
+    "rank": 121,
     "rs": 97
    },
    {
@@ -10391,8 +10391,8 @@
     "name": "WEST COAST PAPER MILLS LT",
     "sector": "Basic Materials",
     "price": 727.65,
-    "mcap": 4741,
-    "rank": 145,
+    "mcap": 5767,
+    "rank": 150,
     "rs": 90
    },
    {
@@ -10405,21 +10405,12 @@
     "rs": 94
    },
    {
-    "symbol": "TDPOWERSYS",
-    "name": "TD POWER SYSTEMS LTD.",
-    "sector": "Industrials",
-    "price": 793.75,
-    "mcap": 25501,
-    "rank": 156,
-    "rs": 96
-   },
-   {
     "symbol": "QPOWER",
     "name": "QUALITY POWER ELEC EQUP L",
     "sector": "Industrials",
     "price": 1547.4,
     "mcap": 11710,
-    "rank": 157,
+    "rank": 156,
     "rs": 90
    },
    {
@@ -10428,8 +10419,17 @@
     "sector": "Financial Services",
     "price": 328.2,
     "mcap": 12769,
-    "rank": 159,
+    "rank": 158,
     "rs": 89
+   },
+   {
+    "symbol": "TDPOWERSYS",
+    "name": "TD POWER SYSTEMS LTD.",
+    "sector": "Industrials",
+    "price": 793.75,
+    "mcap": 25901,
+    "rank": 159,
+    "rs": 96
    },
    {
     "symbol": "BLUSPRING",
@@ -10437,7 +10437,7 @@
     "sector": "Industrials",
     "price": 146.96,
     "mcap": 2347,
-    "rank": 167,
+    "rank": 166,
     "rs": 95
    },
    {
@@ -10463,7 +10463,7 @@
     "name": "LEELA PALACES HOTEL LTD",
     "sector": "Consumer Cyclical",
     "price": 587.5,
-    "mcap": 19289,
+    "mcap": 19862,
     "rank": 171,
     "rs": 79
    },
@@ -10473,7 +10473,7 @@
     "sector": "Financial Services",
     "price": 80.9,
     "mcap": 7759,
-    "rank": 173,
+    "rank": 172,
     "rs": 94
    },
    {
@@ -10481,7 +10481,7 @@
     "name": "WELSPUN LIVING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 223.75,
-    "mcap": 21679,
+    "mcap": 21343,
     "rank": 180,
     "rs": 92
    },
@@ -10490,8 +10490,8 @@
     "name": "STANDARD ENGNG TCNLGY LTD",
     "sector": "Industrials",
     "price": 387.95,
-    "mcap": 8579,
-    "rank": 184,
+    "mcap": 7568,
+    "rank": 183,
     "rs": 98
    },
    {
@@ -10521,7 +10521,7 @@
     "price": 544.25,
     "mcap": 3550,
     "rank": 13,
-    "rs": 73
+    "rs": 74
    },
    {
     "symbol": "MVGJL",
@@ -10537,7 +10537,7 @@
     "name": "VALIANT ORGANICS LIMITED",
     "sector": "Basic Materials",
     "price": 467.7,
-    "mcap": 1333,
+    "mcap": 1323,
     "rank": 37,
     "rs": 93
    },
@@ -10556,7 +10556,7 @@
     "sector": "Real Estate",
     "price": 36.62,
     "mcap": 8523,
-    "rank": 96,
+    "rank": 95,
     "rs": 97
    },
    {
@@ -10573,7 +10573,7 @@
     "name": "SUN TV NETWORK LIMITED",
     "sector": "Communication Services",
     "price": 635.9,
-    "mcap": 24703,
+    "mcap": 24780,
     "rank": 125,
     "rs": 70
    },
@@ -10583,7 +10583,7 @@
     "sector": "Industrials",
     "price": 1533.7,
     "mcap": 21798,
-    "rank": 158,
+    "rank": 157,
     "rs": 78
    }
   ],
@@ -10683,27 +10683,18 @@
     "name": "SHUKRA PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 66.94,
-    "mcap": 3107,
+    "mcap": 2941,
     "rank": null,
     "rs": null
-   },
-   {
-    "symbol": "TIMEX",
-    "name": "TIMEX GROUP INDIA LTD.",
-    "sector": "Consumer Cyclical",
-    "price": 724.4,
-    "mcap": 7416,
-    "rank": null,
-    "rs": 95
    },
    {
     "symbol": "VOEPL",
     "name": "VIRTUOSO OPTOELECTRONIC L",
     "sector": "Technology",
     "price": 524.95,
-    "mcap": 1733,
+    "mcap": 1744,
     "rank": null,
-    "rs": 72
+    "rs": 73
    }
   ]
  }
