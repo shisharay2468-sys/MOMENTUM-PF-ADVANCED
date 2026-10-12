@@ -3092,5 +3092,18 @@
   "last_price": 96.19000244140625,
   "active": true,
   "ended": null
+ },
+ {
+  "type": "IPO",
+  "symbol": "KANOHAR",
+  "name": "KANOHAR ELECTRICALS LTD",
+  "sector": "Industrials",
+  "date": "2026-10-13",
+  "price": 1137.300048828125,
+  "detail": "Listed 16 Sep 2026 \u00b7 listing-day high Rs 787",
+  "last_seen": "2026-10-13",
+  "last_price": 1137.300048828125,
+  "active": true,
+  "ended": null
  }
 ]
