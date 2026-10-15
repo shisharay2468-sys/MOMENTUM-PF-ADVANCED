@@ -12307,7 +12307,7 @@
     "price": 579.15,
     "mcap": 1744,
     "rank": 5,
-    "rs": 96
+    "rs": 95
    },
    {
     "symbol": "LOKESHMACH",
@@ -12360,7 +12360,7 @@
     "sector": "Healthcare",
     "price": 21.56,
     "mcap": 2185,
-    "rank": 21,
+    "rank": 20,
     "rs": 90
    },
    {
@@ -12495,7 +12495,7 @@
     "sector": "Industrials",
     "price": 863.8,
     "mcap": 1409,
-    "rank": 53,
+    "rank": 54,
     "rs": 76
    },
    {
@@ -12517,22 +12517,22 @@
     "rs": 97
    },
    {
-    "symbol": "TCPLPACK",
-    "name": "TCPL PACKAGING LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 4485.0,
-    "mcap": 4011,
-    "rank": 64,
-    "rs": 89
-   },
-   {
     "symbol": "NRBBEARING",
     "name": "NRB BEARING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 508.85,
     "mcap": 5081,
-    "rank": 65,
+    "rank": 64,
     "rs": 93
+   },
+   {
+    "symbol": "TCPLPACK",
+    "name": "TCPL PACKAGING LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 4485.0,
+    "mcap": 4011,
+    "rank": 65,
+    "rs": 89
    },
    {
     "symbol": "FCL",
@@ -12544,22 +12544,22 @@
     "rs": 98
    },
    {
-    "symbol": "REDINGTON",
-    "name": "REDINGTON LIMITED",
-    "sector": "Technology",
-    "price": 392.1,
-    "mcap": 30505,
-    "rank": 72,
-    "rs": 90
-   },
-   {
     "symbol": "JGCHEM",
     "name": "J.G.CHEMICALS LIMITED",
     "sector": "Basic Materials",
     "price": 629.45,
     "mcap": 2524,
-    "rank": 73,
+    "rank": 72,
     "rs": 92
+   },
+   {
+    "symbol": "REDINGTON",
+    "name": "REDINGTON LIMITED",
+    "sector": "Technology",
+    "price": 392.1,
+    "mcap": 30505,
+    "rank": 73,
+    "rs": 90
    },
    {
     "symbol": "SANATHAN",
@@ -12612,7 +12612,7 @@
     "sector": "Consumer Defensive",
     "price": 295.9,
     "mcap": 3839,
-    "rank": 90,
+    "rank": 89,
     "rs": 75
    },
    {
@@ -12634,22 +12634,22 @@
     "rs": 97
    },
    {
-    "symbol": "PTCIL",
-    "name": "PTC INDUSTRIES LIMITED",
-    "sector": "Industrials",
-    "price": 25045.0,
-    "mcap": 40751,
-    "rank": 109,
-    "rs": 89
-   },
-   {
     "symbol": "PGIL",
     "name": "PEARL GLOBAL IND LIMITED",
     "sector": "Consumer Cyclical",
     "price": 1263.3,
     "mcap": 12300,
-    "rank": 110,
+    "rank": 109,
     "rs": 92
+   },
+   {
+    "symbol": "PTCIL",
+    "name": "PTC INDUSTRIES LIMITED",
+    "sector": "Industrials",
+    "price": 25045.0,
+    "mcap": 40751,
+    "rank": 110,
+    "rs": 89
    },
    {
     "symbol": "PVRINOX",
@@ -12666,7 +12666,7 @@
     "sector": "Basic Materials",
     "price": 1749.4,
     "mcap": 8259,
-    "rank": 117,
+    "rank": 116,
     "rs": 97
    },
    {
@@ -12684,7 +12684,7 @@
     "sector": "Communication Services",
     "price": 629.15,
     "mcap": 24780,
-    "rank": 120,
+    "rank": 121,
     "rs": 71
    },
    {
@@ -12693,7 +12693,7 @@
     "sector": "Basic Materials",
     "price": 6529.5,
     "mcap": 9032,
-    "rank": 124,
+    "rank": 125,
     "rs": 86
    },
    {
@@ -12702,7 +12702,7 @@
     "sector": "Healthcare",
     "price": 195.08,
     "mcap": 5831,
-    "rank": 126,
+    "rank": 127,
     "rs": 95
    },
    {
@@ -12711,7 +12711,7 @@
     "sector": "Industrials",
     "price": 1342.5,
     "mcap": 5960,
-    "rank": 139,
+    "rank": 140,
     "rs": 89
    },
    {
@@ -12720,7 +12720,7 @@
     "sector": "Financial Services",
     "price": 335.95,
     "mcap": 12769,
-    "rank": 140,
+    "rank": 141,
     "rs": 91
    },
    {
@@ -12729,7 +12729,7 @@
     "sector": "Consumer Cyclical",
     "price": 846.0,
     "mcap": 2648,
-    "rank": 142,
+    "rank": 143,
     "rs": 80
    },
    {
@@ -12738,7 +12738,7 @@
     "sector": "Basic Materials",
     "price": 211.95,
     "mcap": 6022,
-    "rank": 146,
+    "rank": 147,
     "rs": 95
    },
    {
@@ -12747,8 +12747,8 @@
     "sector": "Basic Materials",
     "price": 1940.7,
     "mcap": 4377,
-    "rank": 148,
-    "rs": 91
+    "rank": 149,
+    "rs": 90
    },
    {
     "symbol": "GRWRHITECH",
@@ -12756,7 +12756,7 @@
     "sector": "Basic Materials",
     "price": 7094.5,
     "mcap": 16712,
-    "rank": 151,
+    "rank": 152,
     "rs": 95
    },
    {
@@ -12765,17 +12765,8 @@
     "sector": "Technology",
     "price": 760.0,
     "mcap": 6997,
-    "rank": 152,
+    "rank": 153,
     "rs": 88
-   },
-   {
-    "symbol": "THELEELA",
-    "name": "LEELA PALACES HOTEL LTD",
-    "sector": "Consumer Cyclical",
-    "price": 596.5,
-    "mcap": 19862,
-    "rank": 156,
-    "rs": 82
    },
    {
     "symbol": "PAISALO",
@@ -12787,13 +12778,22 @@
     "rs": 94
    },
    {
+    "symbol": "THELEELA",
+    "name": "LEELA PALACES HOTEL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 596.5,
+    "mcap": 19862,
+    "rank": 158,
+    "rs": 82
+   },
+   {
     "symbol": "DYNAMATECH",
     "name": "DYNAMATIC TECHNOLOGIES",
     "sector": "Consumer Cyclical",
     "price": 13638.0,
     "mcap": 9595,
-    "rank": 158,
-    "rs": 90
+    "rank": 159,
+    "rs": 89
    },
    {
     "symbol": "SHYAMMETL",
@@ -12801,7 +12801,7 @@
     "sector": "Basic Materials",
     "price": 1157.0,
     "mcap": 30302,
-    "rank": 163,
+    "rank": 164,
     "rs": 79
    },
    {
@@ -12810,7 +12810,7 @@
     "sector": "Consumer Cyclical",
     "price": 216.8,
     "mcap": 21343,
-    "rank": 172,
+    "rank": 173,
     "rs": 92
    },
    {
@@ -12819,7 +12819,7 @@
     "sector": "Healthcare",
     "price": 3066.3,
     "mcap": 50797,
-    "rank": 165,
+    "rank": 166,
     "rs": 90
    },
    {
@@ -12828,7 +12828,7 @@
     "sector": "Energy",
     "price": 1410.6,
     "mcap": 50895,
-    "rank": 173,
+    "rank": 174,
     "rs": 92
    }
   ],
@@ -12893,7 +12893,7 @@
     "sector": "Communication Services",
     "price": 629.15,
     "mcap": 24780,
-    "rank": 120,
+    "rank": 121,
     "rs": 71
    },
    {
@@ -12902,7 +12902,7 @@
     "sector": "Industrials",
     "price": 529.75,
     "mcap": 3559,
-    "rank": 136,
+    "rank": 137,
     "rs": 70
    },
    {
@@ -12911,7 +12911,7 @@
     "sector": "Industrials",
     "price": 1484.1,
     "mcap": 21798,
-    "rank": 145,
+    "rank": 146,
     "rs": 77
    },
    {
@@ -12920,7 +12920,7 @@
     "sector": "Technology",
     "price": 2453.2,
     "mcap": 44921,
-    "rank": 160,
+    "rank": 161,
     "rs": 50
    }
   ],
