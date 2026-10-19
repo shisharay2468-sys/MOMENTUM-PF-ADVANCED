@@ -13717,7 +13717,7 @@
     "sector": "Industrials",
     "price": 1523.5,
     "mcap": 5579,
-    "rank": 7,
+    "rank": 6,
     "rs": 97
    },
    {
@@ -13726,7 +13726,7 @@
     "sector": "Industrials",
     "price": 572.9,
     "mcap": 5211,
-    "rank": 10,
+    "rank": 9,
     "rs": 93
    },
    {
@@ -13735,7 +13735,7 @@
     "sector": "Industrials",
     "price": 2295.3,
     "mcap": 1300,
-    "rank": 12,
+    "rank": 11,
     "rs": 76
    },
    {
@@ -13775,31 +13775,22 @@
     "rs": 98
    },
    {
-    "symbol": "RGL",
-    "name": "RENAISSANCE GLOBAL LTD",
-    "sector": "Consumer Cyclical",
-    "price": 161.66,
-    "mcap": 1773,
-    "rank": 23,
-    "rs": 82
-   },
-   {
     "symbol": "DEEPINDS",
     "name": "DEEP INDUSTRIES LIMITED",
     "sector": "Energy",
     "price": 753.35,
     "mcap": 4610,
-    "rank": 24,
+    "rank": 23,
     "rs": 93
    },
    {
-    "symbol": "UNIMECH",
-    "name": "UNIMECH AEROSPACE N MFG L",
-    "sector": "Industrials",
-    "price": 1791.3,
-    "mcap": 9148,
-    "rank": 25,
-    "rs": 94
+    "symbol": "RGL",
+    "name": "RENAISSANCE GLOBAL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 161.66,
+    "mcap": 1773,
+    "rank": 24,
+    "rs": 82
    },
    {
     "symbol": "MVGJL",
@@ -13807,7 +13798,7 @@
     "sector": "Consumer Cyclical",
     "price": 225.27,
     "mcap": 1178,
-    "rank": 26,
+    "rank": 25,
     "rs": 81
    },
    {
@@ -13816,7 +13807,7 @@
     "sector": "Basic Materials",
     "price": 171.99,
     "mcap": 2377,
-    "rank": 27,
+    "rank": 26,
     "rs": 78
    },
    {
@@ -13825,7 +13816,7 @@
     "sector": "Consumer Defensive",
     "price": 197.67,
     "mcap": 1219,
-    "rank": 29,
+    "rank": 27,
     "rs": 88
    },
    {
@@ -13834,7 +13825,7 @@
     "sector": "Financial Services",
     "price": 97.31,
     "mcap": 1031,
-    "rank": 30,
+    "rank": 28,
     "rs": 73
    },
    {
@@ -13843,7 +13834,7 @@
     "sector": "Basic Materials",
     "price": 2484.8,
     "mcap": 7456,
-    "rank": 31,
+    "rank": 30,
     "rs": 91
    },
    {
@@ -13852,7 +13843,7 @@
     "sector": "Consumer Cyclical",
     "price": 151.8,
     "mcap": 2661,
-    "rank": 40,
+    "rank": 39,
     "rs": 79
    },
    {
@@ -13870,7 +13861,7 @@
     "sector": "Industrials",
     "price": 854.65,
     "mcap": 1390,
-    "rank": 50,
+    "rank": 48,
     "rs": 74
    },
    {
@@ -13879,7 +13870,7 @@
     "sector": "Healthcare",
     "price": 271.15,
     "mcap": 1345,
-    "rank": 56,
+    "rank": 53,
     "rs": 92
    },
    {
@@ -13888,17 +13879,8 @@
     "sector": "Basic Materials",
     "price": 593.05,
     "mcap": 5866,
-    "rank": 57,
+    "rank": 55,
     "rs": 83
-   },
-   {
-    "symbol": "SYNCOMF",
-    "name": "SYNCOM FORMU (I) LTD",
-    "sector": "Healthcare",
-    "price": 21.95,
-    "mcap": 2013,
-    "rank": 58,
-    "rs": 92
    },
    {
     "symbol": "MARINE",
@@ -13906,8 +13888,26 @@
     "sector": "Industrials",
     "price": 429.0,
     "mcap": 6050,
-    "rank": 59,
+    "rank": 56,
     "rs": 97
+   },
+   {
+    "symbol": "SYNCOMF",
+    "name": "SYNCOM FORMU (I) LTD",
+    "sector": "Healthcare",
+    "price": 21.95,
+    "mcap": 2013,
+    "rank": 57,
+    "rs": 92
+   },
+   {
+    "symbol": "TCPLPACK",
+    "name": "TCPL PACKAGING LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 4316.8,
+    "mcap": 3800,
+    "rank": 59,
+    "rs": 87
    },
    {
     "symbol": "JGCHEM",
@@ -13915,17 +13915,8 @@
     "sector": "Basic Materials",
     "price": 637.8,
     "mcap": 2405,
-    "rank": 64,
+    "rank": 63,
     "rs": 93
-   },
-   {
-    "symbol": "TCPLPACK",
-    "name": "TCPL PACKAGING LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 4316.8,
-    "mcap": 4011,
-    "rank": 65,
-    "rs": 87
    },
    {
     "symbol": "REDINGTON",
@@ -13933,8 +13924,17 @@
     "sector": "Technology",
     "price": 383.5,
     "mcap": 29008,
-    "rank": 66,
+    "rank": 65,
     "rs": 89
+   },
+   {
+    "symbol": "UNIMECH",
+    "name": "UNIMECH AEROSPACE N MFG L",
+    "sector": "Industrials",
+    "price": 1791.3,
+    "mcap": 8551,
+    "rank": 66,
+    "rs": 94
    },
    {
     "symbol": "FCL",
@@ -13942,7 +13942,7 @@
     "sector": "Basic Materials",
     "price": 57.25,
     "mcap": 6499,
-    "rank": 70,
+    "rank": 69,
     "rs": 99
    },
    {
@@ -13951,7 +13951,7 @@
     "sector": "Consumer Cyclical",
     "price": 556.65,
     "mcap": 4626,
-    "rank": 74,
+    "rank": 73,
     "rs": 77
    },
    {
@@ -13959,8 +13959,8 @@
     "name": "WEST COAST PAPER MILLS LT",
     "sector": "Basic Materials",
     "price": 840.0,
-    "mcap": 5767,
-    "rank": 76,
+    "mcap": 5434,
+    "rank": 75,
     "rs": 95
    },
    {
@@ -13969,7 +13969,7 @@
     "sector": "Real Estate",
     "price": 35.42,
     "mcap": 7660,
-    "rank": 91,
+    "rank": 92,
     "rs": 96
    },
    {
@@ -13978,7 +13978,7 @@
     "sector": "Consumer Cyclical",
     "price": 1289.2,
     "mcap": 11804,
-    "rank": 92,
+    "rank": 93,
     "rs": 92
    },
    {
@@ -14005,7 +14005,7 @@
     "sector": "Industrials",
     "price": 24680.0,
     "mcap": 39689,
-    "rank": 104,
+    "rank": 103,
     "rs": 88
    },
    {
@@ -14014,7 +14014,7 @@
     "sector": "Communication Services",
     "price": 1401.0,
     "mcap": 13479,
-    "rank": 111,
+    "rank": 110,
     "rs": 85
    },
    {
@@ -14050,7 +14050,7 @@
     "sector": "Industrials",
     "price": 1194.5,
     "mcap": 12205,
-    "rank": 118,
+    "rank": 117,
     "rs": 74
    },
    {
@@ -14058,7 +14058,7 @@
     "name": "SUN TV NETWORK LIMITED",
     "sector": "Communication Services",
     "price": 638.0,
-    "mcap": 24780,
+    "mcap": 25219,
     "rank": 119,
     "rs": 71
    },
@@ -14068,7 +14068,7 @@
     "sector": "Industrials",
     "price": 96.37,
     "mcap": 14614,
-    "rank": 121,
+    "rank": 122,
     "rs": 90
    },
    {
@@ -14077,7 +14077,7 @@
     "sector": "Healthcare",
     "price": 3043.4,
     "mcap": 49830,
-    "rank": 126,
+    "rank": 127,
     "rs": 91
    },
    {
@@ -14095,16 +14095,25 @@
     "sector": "Financial Services",
     "price": 329.85,
     "mcap": 12474,
-    "rank": 139,
+    "rank": 142,
     "rs": 90
+   },
+   {
+    "symbol": "SOUTHBANK",
+    "name": "THE SOUTH INDIAN BANK LTD",
+    "sector": "Financial Services",
+    "price": 51.45,
+    "mcap": 14213,
+    "rank": 145,
+    "rs": 81
    },
    {
     "symbol": "STOVEKRAFT",
     "name": "STOVE KRAFT LIMITED",
     "sector": "Consumer Cyclical",
     "price": 851.35,
-    "mcap": 2648,
-    "rank": 143,
+    "mcap": 2789,
+    "rank": 148,
     "rs": 79
    },
    {
@@ -14113,7 +14122,7 @@
     "sector": "Technology",
     "price": 788.65,
     "mcap": 6751,
-    "rank": 148,
+    "rank": 149,
     "rs": 90
    },
    {
@@ -14121,8 +14130,8 @@
     "name": "TATVA CHIN PHARM CHEM LTD",
     "sector": "Basic Materials",
     "price": 1944.0,
-    "mcap": 4377,
-    "rank": 149,
+    "mcap": 4452,
+    "rank": 153,
     "rs": 90
    },
    {
@@ -14131,7 +14140,7 @@
     "sector": "Basic Materials",
     "price": 208.71,
     "mcap": 6581,
-    "rank": 155,
+    "rank": 157,
     "rs": 94
    },
    {
@@ -14140,7 +14149,7 @@
     "sector": "Financial Services",
     "price": 81.5,
     "mcap": 7477,
-    "rank": 156,
+    "rank": 158,
     "rs": 94
    },
    {
@@ -14149,7 +14158,7 @@
     "sector": "Basic Materials",
     "price": 6970.0,
     "mcap": 16164,
-    "rank": 160,
+    "rank": 161,
     "rs": 94
    },
    {
@@ -14158,7 +14167,7 @@
     "sector": "Healthcare",
     "price": 194.69,
     "mcap": 5375,
-    "rank": 162,
+    "rank": 164,
     "rs": 96
    },
    {
@@ -14167,7 +14176,7 @@
     "sector": "Consumer Cyclical",
     "price": 13774.0,
     "mcap": 9251,
-    "rank": 163,
+    "rank": 165,
     "rs": 89
    },
    {
@@ -14176,7 +14185,7 @@
     "sector": "Financial Services",
     "price": 355.65,
     "mcap": 35772,
-    "rank": 164,
+    "rank": 166,
     "rs": 80
    },
    {
@@ -14184,18 +14193,9 @@
     "name": "LEELA PALACES HOTEL LTD",
     "sector": "Consumer Cyclical",
     "price": 616.3,
-    "mcap": 19862,
-    "rank": 165,
+    "mcap": 20797,
+    "rank": 170,
     "rs": 83
-   },
-   {
-    "symbol": "SHYAMMETL",
-    "name": "SHYAM METALICS AND ENGY L",
-    "sector": "Basic Materials",
-    "price": 1198.5,
-    "mcap": 30302,
-    "rank": 172,
-    "rs": 80
    },
    {
     "symbol": "EBGNG",
@@ -14203,16 +14203,25 @@
     "sector": "Technology",
     "price": 708.05,
     "mcap": 7983,
-    "rank": 173,
+    "rank": 174,
     "rs": 95
+   },
+   {
+    "symbol": "SHYAMMETL",
+    "name": "SHYAM METALICS AND ENGY L",
+    "sector": "Basic Materials",
+    "price": 1198.5,
+    "mcap": 34146,
+    "rank": 176,
+    "rs": 80
    },
    {
     "symbol": "WELSPUNLIV",
     "name": "WELSPUN LIVING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 219.3,
-    "mcap": 21343,
-    "rank": 184,
+    "mcap": 20459,
+    "rank": 185,
     "rs": 92
    }
   ],
@@ -14231,8 +14240,8 @@
     "name": "VALIANT ORGANICS LIMITED",
     "sector": "Basic Materials",
     "price": 468.55,
-    "mcap": 1323,
-    "rank": 20,
+    "mcap": 1305,
+    "rank": 18,
     "rs": 94
    },
    {
@@ -14241,7 +14250,7 @@
     "sector": "Consumer Cyclical",
     "price": 225.27,
     "mcap": 1178,
-    "rank": 26,
+    "rank": 25,
     "rs": 81
    },
    {
@@ -14250,7 +14259,16 @@
     "sector": "Industrials",
     "price": 544.95,
     "mcap": 3366,
-    "rank": 54,
+    "rank": 52,
+    "rs": 72
+   },
+   {
+    "symbol": "SEJALLTD",
+    "name": "SEJAL GLASS LIMITED",
+    "sector": "Industrials",
+    "price": 870.35,
+    "mcap": 1006,
+    "rank": 70,
     "rs": 72
    },
    {
@@ -14258,9 +14276,9 @@
     "name": "TEXMACO RAIL & ENG. LTD.",
     "sector": "Industrials",
     "price": 113.25,
-    "mcap": 4478,
-    "rank": 86,
-    "rs": 45
+    "mcap": 4446,
+    "rank": 88,
+    "rs": 44
    },
    {
     "symbol": "IBULLSLTD",
@@ -14268,7 +14286,7 @@
     "sector": "Real Estate",
     "price": 35.42,
     "mcap": 7660,
-    "rank": 91,
+    "rank": 92,
     "rs": 96
    },
    {
@@ -14277,7 +14295,7 @@
     "sector": "Industrials",
     "price": 480.35,
     "mcap": 10338,
-    "rank": 93,
+    "rank": 94,
     "rs": 57
    },
    {
@@ -14294,7 +14312,7 @@
     "name": "SUN TV NETWORK LIMITED",
     "sector": "Communication Services",
     "price": 638.0,
-    "mcap": 24780,
+    "mcap": 25219,
     "rank": 119,
     "rs": 71
    },
@@ -14304,7 +14322,7 @@
     "sector": "Industrials",
     "price": 1507.4,
     "mcap": 21347,
-    "rank": 147,
+    "rank": 150,
     "rs": 77
    },
    {
@@ -14313,7 +14331,7 @@
     "sector": "Technology",
     "price": 2500.0,
     "mcap": 47718,
-    "rank": 169,
+    "rank": 171,
     "rs": 50
    }
   ],
@@ -14395,7 +14413,7 @@
     "name": "SHUKRA PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 68.88,
-    "mcap": 2941,
+    "mcap": 3037,
     "rank": null,
     "rs": null
    },
@@ -14404,7 +14422,7 @@
     "name": "VIRTUOSO OPTOELECTRONIC L",
     "sector": "Technology",
     "price": 511.0,
-    "mcap": 1744,
+    "mcap": 1757,
     "rank": null,
     "rs": 65
    }

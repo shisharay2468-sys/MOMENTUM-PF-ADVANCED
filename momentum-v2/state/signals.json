@@ -3664,5 +3664,31 @@
   "last_price": 151.8000030517578,
   "active": true,
   "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "SOUTHBANK",
+  "name": "THE SOUTH INDIAN BANK LTD",
+  "sector": "Financial Services",
+  "date": "2026-10-20",
+  "price": 51.45000076293945,
+  "detail": "Cleared every entry rule \u00b7 rank 145",
+  "last_seen": "2026-10-20",
+  "last_price": 51.45000076293945,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "OBV",
+  "symbol": "SEJALLTD",
+  "name": "SEJAL GLASS LIMITED",
+  "sector": "Industrials",
+  "date": "2026-10-20",
+  "price": 870.3499755859375,
+  "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
+  "last_seen": "2026-10-20",
+  "last_price": 870.3499755859375,
+  "active": true,
+  "ended": null
  }
 ]
