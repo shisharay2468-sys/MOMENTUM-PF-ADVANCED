@@ -3063,9 +3063,9 @@
   "price": 4550.0,
   "detail": "Cleared every entry rule \u00b7 rank 184",
   "last_seen": "2026-10-13",
-  "last_price": 4550.0,
-  "active": true,
-  "ended": null
+  "last_price": 4473.39990234375,
+  "active": false,
+  "ended": "2026-10-20"
  },
  {
   "type": "Entry",
@@ -3649,6 +3649,19 @@
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-10-20",
   "last_price": 480.3500061035156,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "ORIENTHOT",
+  "name": "ORIENT HOTELS LTD",
+  "sector": "Consumer Cyclical",
+  "date": "2026-10-20",
+  "price": 151.8000030517578,
+  "detail": "Cleared every entry rule \u00b7 rank 40",
+  "last_seen": "2026-10-20",
+  "last_price": 151.8000030517578,
   "active": true,
   "ended": null
  }
