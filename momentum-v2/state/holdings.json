@@ -1,10 +1,5 @@
 {
   "holdings": {
-    "MANALIPETC.NS": {
-      "entry_price": 84.6500015258789,
-      "entry_date": "2026-09-27",
-      "weight": 0.0475
-    },
     "SYNCOMF.NS": {
       "entry_price": 20.049999237060547,
       "entry_date": "2026-09-27",
@@ -45,13 +40,18 @@
       "entry_date": "2026-10-08",
       "weight": 0.0475
     },
-    "AVTNPL.NS": {
-      "entry_price": 99.70999908447266,
-      "entry_date": "2026-10-19",
+    "OAL.NS": {
+      "entry_price": 589.4000244140625,
+      "entry_date": "2026-10-22",
+      "weight": 0.0475
+    },
+    "BHAGERIA.NS": {
+      "entry_price": 344.54998779296875,
+      "entry_date": "2026-10-22",
       "weight": 0.0475
     }
   },
-  "last_rebalance": "2026-10-19",
+  "last_rebalance": "2026-10-22",
   "history": [
     {
       "date": "2026-09-27",
@@ -99,56 +99,44 @@
       "sold": [
         "ASIANENE"
       ]
+    },
+    {
+      "date": "2026-10-22",
+      "bought": [
+        "OAL",
+        "BHAGERIA"
+      ],
+      "sold": [
+        "MANALIPETC",
+        "AVTNPL"
+      ]
     }
   ],
   "buyable": [
-    "ALICON.NS",
-    "AVTNPL.NS",
+    "ANANDRATHI.NS",
     "BHAGERIA.NS",
     "BLUSPRING.NS",
-    "CYIENT.NS",
-    "DYNAMATECH.NS",
-    "EBGNG.NS",
     "EIMCOELECO.NS",
-    "FCL.NS",
     "FILATEX.NS",
-    "GABRIEL.NS",
     "GANDHAR.NS",
-    "GLAND.NS",
-    "GOODLUCK.NS",
-    "GRWRHITECH.NS",
-    "IBULLSLTD.NS",
     "KARURVYSYA.NS",
     "KINGFA.NS",
-    "KOPRAN.NS",
     "KRISHANA.NS",
-    "KTKBANK.NS",
-    "MANINDS.NS",
-    "MARINE.NS",
-    "MUFIN.NS",
-    "NEOGEN.NS",
-    "NITINSPIN.NS",
-    "OPTIEMUS.NS",
+    "KROSS.NS",
+    "OAL.NS",
     "ORIENTHOT.NS",
-    "PGIL.NS",
-    "PREMIERPOL.NS",
     "PTCIL.NS",
     "PVRINOX.NS",
+    "RATNAVEER.NS",
     "RAYMOND.NS",
     "RGL.NS",
-    "ROSSTECH.NS",
     "SAMBHV.NS",
-    "SANATHAN.NS",
     "SHYAMMETL.NS",
-    "SOUTHBANK.NS",
+    "SSWL.NS",
     "STOVEKRAFT.NS",
-    "SUNTV.NS",
     "SYNCOMF.NS",
-    "TATVA.NS",
+    "TFCILTD.NS",
     "THELEELA.NS",
-    "UNIMECH.NS",
-    "VALIANTORG.NS",
-    "VINDHYATEL.NS",
     "WELSPUNLIV.NS",
     "WSTCSTPAPR.NS"
   ]
