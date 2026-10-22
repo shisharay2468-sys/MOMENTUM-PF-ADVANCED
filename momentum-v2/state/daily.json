@@ -15051,12 +15051,21 @@
     "rs": 97
    },
    {
+    "symbol": "WHEELS",
+    "name": "WHEELS INDIA LTD",
+    "sector": "Consumer Cyclical",
+    "price": 2195.5,
+    "mcap": 6553,
+    "rank": 49,
+    "rs": 99
+   },
+   {
     "symbol": "PVRINOX",
     "name": "PVR INOX LIMITED",
     "sector": "Communication Services",
     "price": 1419.9,
     "mcap": 13479,
-    "rank": 51,
+    "rank": 52,
     "rs": 90
    },
    {
@@ -15065,7 +15074,7 @@
     "sector": "Industrials",
     "price": 24745.0,
     "mcap": 39689,
-    "rank": 52,
+    "rank": 53,
     "rs": 91
    },
    {

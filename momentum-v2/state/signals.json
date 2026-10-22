@@ -1698,7 +1698,7 @@
   "price": 2163.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 131",
   "last_seen": "2026-10-14",
-  "last_price": 1787.0,
+  "last_price": 1833.5999755859375,
   "active": false,
   "ended": "2026-10-14"
  },
@@ -1724,7 +1724,7 @@
   "price": 184.14999389648438,
   "detail": "Cleared every entry rule \u00b7 rank 202",
   "last_seen": "2026-09-29",
-  "last_price": 154.97000122070312,
+  "last_price": 160.5,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1737,7 +1737,7 @@
   "price": 2719.800048828125,
   "detail": "Cleared every entry rule \u00b7 rank 17",
   "last_seen": "2026-10-22",
-  "last_price": 2693.199951171875,
+  "last_price": 2726.800048828125,
   "active": false,
   "ended": "2026-10-22"
  },
@@ -1750,7 +1750,7 @@
   "price": 697.6500244140625,
   "detail": "Cleared every entry rule \u00b7 rank 126",
   "last_seen": "2026-09-27",
-  "last_price": 589.0999755859375,
+  "last_price": 591.5999755859375,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1763,7 +1763,7 @@
   "price": 1102.550048828125,
   "detail": "Cleared every entry rule \u00b7 rank 6",
   "last_seen": "2026-10-02",
-  "last_price": 900.4000244140625,
+  "last_price": 881.2999877929688,
   "active": false,
   "ended": "2026-10-05"
  },
@@ -1776,7 +1776,7 @@
   "price": 2265.60009765625,
   "detail": "Cleared every entry rule \u00b7 rank 229",
   "last_seen": "2026-09-27",
-  "last_price": 1855.5,
+  "last_price": 1877.199951171875,
   "active": false,
   "ended": "2026-09-28"
  },
@@ -1802,7 +1802,7 @@
   "price": 1121.4000244140625,
   "detail": "Cleared every entry rule \u00b7 rank 122",
   "last_seen": "2026-09-29",
-  "last_price": 920.7999877929688,
+  "last_price": 922.0999755859375,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1815,7 +1815,7 @@
   "price": 2719.800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-30",
-  "last_price": 2693.199951171875,
+  "last_price": 2726.800048828125,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -1828,7 +1828,7 @@
   "price": 1652.800048828125,
   "detail": "Monthly OBV above its 21-month EMA, crossed Aug 2026",
   "last_seen": "2026-09-29",
-  "last_price": 1634.4000244140625,
+  "last_price": 1656.699951171875,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -1854,7 +1854,7 @@
   "price": 8646.0,
   "detail": "Monthly OBV above its 21-month EMA, crossed Sep 2026",
   "last_seen": "2026-09-30",
-  "last_price": 6887.0,
+  "last_price": 7406.0,
   "active": false,
   "ended": "2026-10-01"
  },
@@ -2114,7 +2114,7 @@
   "price": 4117.89990234375,
   "detail": "Cleared every entry rule \u00b7 rank 78",
   "last_seen": "2026-09-29",
-  "last_price": 3540.39990234375,
+  "last_price": 3395.0,
   "active": false,
   "ended": "2026-09-30"
  },
@@ -2348,7 +2348,7 @@
   "price": 401.04998779296875,
   "detail": "Cleared every entry rule \u00b7 rank 43",
   "last_seen": "2026-10-14",
-  "last_price": 349.04998779296875,
+  "last_price": 356.1499938964844,
   "active": false,
   "ended": "2026-10-14"
  },
@@ -2751,7 +2751,7 @@
   "price": 187.2100067138672,
   "detail": "Cleared every entry rule \u00b7 rank 184",
   "last_seen": "2026-10-07",
-  "last_price": 154.97000122070312,
+  "last_price": 160.5,
   "active": false,
   "ended": "2026-10-08"
  },
@@ -2777,7 +2777,7 @@
   "price": 511.1499938964844,
   "detail": "Listed 01 Jul 2026 \u00b7 listing-day high Rs 469",
   "last_seen": "2026-10-22",
-  "last_price": 502.75,
+  "last_price": 495.54998779296875,
   "active": false,
   "ended": "2026-10-22"
  },
@@ -3011,7 +3011,7 @@
   "price": 2208.199951171875,
   "detail": "Cleared every entry rule \u00b7 rank 83",
   "last_seen": "2026-10-08",
-  "last_price": 2108.699951171875,
+  "last_price": 2195.5,
   "active": false,
   "ended": "2026-10-09"
  },
@@ -3738,10 +3738,10 @@
   "date": "2026-10-21",
   "price": 2195.5,
   "detail": "Cleared every entry rule \u00b7 rank 54",
-  "last_seen": "2026-10-21",
-  "last_price": 2108.699951171875,
-  "active": false,
-  "ended": "2026-10-22"
+  "last_seen": "2026-10-22",
+  "last_price": 2195.5,
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
