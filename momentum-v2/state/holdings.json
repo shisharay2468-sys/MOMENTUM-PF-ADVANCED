@@ -30,11 +30,6 @@
       "entry_date": "2026-10-08",
       "weight": 0.0475
     },
-    "SOTL.NS": {
-      "entry_price": 764.2000122070312,
-      "entry_date": "2026-10-08",
-      "weight": 0.0475
-    },
     "KOPRAN.NS": {
       "entry_price": 254.3000030517578,
       "entry_date": "2026-10-08",
@@ -49,9 +44,14 @@
       "entry_price": 344.54998779296875,
       "entry_date": "2026-10-22",
       "weight": 0.0475
+    },
+    "RATNAVEER.NS": {
+      "entry_price": 330.70001220703125,
+      "entry_date": "2026-10-23",
+      "weight": 0.0475
     }
   },
-  "last_rebalance": "2026-10-22",
+  "last_rebalance": "2026-10-23",
   "history": [
     {
       "date": "2026-09-27",
@@ -110,35 +110,34 @@
         "MANALIPETC",
         "AVTNPL"
       ]
+    },
+    {
+      "date": "2026-10-23",
+      "bought": [
+        "RATNAVEER"
+      ],
+      "sold": [
+        "SOTL"
+      ]
     }
   ],
   "buyable": [
     "ANANDRATHI.NS",
     "BHAGERIA.NS",
-    "BLUSPRING.NS",
-    "EIMCOELECO.NS",
-    "FILATEX.NS",
+    "CYIENT.NS",
     "GANDHAR.NS",
-    "KARURVYSYA.NS",
+    "GRWRHITECH.NS",
     "KINGFA.NS",
     "KRISHANA.NS",
-    "KROSS.NS",
     "OAL.NS",
     "ORIENTHOT.NS",
-    "PTCIL.NS",
     "PVRINOX.NS",
     "RATNAVEER.NS",
     "RAYMOND.NS",
-    "RGL.NS",
+    "ROSSTECH.NS",
     "SAMBHV.NS",
-    "SHYAMMETL.NS",
-    "SSWL.NS",
-    "STOVEKRAFT.NS",
-    "SYNCOMF.NS",
+    "SOUTHBANK.NS",
     "TFCILTD.NS",
-    "THELEELA.NS",
-    "WELSPUNLIV.NS",
-    "WHEELS.NS",
     "WSTCSTPAPR.NS"
   ]
 }

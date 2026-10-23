@@ -15271,5 +15271,247 @@
     "rs": 97
    }
   ]
+ },
+ "2026-10-23": {
+  "Entry": [
+   {
+    "symbol": "OAL",
+    "name": "ORIENTAL AROMATICS LTD",
+    "sector": "Basic Materials",
+    "price": 577.45,
+    "mcap": 2101,
+    "rank": 1,
+    "rs": 97
+   },
+   {
+    "symbol": "ROSSTECH",
+    "name": "ROSSELL TECHSYS LIMITED",
+    "sector": "Industrials",
+    "price": 1402.6,
+    "mcap": 5579,
+    "rank": 2,
+    "rs": 97
+   },
+   {
+    "symbol": "BHAGERIA",
+    "name": "BHAGERIA INDUSTRIES LTD",
+    "sector": "Basic Materials",
+    "price": 354.35,
+    "mcap": 1533,
+    "rank": 3,
+    "rs": 98
+   },
+   {
+    "symbol": "RATNAVEER",
+    "name": "RATNAVEER PRECISION ENG L",
+    "sector": "Basic Materials",
+    "price": 330.7,
+    "mcap": 2940,
+    "rank": 9,
+    "rs": 99
+   },
+   {
+    "symbol": "GANDHAR",
+    "name": "GANDHAR OIL REFINE IND L",
+    "sector": "Energy",
+    "price": 293.0,
+    "mcap": 2915,
+    "rank": 12,
+    "rs": 96
+   },
+   {
+    "symbol": "ORIENTHOT",
+    "name": "ORIENT HOTELS LTD",
+    "sector": "Consumer Cyclical",
+    "price": 151.76,
+    "mcap": 2661,
+    "rank": 15,
+    "rs": 86
+   },
+   {
+    "symbol": "SAMBHV",
+    "name": "SAMBHV STEEL TUBES LTD",
+    "sector": "Basic Materials",
+    "price": 157.23,
+    "mcap": 4895,
+    "rank": 25,
+    "rs": 92
+   },
+   {
+    "symbol": "PVRINOX",
+    "name": "PVR INOX LIMITED",
+    "sector": "Communication Services",
+    "price": 1395.7,
+    "mcap": 13479,
+    "rank": 38,
+    "rs": 90
+   },
+   {
+    "symbol": "CYIENT",
+    "name": "CYIENT LIMITED",
+    "sector": "Industrials",
+    "price": 1233.0,
+    "mcap": 12205,
+    "rank": 42,
+    "rs": 86
+   },
+   {
+    "symbol": "KINGFA",
+    "name": "KINGFA SCI & TEC IND LTD.",
+    "sector": "Basic Materials",
+    "price": 6450.0,
+    "mcap": 8680,
+    "rank": 43,
+    "rs": 90
+   },
+   {
+    "symbol": "RAYMOND",
+    "name": "RAYMOND LTD",
+    "sector": "Industrials",
+    "price": 1063.4,
+    "mcap": 7524,
+    "rank": 45,
+    "rs": 99
+   },
+   {
+    "symbol": "TFCILTD",
+    "name": "TOURISM FINANCE CORP. OF",
+    "sector": "Financial Services",
+    "price": 147.57,
+    "mcap": 7231,
+    "rank": 50,
+    "rs": 99
+   },
+   {
+    "symbol": "GRWRHITECH",
+    "name": "GARWARE HI-TECH FILMS LTD",
+    "sector": "Basic Materials",
+    "price": 7034.0,
+    "mcap": 16164,
+    "rank": 51,
+    "rs": 96
+   },
+   {
+    "symbol": "WSTCSTPAPR",
+    "name": "WEST COAST PAPER MILLS LT",
+    "sector": "Basic Materials",
+    "price": 797.45,
+    "mcap": 5434,
+    "rank": 53,
+    "rs": 95
+   },
+   {
+    "symbol": "KRISHANA",
+    "name": "KRISHANA PHOSCHEM LIMITED",
+    "sector": "Basic Materials",
+    "price": 199.66,
+    "mcap": 6581,
+    "rank": 55,
+    "rs": 95
+   },
+   {
+    "symbol": "SOUTHBANK",
+    "name": "THE SOUTH INDIAN BANK LTD",
+    "sector": "Financial Services",
+    "price": 52.57,
+    "mcap": 14213,
+    "rank": 56,
+    "rs": 86
+   },
+   {
+    "symbol": "ANANDRATHI",
+    "name": "ANAND RATHI WEALTH LTD",
+    "sector": "Financial Services",
+    "price": 2235.0,
+    "mcap": 35930,
+    "rank": 69,
+    "rs": 85
+   }
+  ],
+  "OBV": [
+   {
+    "symbol": "MVGJL",
+    "name": "MANOJ VAIBHAV GEM N JEW L",
+    "sector": "Consumer Cyclical",
+    "price": 196.56,
+    "mcap": 1178,
+    "rank": 10,
+    "rs": 78
+   },
+   {
+    "symbol": "SEJALLTD",
+    "name": "SEJAL GLASS LIMITED",
+    "sector": "Industrials",
+    "price": 845.45,
+    "mcap": 1006,
+    "rank": 21,
+    "rs": 75
+   },
+   {
+    "symbol": "CYIENT",
+    "name": "CYIENT LIMITED",
+    "sector": "Industrials",
+    "price": 1233.0,
+    "mcap": 12205,
+    "rank": 42,
+    "rs": 86
+   },
+   {
+    "symbol": "SUNTV",
+    "name": "SUN TV NETWORK LIMITED",
+    "sector": "Communication Services",
+    "price": 578.8,
+    "mcap": 25219,
+    "rank": 44,
+    "rs": 71
+   },
+   {
+    "symbol": "IBULLSLTD",
+    "name": "INDIABULLS LIMITED",
+    "sector": "Real Estate",
+    "price": 31.88,
+    "mcap": 7660,
+    "rank": 57,
+    "rs": 96
+   },
+   {
+    "symbol": "MPHASIS",
+    "name": "MPHASIS LIMITED",
+    "sector": "Technology",
+    "price": 2480.0,
+    "mcap": 47718,
+    "rank": 58,
+    "rs": 65
+   },
+   {
+    "symbol": "PASHUPATI",
+    "name": "PASHUPATI COTSPIN LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 104.31,
+    "mcap": 1413,
+    "rank": 59,
+    "rs": 86
+   }
+  ],
+  "IPO": [
+   {
+    "symbol": "DEEPA",
+    "name": "DEEPA JEWELLERS LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 230.14,
+    "mcap": 2591,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "KNACK",
+    "name": "KNACK PACKAGING LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 204.88,
+    "mcap": 2516,
+    "rank": null,
+    "rs": 73
+   }
+  ]
  }
 }
