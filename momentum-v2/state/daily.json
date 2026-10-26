@@ -15549,7 +15549,7 @@
     "sector": "Basic Materials",
     "price": 330.7,
     "mcap": 2791,
-    "rank": 10,
+    "rank": 11,
     "rs": 99
    },
    {
@@ -15558,7 +15558,7 @@
     "sector": "Energy",
     "price": 293.0,
     "mcap": 2939,
-    "rank": 11,
+    "rank": 12,
     "rs": 96
    },
    {
@@ -15585,7 +15585,7 @@
     "sector": "Communication Services",
     "price": 1395.7,
     "mcap": 13504,
-    "rank": 36,
+    "rank": 37,
     "rs": 90
    },
    {
@@ -15594,7 +15594,7 @@
     "sector": "Basic Materials",
     "price": 6450.0,
     "mcap": 8901,
-    "rank": 40,
+    "rank": 41,
     "rs": 90
    },
    {
@@ -15603,7 +15603,7 @@
     "sector": "Industrials",
     "price": 1063.4,
     "mcap": 7023,
-    "rank": 41,
+    "rank": 42,
     "rs": 99
    },
    {
@@ -15612,7 +15612,7 @@
     "sector": "Industrials",
     "price": 1233.0,
     "mcap": 12958,
-    "rank": 42,
+    "rank": 43,
     "rs": 86
    },
    {
@@ -15620,7 +15620,7 @@
     "name": "TOURISM FINANCE CORP. OF",
     "sector": "Financial Services",
     "price": 147.57,
-    "mcap": 7231,
+    "mcap": 7144,
     "rank": 49,
     "rs": 98
    },
@@ -15638,8 +15638,8 @@
     "name": "WEST COAST PAPER MILLS LT",
     "sector": "Basic Materials",
     "price": 797.45,
-    "mcap": 5434,
-    "rank": 52,
+    "mcap": 5203,
+    "rank": 51,
     "rs": 95
    },
    {
@@ -15656,7 +15656,7 @@
     "name": "THE SOUTH INDIAN BANK LTD",
     "sector": "Financial Services",
     "price": 52.57,
-    "mcap": 14213,
+    "mcap": 13805,
     "rank": 55,
     "rs": 86
    },
@@ -15676,9 +15676,18 @@
     "name": "SEJAL GLASS LIMITED",
     "sector": "Industrials",
     "price": 845.45,
-    "mcap": 1006,
+    "mcap": 1036,
     "rank": 20,
     "rs": 75
+   },
+   {
+    "symbol": "SUNTV",
+    "name": "SUN TV NETWORK LIMITED",
+    "sector": "Communication Services",
+    "price": 578.8,
+    "mcap": 22546,
+    "rank": 40,
+    "rs": 71
    },
    {
     "symbol": "CYIENT",
@@ -15686,17 +15695,8 @@
     "sector": "Industrials",
     "price": 1233.0,
     "mcap": 12958,
-    "rank": 42,
-    "rs": 86
-   },
-   {
-    "symbol": "SUNTV",
-    "name": "SUN TV NETWORK LIMITED",
-    "sector": "Communication Services",
-    "price": 578.8,
-    "mcap": 25219,
     "rank": 43,
-    "rs": 71
+    "rs": 86
    },
    {
     "symbol": "PASHUPATI",
@@ -15743,7 +15743,7 @@
     "price": 204.88,
     "mcap": 2493,
     "rank": null,
-    "rs": 74
+    "rs": 73
    }
   ]
  }
