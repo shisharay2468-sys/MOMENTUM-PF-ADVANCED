@@ -15549,7 +15549,7 @@
     "sector": "Basic Materials",
     "price": 330.7,
     "mcap": 2791,
-    "rank": 9,
+    "rank": 10,
     "rs": 99
    },
    {
@@ -15558,7 +15558,7 @@
     "sector": "Energy",
     "price": 293.0,
     "mcap": 2939,
-    "rank": 12,
+    "rank": 11,
     "rs": 96
    },
    {
@@ -15566,7 +15566,7 @@
     "name": "ORIENT HOTELS LTD",
     "sector": "Consumer Cyclical",
     "price": 151.76,
-    "mcap": 2661,
+    "mcap": 2760,
     "rank": 16,
     "rs": 86
    },
@@ -15575,8 +15575,8 @@
     "name": "SAMBHV STEEL TUBES LTD",
     "sector": "Basic Materials",
     "price": 157.23,
-    "mcap": 4895,
-    "rank": 24,
+    "mcap": 4650,
+    "rank": 22,
     "rs": 92
    },
    {
@@ -15584,8 +15584,8 @@
     "name": "PVR INOX LIMITED",
     "sector": "Communication Services",
     "price": 1395.7,
-    "mcap": 13479,
-    "rank": 37,
+    "mcap": 13504,
+    "rank": 36,
     "rs": 90
    },
    {
@@ -15594,8 +15594,17 @@
     "sector": "Basic Materials",
     "price": 6450.0,
     "mcap": 8901,
-    "rank": 41,
+    "rank": 40,
     "rs": 90
+   },
+   {
+    "symbol": "RAYMOND",
+    "name": "RAYMOND LTD",
+    "sector": "Industrials",
+    "price": 1063.4,
+    "mcap": 7023,
+    "rank": 41,
+    "rs": 99
    },
    {
     "symbol": "CYIENT",
@@ -15605,15 +15614,6 @@
     "mcap": 12958,
     "rank": 42,
     "rs": 86
-   },
-   {
-    "symbol": "RAYMOND",
-    "name": "RAYMOND LTD",
-    "sector": "Industrials",
-    "price": 1063.4,
-    "mcap": 7524,
-    "rank": 44,
-    "rs": 99
    },
    {
     "symbol": "TFCILTD",
@@ -15639,7 +15639,7 @@
     "sector": "Basic Materials",
     "price": 797.45,
     "mcap": 5434,
-    "rank": 51,
+    "rank": 52,
     "rs": 95
    },
    {
@@ -15666,20 +15666,11 @@
     "sector": "Financial Services",
     "price": 2235.0,
     "mcap": 37027,
-    "rank": 69,
+    "rank": 68,
     "rs": 85
    }
   ],
   "OBV": [
-   {
-    "symbol": "MVGJL",
-    "name": "MANOJ VAIBHAV GEM N JEW L",
-    "sector": "Consumer Cyclical",
-    "price": 196.56,
-    "mcap": 1178,
-    "rank": 11,
-    "rs": 78
-   },
    {
     "symbol": "SEJALLTD",
     "name": "SEJAL GLASS LIMITED",
@@ -15708,6 +15699,15 @@
     "rs": 71
    },
    {
+    "symbol": "PASHUPATI",
+    "name": "PASHUPATI COTSPIN LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 104.31,
+    "mcap": 1734,
+    "rank": 45,
+    "rs": 86
+   },
+   {
     "symbol": "IBULLSLTD",
     "name": "INDIABULLS LIMITED",
     "sector": "Real Estate",
@@ -15717,21 +15717,12 @@
     "rs": 96
    },
    {
-    "symbol": "PASHUPATI",
-    "name": "PASHUPATI COTSPIN LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 104.31,
-    "mcap": 1413,
-    "rank": 59,
-    "rs": 86
-   },
-   {
     "symbol": "MPHASIS",
     "name": "MPHASIS LIMITED",
     "sector": "Technology",
     "price": 2480.0,
-    "mcap": 47718,
-    "rank": 60,
+    "mcap": 48817,
+    "rank": 59,
     "rs": 65
    }
   ],
