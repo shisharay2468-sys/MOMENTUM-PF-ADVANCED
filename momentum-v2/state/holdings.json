@@ -20,11 +20,6 @@
       "entry_date": "2026-09-27",
       "weight": 0.0475
     },
-    "GANDHAR.NS": {
-      "entry_price": 282.6000061035156,
-      "entry_date": "2026-10-01",
-      "weight": 0.0475
-    },
     "PREMIERPOL.NS": {
       "entry_price": 98.25,
       "entry_date": "2026-10-08",
@@ -49,9 +44,14 @@
       "entry_price": 330.70001220703125,
       "entry_date": "2026-10-23",
       "weight": 0.0475
+    },
+    "KROSS.NS": {
+      "entry_price": 300.8500061035156,
+      "entry_date": "2026-10-29",
+      "weight": 0.0475
     }
   },
-  "last_rebalance": "2026-10-23",
+  "last_rebalance": "2026-10-29",
   "history": [
     {
       "date": "2026-09-27",
@@ -119,21 +119,31 @@
       "sold": [
         "SOTL"
       ]
+    },
+    {
+      "date": "2026-10-29",
+      "bought": [
+        "KROSS"
+      ],
+      "sold": [
+        "GANDHAR"
+      ]
     }
   ],
   "buyable": [
     "ANANDRATHI.NS",
     "BHAGERIA.NS",
     "BLUSPRING.NS",
-    "CHENNPETRO.NS",
-    "CYIENT.NS",
     "DPABHUSHAN.NS",
-    "EBGNG.NS",
-    "GANDHAR.NS",
+    "GESHIP.NS",
+    "GLAND.NS",
     "GRWRHITECH.NS",
     "KINGFA.NS",
+    "KOLTEPATIL.NS",
     "KRISHANA.NS",
     "KROSS.NS",
+    "OAL.NS",
+    "OPTIEMUS.NS",
     "ORIENTHOT.NS",
     "PTCIL.NS",
     "PVRINOX.NS",
@@ -141,12 +151,11 @@
     "RAYMOND.NS",
     "ROSSTECH.NS",
     "SAMBHV.NS",
+    "SAREGAMA.NS",
     "SONACOMS.NS",
     "SOUTHBANK.NS",
     "TFCILTD.NS",
     "THELEELA.NS",
-    "WELSPUNLIV.NS",
-    "WHEELS.NS",
     "WSTCSTPAPR.NS"
   ]
 }
