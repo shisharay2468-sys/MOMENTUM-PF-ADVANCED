@@ -10,11 +10,6 @@
       "entry_date": "2026-09-27",
       "weight": 0.0475
     },
-    "RAMRAT.NS": {
-      "entry_price": 570.0,
-      "entry_date": "2026-09-27",
-      "weight": 0.0475
-    },
     "VINDHYATEL.NS": {
       "entry_price": 2719.800048828125,
       "entry_date": "2026-09-27",
@@ -49,9 +44,14 @@
       "entry_price": 300.8500061035156,
       "entry_date": "2026-10-29",
       "weight": 0.0475
+    },
+    "ORIENTHOT.NS": {
+      "entry_price": 160.86000061035156,
+      "entry_date": "2026-10-30",
+      "weight": 0.0475
     }
   },
-  "last_rebalance": "2026-10-29",
+  "last_rebalance": "2026-10-30",
   "history": [
     {
       "date": "2026-09-27",
@@ -128,33 +128,40 @@
       "sold": [
         "GANDHAR"
       ]
+    },
+    {
+      "date": "2026-10-30",
+      "bought": [
+        "ORIENTHOT"
+      ],
+      "sold": [
+        "RAMRAT"
+      ]
     }
   ],
   "buyable": [
+    "ALIVUS.NS",
     "ANANDRATHI.NS",
     "BHAGERIA.NS",
-    "DPABHUSHAN.NS",
-    "EBGNG.NS",
+    "CHENNPETRO.NS",
     "GLAND.NS",
-    "GRWRHITECH.NS",
     "KINGFA.NS",
-    "KRISHANA.NS",
-    "KROSS.NS",
     "OAL.NS",
+    "OPTIEMUS.NS",
     "ORIENTHOT.NS",
     "PTCIL.NS",
     "PVRINOX.NS",
     "RATNAVEER.NS",
     "RAYMOND.NS",
-    "ROSSTECH.NS",
-    "SAMBHV.NS",
+    "SAILIFE.NS",
+    "SAREGAMA.NS",
     "SONACOMS.NS",
     "SOUTHBANK.NS",
     "TFCILTD.NS",
     "THELEELA.NS",
-    "VALIANTORG.NS",
+    "TIPSMUSIC.NS",
+    "UNITEDPOLY.NS",
     "WELSPUNLIV.NS",
-    "WHEELS.NS",
     "WSTCSTPAPR.NS"
   ]
 }
