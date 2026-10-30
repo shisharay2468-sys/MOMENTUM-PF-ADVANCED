@@ -140,12 +140,17 @@
     }
   ],
   "buyable": [
-    "ALIVUS.NS",
     "ANANDRATHI.NS",
     "BHAGERIA.NS",
-    "CHENNPETRO.NS",
+    "BLUSPRING.NS",
+    "DPABHUSHAN.NS",
+    "GESHIP.NS",
     "GLAND.NS",
+    "GRWRHITECH.NS",
     "KINGFA.NS",
+    "KOLTEPATIL.NS",
+    "KRISHANA.NS",
+    "KROSS.NS",
     "OAL.NS",
     "OPTIEMUS.NS",
     "ORIENTHOT.NS",
@@ -153,15 +158,13 @@
     "PVRINOX.NS",
     "RATNAVEER.NS",
     "RAYMOND.NS",
-    "SAILIFE.NS",
+    "ROSSTECH.NS",
+    "SAMBHV.NS",
     "SAREGAMA.NS",
     "SONACOMS.NS",
     "SOUTHBANK.NS",
     "TFCILTD.NS",
     "THELEELA.NS",
-    "TIPSMUSIC.NS",
-    "UNITEDPOLY.NS",
-    "WELSPUNLIV.NS",
     "WSTCSTPAPR.NS"
   ]
 }
