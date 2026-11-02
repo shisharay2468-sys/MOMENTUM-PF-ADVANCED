@@ -17101,7 +17101,7 @@
     "sector": "Consumer Cyclical",
     "price": 160.86,
     "mcap": 2922,
-    "rank": 11,
+    "rank": 10,
     "rs": 88
    },
    {
@@ -17109,8 +17109,8 @@
     "name": "WEST COAST PAPER MILLS LT",
     "sector": "Basic Materials",
     "price": 815.45,
-    "mcap": 5203,
-    "rank": 16,
+    "mcap": 5358,
+    "rank": 17,
     "rs": 95
    },
    {
@@ -17119,7 +17119,7 @@
     "sector": "Energy",
     "price": 1511.5,
     "mcap": 23022,
-    "rank": 28,
+    "rank": 29,
     "rs": 94
    },
    {
@@ -17128,7 +17128,7 @@
     "sector": "Communication Services",
     "price": 1495.1,
     "mcap": 14542,
-    "rank": 30,
+    "rank": 31,
     "rs": 88
    },
    {
@@ -17137,7 +17137,7 @@
     "sector": "Industrials",
     "price": 23945.0,
     "mcap": 38644,
-    "rank": 33,
+    "rank": 35,
     "rs": 89
    },
    {
@@ -17145,8 +17145,8 @@
     "name": "TIPS MUSIC LIMITED",
     "sector": "Communication Services",
     "price": 782.05,
-    "mcap": 9116,
-    "rank": 39,
+    "mcap": 9981,
+    "rank": 43,
     "rs": 85
    },
    {
@@ -17155,7 +17155,7 @@
     "sector": "Basic Materials",
     "price": 6783.0,
     "mcap": 9062,
-    "rank": 47,
+    "rank": 46,
     "rs": 91
    },
    {
@@ -17164,7 +17164,7 @@
     "sector": "Industrials",
     "price": 1100.2,
     "mcap": 7505,
-    "rank": 48,
+    "rank": 49,
     "rs": 99
    },
    {
@@ -17173,7 +17173,7 @@
     "sector": "Basic Materials",
     "price": 360.25,
     "mcap": 3182,
-    "rank": 53,
+    "rank": 51,
     "rs": 99
    },
    {
@@ -17181,8 +17181,8 @@
     "name": "UNITED POLYFAB GUJ. LTD.",
     "sector": "Consumer Cyclical",
     "price": 54.27,
-    "mcap": 1149,
-    "rank": 55,
+    "mcap": 1223,
+    "rank": 54,
     "rs": 95
    },
    {
@@ -17195,40 +17195,13 @@
     "rs": 91
    },
    {
-    "symbol": "SONACOMS",
-    "name": "SONA BLW PRECISION FRGS L",
-    "sector": "Consumer Cyclical",
-    "price": 890.5,
-    "mcap": 48804,
-    "rank": 68,
-    "rs": 93
-   },
-   {
     "symbol": "TFCILTD",
     "name": "TOURISM FINANCE CORP. OF",
     "sector": "Financial Services",
     "price": 157.92,
-    "mcap": 7144,
-    "rank": 70,
+    "mcap": 7313,
+    "rank": 68,
     "rs": 98
-   },
-   {
-    "symbol": "OPTIEMUS",
-    "name": "OPTIEMUS INFRACOM LTD",
-    "sector": "Technology",
-    "price": 789.45,
-    "mcap": 7036,
-    "rank": 73,
-    "rs": 93
-   },
-   {
-    "symbol": "SOUTHBANK",
-    "name": "THE SOUTH INDIAN BANK LTD",
-    "sector": "Financial Services",
-    "price": 55.49,
-    "mcap": 13805,
-    "rank": 74,
-    "rs": 85
    },
    {
     "symbol": "ALIVUS",
@@ -17236,8 +17209,26 @@
     "sector": "Healthcare",
     "price": 1415.3,
     "mcap": 17801,
-    "rank": 75,
+    "rank": 71,
     "rs": 90
+   },
+   {
+    "symbol": "OPTIEMUS",
+    "name": "OPTIEMUS INFRACOM LTD",
+    "sector": "Technology",
+    "price": 789.45,
+    "mcap": 7036,
+    "rank": 72,
+    "rs": 93
+   },
+   {
+    "symbol": "SOUTHBANK",
+    "name": "THE SOUTH INDIAN BANK LTD",
+    "sector": "Financial Services",
+    "price": 55.49,
+    "mcap": 14283,
+    "rank": 73,
+    "rs": 85
    },
    {
     "symbol": "NAZARA",
@@ -17245,7 +17236,7 @@
     "sector": "Communication Services",
     "price": 398.8,
     "mcap": 16411,
-    "rank": 78,
+    "rank": 76,
     "rs": 89
    },
    {
@@ -17253,27 +17244,27 @@
     "name": "SAREGAMA INDIA LIMITED",
     "sector": "Communication Services",
     "price": 548.65,
-    "mcap": 9388,
+    "mcap": 10479,
     "rank": 79,
-    "rs": 85
-   },
-   {
-    "symbol": "THELEELA",
-    "name": "LEELA PALACES HOTEL LTD",
-    "sector": "Consumer Cyclical",
-    "price": 634.25,
-    "mcap": 19468,
-    "rank": 84,
-    "rs": 91
+    "rs": 86
    },
    {
     "symbol": "WELSPUNLIV",
     "name": "WELSPUN LIVING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 219.08,
-    "mcap": 19672,
-    "rank": 88,
+    "mcap": 22815,
+    "rank": 81,
     "rs": 94
+   },
+   {
+    "symbol": "THELEELA",
+    "name": "LEELA PALACES HOTEL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 634.25,
+    "mcap": 22410,
+    "rank": 83,
+    "rs": 91
    },
    {
     "symbol": "ANANDRATHI",
@@ -17281,7 +17272,7 @@
     "sector": "Financial Services",
     "price": 2252.0,
     "mcap": 37806,
-    "rank": 91,
+    "rank": 89,
     "rs": 84
    },
    {
@@ -17290,7 +17281,7 @@
     "sector": "Healthcare",
     "price": 1557.5,
     "mcap": 32770,
-    "rank": 92,
+    "rank": 90,
     "rs": 92
    },
    {
@@ -17299,7 +17290,16 @@
     "sector": "Healthcare",
     "price": 3095.9,
     "mcap": 50602,
-    "rank": 94,
+    "rank": 91,
+    "rs": 93
+   },
+   {
+    "symbol": "SONACOMS",
+    "name": "SONA BLW PRECISION FRGS L",
+    "sector": "Consumer Cyclical",
+    "price": 890.5,
+    "mcap": 56638,
+    "rank": 95,
     "rs": 93
    }
   ],
@@ -17310,7 +17310,7 @@
     "sector": "Industrials",
     "price": 1134.9,
     "mcap": 11900,
-    "rank": 49,
+    "rank": 47,
     "rs": 79
    },
    {
@@ -17318,18 +17318,9 @@
     "name": "SUN TV NETWORK LIMITED",
     "sector": "Communication Services",
     "price": 607.55,
-    "mcap": 22546,
+    "mcap": 23306,
     "rank": 56,
     "rs": 74
-   },
-   {
-    "symbol": "SEJALLTD",
-    "name": "SEJAL GLASS LIMITED",
-    "sector": "Industrials",
-    "price": 773.45,
-    "mcap": 1036,
-    "rank": 62,
-    "rs": 56
    },
    {
     "symbol": "GESHIP",
@@ -17338,7 +17329,7 @@
     "price": 1593.6,
     "mcap": 21935,
     "rank": 64,
-    "rs": 84
+    "rs": 85
    },
    {
     "symbol": "PASHUPATI",
@@ -17346,7 +17337,7 @@
     "sector": "Consumer Cyclical",
     "price": 134.6,
     "mcap": 2235,
-    "rank": 65,
+    "rank": 67,
     "rs": 94
    },
    {
@@ -17355,7 +17346,7 @@
     "sector": "Consumer Defensive",
     "price": 698.25,
     "mcap": 19810,
-    "rank": 76,
+    "rank": 74,
     "rs": 81
    },
    {
@@ -17364,7 +17355,7 @@
     "sector": "Real Estate",
     "price": 30.17,
     "mcap": 6897,
-    "rank": 77,
+    "rank": 75,
     "rs": 94
    },
    {
@@ -17373,7 +17364,7 @@
     "sector": "Technology",
     "price": 2525.6,
     "mcap": 48933,
-    "rank": 83,
+    "rank": 82,
     "rs": 64
    }
   ],
@@ -17410,7 +17401,7 @@
     "name": "SHUKRA PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 74.87,
-    "mcap": 2985,
+    "mcap": 3536,
     "rank": null,
     "rs": null
    }
