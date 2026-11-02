@@ -4080,5 +4080,31 @@
   "last_price": 698.25,
   "active": true,
   "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "LOTUSDEV",
+  "name": "SRI LOTUS DEVLPRS N RTY L",
+  "sector": "Industrials",
+  "date": "2026-11-03",
+  "price": 245.97999572753906,
+  "detail": "Cleared every entry rule \u00b7 rank 60",
+  "last_seen": "2026-11-03",
+  "last_price": 245.97999572753906,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "NAZARA",
+  "name": "NAZARA TECHNOLOGIES LTD",
+  "sector": "Communication Services",
+  "date": "2026-11-03",
+  "price": 398.79998779296875,
+  "detail": "Cleared every entry rule \u00b7 rank 78",
+  "last_seen": "2026-11-03",
+  "last_price": 398.79998779296875,
+  "active": true,
+  "ended": null
  }
 ]
