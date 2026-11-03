@@ -40,18 +40,18 @@
       "entry_date": "2026-10-23",
       "weight": 0.0475
     },
-    "KROSS.NS": {
-      "entry_price": 300.8500061035156,
-      "entry_date": "2026-10-29",
-      "weight": 0.0475
-    },
     "ORIENTHOT.NS": {
       "entry_price": 160.86000061035156,
       "entry_date": "2026-10-30",
       "weight": 0.0475
+    },
+    "NITINSPIN.NS": {
+      "entry_price": 664.2999877929688,
+      "entry_date": "2026-11-04",
+      "weight": 0.0475
     }
   },
-  "last_rebalance": "2026-10-30",
+  "last_rebalance": "2026-11-04",
   "history": [
     {
       "date": "2026-09-27",
@@ -137,6 +137,15 @@
       "sold": [
         "RAMRAT"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "bought": [
+        "NITINSPIN"
+      ],
+      "sold": [
+        "KROSS"
+      ]
     }
   ],
   "buyable": [
@@ -145,13 +154,11 @@
     "BHAGERIA.NS",
     "CHENNPETRO.NS",
     "GLAND.NS",
-    "GRWRHITECH.NS",
     "KINGFA.NS",
-    "KRISHANA.NS",
     "LOTUSDEV.NS",
     "NAZARA.NS",
+    "NITINSPIN.NS",
     "OAL.NS",
-    "OPTIEMUS.NS",
     "ORIENTHOT.NS",
     "PTCIL.NS",
     "PVRINOX.NS",
@@ -165,6 +172,8 @@
     "TFCILTD.NS",
     "THELEELA.NS",
     "TIPSMUSIC.NS",
+    "UNITEDPOLY.NS",
+    "WELSPUNLIV.NS",
     "WSTCSTPAPR.NS"
   ]
 }
