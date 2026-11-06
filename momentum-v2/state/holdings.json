@@ -25,11 +25,6 @@
       "entry_date": "2026-10-08",
       "weight": 0.0475
     },
-    "OAL.NS": {
-      "entry_price": 589.4000244140625,
-      "entry_date": "2026-10-22",
-      "weight": 0.0475
-    },
     "BHAGERIA.NS": {
       "entry_price": 344.54998779296875,
       "entry_date": "2026-10-22",
@@ -49,9 +44,24 @@
       "entry_price": 664.2999877929688,
       "entry_date": "2026-11-04",
       "weight": 0.0475
+    },
+    "KROSS.NS": {
+      "entry_price": 291.0,
+      "entry_date": "2026-11-06",
+      "weight": 0.07916666666666666
+    },
+    "EIMCOELECO.NS": {
+      "entry_price": 2431.10009765625,
+      "entry_date": "2026-11-06",
+      "weight": 0.07916666666666666
+    },
+    "UNIMECH.NS": {
+      "entry_price": 1739.300048828125,
+      "entry_date": "2026-11-06",
+      "weight": 0.07916666666666666
     }
   },
-  "last_rebalance": "2026-11-04",
+  "last_rebalance": "2026-11-06",
   "history": [
     {
       "date": "2026-09-27",
@@ -146,43 +156,51 @@
       "sold": [
         "KROSS"
       ]
+    },
+    {
+      "date": "2026-11-06",
+      "bought": [
+        "KROSS",
+        "EIMCOELECO",
+        "UNIMECH"
+      ],
+      "sold": [
+        "OAL"
+      ]
     }
   ],
   "buyable": [
+    "ALIVUS.NS",
     "ANANDRATHI.NS",
+    "ASAHIINDIA.NS",
     "BHAGERIA.NS",
     "BLUSPRING.NS",
-    "CHENNPETRO.NS",
-    "EBGNG.NS",
+    "EIMCOELECO.NS",
     "GLAND.NS",
     "GRWRHITECH.NS",
-    "KINGFA.NS",
+    "ICIL.NS",
+    "IGIL.NS",
+    "KARURVYSYA.NS",
+    "KDDL.NS",
     "KROSS.NS",
-    "LALPATHLAB.NS",
-    "MARINE.NS",
+    "LTTS.NS",
     "NAVINFLUOR.NS",
     "NAZARA.NS",
-    "NITINSPIN.NS",
-    "OAL.NS",
-    "OPTIEMUS.NS",
-    "ORIENTHOT.NS",
     "PETRONET.NS",
     "PGIL.NS",
     "PTCIL.NS",
     "PVRINOX.NS",
+    "RATNAVEER.NS",
     "RAYMOND.NS",
-    "ROSSTECH.NS",
     "RPEL.NS",
-    "SAILIFE.NS",
     "SAMBHV.NS",
     "SHYAMMETL.NS",
     "SONACOMS.NS",
     "SOUTHBANK.NS",
-    "TCPLPACK.NS",
+    "TANLA.NS",
     "TFCILTD.NS",
     "THELEELA.NS",
-    "TIPSMUSIC.NS",
     "UNIMECH.NS",
-    "WSTCSTPAPR.NS"
+    "WELSPUNLIV.NS"
   ]
 }
