@@ -4520,8 +4520,8 @@
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 607",
   "last_seen": "2026-11-10",
   "last_price": 700.2000122070312,
-  "active": true,
-  "ended": null
+  "active": false,
+  "ended": "2026-11-10"
  },
  {
   "type": "Entry",
@@ -4611,6 +4611,32 @@
   "detail": "Listed 08 Jul 2026 \u00b7 listing-day high Rs 192",
   "last_seen": "2026-11-10",
   "last_price": 205.25999450683594,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "OBV",
+  "symbol": "NUVAMA",
+  "name": "NUVAMA WEALTH MANAGE LTD",
+  "sector": "Financial Services",
+  "date": "2026-11-10",
+  "price": 1871.0,
+  "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
+  "last_seen": "2026-11-10",
+  "last_price": 1871.0,
+  "active": true,
+  "ended": null
+ },
+ {
+  "type": "IPO",
+  "symbol": "PERMAGN",
+  "name": "PERMANENT MAGNETS LTD.",
+  "sector": "Industrials",
+  "date": "2026-11-10",
+  "price": 1207.0,
+  "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 821",
+  "last_seen": "2026-11-10",
+  "last_price": 1207.0,
   "active": true,
   "ended": null
  }
