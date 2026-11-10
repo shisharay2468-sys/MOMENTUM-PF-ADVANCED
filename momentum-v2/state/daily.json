@@ -19128,7 +19128,7 @@
     "symbol": "LALPATHLAB",
     "name": "DR. LAL PATH LABS LTD.",
     "sector": "Healthcare",
-    "price": 2016.5,
+    "price": 2011.5,
     "mcap": 33718,
     "rank": 150,
     "rs": 78
@@ -19265,7 +19265,7 @@
     "symbol": "PDSL",
     "name": "PDS LIMITED",
     "sector": "Industrials",
-    "price": 407.75,
+    "price": 405.55,
     "mcap": 5759,
     "rank": 76,
     "rs": 76
@@ -19326,15 +19326,6 @@
    }
   ],
   "IPO": [
-   {
-    "symbol": "BONFIG",
-    "name": "BONFIGLIOLI TRANS LIMITED",
-    "sector": "Industrials",
-    "price": 700.2,
-    "mcap": 12597,
-    "rank": null,
-    "rs": null
-   },
    {
     "symbol": "FREDUN",
     "name": "FREDUN PHARMACEUTICALS L",

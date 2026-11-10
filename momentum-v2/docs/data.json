@@ -1,5 +1,5 @@
 {
-  "stamp": "10 November 2026",
+  "stamp": "11 November 2026",
   "universe_n": 2396,
   "eligible_n": 195,
   "entry_n": 33,
@@ -8,10 +8,10 @@
     "invested": 1.0,
     "positions": 20,
     "detail": "Nifty 500 has reclaimed its 200-day average but the average is still falling. Full book, tighter stops.",
-    "last": 23456.94921875,
-    "sma200": 22763.422294921875,
+    "last": 23567.0,
+    "sma200": 22763.878046875,
     "rising": false,
-    "vix": 17.469999313354492
+    "vix": 17.420000076293945
   },
   "book": [
     {
@@ -63,9 +63,9 @@
       "ann_vol": 0.6182175081301727,
       "price": 1381.0999755859375,
       "quality_score": 2.0,
-      "weekly_rsi": 63.3743309413337,
+      "weekly_rsi": 63.37433088813945,
       "ext20": -0.04329124552379293,
-      "ema21w": 1250.8403601749283,
+      "ema21w": 1250.8403601773873,
       "rs_days": 22,
       "stop": 1262.4299560546876,
       "catalyst": "Sunrise theme: aerospace",
@@ -99,9 +99,9 @@
       "ann_vol": 0.6237653077647811,
       "price": 2543.0,
       "quality_score": 2.0,
-      "weekly_rsi": 55.74595245157671,
+      "weekly_rsi": 55.74595245498159,
       "ext20": -0.06179325593916374,
-      "ema21w": 2413.1670891057197,
+      "ema21w": 2413.167089141175,
       "rs_days": 19,
       "stop": 2447.8200439453126,
       "catalyst": "Sunrise theme: engineering & construction",
@@ -135,9 +135,9 @@
       "ann_vol": 0.6549535153390537,
       "price": 91.18000030517578,
       "quality_score": 3.0,
-      "weekly_rsi": 56.674719637040816,
+      "weekly_rsi": 56.67471963449181,
       "ext20": -0.0647006031707924,
-      "ema21w": 84.66686430860962,
+      "ema21w": 84.66686430890952,
       "rs_days": 19,
       "stop": 88.425,
       "catalyst": "Volume pivot 23 Sep 2026 (19% on 8.1x volume) | Sunrise theme: specialty chemicals",
@@ -164,16 +164,16 @@
       "name": "KOPRAN LTD",
       "sector": "Healthcare",
       "rank": 4,
-      "composite": 2.8655854523126916,
+      "composite": 2.8655624906028185,
       "r12m": 0.592360991849824,
       "r6m": 0.6682689542097116,
       "r3m": 0.48680670701964535,
       "ann_vol": 0.5300400611690045,
       "price": 259.760009765625,
       "quality_score": 2.0,
-      "weekly_rsi": 61.2954334568112,
+      "weekly_rsi": 61.29543345974952,
       "ext20": 0.00464501087586866,
-      "ema21w": 230.62879084317848,
+      "ema21w": 230.62879083446694,
       "rs_days": 27,
       "stop": 228.87000274658203,
       "catalyst": "Volume pivot 31 Aug 2026 (8% on 11.3x volume)",
@@ -200,16 +200,16 @@
       "name": "BHAGERIA INDUSTRIES LTD",
       "sector": "Basic Materials",
       "rank": 3,
-      "composite": 2.9473758876041964,
+      "composite": 2.947357023246779,
       "r12m": 0.907181396106086,
       "r6m": 1.4535259521411965,
       "r3m": 0.9213232395586912,
       "ann_vol": 0.5356758005399747,
       "price": 396.1000061035156,
       "quality_score": 4.0,
-      "weekly_rsi": 75.6679941152732,
+      "weekly_rsi": 75.66799411659241,
       "ext20": 0.09138752552039353,
-      "ema21w": 305.37451603190846,
+      "ema21w": 305.37451603187685,
       "rs_days": 26,
       "stop": 310.09498901367186,
       "catalyst": "Volume pivot 25 Sep 2026 (10% on 7.2x volume) | Sunrise theme: specialty chemicals",
@@ -236,7 +236,7 @@
       "name": "RATNAVEER PRECISION ENG L",
       "sector": "Basic Materials",
       "rank": 112,
-      "composite": 1.5059203376547887,
+      "composite": 1.5058977406940384,
       "r12m": 1.4373287989122288,
       "r6m": 1.0492356669052283,
       "r3m": 0.7538121466831382,
@@ -272,16 +272,16 @@
       "name": "ORIENT HOTELS LTD",
       "sector": "Consumer Cyclical",
       "rank": 45,
-      "composite": 2.166056438435568,
+      "composite": 2.1660340008583807,
       "r12m": 0.4272144863836278,
       "r6m": 0.6993874487127514,
       "r3m": 0.38455432377414733,
       "ann_vol": 0.4707287160339429,
       "price": 174.6199951171875,
       "quality_score": 2.0,
-      "weekly_rsi": 76.84542454172998,
+      "weekly_rsi": 76.84542443386033,
       "ext20": 0.11491357619285991,
-      "ema21w": 142.94327147532803,
+      "ema21w": 142.94327147530734,
       "rs_days": 1,
       "stop": 144.7740005493164,
       "catalyst": "Volume pivot 19 Aug 2026 (15% on 20.3x volume)",
@@ -308,24 +308,24 @@
       "name": "NITIN SPINNERS LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 24,
-      "composite": 2.388697774705344,
+      "composite": 2.3886751286402212,
       "r12m": 0.9766242703966206,
       "r6m": 0.3492211872737685,
       "r3m": 0.1753617866710797,
       "ann_vol": 0.3851526919712516,
       "price": 653.7000122070312,
       "quality_score": 3.0,
-      "weekly_rsi": 64.14739858563078,
+      "weekly_rsi": 64.1473985985144,
       "ext20": 0.023962180531706512,
-      "ema21w": 593.3365351224663,
+      "ema21w": 593.3365351024133,
       "rs_days": 5,
       "stop": 597.8699890136719,
       "catalyst": "Volume pivot 18 Aug 2026 (10% on 20.2x volume)",
       "eps_growth": 1.548,
       "sales_growth": 0.296,
-      "eps_qoq": 0.3120957816602108,
-      "sales_qoq": 0.01772382982108689,
-      "quarter": "Jun 2026",
+      "eps_qoq": 0.17796026933521825,
+      "sales_qoq": 0.12584785625733685,
+      "quarter": "Sep 2026",
       "emergence_score": 33.0,
       "eps_accel": null,
       "sector_score": 82.0,
@@ -344,7 +344,7 @@
       "name": "KROSS LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 11,
-      "composite": 2.5888213665230198,
+      "composite": 2.5888012084114935,
       "r12m": 0.6497349594098676,
       "r6m": 0.32959548557652973,
       "r3m": 0.4500630463610682,
@@ -380,16 +380,16 @@
       "name": "EIMCO ELECON (INDIA) LTD",
       "sector": "Industrials",
       "rank": 14,
-      "composite": 2.5094482606298,
+      "composite": 2.5094275261013665,
       "r12m": 0.34757457931092617,
       "r6m": 0.6366164968826931,
       "r3m": 0.39160138914560827,
       "ann_vol": 0.4532863789171306,
       "price": 2505.300048828125,
       "quality_score": 2.0,
-      "weekly_rsi": 70.739348480028,
+      "weekly_rsi": 70.73934848016216,
       "ext20": 0.10541680474445148,
-      "ema21w": 2129.9748872551045,
+      "ema21w": 2129.9748872549067,
       "rs_days": 2,
       "stop": 2187.990087890625,
       "catalyst": "Volume pivot 14 Oct 2026 (10% on 4.9x volume)",
@@ -416,7 +416,7 @@
       "name": "UNIMECH AEROSPACE N MFG L",
       "sector": "Industrials",
       "rank": 50,
-      "composite": 2.078560009446628,
+      "composite": 2.0785380285553083,
       "r12m": 0.7840773484939738,
       "r6m": 0.8110899160532499,
       "r3m": 0.24368235932327842,
@@ -535,7 +535,7 @@
       "symbol": "AVTNPL",
       "sector": "Basic Materials",
       "rank": 1,
-      "composite": 3.1471387283015333,
+      "composite": 3.1471160369976454,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80",
       "catalyst": "Volume pivot 14 Aug 2026 (14% on 25.5x volume) | Sunrise theme: specialty chemicals"
@@ -544,7 +544,7 @@
       "symbol": "IKIO",
       "sector": "Technology",
       "rank": 2,
-      "composite": 3.020143305634402,
+      "composite": 3.0201203629362983,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80, extended from the 20-day, no fresh 50-day relative strength high",
       "catalyst": "Volume pivot 06 Nov 2026 (13% on 23.1x volume) | Sunrise theme: electronic components"
@@ -553,7 +553,7 @@
       "symbol": "BBL",
       "sector": "Industrials",
       "rank": 5,
-      "composite": 2.863625431382683,
+      "composite": 2.863613247725702,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80",
       "catalyst": "Volume pivot 27 Oct 2026 (15% on 16.5x volume) | Sunrise theme: electrical equipment"
@@ -562,7 +562,7 @@
       "symbol": "HIKAL",
       "sector": "Healthcare",
       "rank": 6,
-      "composite": 2.80290419421587,
+      "composite": 2.80288208528461,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80, no fresh 50-day relative strength high",
       "catalyst": "Volume pivot 03 Sep 2026 (20% on 20.2x volume)"
@@ -571,7 +571,7 @@
       "symbol": "SIMPLEXINF",
       "sector": "Industrials",
       "rank": 7,
-      "composite": 2.7865443942594976,
+      "composite": 2.786522020644096,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80",
       "catalyst": "Volume pivot 28 Aug 2026 (7% on 4.0x volume) | Sunrise theme: engineering & construction"
@@ -580,7 +580,7 @@
       "symbol": "HMAAGRO",
       "sector": "Consumer Defensive",
       "rank": 8,
-      "composite": 2.6535462708660296,
+      "composite": 2.6535236473450468,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80",
       "catalyst": "Volume pivot 15 Sep 2026 (17% on 13.7x volume)"
@@ -589,7 +589,7 @@
       "symbol": "BHARATSE",
       "sector": "Consumer Cyclical",
       "rank": 9,
-      "composite": 2.6360935359797733,
+      "composite": 2.6360709716724005,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80, no fresh 50-day relative strength high",
       "catalyst": "Volume pivot 27 Oct 2026 (13% on 14.7x volume)"
@@ -598,7 +598,7 @@
       "symbol": "DHANBANK",
       "sector": "Financial Services",
       "rank": 10,
-      "composite": 2.5932121525743046,
+      "composite": 2.593189758149008,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80",
       "catalyst": "Volume pivot 07 Oct 2026 (14% on 12.9x volume)"
@@ -607,7 +607,7 @@
       "symbol": "MOLDTKPAC",
       "sector": "Consumer Cyclical",
       "rank": 12,
-      "composite": 2.5355253774905266,
+      "composite": 2.535503341342433,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80, no fresh 50-day relative strength high",
       "catalyst": "Volume pivot 03 Nov 2026 (8% on 6.3x volume)"
@@ -616,7 +616,7 @@
       "symbol": "ONESOURCE",
       "sector": "Healthcare",
       "rank": 13,
-      "composite": 2.531732374439162,
+      "composite": 2.5317105903438826,
       "buyable": false,
       "blocked": "weekly RSI outside 65-80",
       "catalyst": "Volume pivot 27 Oct 2026 (14% on 19.0x volume)"
@@ -628,14 +628,14 @@
       "name": "AVT NATURAL PRODUCTS LTD",
       "sector": "Basic Materials",
       "rank": 1,
-      "composite": 3.1471387283015333,
-      "r12m": 0.36772377993209715,
+      "composite": 3.1471160369976454,
+      "r12m": 0.36772392245325114,
       "r6m": 0.48673727343922923,
       "r3m": 0.39529056811406194,
-      "ann_vol": 0.40389513733421983,
+      "ann_vol": 0.4038950782631505,
       "price": 100.13999938964844,
       "market_cap_cr": 1524.9719296,
-      "weekly_rsi": 64.96143064796192,
+      "weekly_rsi": 64.96143100445717,
       "ext20": 0.055683227551268866,
       "ext50": 0.0904624278167383,
       "rs_days": 15,
@@ -663,7 +663,7 @@
       "name": "IKIO TECHNOLOGIES LIMITED",
       "sector": "Technology",
       "rank": 2,
-      "composite": 3.020143305634402,
+      "composite": 3.0201203629362983,
       "r12m": -0.06410918969536128,
       "r6m": 0.15787018729185154,
       "r3m": 0.0019725829568801867,
@@ -698,14 +698,14 @@
       "name": "BHAGERIA INDUSTRIES LTD",
       "sector": "Basic Materials",
       "rank": 3,
-      "composite": 2.9473758876041964,
+      "composite": 2.947357023246779,
       "r12m": 0.907181396106086,
       "r6m": 1.4535259521411965,
       "r3m": 0.9213232395586912,
       "ann_vol": 0.5356758005399747,
       "price": 396.1000061035156,
       "market_cap_cr": 1728.7460864,
-      "weekly_rsi": 75.6679941152732,
+      "weekly_rsi": 75.66799411659241,
       "ext20": 0.09138752552039353,
       "ext50": 0.1517233564722411,
       "rs_days": 26,
@@ -733,14 +733,14 @@
       "name": "KOPRAN LTD",
       "sector": "Healthcare",
       "rank": 4,
-      "composite": 2.8655854523126916,
+      "composite": 2.8655624906028185,
       "r12m": 0.592360991849824,
       "r6m": 0.6682689542097116,
       "r3m": 0.48680670701964535,
       "ann_vol": 0.5300400611690045,
       "price": 259.760009765625,
       "market_cap_cr": 1255.3189376,
-      "weekly_rsi": 61.2954334568112,
+      "weekly_rsi": 61.29543345974952,
       "ext20": 0.00464501087586866,
       "ext50": 0.01659285476088268,
       "rs_days": 27,
@@ -768,14 +768,14 @@
       "name": "BHARAT BIJLEE LTD",
       "sector": "Industrials",
       "rank": 5,
-      "composite": 2.863625431382683,
+      "composite": 2.863613247725702,
       "r12m": -0.09101132807471923,
       "r6m": -0.0007848942686405902,
       "r3m": 0.1771254832912046,
       "ann_vol": 0.4098257152813559,
       "price": 2706.800048828125,
       "market_cap_cr": 3059.5284992,
-      "weekly_rsi": 58.63699060110746,
+      "weekly_rsi": 58.636990588764206,
       "ext20": 0.11362535248856198,
       "ext50": 0.1798325054485983,
       "rs_days": 9,
@@ -803,14 +803,14 @@
       "name": "HIKAL LIMITED",
       "sector": "Healthcare",
       "rank": 6,
-      "composite": 2.80290419421587,
+      "composite": 2.80288208528461,
       "r12m": -0.05185096465366035,
       "r6m": 0.0782031181571341,
       "r3m": 0.00469796754224272,
       "ann_vol": 0.5168091308545255,
       "price": 225.39999389648438,
       "market_cap_cr": 2779.1988736,
-      "weekly_rsi": 54.51441320056145,
+      "weekly_rsi": 54.5144132333028,
       "ext20": 0.06316991159309149,
       "ext50": 0.037497148795934576,
       "rs_days": 41,
@@ -838,7 +838,7 @@
       "name": "SIMPLEX INFRASTRUCTURES L",
       "sector": "Industrials",
       "rank": 7,
-      "composite": 2.7865443942594976,
+      "composite": 2.786522020644096,
       "r12m": 0.04703061495001082,
       "r6m": 0.29997709259942806,
       "r3m": 0.08942628824477583,
@@ -873,14 +873,14 @@
       "name": "HMA AGRO INDUSTRIES LTD",
       "sector": "Consumer Defensive",
       "rank": 8,
-      "composite": 2.6535462708660296,
+      "composite": 2.6535236473450468,
       "r12m": -0.14140776354973417,
       "r6m": 0.11716172357277554,
       "r3m": 0.2258940577930948,
       "ann_vol": 0.434368451302656,
       "price": 27.079999923706055,
       "market_cap_cr": 1356.0845312,
-      "weekly_rsi": 61.08034770492437,
+      "weekly_rsi": 61.08034770384137,
       "ext20": 0.08036942608457731,
       "ext50": 0.15210509891511403,
       "rs_days": 3,
@@ -908,14 +908,14 @@
       "name": "BHARAT SEATS LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 9,
-      "composite": 2.6360935359797733,
+      "composite": 2.6360709716724005,
       "r12m": 0.02311251199114861,
       "r6m": 0.046395820449864456,
       "r3m": -0.10381776120449226,
       "ann_vol": 0.5592635338978335,
       "price": 212.44000244140625,
       "market_cap_cr": 1334.1232128,
-      "weekly_rsi": 52.89157424777422,
+      "weekly_rsi": 52.8915743224167,
       "ext20": 0.04779803729760923,
       "ext50": 0.01305277459933829,
       "rs_days": 82,
@@ -943,7 +943,7 @@
       "name": "DHANLAXMI BANK LIMITED",
       "sector": "Financial Services",
       "rank": 10,
-      "composite": 2.5932121525743046,
+      "composite": 2.593189758149008,
       "r12m": 0.24565382558211613,
       "r6m": 0.03941974254461855,
       "r3m": -0.007826674493570773,
@@ -978,7 +978,7 @@
       "name": "KROSS LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 11,
-      "composite": 2.5888213665230198,
+      "composite": 2.5888012084114935,
       "r12m": 0.6497349594098676,
       "r6m": 0.32959548557652973,
       "r3m": 0.4500630463610682,
@@ -1013,14 +1013,14 @@
       "name": "MOLD-TEK PACKAGING LTD",
       "sector": "Consumer Cyclical",
       "rank": 12,
-      "composite": 2.5355253774905266,
+      "composite": 2.535503341342433,
       "r12m": 0.003022881658126364,
       "r6m": 0.18448262028510043,
       "r3m": 0.015742560704011366,
       "ann_vol": 0.40496286676181886,
       "price": 344.6499938964844,
       "market_cap_cr": 2290.4690688,
-      "weekly_rsi": 54.86062898736212,
+      "weekly_rsi": 54.86062899362543,
       "ext20": 0.1101447721944937,
       "ext50": 0.05659237120333627,
       "rs_days": 9999,
@@ -1048,7 +1048,7 @@
       "name": "ONESOURCE SPECL PHARMA L",
       "sector": "Healthcare",
       "rank": 13,
-      "composite": 2.531732374439162,
+      "composite": 2.5317105903438826,
       "r12m": -0.13835341467280182,
       "r6m": -0.10280582339145761,
       "r3m": 0.027040735639052516,
@@ -1083,14 +1083,14 @@
       "name": "EIMCO ELECON (INDIA) LTD",
       "sector": "Industrials",
       "rank": 14,
-      "composite": 2.5094482606298,
+      "composite": 2.5094275261013665,
       "r12m": 0.34757457931092617,
       "r6m": 0.6366164968826931,
       "r3m": 0.39160138914560827,
       "ann_vol": 0.4532863789171306,
       "price": 2505.300048828125,
       "market_cap_cr": 1445.1534848,
-      "weekly_rsi": 70.739348480028,
+      "weekly_rsi": 70.73934848016216,
       "ext20": 0.10541680474445148,
       "ext50": 0.10733354323125432,
       "rs_days": 2,
@@ -1118,7 +1118,7 @@
       "name": "SUN PHARMA ADV.RES.CO.LTD",
       "sector": "Healthcare",
       "rank": 15,
-      "composite": 2.499652519021101,
+      "composite": 2.4996345008232943,
       "r12m": 0.5042101039664251,
       "r6m": 0.2514099547091595,
       "r3m": 0.016491455725820447,
@@ -1153,7 +1153,7 @@
       "name": "SAKAR HEALTHCARE LIMITED",
       "sector": "Healthcare",
       "rank": 16,
-      "composite": 2.4885897109757096,
+      "composite": 2.4885687642633636,
       "r12m": 1.7644450619221415,
       "r6m": 0.9423150903207411,
       "r3m": 0.1368811210123848,
@@ -1188,14 +1188,14 @@
       "name": "ORIENT ELECTRIC LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 17,
-      "composite": 2.4601506135362863,
+      "composite": 2.460129372466166,
       "r12m": -0.03754595104931546,
       "r6m": 0.09361936166588047,
       "r3m": 0.07372861919981055,
-      "ann_vol": 0.4353729387133644,
+      "ann_vol": 0.4353730267465154,
       "price": 203.74000549316406,
       "market_cap_cr": 4347.6107264,
-      "weekly_rsi": 60.34108807211651,
+      "weekly_rsi": 60.341087940008975,
       "ext20": 0.08791305042156483,
       "ext50": 0.15600576792144483,
       "rs_days": 15,
@@ -1223,7 +1223,7 @@
       "name": "SATIN CREDIT NET LTD",
       "sector": "Financial Services",
       "rank": 18,
-      "composite": 2.4581206778066473,
+      "composite": 2.45812399952143,
       "r12m": 0.660558052136323,
       "r6m": 0.21138441601936941,
       "r3m": 0.14619418334071654,
@@ -1258,14 +1258,14 @@
       "name": "KRISHNA DEF AND ALD IND L",
       "sector": "Industrials",
       "rank": 19,
-      "composite": 2.449859133080473,
+      "composite": 2.4498362609978104,
       "r12m": 0.5939072411348525,
       "r6m": -0.015549847675701667,
       "r3m": 0.062173507789270666,
-      "ann_vol": 0.5737983806316753,
+      "ann_vol": 0.5737982697741151,
       "price": 1259.199951171875,
       "market_cap_cr": 1880.41216,
-      "weekly_rsi": 59.06790365129655,
+      "weekly_rsi": 59.067903021068,
       "ext20": 0.059444116711412365,
       "ext50": 0.13039922869422105,
       "rs_days": 23,
@@ -1293,7 +1293,7 @@
       "name": "PARAMOUNT COMM LTD",
       "sector": "Technology",
       "rank": 20,
-      "composite": 2.437710808685151,
+      "composite": 2.4376896798234755,
       "r12m": 0.4702078745748661,
       "r6m": 0.0597636119664775,
       "r3m": -0.05506906260825628,
@@ -1328,7 +1328,7 @@
       "name": "PG ELECTROPLAST LTD",
       "sector": "Technology",
       "rank": 21,
-      "composite": 2.4192916441036316,
+      "composite": 2.4192694044320846,
       "r12m": -0.020285713104314262,
       "r6m": 0.1055377588497477,
       "r3m": -0.09252736978972298,
@@ -1363,14 +1363,14 @@
       "name": "ALEMBIC LIMITED",
       "sector": "Real Estate",
       "rank": 22,
-      "composite": 2.408534844300412,
+      "composite": 2.4085125355443315,
       "r12m": 0.07352012123931084,
       "r6m": 0.18166027973476018,
       "r3m": 0.2562471290849726,
       "ann_vol": 0.3346858140609045,
       "price": 106.58000183105469,
       "market_cap_cr": 2736.7806976,
-      "weekly_rsi": 59.58920868557001,
+      "weekly_rsi": 59.58920870165547,
       "ext20": 0.14008816282634817,
       "ext50": 0.06617317566832859,
       "rs_days": 27,
@@ -1398,14 +1398,14 @@
       "name": "MENON BEARINGS LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 23,
-      "composite": 2.4047264954849865,
+      "composite": 2.4047264922020997,
       "r12m": 1.9590840515155854,
       "r6m": 1.493296503372382,
       "r3m": 0.3909957735228109,
       "ann_vol": 0.5105286735074467,
       "price": 342.95001220703125,
       "market_cap_cr": 1921.8919424,
-      "weekly_rsi": 72.51813635841418,
+      "weekly_rsi": 72.5181363381381,
       "ext20": 0.18256585245664203,
       "ext50": 0.16290665508078583,
       "rs_days": 2,
@@ -1415,9 +1415,9 @@
       "held": false,
       "eps_growth": 1.174,
       "sales_growth": 0.573,
-      "eps_qoq": 0.023886598536755344,
-      "sales_qoq": 0.05289190596688598,
-      "quarter": "Jun 2026",
+      "eps_qoq": 0.04497862717715706,
+      "sales_qoq": 0.07127013317528941,
+      "quarter": "Sep 2026",
       "emergence_score": 8.0,
       "eps_accel": null,
       "sector_score": 82.0,
@@ -1433,14 +1433,14 @@
       "name": "NITIN SPINNERS LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 24,
-      "composite": 2.388697774705344,
+      "composite": 2.3886751286402212,
       "r12m": 0.9766242703966206,
       "r6m": 0.3492211872737685,
       "r3m": 0.1753617866710797,
       "ann_vol": 0.3851526919712516,
       "price": 653.7000122070312,
       "market_cap_cr": 3675.1015936,
-      "weekly_rsi": 64.14739858563078,
+      "weekly_rsi": 64.1473985985144,
       "ext20": 0.023962180531706512,
       "ext50": 0.04166148156565552,
       "rs_days": 5,
@@ -1450,9 +1450,9 @@
       "held": true,
       "eps_growth": 1.548,
       "sales_growth": 0.296,
-      "eps_qoq": 0.3120957816602108,
-      "sales_qoq": 0.01772382982108689,
-      "quarter": "Jun 2026",
+      "eps_qoq": 0.17796026933521825,
+      "sales_qoq": 0.12584785625733685,
+      "quarter": "Sep 2026",
       "emergence_score": 33.0,
       "eps_accel": null,
       "sector_score": 82.0,
@@ -1468,14 +1468,14 @@
       "name": "AARTI DRUGS LTD.",
       "sector": "Healthcare",
       "rank": 25,
-      "composite": 2.364722454187356,
+      "composite": 2.3647224465481393,
       "r12m": -0.002021819266811442,
       "r6m": 0.30177131530445833,
       "r3m": 0.18270030632412637,
       "ann_vol": 0.35572330307837363,
       "price": 499.75,
       "market_cap_cr": 4561.2183552,
-      "weekly_rsi": 69.82931000243919,
+      "weekly_rsi": 69.82931000243914,
       "ext20": 0.18408037333329208,
       "ext50": 0.17882804160608035,
       "rs_days": 0,
@@ -1503,14 +1503,14 @@
       "name": "ARIHANT CAPITAL MKTS LTD",
       "sector": "Financial Services",
       "rank": 26,
-      "composite": 2.35047959490789,
+      "composite": 2.3504569994944022,
       "r12m": -0.032405568015194675,
       "r6m": 0.35704118426529163,
       "r3m": 0.2945517399598998,
       "ann_vol": 0.44053882326932814,
       "price": 97.51000213623047,
       "market_cap_cr": 1068.8344064,
-      "weekly_rsi": 63.13377208581185,
+      "weekly_rsi": 63.133772084744095,
       "ext20": 0.05692733796404714,
       "ext50": 0.11105442803101462,
       "rs_days": 16,
@@ -1538,14 +1538,14 @@
       "name": "UTTAM SUGAR MILLS LTD.",
       "sector": "Consumer Defensive",
       "rank": 27,
-      "composite": 2.3480923830505422,
+      "composite": 2.3480705423718193,
       "r12m": 0.47823102845453325,
       "r6m": 0.42731778179021385,
       "r3m": 0.40155409829666366,
       "ann_vol": 0.5484159026111546,
       "price": 359.3999938964844,
       "market_cap_cr": 1370.6840064,
-      "weekly_rsi": 64.0816648454603,
+      "weekly_rsi": 64.08166481466509,
       "ext20": 0.016985108348423594,
       "ext50": 0.15672172638337223,
       "rs_days": 13,
@@ -1573,14 +1573,14 @@
       "name": "IOL CHEM AND PHARMA LTD",
       "sector": "Healthcare",
       "rank": 28,
-      "composite": 2.337063766071926,
+      "composite": 2.337041475387472,
       "r12m": 1.1771919600984115,
       "r6m": 0.8658637787241241,
       "r3m": 0.23253973299251118,
       "ann_vol": 0.5412891957692135,
       "price": 202.9499969482422,
       "market_cap_cr": 5957.1408896,
-      "weekly_rsi": 64.43080086131155,
+      "weekly_rsi": 64.43080086342984,
       "ext20": 0.10168684632043123,
       "ext50": 0.042462817490283467,
       "rs_days": 22,
@@ -1608,14 +1608,14 @@
       "name": "ZEN TECHNOLOGIES LIMITED",
       "sector": "Industrials",
       "rank": 29,
-      "composite": 2.324469104259895,
+      "composite": 2.324446361550052,
       "r12m": 0.21240881841805304,
       "r6m": 0.04685821334430518,
       "r3m": -0.0037804823580211977,
       "ann_vol": 0.38578240399768626,
       "price": 1712.5999755859375,
       "market_cap_cr": 15403.9189504,
-      "weekly_rsi": 52.23682295387622,
+      "weekly_rsi": 52.236822942597264,
       "ext20": 0.045428449170478835,
       "ext50": 0.024559255902710797,
       "rs_days": 9999,
@@ -1643,14 +1643,14 @@
       "name": "GUFIC BIOSCIENCES LTD.",
       "sector": "Healthcare",
       "rank": 30,
-      "composite": 2.296961989157815,
+      "composite": 2.2969452467956546,
       "r12m": 0.445878824692727,
       "r6m": 0.5791814651950196,
       "r3m": 0.09576237097202411,
       "ann_vol": 0.37304873163509805,
       "price": 474.3500061035156,
       "market_cap_cr": 4756.9006592,
-      "weekly_rsi": 68.34867995177997,
+      "weekly_rsi": 68.34867991328827,
       "ext20": 0.13945640642471724,
       "ext50": 0.12273253962849773,
       "rs_days": 0,
@@ -1678,14 +1678,14 @@
       "name": "PRINCE PIPES FITTINGS LTD",
       "sector": "Industrials",
       "rank": 31,
-      "composite": 2.2597100811706934,
+      "composite": 2.259689103933825,
       "r12m": -0.02145568999022529,
       "r6m": 0.24135653778095256,
       "r3m": 0.1642139838505814,
       "ann_vol": 0.3903645939425292,
       "price": 315.5,
       "market_cap_cr": 3488.8699904,
-      "weekly_rsi": 62.4074155062641,
+      "weekly_rsi": 62.40741550626365,
       "ext20": 0.15118677123748103,
       "ext50": 0.16489926176877323,
       "rs_days": 2,
@@ -1695,9 +1695,9 @@
       "held": false,
       "eps_growth": 2.273,
       "sales_growth": 0.381,
-      "eps_qoq": -0.39846715978968006,
-      "sales_qoq": -0.2830992161849629,
-      "quarter": "Jun 2026",
+      "eps_qoq": 0.41527156360188444,
+      "sales_qoq": 0.3468817790088248,
+      "quarter": "Sep 2026",
       "emergence_score": 73.0,
       "eps_accel": null,
       "sector_score": 45.0,
@@ -1713,7 +1713,7 @@
       "name": "SEJAL GLASS LIMITED",
       "sector": "Industrials",
       "rank": 32,
-      "composite": 2.2471179743665637,
+      "composite": 2.2471179665570356,
       "r12m": -0.02081458174401918,
       "r6m": 0.09727032844246652,
       "r3m": 0.21720278013002625,
@@ -1748,14 +1748,14 @@
       "name": "BLUE JET HEALTHCARE LTD",
       "sector": "Healthcare",
       "rank": 33,
-      "composite": 2.2260864353755734,
+      "composite": 2.2302271171034214,
       "r12m": -0.19192023954414816,
       "r6m": 0.1476741085621771,
       "r3m": -0.08015514872671714,
       "ann_vol": 0.4837256572210575,
       "price": 543.5499877929688,
       "market_cap_cr": 9428.7126528,
-      "weekly_rsi": 51.61066338891849,
+      "weekly_rsi": 51.610663388936324,
       "ext20": 0.05866426254030821,
       "ext50": 0.0002986050143842789,
       "rs_days": 2,
@@ -1768,7 +1768,7 @@
       "eps_qoq": 0.21633718761656096,
       "sales_qoq": 0.24905398264782597,
       "quarter": "Jun 2026",
-      "emergence_score": 42.0,
+      "emergence_score": 43.0,
       "eps_accel": null,
       "sector_score": 100.0,
       "earnings_score": 63.0,
@@ -1783,7 +1783,7 @@
       "name": "ARISINFRA SOLUTIONS LTD",
       "sector": "Industrials",
       "rank": 34,
-      "composite": 2.2164104037991463,
+      "composite": 2.2163881279582545,
       "r12m": -0.1173485145517883,
       "r6m": -0.02729296494653355,
       "r3m": 0.0574358706072573,
@@ -1818,14 +1818,14 @@
       "name": "ENGINEERS INDIA LTD",
       "sector": "Industrials",
       "rank": 35,
-      "composite": 2.215327141646759,
+      "composite": 2.215305397925433,
       "r12m": 0.5263249045298193,
       "r6m": 0.22112141088426385,
       "r3m": 0.22328812821633615,
-      "ann_vol": 0.47502368392307204,
+      "ann_vol": 0.4750237151362638,
       "price": 299.3500061035156,
       "market_cap_cr": 16824.7394304,
-      "weekly_rsi": 61.015869608639356,
+      "weekly_rsi": 61.01586951493737,
       "ext20": 0.0964995428555584,
       "ext50": 0.07343137665015176,
       "rs_days": 25,
@@ -1853,7 +1853,7 @@
       "name": "ARFIN INDIA LIMITED",
       "sector": "Basic Materials",
       "rank": 36,
-      "composite": 2.21520356440715,
+      "composite": 2.2151809153354396,
       "r12m": 0.7599648689492802,
       "r6m": 0.0069508147216827965,
       "r3m": 0.10839695646826764,
@@ -1888,14 +1888,14 @@
       "name": "SMC GLOBAL SECURITIES LTD",
       "sector": "Financial Services",
       "rank": 37,
-      "composite": 2.2097203236072254,
+      "composite": 2.2096975131673524,
       "r12m": 0.43802022547249564,
       "r6m": 0.498673101651681,
       "r3m": 0.20279630429396822,
-      "ann_vol": 0.5360436262643803,
+      "ann_vol": 0.5360437210404517,
       "price": 95.48999786376953,
       "market_cap_cr": 2095.0505472,
-      "weekly_rsi": 57.424293340896604,
+      "weekly_rsi": 57.42429341113601,
       "ext20": -0.04177017784782533,
       "ext50": 0.02312831006263938,
       "rs_days": 18,
@@ -1923,14 +1923,14 @@
       "name": "MM FORGINGS LTD",
       "sector": "Industrials",
       "rank": 38,
-      "composite": 2.2072456472719066,
+      "composite": 2.2072243559728273,
       "r12m": 1.1015507233582902,
       "r6m": 0.3900142695648634,
       "r3m": -0.008887163822161037,
       "ann_vol": 0.4797996075264497,
       "price": 652.4000244140625,
       "market_cap_cr": 3149.8917888,
-      "weekly_rsi": 63.45087007976382,
+      "weekly_rsi": 63.450870098143135,
       "ext20": 0.2506770015845534,
       "ext50": 0.1344804948987095,
       "rs_days": 0,
@@ -1958,7 +1958,7 @@
       "name": "ONE POINT ONE SOL LTD",
       "sector": "Industrials",
       "rank": 39,
-      "composite": 2.204380199877961,
+      "composite": 2.2043577049915166,
       "r12m": 0.5806313307556461,
       "r6m": 0.21874999019660435,
       "r3m": 0.25998974228513005,
@@ -1993,7 +1993,7 @@
       "name": "YATHARTH HOSP & TRA C S L",
       "sector": "Healthcare",
       "rank": 40,
-      "composite": 2.1931470160395206,
+      "composite": 2.193124126754729,
       "r12m": 0.29778295694710466,
       "r6m": 0.23368174059151725,
       "r3m": 0.17554949550189147,
@@ -2028,14 +2028,14 @@
       "name": "GOODLUCK INDIA LIMITED",
       "sector": "Basic Materials",
       "rank": 41,
-      "composite": 2.1890849053685244,
+      "composite": 2.189062615942828,
       "r12m": 0.32348074183893183,
       "r6m": 0.20100173520410491,
       "r3m": 0.1281104045894832,
-      "ann_vol": 0.4648570808141446,
+      "ann_vol": 0.4648570799791664,
       "price": 555.3499755859375,
       "market_cap_cr": 5537.7014784,
-      "weekly_rsi": 58.12056074703739,
+      "weekly_rsi": 58.120560687091974,
       "ext20": 0.008649806953368033,
       "ext50": 0.0679748481983613,
       "rs_days": 13,
@@ -2063,14 +2063,14 @@
       "name": "NILKAMAL LIMITED",
       "sector": "Consumer Cyclical",
       "rank": 42,
-      "composite": 2.1797424573335755,
+      "composite": 2.179719437142336,
       "r12m": 0.3766252860269841,
       "r6m": 0.614298185625932,
       "r3m": 0.18437009309156638,
       "ann_vol": 0.39698531853302343,
       "price": 2050.5,
       "market_cap_cr": 3070.0693504,
-      "weekly_rsi": 65.0686062408231,
+      "weekly_rsi": 65.06860623700715,
       "ext20": 0.12092363376693482,
       "ext50": 0.07617232248061234,
       "rs_days": 7,
@@ -2098,14 +2098,14 @@
       "name": "ZOTA HEALTH CARE LIMITED",
       "sector": "Healthcare",
       "rank": 43,
-      "composite": 2.1770114232353026,
+      "composite": 2.1769885706547756,
       "r12m": -0.1563774202236754,
       "r6m": 0.023044791819980315,
       "r3m": 0.0020546607173419495,
       "ann_vol": 0.4637714194891703,
       "price": 1273.5999755859375,
       "market_cap_cr": 4410.806272,
-      "weekly_rsi": 50.702435392827525,
+      "weekly_rsi": 50.7024353863932,
       "ext20": -0.011111037234033172,
       "ext50": 0.031073642637627685,
       "rs_days": 17,
@@ -2133,14 +2133,14 @@
       "name": "MAN COAT METAL & IND LTD",
       "sector": "Industrials",
       "rank": 44,
-      "composite": 2.1701831992493066,
+      "composite": 2.1701605788755547,
       "r12m": 0.07059379131224941,
       "r6m": 0.5763787155729647,
       "r3m": 0.4276455453030079,
       "ann_vol": 0.44279377777394036,
       "price": 163.1999969482422,
       "market_cap_cr": 1740.2677248,
-      "weekly_rsi": 72.4788891130793,
+      "weekly_rsi": 72.47888911425997,
       "ext20": 0.19504405340672237,
       "ext50": 0.2514377424543437,
       "rs_days": 0,
@@ -2168,14 +2168,14 @@
       "name": "ORIENT HOTELS LTD",
       "sector": "Consumer Cyclical",
       "rank": 45,
-      "composite": 2.166056438435568,
+      "composite": 2.1660340008583807,
       "r12m": 0.4272144863836278,
       "r6m": 0.6993874487127514,
       "r3m": 0.38455432377414733,
       "ann_vol": 0.4707287160339429,
       "price": 174.6199951171875,
       "market_cap_cr": 3118.6989056,
-      "weekly_rsi": 76.84542454172998,
+      "weekly_rsi": 76.84542443386033,
       "ext20": 0.11491357619285991,
       "ext50": 0.1877246853237866,
       "rs_days": 1,
@@ -2203,14 +2203,14 @@
       "name": "PROTEAN EGOV TECHNO LTD",
       "sector": "Technology",
       "rank": 46,
-      "composite": 2.1453842236620284,
+      "composite": 2.145361250642348,
       "r12m": -0.19499391575373648,
       "r6m": 0.2154308495223065,
       "r3m": 0.20374599783276692,
       "ann_vol": 0.4961195977676525,
       "price": 670.1500244140625,
       "market_cap_cr": 2732.8157696,
-      "weekly_rsi": 58.39929820447849,
+      "weekly_rsi": 58.39929850299562,
       "ext20": 0.06378508249876824,
       "ext50": 0.125731182285032,
       "rs_days": 23,
@@ -2238,14 +2238,14 @@
       "name": "GULF OIL LUB. IND. LTD.",
       "sector": "Basic Materials",
       "rank": 47,
-      "composite": 2.1409762572267046,
+      "composite": 2.1409534152982177,
       "r12m": -0.08670695251475458,
       "r6m": 0.14767815116415228,
       "r3m": -0.04386146049232598,
-      "ann_vol": 0.29930458877831884,
+      "ann_vol": 0.29930458210253097,
       "price": 1095.4000244140625,
       "market_cap_cr": 5428.3124736,
-      "weekly_rsi": 55.259548698571336,
+      "weekly_rsi": 55.25954871854882,
       "ext20": 0.02743517504303261,
       "ext50": 0.01701479817592344,
       "rs_days": 26,
@@ -2273,14 +2273,14 @@
       "name": "DALMIA BHARAT SUG IN LTD",
       "sector": "Consumer Defensive",
       "rank": 48,
-      "composite": 2.120427096292042,
+      "composite": 2.1204044333476126,
       "r12m": 0.3676667387470298,
       "r6m": 0.21592564620436927,
       "r3m": 0.10156340029402355,
       "ann_vol": 0.5093807305983739,
       "price": 461.5,
       "market_cap_cr": 3735.3488384,
-      "weekly_rsi": 56.819194484979825,
+      "weekly_rsi": 56.81919448211865,
       "ext20": 0.02821749850470945,
       "ext50": 0.057242283218019496,
       "rs_days": 18,
@@ -2308,14 +2308,14 @@
       "name": "MAHINDRA LOGISTIC LIMITED",
       "sector": "Industrials",
       "rank": 49,
-      "composite": 2.1013987054891246,
+      "composite": 2.1013769678015435,
       "r12m": 0.27548141356989,
       "r6m": 0.12825949078342624,
       "r3m": 0.04947126729443774,
       "ann_vol": 0.4033836460852111,
       "price": 431.70001220703125,
       "market_cap_cr": 4285.8053632,
-      "weekly_rsi": 59.21122761735042,
+      "weekly_rsi": 59.21122761732586,
       "ext20": 0.05354998825737134,
       "ext50": 0.06285024922588578,
       "rs_days": 9,
@@ -2343,7 +2343,7 @@
       "name": "UNIMECH AEROSPACE N MFG L",
       "sector": "Industrials",
       "rank": 50,
-      "composite": 2.078560009446628,
+      "composite": 2.0785380285553083,
       "r12m": 0.7840773484939738,
       "r6m": 0.8110899160532499,
       "r3m": 0.24368235932327842,
@@ -2378,14 +2378,14 @@
       "name": "CREATIVE NEWTECH LIMITED",
       "sector": "Technology",
       "rank": 51,
-      "composite": 2.0750581485449966,
+      "composite": 2.075034853112811,
       "r12m": 0.9267846600362486,
       "r6m": 0.9784408047541964,
       "r3m": 0.2360118991269946,
       "ann_vol": 0.4944148647620981,
       "price": 1338.800048828125,
       "market_cap_cr": 2010.432512,
-      "weekly_rsi": 69.38077936800028,
+      "weekly_rsi": 69.38077936797592,
       "ext20": 0.15330282038217513,
       "ext50": 0.17032413504771693,
       "rs_days": 3,
@@ -2413,14 +2413,14 @@
       "name": "TANLA PLATFORMS LIMITED",
       "sector": "Technology",
       "rank": 52,
-      "composite": 2.0724452263536044,
+      "composite": 2.0724236997779437,
       "r12m": 0.06142624186425416,
       "r6m": 0.19174733300623825,
       "r3m": 0.03601512530751427,
-      "ann_vol": 0.4581555444300802,
+      "ann_vol": 0.4581556067459324,
       "price": 648.5999755859375,
       "market_cap_cr": 8564.809728,
-      "weekly_rsi": 67.73479852652815,
+      "weekly_rsi": 67.73479810668906,
       "ext20": 0.0991184013285491,
       "ext50": 0.21099139546779755,
       "rs_days": 4,
@@ -2448,14 +2448,14 @@
       "name": "QUESS CORP LIMITED",
       "sector": "Industrials",
       "rank": 53,
-      "composite": 2.0628791789281244,
-      "r12m": 0.5612631791342353,
+      "composite": 2.062856186509917,
+      "r12m": 0.5612632867244909,
       "r6m": 0.6076812317492368,
       "r3m": 0.08429544521937515,
-      "ann_vol": 0.38681105847516345,
+      "ann_vol": 0.38681103424703717,
       "price": 345.70001220703125,
       "market_cap_cr": 5102.430208,
-      "weekly_rsi": 63.20220955146968,
+      "weekly_rsi": 63.2022093610978,
       "ext20": 0.0778473556014434,
       "ext50": 0.032054462572888465,
       "rs_days": 45,
@@ -2483,14 +2483,14 @@
       "name": "VRL LOGISTICS LIMITED",
       "sector": "Industrials",
       "rank": 54,
-      "composite": 2.0585449504306954,
+      "composite": 2.058523927451591,
       "r12m": 0.17051508926515746,
       "r6m": 0.2177510162675107,
       "r3m": 0.13653911804090213,
       "ann_vol": 0.34377339055534295,
       "price": 323.79998779296875,
       "market_cap_cr": 5664.4595712,
-      "weekly_rsi": 63.68900895820308,
+      "weekly_rsi": 63.689008961813634,
       "ext20": 0.1277612386873086,
       "ext50": 0.11997339291607378,
       "rs_days": 1,
@@ -2500,9 +2500,9 @@
       "held": false,
       "eps_growth": 1.067,
       "sales_growth": 0.197,
-      "eps_qoq": 0.11630163570834484,
-      "sales_qoq": 0.030474292079498255,
-      "quarter": "Jun 2026",
+      "eps_qoq": 0.2786539177946108,
+      "sales_qoq": 0.09453370351827406,
+      "quarter": "Sep 2026",
       "emergence_score": 47.0,
       "eps_accel": null,
       "sector_score": 45.0,
@@ -2518,14 +2518,14 @@
       "name": "DCB BANK LIMITED",
       "sector": "Financial Services",
       "rank": 55,
-      "composite": 2.03455307602316,
+      "composite": 2.0345309511576697,
       "r12m": 0.33099199465138507,
       "r6m": 0.21578443227853294,
       "r3m": 0.12217900042756846,
       "ann_vol": 0.3811262592578414,
       "price": 210.3300018310547,
       "market_cap_cr": 6778.3159808,
-      "weekly_rsi": 57.14924250975516,
+      "weekly_rsi": 57.14924252485915,
       "ext20": 0.04507387826802822,
       "ext50": 0.00387461065993544,
       "rs_days": 19,
@@ -2553,14 +2553,14 @@
       "name": "63 MOONS TECHNOLOGIES LTD",
       "sector": "Technology",
       "rank": 56,
-      "composite": 2.0323115152169016,
+      "composite": 2.0322915675243713,
       "r12m": 0.1411010314880563,
       "r6m": 0.28969162950835403,
       "r3m": 0.04608661908931233,
       "ann_vol": 0.5479570204675985,
       "price": 898.7000122070312,
       "market_cap_cr": 4141.0781184,
-      "weekly_rsi": 56.80031635231068,
+      "weekly_rsi": 56.80031633782119,
       "ext20": -0.011559469627241081,
       "ext50": 0.04299460438413294,
       "rs_days": 5,
@@ -2588,7 +2588,7 @@
       "name": "SAMBHV STEEL TUBES LTD",
       "sector": "Basic Materials",
       "rank": 57,
-      "composite": 2.026529914542842,
+      "composite": 2.026507427188643,
       "r12m": 0.4585669545419142,
       "r6m": 0.26903112306006705,
       "r3m": 0.3435270433478712,
@@ -2623,14 +2623,14 @@
       "name": "IPCA LABORATORIES LTD",
       "sector": "Healthcare",
       "rank": 58,
-      "composite": 2.0089380440154354,
+      "composite": 2.0089151714673235,
       "r12m": 0.5469664059490977,
       "r6m": 0.2811098749091667,
       "r3m": 0.16247472678278196,
       "ann_vol": 0.3027579429757447,
       "price": 1959.699951171875,
       "market_cap_cr": 49718.4145408,
-      "weekly_rsi": 61.37505567530914,
+      "weekly_rsi": 61.37505567610476,
       "ext20": 0.018195207730526075,
       "ext50": 0.007203610502259927,
       "rs_days": 11,
@@ -2640,9 +2640,9 @@
       "held": false,
       "eps_growth": 0.198,
       "sales_growth": 0.148,
-      "eps_qoq": 0.34379911057611934,
-      "sales_qoq": 0.16731142818863876,
-      "quarter": "Jun 2026",
+      "eps_qoq": -0.066585384060315,
+      "sales_qoq": 0.04370001076001584,
+      "quarter": "Sep 2026",
       "emergence_score": 70.0,
       "eps_accel": null,
       "sector_score": 100.0,
@@ -2658,7 +2658,7 @@
       "name": "CEIGALL INDIA LIMITED",
       "sector": "Industrials",
       "rank": 59,
-      "composite": 1.9894892958141703,
+      "composite": 1.9894663598590783,
       "r12m": 0.5542917706390016,
       "r6m": 0.05880029446229873,
       "r3m": 0.21407783851239115,
@@ -2693,14 +2693,14 @@
       "name": "JASH ENGINEERING LIMITED",
       "sector": "Industrials",
       "rank": 60,
-      "composite": 1.9892757148631777,
+      "composite": 1.9892526434579116,
       "r12m": 0.1386201412830137,
       "r6m": 0.30060678506243965,
       "r3m": 0.08976691869285802,
       "ann_vol": 0.4246261813957962,
       "price": 550.7999877929688,
       "market_cap_cr": 3480.7099392,
-      "weekly_rsi": 57.91822753958584,
+      "weekly_rsi": 57.91822755070972,
       "ext20": 0.06176776188705446,
       "ext50": 0.041310550535128776,
       "rs_days": 24,
@@ -2738,10 +2738,10 @@
       "above_listing_high": 0.8908911931376802,
       "since_listing": 0.981281610219249,
       "from_peak": 0.0,
-      "vs_market": 1.023484400050911,
+      "vs_market": 1.018035525127426,
       "avg_days": 20,
       "market_cap_cr": 3630.8967424,
-      "adv_cr": 57.739059012486265,
+      "adv_cr": 57.741516410077665,
       "roe": null,
       "sales_growth": 3.363,
       "eps_growth": 14.0,
@@ -2772,7 +2772,7 @@
       "above_listing_high": 0.47015834348355656,
       "since_listing": 0.4998446722584653,
       "from_peak": 0.0,
-      "vs_market": 0.539741951148295,
+      "vs_market": 0.5342799602534716,
       "avg_days": 20,
       "market_cap_cr": 1037.8333184,
       "adv_cr": 4.54996217031128,
@@ -2806,18 +2806,18 @@
       "above_listing_high": 0.2792249047013977,
       "since_listing": 0.3396540252827678,
       "from_peak": 0.14916543418550599,
-      "vs_market": 0.34364600772787735,
+      "vs_market": 0.3379797528538515,
       "avg_days": 20,
       "market_cap_cr": 7972.1340928,
-      "adv_cr": 345.7959898891034,
+      "adv_cr": 345.79873831660336,
       "roe": null,
       "sales_growth": 1.124,
       "eps_growth": 1.757,
       "roce": 0.45183697590095956,
-      "eps_qoq": 0.4180255596356921,
-      "sales_qoq": 0.40242677224967527,
+      "eps_qoq": 0.9703329541589094,
+      "sales_qoq": 0.5216716978874709,
       "eps_yoy_q": null,
-      "quarter": "Jun 2026",
+      "quarter": "Sep 2026",
       "sector_rank": 7,
       "priority": true,
       "rs_rating": null,
@@ -2840,7 +2840,7 @@
       "above_listing_high": 0.2617114306536785,
       "since_listing": 0.30575304187380303,
       "from_peak": 0.08583500321046855,
-      "vs_market": 0.3456503207636328,
+      "vs_market": 0.3401883298688093,
       "avg_days": 20,
       "market_cap_cr": 1578.8459008,
       "adv_cr": 3.1943565039770507,
@@ -2874,10 +2874,10 @@
       "above_listing_high": 0.19868496976945016,
       "since_listing": 0.2389928820876468,
       "from_peak": 0.006162612327872075,
-      "vs_market": 0.2705275314411726,
+      "vs_market": 0.26501796583858117,
       "avg_days": 20,
       "market_cap_cr": 1610.2848512,
-      "adv_cr": 10.301750841700057,
+      "adv_cr": 10.301751889950028,
       "roe": 0.05243,
       "sales_growth": 22.296216848673946,
       "eps_growth": 0.12291857176275434,
@@ -2889,40 +2889,6 @@
       "sector_rank": 7,
       "priority": true,
       "rs_rating": 82,
-      "r12m": null,
-      "r6m": null,
-      "r3m": null,
-      "weekly_rsi": null,
-      "composite": null
-    },
-    {
-      "ticker": "BONFIG.NS",
-      "symbol": "BONFIG",
-      "name": "BONFIGLIOLI TRANS LIMITED",
-      "sector": "Industrials",
-      "price": 700.2000122070312,
-      "listed_date": "23 Oct 2026",
-      "age_days": 17,
-      "sessions": 12,
-      "listing_high": 607.0,
-      "above_listing_high": 0.15354202999510913,
-      "since_listing": 0.21879897686167316,
-      "from_peak": 0.0,
-      "vs_market": 0.13019172354028252,
-      "avg_days": 10,
-      "market_cap_cr": 12596.6606336,
-      "adv_cr": 319.93050821335044,
-      "roe": null,
-      "sales_growth": 0.179,
-      "eps_growth": 0.292,
-      "roce": 0.3235138262338224,
-      "eps_qoq": 0.447331740342493,
-      "sales_qoq": 0.07003863185158377,
-      "eps_yoy_q": null,
-      "quarter": "Dec 2025",
-      "sector_rank": 7,
-      "priority": true,
-      "rs_rating": null,
       "r12m": null,
       "r6m": null,
       "r3m": null,
@@ -2942,10 +2908,10 @@
       "above_listing_high": 0.15201192250372575,
       "since_listing": 0.15201192250372575,
       "from_peak": 0.12049154792624228,
-      "vs_market": 0.15600390494883531,
+      "vs_market": 0.15033765007480948,
       "avg_days": 20,
       "market_cap_cr": 4574.8793344,
-      "adv_cr": 11.742636654901734,
+      "adv_cr": 11.742887879901733,
       "roe": null,
       "sales_growth": 0.387,
       "eps_growth": 1.21,
@@ -2976,10 +2942,10 @@
       "above_listing_high": 0.1266438732408497,
       "since_listing": 0.15862509036294137,
       "from_peak": 0.10222680713213883,
-      "vs_market": 0.1985223692527711,
+      "vs_market": 0.19306037835794765,
       "avg_days": 20,
       "market_cap_cr": 2682.585088,
-      "adv_cr": 5.412486510656967,
+      "adv_cr": 5.4128977356706995,
       "roe": null,
       "sales_growth": 0.379,
       "eps_growth": 1.217,
@@ -3010,10 +2976,10 @@
       "above_listing_high": 0.11690036325632636,
       "since_listing": 0.1299597416725331,
       "from_peak": 0.03360654539524999,
-      "vs_market": 0.16985702056236285,
+      "vs_market": 0.16439502966753938,
       "avg_days": 20,
       "market_cap_cr": 1808.6170624,
-      "adv_cr": 5.6179476956087155,
+      "adv_cr": 5.618125253008142,
       "roe": null,
       "sales_growth": 0.706,
       "eps_growth": 3.933,
@@ -3044,10 +3010,10 @@
       "above_listing_high": 0.06906247138977051,
       "since_listing": 0.12176193736758112,
       "from_peak": 0.04672121714279398,
-      "vs_market": 0.12826309041860096,
+      "vs_market": 0.12261111012863957,
       "avg_days": 20,
       "market_cap_cr": 2511.6674048,
-      "adv_cr": 16.808872010368425,
+      "adv_cr": 16.80887508926834,
       "roe": null,
       "sales_growth": 0.525,
       "eps_growth": 0.005,
@@ -3078,7 +3044,7 @@
       "above_listing_high": 0.05516029627400987,
       "since_listing": 0.09166047549574863,
       "from_peak": 0.0,
-      "vs_market": 0.13155775438557837,
+      "vs_market": 0.1260957634907549,
       "avg_days": 20,
       "market_cap_cr": 4001.4770176,
       "adv_cr": 11.050030421281738,
@@ -3112,7 +3078,7 @@
       "above_listing_high": 0.013068392417543873,
       "since_listing": 0.0575625224840659,
       "from_peak": 0.021194371821929403,
-      "vs_market": 0.09745980137389565,
+      "vs_market": 0.09199781047907218,
       "avg_days": 20,
       "market_cap_cr": 2595.4494464,
       "adv_cr": 15.62070083595337,
@@ -3140,14 +3106,14 @@
       "name": "BHARAT BIJLEE LTD",
       "sector": "Industrials",
       "rank": 5,
-      "composite": 2.863625431382683,
+      "composite": 2.863613247725702,
       "price": 2706.800048828125,
       "r12m": -0.09101132807471923,
       "r6m": -0.0007848942686405902,
       "r3m": 0.1771254832912046,
       "ann_vol": 0.4098257152813559,
       "market_cap_cr": 3059.5284992,
-      "weekly_rsi": 58.63699060110746,
+      "weekly_rsi": 58.636990588764206,
       "ext20": 0.11362535248856198,
       "rs_days": 9,
       "quality_score": 3.0,
@@ -3168,7 +3134,7 @@
       "name": "PG ELECTROPLAST LTD",
       "sector": "Technology",
       "rank": 21,
-      "composite": 2.4192916441036316,
+      "composite": 2.4192694044320846,
       "price": 564.0,
       "r12m": -0.020285713104314262,
       "r6m": 0.1055377588497477,
@@ -3196,7 +3162,7 @@
       "name": "SEJAL GLASS LIMITED",
       "sector": "Industrials",
       "rank": 32,
-      "composite": 2.2471179743665637,
+      "composite": 2.2471179665570356,
       "price": 870.2999877929688,
       "r12m": -0.02081458174401918,
       "r6m": 0.09727032844246652,
@@ -3224,14 +3190,14 @@
       "name": "ALEMBIC PHARMA LTD",
       "sector": "Healthcare",
       "rank": 62,
-      "composite": 1.9733814083205663,
+      "composite": 1.9733643278271742,
       "price": 1017.2999877929688,
       "r12m": 0.11710661861544658,
       "r6m": 0.30819807980117986,
       "r3m": 0.22367236142152191,
       "ann_vol": 0.3158047357021699,
       "market_cap_cr": 19996.3656192,
-      "weekly_rsi": 72.66821523446504,
+      "weekly_rsi": 72.66821523446914,
       "ext20": 0.24224587269524367,
       "rs_days": 0,
       "quality_score": 3.0,
@@ -3252,15 +3218,15 @@
       "name": "PDS LIMITED",
       "sector": "Industrials",
       "rank": 76,
-      "composite": 1.8373766473799438,
-      "price": 407.75,
-      "r12m": 0.0818592382813006,
-      "r6m": 0.3983476848718419,
-      "r3m": 0.06671026814911718,
-      "ann_vol": 0.4300829898071557,
+      "composite": 1.8373548659952157,
+      "price": 405.54998779296875,
+      "r12m": 0.08185921307219157,
+      "r6m": 0.3983477287030761,
+      "r3m": 0.06671021570338764,
+      "ann_vol": 0.4300828599141702,
       "market_cap_cr": 5758.5188864,
-      "weekly_rsi": 66.76105716203364,
-      "ext20": 0.17002274867538758,
+      "weekly_rsi": 66.76105406727484,
+      "ext20": 0.170022734600493,
       "rs_days": 0,
       "quality_score": 3.0,
       "buyable": false,
@@ -3280,7 +3246,7 @@
       "name": "ENTERO HEALTHCARE SOLU L",
       "sector": "Healthcare",
       "rank": 86,
-      "composite": 1.7616805796633905,
+      "composite": 1.7616580862161613,
       "price": 2114.89990234375,
       "r12m": 0.9153233072499509,
       "r6m": 0.7149691745722342,
@@ -3308,14 +3274,14 @@
       "name": "PRIVI SPECIALITY CHE LTD",
       "sector": "Basic Materials",
       "rank": 127,
-      "composite": 1.341450304443724,
+      "composite": 1.3414278753799393,
       "price": 3491.89990234375,
       "r12m": 0.2078317246443806,
       "r6m": 0.009836336415315339,
       "r3m": -0.03195809841798336,
       "ann_vol": 0.3377738793258226,
       "market_cap_cr": 13640.3050496,
-      "weekly_rsi": 54.735079007965226,
+      "weekly_rsi": 54.73507900814677,
       "ext20": 0.04567480383182043,
       "rs_days": 9,
       "quality_score": 4.0,
@@ -3336,14 +3302,14 @@
       "name": "NUVAMA WEALTH MANAGE LTD",
       "sector": "Financial Services",
       "rank": 128,
-      "composite": 1.339176324473148,
+      "composite": 1.3391534466491528,
       "price": 1871.0,
       "r12m": 0.3365799575687851,
       "r6m": 0.1814443510903163,
       "r3m": 0.14392273656627608,
       "ann_vol": 0.37083574269236486,
       "market_cap_cr": 34529.230848,
-      "weekly_rsi": 60.265662924094265,
+      "weekly_rsi": 60.2656629246227,
       "ext20": 0.06058845223280396,
       "rs_days": 19,
       "quality_score": 2.0,
@@ -3364,14 +3330,14 @@
       "name": "MPHASIS LIMITED",
       "sector": "Technology",
       "rank": 168,
-      "composite": 0.8279767715996553,
+      "composite": 0.8279565276171255,
       "price": 2455.0,
       "r12m": -0.09459896147484226,
       "r6m": 0.1452015031134164,
       "r3m": -0.021132376395534336,
       "ann_vol": 0.29928025166773414,
       "market_cap_cr": 46858.7380736,
-      "weekly_rsi": 54.056219660119034,
+      "weekly_rsi": 54.05621965996684,
       "ext20": -0.01988378527898338,
       "rs_days": 9,
       "quality_score": 4.0,
@@ -3392,14 +3358,14 @@
       "name": "GRINDWELL NORTON LIMITED",
       "sector": "Industrials",
       "rank": 177,
-      "composite": 0.6983981913619265,
+      "composite": 0.6983752764758228,
       "price": 1961.699951171875,
       "r12m": 0.18404797184970878,
       "r6m": 0.10109553560214923,
       "r3m": -0.07313964036292231,
       "ann_vol": 0.3639305779116493,
       "market_cap_cr": 21719.94112,
-      "weekly_rsi": 53.300198215484066,
+      "weekly_rsi": 53.300198206475415,
       "ext20": 0.02830631187916066,
       "rs_days": 21,
       "quality_score": 4.0,
@@ -3420,14 +3386,14 @@
       "name": "LINDE INDIA LIMITED",
       "sector": "Basic Materials",
       "rank": 191,
-      "composite": 0.04184641826252444,
+      "composite": 0.04182515536168396,
       "price": 6794.5,
       "r12m": 0.13179062655528195,
       "r6m": -0.12078251423793973,
       "r3m": -0.035967650397275786,
       "ann_vol": 0.3130200664476997,
       "market_cap_cr": 57946.3675904,
-      "weekly_rsi": 54.30697430102544,
+      "weekly_rsi": 54.30697431719066,
       "ext20": 0.13222796200633224,
       "rs_days": 1,
       "quality_score": 2.0,
@@ -3453,12 +3419,12 @@
       "date": "2026-11-10",
       "price": 3491.89990234375,
       "detail": "Monthly OBV above its 21-month EMA, crossed Nov 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 3491.89990234375,
       "active": true,
       "ended": null,
       "since": 0.0,
-      "age": 0,
+      "age": 1,
       "rs_rating": 66
     },
     {
@@ -3469,12 +3435,12 @@
       "date": "2026-11-10",
       "price": 1207.0,
       "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 821",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1207.0,
       "active": true,
       "ended": null,
       "since": 0.0,
-      "age": 0,
+      "age": 1,
       "rs_rating": null
     },
     {
@@ -3485,12 +3451,12 @@
       "date": "2026-11-10",
       "price": 1871.0,
       "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1871.0,
       "active": true,
       "ended": null,
       "since": 0.0,
-      "age": 0,
+      "age": 1,
       "rs_rating": 81
     },
     {
@@ -3501,12 +3467,12 @@
       "date": "2026-11-10",
       "price": 205.25999450683594,
       "detail": "Listed 08 Jul 2026 \u00b7 listing-day high Rs 192",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 205.25999450683594,
       "active": true,
       "ended": null,
       "since": 0.0,
-      "age": 0,
+      "age": 1,
       "rs_rating": 65
     },
     {
@@ -3517,12 +3483,12 @@
       "date": "2026-11-10",
       "price": 663.7000122070312,
       "detail": "Cleared every entry rule \u00b7 rank 144",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 663.7000122070312,
       "active": true,
       "ended": null,
       "since": 0.0,
-      "age": 0,
+      "age": 1,
       "rs_rating": 96
     },
     {
@@ -3533,12 +3499,12 @@
       "date": "2026-11-10",
       "price": 2114.89990234375,
       "detail": "Monthly OBV above its 21-month EMA, crossed Nov 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 2114.89990234375,
       "active": true,
       "ended": null,
       "since": 0.0,
-      "age": 0,
+      "age": 1,
       "rs_rating": 96
     },
     {
@@ -3554,7 +3520,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.08441624271036885,
-      "age": 3,
+      "age": 4,
       "rs_rating": 57
     },
     {
@@ -3570,7 +3536,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.036137138894947296,
-      "age": 3,
+      "age": 4,
       "rs_rating": 75
     },
     {
@@ -3581,12 +3547,12 @@
       "date": "2026-11-07",
       "price": 2517.89990234375,
       "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 2706.800048828125,
       "active": true,
       "ended": null,
       "since": 0.07502289757767588,
-      "age": 3,
+      "age": 4,
       "rs_rating": 61
     },
     {
@@ -3597,12 +3563,12 @@
       "date": "2026-11-06",
       "price": 1772.0,
       "detail": "Cleared every entry rule \u00b7 rank 35",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1806.199951171875,
       "active": true,
       "ended": null,
       "since": 0.01930019817825901,
-      "age": 4,
+      "age": 5,
       "rs_rating": 95
     },
     {
@@ -3613,12 +3579,12 @@
       "date": "2026-11-06",
       "price": 4525.0,
       "detail": "Cleared every entry rule \u00b7 rank 34",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 4471.0,
       "active": true,
       "ended": null,
       "since": -0.01193370165745855,
-      "age": 4,
+      "age": 5,
       "rs_rating": 93
     },
     {
@@ -3629,12 +3595,12 @@
       "date": "2026-11-06",
       "price": 651.5,
       "detail": "Cleared every entry rule \u00b7 rank 38",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 648.5999755859375,
       "active": true,
       "ended": null,
       "since": -0.004451303782137428,
-      "age": 4,
+      "age": 5,
       "rs_rating": 72
     },
     {
@@ -3645,12 +3611,12 @@
       "date": "2026-11-06",
       "price": 1808.800048828125,
       "detail": "Cleared every entry rule \u00b7 rank 114",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1919.5999755859375,
       "active": true,
       "ended": null,
       "since": 0.061256039234185655,
-      "age": 4,
+      "age": 5,
       "rs_rating": 99
     },
     {
@@ -3661,12 +3627,12 @@
       "date": "2026-11-06",
       "price": 1319.9000244140625,
       "detail": "Cleared every entry rule \u00b7 rank 132",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1343.5999755859375,
       "active": true,
       "ended": null,
       "since": 0.017955868424501364,
-      "age": 4,
+      "age": 5,
       "rs_rating": 93
     },
     {
@@ -3677,12 +3643,12 @@
       "date": "2026-11-06",
       "price": 546.1500244140625,
       "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 564.0,
       "active": true,
       "ended": null,
       "since": 0.03268328259270503,
-      "age": 4,
+      "age": 5,
       "rs_rating": 49
     },
     {
@@ -3693,12 +3659,12 @@
       "date": "2026-11-06",
       "price": 311.0,
       "detail": "Cleared every entry rule \u00b7 rank 95",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 320.45001220703125,
       "active": true,
       "ended": null,
       "since": 0.0303858913409365,
-      "age": 4,
+      "age": 5,
       "rs_rating": 74
     },
     {
@@ -3709,12 +3675,12 @@
       "date": "2026-11-06",
       "price": 403.8999938964844,
       "detail": "Monthly OBV above its 21-month EMA, crossed Nov 2026",
-      "last_seen": "2026-11-10",
-      "last_price": 407.75,
+      "last_seen": "2026-11-11",
+      "last_price": 405.54998779296875,
       "active": true,
       "ended": null,
-      "since": 0.009532077647177006,
-      "age": 4,
+      "since": 0.004085154546714875,
+      "age": 5,
       "rs_rating": 76
     },
     {
@@ -3725,12 +3691,12 @@
       "date": "2026-11-06",
       "price": 62.709999084472656,
       "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 48",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 60.599998474121094,
       "active": true,
       "ended": null,
       "since": -0.03364695648471172,
-      "age": 4,
+      "age": 5,
       "rs_rating": null
     },
     {
@@ -3741,12 +3707,12 @@
       "date": "2026-11-06",
       "price": 8777.0,
       "detail": "Cleared every entry rule \u00b7 rank 151",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 9115.0,
       "active": true,
       "ended": null,
       "since": 0.03850974136948837,
-      "age": 4,
+      "age": 5,
       "rs_rating": 88
     },
     {
@@ -3762,7 +3728,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.12784310990021008,
-      "age": 4,
+      "age": 5,
       "rs_rating": 93
     },
     {
@@ -3773,12 +3739,12 @@
       "date": "2026-11-06",
       "price": 4259.7001953125,
       "detail": "Cleared every entry rule \u00b7 rank 76",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 4202.2001953125,
       "active": true,
       "ended": null,
       "since": -0.013498602569090301,
-      "age": 4,
+      "age": 5,
       "rs_rating": 71
     },
     {
@@ -3789,12 +3755,12 @@
       "date": "2026-11-06",
       "price": 6859.0,
       "detail": "Monthly OBV above its 21-month EMA, crossed Nov 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 6794.5,
       "active": true,
       "ended": null,
       "since": -0.009403703163726518,
-      "age": 4,
+      "age": 5,
       "rs_rating": 56
     },
     {
@@ -3805,12 +3771,12 @@
       "date": "2026-11-06",
       "price": 2029.4000244140625,
       "detail": "Cleared every entry rule \u00b7 rank 121",
-      "last_seen": "2026-11-10",
-      "last_price": 2016.5,
+      "last_seen": "2026-11-11",
+      "last_price": 2011.5,
       "active": true,
       "ended": null,
-      "since": -0.006356570542462192,
-      "age": 4,
+      "since": -0.008820352911561025,
+      "age": 5,
       "rs_rating": 78
     },
     {
@@ -3821,12 +3787,12 @@
       "date": "2026-11-06",
       "price": 163.7100067138672,
       "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 146",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 164.49000549316406,
       "active": true,
       "ended": null,
       "since": 0.004764514979589185,
-      "age": 4,
+      "age": 5,
       "rs_rating": null
     },
     {
@@ -3842,7 +3808,7 @@
       "active": false,
       "ended": "2026-11-07",
       "since": 0.0408222534819771,
-      "age": 4,
+      "age": 5,
       "rs_rating": 93
     },
     {
@@ -3853,12 +3819,12 @@
       "date": "2026-11-06",
       "price": 3979.39990234375,
       "detail": "Cleared every entry rule \u00b7 rank 37",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 4197.2001953125,
       "active": true,
       "ended": null,
       "since": 0.05473194409048254,
-      "age": 4,
+      "age": 5,
       "rs_rating": 92
     },
     {
@@ -3869,12 +3835,12 @@
       "date": "2026-11-06",
       "price": 370.04998779296875,
       "detail": "Cleared every entry rule \u00b7 rank 125",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 370.0,
       "active": true,
       "ended": null,
       "since": -0.00013508389303529267,
-      "age": 4,
+      "age": 5,
       "rs_rating": 81
     },
     {
@@ -3890,7 +3856,7 @@
       "active": false,
       "ended": "2026-11-07",
       "since": 0.04761903335082929,
-      "age": 4,
+      "age": 5,
       "rs_rating": 82
     },
     {
@@ -3906,7 +3872,7 @@
       "active": false,
       "ended": "2026-11-07",
       "since": 0.03011125817335003,
-      "age": 4,
+      "age": 5,
       "rs_rating": 94
     },
     {
@@ -3917,12 +3883,12 @@
       "date": "2026-11-06",
       "price": 182.3800048828125,
       "detail": "Listed 10 Jul 2026 \u00b7 listing-day high Rs 175",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 209.64999389648438,
       "active": true,
       "ended": null,
       "since": 0.1495229097685029,
-      "age": 4,
+      "age": 5,
       "rs_rating": 82
     },
     {
@@ -3933,12 +3899,12 @@
       "date": "2026-11-06",
       "price": 1950.300048828125,
       "detail": "Monthly OBV above its 21-month EMA, crossed Nov 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1961.699951171875,
       "active": true,
       "ended": null,
       "since": 0.005845204357452616,
-      "age": 4,
+      "age": 5,
       "rs_rating": 67
     },
     {
@@ -3949,12 +3915,12 @@
       "date": "2026-11-06",
       "price": 1508.699951171875,
       "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 1,500",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1519.4000244140625,
       "active": true,
       "ended": null,
       "since": 0.007092247357651349,
-      "age": 4,
+      "age": 5,
       "rs_rating": null
     },
     {
@@ -3965,12 +3931,12 @@
       "date": "2026-11-06",
       "price": 2431.10009765625,
       "detail": "Cleared every entry rule \u00b7 rank 10",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 2505.300048828125,
       "active": true,
       "ended": null,
       "since": 0.030521141948621988,
-      "age": 4,
+      "age": 5,
       "rs_rating": 90
     },
     {
@@ -3986,7 +3952,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.24379202394714983,
-      "age": 4,
+      "age": 5,
       "rs_rating": 92
     },
     {
@@ -3999,10 +3965,10 @@
       "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 607",
       "last_seen": "2026-11-10",
       "last_price": 700.2000122070312,
-      "active": true,
-      "ended": null,
+      "active": false,
+      "ended": "2026-11-11",
       "since": 0.04499667929757245,
-      "age": 4,
+      "age": 5,
       "rs_rating": null
     },
     {
@@ -4013,12 +3979,12 @@
       "date": "2026-11-06",
       "price": 1034.449951171875,
       "detail": "Cleared every entry rule \u00b7 rank 140",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1055.800048828125,
       "active": true,
       "ended": null,
       "since": 0.020639082279489296,
-      "age": 4,
+      "age": 5,
       "rs_rating": 73
     },
     {
@@ -4029,12 +3995,12 @@
       "date": "2026-11-06",
       "price": 906.7000122070312,
       "detail": "Monthly OBV above its 21-month EMA, crossed Nov 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1017.2999877929688,
       "active": true,
       "ended": null,
       "since": 0.121980780960532,
-      "age": 4,
+      "age": 5,
       "rs_rating": 81
     },
     {
@@ -4050,7 +4016,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.01595660963528578,
-      "age": 6,
+      "age": 7,
       "rs_rating": 93
     },
     {
@@ -4061,12 +4027,12 @@
       "date": "2026-11-03",
       "price": 1219.5,
       "detail": "Cleared every entry rule \u00b7 rank 98",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1320.5,
       "active": true,
       "ended": null,
       "since": 0.08282082820828207,
-      "age": 7,
+      "age": 8,
       "rs_rating": 91
     },
     {
@@ -4077,12 +4043,12 @@
       "date": "2026-11-03",
       "price": 398.79998779296875,
       "detail": "Cleared every entry rule \u00b7 rank 78",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 407.8999938964844,
       "active": true,
       "ended": null,
       "since": 0.022818471369261406,
-      "age": 7,
+      "age": 8,
       "rs_rating": 88
     },
     {
@@ -4098,7 +4064,7 @@
       "active": false,
       "ended": "2026-11-06",
       "since": -0.0887876929719188,
-      "age": 7,
+      "age": 8,
       "rs_rating": 86
     },
     {
@@ -4109,12 +4075,12 @@
       "date": "2026-11-03",
       "price": 1025.5999755859375,
       "detail": "Listed 16 Sep 2026 \u00b7 listing-day high Rs 787",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1006.75,
       "active": true,
       "ended": null,
       "since": -0.01837946181226091,
-      "age": 7,
+      "age": 8,
       "rs_rating": null
     },
     {
@@ -4125,12 +4091,12 @@
       "date": "2026-11-03",
       "price": 105.76000213623047,
       "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 106",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 11.789999961853027,
       "active": true,
       "ended": null,
       "since": -0.888521182642695,
-      "age": 7,
+      "age": 8,
       "rs_rating": null
     },
     {
@@ -4146,7 +4112,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": 0.0298603302340672,
-      "age": 7,
+      "age": 8,
       "rs_rating": 80
     },
     {
@@ -4162,7 +4128,7 @@
       "active": false,
       "ended": "2026-11-05",
       "since": -0.04569742991187953,
-      "age": 11,
+      "age": 12,
       "rs_rating": 95
     },
     {
@@ -4173,12 +4139,12 @@
       "date": "2026-10-30",
       "price": 782.0499877929688,
       "detail": "Cleared every entry rule \u00b7 rank 39",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 789.2999877929688,
       "active": true,
       "ended": null,
       "since": 0.009270507145534568,
-      "age": 11,
+      "age": 12,
       "rs_rating": 86
     },
     {
@@ -4194,7 +4160,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": 0.17932587404695033,
-      "age": 11,
+      "age": 12,
       "rs_rating": 96
     },
     {
@@ -4205,12 +4171,12 @@
       "date": "2026-10-30",
       "price": 1415.300048828125,
       "detail": "Cleared every entry rule \u00b7 rank 73",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1474.4000244140625,
       "active": true,
       "ended": null,
       "since": 0.04175791248991523,
-      "age": 11,
+      "age": 12,
       "rs_rating": 87
     },
     {
@@ -4226,7 +4192,7 @@
       "active": false,
       "ended": "2026-11-06",
       "since": 0.2085820667779268,
-      "age": 12,
+      "age": 13,
       "rs_rating": 94
     },
     {
@@ -4237,12 +4203,12 @@
       "date": "2026-10-29",
       "price": 818.2000122070312,
       "detail": "Listed 16 Sep 2026 \u00b7 listing-day high Rs 671",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 773.0,
       "active": true,
       "ended": null,
       "since": -0.055243230912582986,
-      "age": 12,
+      "age": 13,
       "rs_rating": null
     },
     {
@@ -4258,7 +4224,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.09486431915421634,
-      "age": 12,
+      "age": 13,
       "rs_rating": 92
     },
     {
@@ -4274,7 +4240,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": -0.04816042472037119,
-      "age": 12,
+      "age": 13,
       "rs_rating": 66
     },
     {
@@ -4290,7 +4256,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": -0.11910059489292457,
-      "age": 12,
+      "age": 13,
       "rs_rating": 69
     },
     {
@@ -4306,7 +4272,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": -0.11910059489292457,
-      "age": 12,
+      "age": 13,
       "rs_rating": 69
     },
     {
@@ -4322,7 +4288,7 @@
       "active": false,
       "ended": "2026-10-30",
       "since": -0.25043839750743235,
-      "age": 13,
+      "age": 14,
       "rs_rating": null
     },
     {
@@ -4338,7 +4304,7 @@
       "active": false,
       "ended": "2026-10-30",
       "since": -0.25043839750743235,
-      "age": 13,
+      "age": 14,
       "rs_rating": null
     },
     {
@@ -4349,12 +4315,12 @@
       "date": "2026-10-28",
       "price": 3696.699951171875,
       "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 3,655",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 3856.39990234375,
       "active": true,
       "ended": null,
       "since": 0.0432006798715836,
-      "age": 13,
+      "age": 14,
       "rs_rating": null
     },
     {
@@ -4365,12 +4331,12 @@
       "date": "2026-10-28",
       "price": 3049.0,
       "detail": "Cleared every entry rule \u00b7 rank 69",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 3302.39990234375,
       "active": true,
       "ended": null,
       "since": 0.08310918410749424,
-      "age": 13,
+      "age": 14,
       "rs_rating": 94
     },
     {
@@ -4386,7 +4352,7 @@
       "active": false,
       "ended": "2026-10-30",
       "since": -0.034526326921234696,
-      "age": 13,
+      "age": 14,
       "rs_rating": 68
     },
     {
@@ -4397,12 +4363,12 @@
       "date": "2026-10-27",
       "price": 851.8499755859375,
       "detail": "Cleared every entry rule \u00b7 rank 73",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 924.0,
       "active": true,
       "ended": null,
       "since": 0.08469804130056446,
-      "age": 14,
+      "age": 15,
       "rs_rating": 94
     },
     {
@@ -4418,7 +4384,7 @@
       "active": false,
       "ended": "2026-10-29",
       "since": -0.010933323227942271,
-      "age": 14,
+      "age": 15,
       "rs_rating": 66
     },
     {
@@ -4434,7 +4400,7 @@
       "active": false,
       "ended": "2026-11-06",
       "since": -0.049838538677721256,
-      "age": 14,
+      "age": 15,
       "rs_rating": null
     },
     {
@@ -4450,7 +4416,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": 0.10967474882069861,
-      "age": 14,
+      "age": 15,
       "rs_rating": null
     },
     {
@@ -4466,7 +4432,7 @@
       "active": false,
       "ended": "2026-11-06",
       "since": -0.07173720988135024,
-      "age": 14,
+      "age": 15,
       "rs_rating": 91
     },
     {
@@ -4482,7 +4448,7 @@
       "active": false,
       "ended": "2026-10-30",
       "since": 0.04679402804359789,
-      "age": 14,
+      "age": 15,
       "rs_rating": 61
     },
     {
@@ -4498,7 +4464,7 @@
       "active": true,
       "ended": null,
       "since": -0.008536927222292934,
-      "age": 14,
+      "age": 15,
       "rs_rating": null
     },
     {
@@ -4514,7 +4480,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": -0.0844226974847676,
-      "age": 15,
+      "age": 16,
       "rs_rating": null
     },
     {
@@ -4530,7 +4496,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.11386863293922345,
-      "age": 18,
+      "age": 19,
       "rs_rating": 72
     },
     {
@@ -4546,7 +4512,7 @@
       "active": false,
       "ended": "2026-11-06",
       "since": -0.16491348520669002,
-      "age": 19,
+      "age": 20,
       "rs_rating": 92
     },
     {
@@ -4562,7 +4528,7 @@
       "active": false,
       "ended": "2026-10-30",
       "since": 0.08745160555682086,
-      "age": 20,
+      "age": 21,
       "rs_rating": 99
     },
     {
@@ -4578,7 +4544,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": 0.12130493735616787,
-      "age": 20,
+      "age": 21,
       "rs_rating": 98
     },
     {
@@ -4594,7 +4560,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": 0.40181308388928283,
-      "age": 20,
+      "age": 21,
       "rs_rating": 99
     },
     {
@@ -4605,12 +4571,12 @@
       "date": "2026-10-21",
       "price": 2200.0,
       "detail": "Cleared every entry rule \u00b7 rank 108",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 2370.0,
       "active": true,
       "ended": null,
       "since": 0.07727272727272738,
-      "age": 20,
+      "age": 21,
       "rs_rating": 87
     },
     {
@@ -4621,12 +4587,12 @@
       "date": "2026-10-20",
       "price": 51.45000076293945,
       "detail": "Cleared every entry rule \u00b7 rank 145",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 58.68000030517578,
       "active": true,
       "ended": null,
       "since": 0.1405247703600474,
-      "age": 21,
+      "age": 22,
       "rs_rating": 91
     },
     {
@@ -4637,12 +4603,12 @@
       "date": "2026-10-20",
       "price": 870.3499755859375,
       "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 870.2999877929688,
       "active": true,
       "ended": null,
       "since": -5.743412922498692e-05,
-      "age": 21,
+      "age": 22,
       "rs_rating": 68
     },
     {
@@ -4653,12 +4619,12 @@
       "date": "2026-10-20",
       "price": 151.8000030517578,
       "detail": "Cleared every entry rule \u00b7 rank 40",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 174.6199951171875,
       "active": true,
       "ended": null,
       "since": 0.150329325472075,
-      "age": 21,
+      "age": 22,
       "rs_rating": 93
     },
     {
@@ -4674,7 +4640,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.10586032155177583,
-      "age": 21,
+      "age": 22,
       "rs_rating": 40
     },
     {
@@ -4685,12 +4651,12 @@
       "date": "2026-10-19",
       "price": 1130.5999755859375,
       "detail": "Cleared every entry rule \u00b7 rank 97",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 1091.199951171875,
       "active": true,
       "ended": null,
       "since": -0.03484877522100005,
-      "age": 22,
+      "age": 23,
       "rs_rating": 99
     },
     {
@@ -4706,7 +4672,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": 0.0357462544418512,
-      "age": 22,
+      "age": 23,
       "rs_rating": 70
     },
     {
@@ -4722,7 +4688,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.0008453932304040013,
-      "age": 22,
+      "age": 23,
       "rs_rating": 71
     },
     {
@@ -4738,7 +4704,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.04434427393626694,
-      "age": 22,
+      "age": 23,
       "rs_rating": 73
     },
     {
@@ -4749,12 +4715,12 @@
       "date": "2026-10-19",
       "price": 161.44000244140625,
       "detail": "Cleared every entry rule \u00b7 rank 133",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 162.5399932861328,
       "active": true,
       "ended": null,
       "since": 0.0068136200947208625,
-      "age": 22,
+      "age": 23,
       "rs_rating": 98
     },
     {
@@ -4770,7 +4736,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.0002293544153945115,
-      "age": 25,
+      "age": 26,
       "rs_rating": 93
     },
     {
@@ -4786,7 +4752,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": 0.04034867524190755,
-      "age": 25,
+      "age": 26,
       "rs_rating": 81
     },
     {
@@ -4802,7 +4768,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.15273851552049833,
-      "age": 25,
+      "age": 26,
       "rs_rating": 94
     },
     {
@@ -4818,7 +4784,7 @@
       "active": false,
       "ended": "2026-10-30",
       "since": -0.22152387301756427,
-      "age": 25,
+      "age": 26,
       "rs_rating": 92
     },
     {
@@ -4834,7 +4800,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": 0.05103747176170326,
-      "age": 25,
+      "age": 26,
       "rs_rating": null
     },
     {
@@ -4850,7 +4816,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.12438002294336858,
-      "age": 25,
+      "age": 26,
       "rs_rating": 94
     },
     {
@@ -4866,7 +4832,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.03762517565856671,
-      "age": 25,
+      "age": 26,
       "rs_rating": 62
     },
     {
@@ -4882,7 +4848,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.2436407706468019,
-      "age": 26,
+      "age": 27,
       "rs_rating": null
     },
     {
@@ -4898,7 +4864,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.0305968358149995,
-      "age": 26,
+      "age": 27,
       "rs_rating": 75
     },
     {
@@ -4914,7 +4880,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.15013383154908833,
-      "age": 26,
+      "age": 27,
       "rs_rating": 92
     },
     {
@@ -4930,7 +4896,7 @@
       "active": true,
       "ended": null,
       "since": 0.005283550470240206,
-      "age": 26,
+      "age": 27,
       "rs_rating": null
     },
     {
@@ -4946,7 +4912,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.03785522550068232,
-      "age": 26,
+      "age": 27,
       "rs_rating": 82
     },
     {
@@ -4957,12 +4923,12 @@
       "date": "2026-10-15",
       "price": 360.1000061035156,
       "detail": "Cleared every entry rule \u00b7 rank 33",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 396.1000061035156,
       "active": true,
       "ended": null,
       "since": 0.09997222824164931,
-      "age": 26,
+      "age": 27,
       "rs_rating": 98
     },
     {
@@ -4978,7 +4944,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.0733839145601618,
-      "age": 26,
+      "age": 27,
       "rs_rating": 81
     },
     {
@@ -4994,7 +4960,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.28519006812368497,
-      "age": 27,
+      "age": 28,
       "rs_rating": 72
     },
     {
@@ -5010,7 +4976,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.08279114337055926,
-      "age": 27,
+      "age": 28,
       "rs_rating": 42
     },
     {
@@ -5026,7 +4992,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": 0.012225492415666839,
-      "age": 27,
+      "age": 28,
       "rs_rating": 93
     },
     {
@@ -5042,7 +5008,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": 0.14498141263940512,
-      "age": 27,
+      "age": 28,
       "rs_rating": 94
     },
     {
@@ -5058,7 +5024,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": 0.15670990560615627,
-      "age": 27,
+      "age": 28,
       "rs_rating": 91
     },
     {
@@ -5074,7 +5040,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.3165598214616141,
-      "age": 27,
+      "age": 28,
       "rs_rating": 50
     },
     {
@@ -5090,7 +5056,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.13625729804382924,
-      "age": 27,
+      "age": 28,
       "rs_rating": 83
     },
     {
@@ -5106,7 +5072,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.08911439976755786,
-      "age": 27,
+      "age": 28,
       "rs_rating": null
     },
     {
@@ -5122,7 +5088,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": -0.130036862138997,
-      "age": 27,
+      "age": 28,
       "rs_rating": 50
     },
     {
@@ -5134,11 +5100,11 @@
       "price": 1969.699951171875,
       "detail": "Cleared every entry rule \u00b7 rank 174",
       "last_seen": "2026-10-14",
-      "last_price": 2016.5,
+      "last_price": 2011.5,
       "active": false,
       "ended": "2026-10-14",
-      "since": 0.023759988824836542,
-      "age": 27,
+      "since": 0.021221531128767124,
+      "age": 28,
       "rs_rating": 78
     },
     {
@@ -5149,12 +5115,12 @@
       "date": "2026-10-14",
       "price": 272.25,
       "detail": "Cleared every entry rule \u00b7 rank 24",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 298.79998779296875,
       "active": true,
       "ended": null,
       "since": 0.09752061631944442,
-      "age": 27,
+      "age": 28,
       "rs_rating": 92
     },
     {
@@ -5170,7 +5136,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": 0.08411213421361041,
-      "age": 27,
+      "age": 28,
       "rs_rating": 94
     },
     {
@@ -5186,7 +5152,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.03408161410524402,
-      "age": 27,
+      "age": 28,
       "rs_rating": 70
     },
     {
@@ -5202,7 +5168,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.14650258815986483,
-      "age": 27,
+      "age": 28,
       "rs_rating": 66
     },
     {
@@ -5218,7 +5184,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.15400003367456894,
-      "age": 27,
+      "age": 28,
       "rs_rating": 88
     },
     {
@@ -5234,7 +5200,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": -0.09703503257873103,
-      "age": 28,
+      "age": 29,
       "rs_rating": 91
     },
     {
@@ -5250,7 +5216,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.10480948154299785,
-      "age": 28,
+      "age": 29,
       "rs_rating": 95
     },
     {
@@ -5266,7 +5232,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.06026914078125456,
-      "age": 28,
+      "age": 29,
       "rs_rating": 92
     },
     {
@@ -5277,12 +5243,12 @@
       "date": "2026-10-13",
       "price": 2466.300048828125,
       "detail": "Monthly OBV above its 21-month EMA, crossed Oct 2026",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 2455.0,
       "active": true,
       "ended": null,
       "since": -0.004581781861251799,
-      "age": 28,
+      "age": 29,
       "rs_rating": 53
     },
     {
@@ -5298,7 +5264,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": -0.1355932554627799,
-      "age": 28,
+      "age": 29,
       "rs_rating": null
     },
     {
@@ -5314,7 +5280,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.11478945152833142,
-      "age": 28,
+      "age": 29,
       "rs_rating": null
     },
     {
@@ -5330,7 +5296,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": -0.11660705589159459,
-      "age": 28,
+      "age": 29,
       "rs_rating": 94
     },
     {
@@ -5346,7 +5312,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.14254000873014894,
-      "age": 28,
+      "age": 29,
       "rs_rating": 64
     },
     {
@@ -5362,7 +5328,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": 0.013722836691144602,
-      "age": 28,
+      "age": 29,
       "rs_rating": 78
     },
     {
@@ -5378,7 +5344,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.2798109928641732,
-      "age": 32,
+      "age": 33,
       "rs_rating": 72
     },
     {
@@ -5394,7 +5360,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": 0.002373583447802252,
-      "age": 32,
+      "age": 33,
       "rs_rating": null
     },
     {
@@ -5410,7 +5376,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.10954600184266117,
-      "age": 32,
+      "age": 33,
       "rs_rating": 76
     },
     {
@@ -5426,7 +5392,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.05655202236109713,
-      "age": 32,
+      "age": 33,
       "rs_rating": 91
     },
     {
@@ -5442,7 +5408,7 @@
       "active": false,
       "ended": "2026-10-09",
       "since": 0.08119737921965431,
-      "age": 33,
+      "age": 34,
       "rs_rating": 99
     },
     {
@@ -5458,7 +5424,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.03099487756213337,
-      "age": 33,
+      "age": 34,
       "rs_rating": 95
     },
     {
@@ -5474,7 +5440,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": 0.11786631153578697,
-      "age": 33,
+      "age": 34,
       "rs_rating": 99
     },
     {
@@ -5490,7 +5456,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.1529060469509167,
-      "age": 33,
+      "age": 34,
       "rs_rating": 66
     },
     {
@@ -5506,7 +5472,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": 0.19404336312152948,
-      "age": 33,
+      "age": 34,
       "rs_rating": 98
     },
     {
@@ -5522,7 +5488,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.1120632850493738,
-      "age": 33,
+      "age": 34,
       "rs_rating": null
     },
     {
@@ -5538,7 +5504,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.008030245576754136,
-      "age": 33,
+      "age": 34,
       "rs_rating": null
     },
     {
@@ -5554,7 +5520,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.021769513628674297,
-      "age": 33,
+      "age": 34,
       "rs_rating": 68
     },
     {
@@ -5570,7 +5536,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.0924611179735626,
-      "age": 34,
+      "age": 35,
       "rs_rating": 64
     },
     {
@@ -5586,7 +5552,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": 0.18306294914524446,
-      "age": 34,
+      "age": 35,
       "rs_rating": 91
     },
     {
@@ -5602,7 +5568,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.17486032382957983,
-      "age": 34,
+      "age": 35,
       "rs_rating": 83
     },
     {
@@ -5618,7 +5584,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.14594167527470225,
-      "age": 34,
+      "age": 35,
       "rs_rating": 50
     },
     {
@@ -5634,7 +5600,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.17359046179269344,
-      "age": 34,
+      "age": 35,
       "rs_rating": 83
     },
     {
@@ -5650,7 +5616,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": 0.012353813707143502,
-      "age": 34,
+      "age": 35,
       "rs_rating": 73
     },
     {
@@ -5666,7 +5632,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.01090110639930375,
-      "age": 34,
+      "age": 35,
       "rs_rating": 69
     },
     {
@@ -5682,7 +5648,7 @@
       "active": false,
       "ended": "2026-10-27",
       "since": -0.07191932531770884,
-      "age": 34,
+      "age": 35,
       "rs_rating": null
     },
     {
@@ -5698,7 +5664,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.09390313206534062,
-      "age": 34,
+      "age": 35,
       "rs_rating": 91
     },
     {
@@ -5714,7 +5680,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.020908109234958783,
-      "age": 34,
+      "age": 35,
       "rs_rating": 76
     },
     {
@@ -5730,7 +5696,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.0833414978229321,
-      "age": 35,
+      "age": 36,
       "rs_rating": 57
     },
     {
@@ -5746,7 +5712,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.1652155698164357,
-      "age": 35,
+      "age": 36,
       "rs_rating": 63
     },
     {
@@ -5762,7 +5728,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.3148799067019209,
-      "age": 35,
+      "age": 36,
       "rs_rating": 72
     },
     {
@@ -5778,7 +5744,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.09838928545570902,
-      "age": 35,
+      "age": 36,
       "rs_rating": 72
     },
     {
@@ -5794,7 +5760,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.14971648852372743,
-      "age": 35,
+      "age": 36,
       "rs_rating": null
     },
     {
@@ -5805,12 +5771,12 @@
       "date": "2026-10-06",
       "price": 162.19000244140625,
       "detail": "Cleared every entry rule \u00b7 rank 100",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 163.8699951171875,
       "active": true,
       "ended": null,
       "since": 0.010358176524401852,
-      "age": 35,
+      "age": 36,
       "rs_rating": 92
     },
     {
@@ -5821,12 +5787,12 @@
       "date": "2026-10-06",
       "price": 335.25,
       "detail": "Cleared every entry rule \u00b7 rank 47",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 364.6000061035156,
       "active": true,
       "ended": null,
       "since": 0.08754662521555745,
-      "age": 35,
+      "age": 36,
       "rs_rating": 99
     },
     {
@@ -5842,7 +5808,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.062223622779772114,
-      "age": 35,
+      "age": 36,
       "rs_rating": 95
     },
     {
@@ -5858,7 +5824,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": 0.06783036551077792,
-      "age": 35,
+      "age": 36,
       "rs_rating": 88
     },
     {
@@ -5874,7 +5840,7 @@
       "active": false,
       "ended": "2026-10-29",
       "since": 0.04013377073031088,
-      "age": 35,
+      "age": 36,
       "rs_rating": 65
     },
     {
@@ -5890,7 +5856,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.10645273957084311,
-      "age": 35,
+      "age": 36,
       "rs_rating": 70
     },
     {
@@ -5906,7 +5872,7 @@
       "active": false,
       "ended": "2026-10-07",
       "since": -0.030371583550434234,
-      "age": 35,
+      "age": 36,
       "rs_rating": 94
     },
     {
@@ -5922,7 +5888,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.10350098138822139,
-      "age": 35,
+      "age": 36,
       "rs_rating": 71
     },
     {
@@ -5934,11 +5900,11 @@
       "price": 2442.39990234375,
       "detail": "Cleared every entry rule \u00b7 rank 29",
       "last_seen": "2026-10-20",
-      "last_price": 2197.10009765625,
+      "last_price": 2179.10009765625,
       "active": false,
       "ended": "2026-10-20",
-      "since": -0.10043392339317903,
-      "age": 35,
+      "since": -0.10780372388437909,
+      "age": 36,
       "rs_rating": 68
     },
     {
@@ -5954,7 +5920,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.0402745168864006,
-      "age": 35,
+      "age": 36,
       "rs_rating": 70
     },
     {
@@ -5970,7 +5936,7 @@
       "active": false,
       "ended": "2026-10-07",
       "since": -0.1720227068476966,
-      "age": 35,
+      "age": 36,
       "rs_rating": 68
     },
     {
@@ -5981,12 +5947,12 @@
       "date": "2026-10-05",
       "price": 230.27000427246094,
       "detail": "Cleared every entry rule \u00b7 rank 213",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 252.2100067138672,
       "active": true,
       "ended": null,
       "since": 0.09527946338788573,
-      "age": 36,
+      "age": 37,
       "rs_rating": 96
     },
     {
@@ -6002,7 +5968,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.18875766442415565,
-      "age": 36,
+      "age": 37,
       "rs_rating": 84
     },
     {
@@ -6018,7 +5984,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.17510840987838494,
-      "age": 36,
+      "age": 37,
       "rs_rating": 86
     },
     {
@@ -6034,7 +6000,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.020340901135885936,
-      "age": 36,
+      "age": 37,
       "rs_rating": null
     },
     {
@@ -6050,7 +6016,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": 0.15530254323287362,
-      "age": 36,
+      "age": 37,
       "rs_rating": 87
     },
     {
@@ -6066,7 +6032,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": 0.008895021101675615,
-      "age": 36,
+      "age": 37,
       "rs_rating": 85
     },
     {
@@ -6082,7 +6048,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.10424990215135099,
-      "age": 36,
+      "age": 37,
       "rs_rating": 96
     },
     {
@@ -6098,7 +6064,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.14726463594164874,
-      "age": 36,
+      "age": 37,
       "rs_rating": 75
     },
     {
@@ -6114,7 +6080,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.03327131386402038,
-      "age": 36,
+      "age": 37,
       "rs_rating": 95
     },
     {
@@ -6130,7 +6096,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.17445552334720216,
-      "age": 36,
+      "age": 37,
       "rs_rating": 71
     },
     {
@@ -6146,7 +6112,7 @@
       "active": false,
       "ended": "2026-10-06",
       "since": -0.09577434793241135,
-      "age": 36,
+      "age": 37,
       "rs_rating": 94
     },
     {
@@ -6162,7 +6128,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.2833490169105696,
-      "age": 40,
+      "age": 41,
       "rs_rating": null
     },
     {
@@ -6178,7 +6144,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.19604467444766305,
-      "age": 40,
+      "age": 41,
       "rs_rating": 53
     },
     {
@@ -6194,7 +6160,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.15122835279903346,
-      "age": 40,
+      "age": 41,
       "rs_rating": 57
     },
     {
@@ -6210,7 +6176,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.07470870459218648,
-      "age": 40,
+      "age": 41,
       "rs_rating": 90
     },
     {
@@ -6226,7 +6192,7 @@
       "active": false,
       "ended": "2026-10-29",
       "since": -0.010863661293885718,
-      "age": 40,
+      "age": 41,
       "rs_rating": 72
     },
     {
@@ -6242,7 +6208,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.1244736474576903,
-      "age": 40,
+      "age": 41,
       "rs_rating": 88
     },
     {
@@ -6258,7 +6224,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": -0.07442956363172049,
-      "age": 41,
+      "age": 42,
       "rs_rating": 83
     },
     {
@@ -6274,7 +6240,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.1867456105062204,
-      "age": 41,
+      "age": 42,
       "rs_rating": 42
     },
     {
@@ -6290,7 +6256,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": 0.0722299819554364,
-      "age": 41,
+      "age": 42,
       "rs_rating": 93
     },
     {
@@ -6306,7 +6272,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.06904425747560705,
-      "age": 41,
+      "age": 42,
       "rs_rating": 79
     },
     {
@@ -6322,7 +6288,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": 0.09600350302560856,
-      "age": 41,
+      "age": 42,
       "rs_rating": 94
     },
     {
@@ -6338,7 +6304,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.03923024063010394,
-      "age": 41,
+      "age": 42,
       "rs_rating": 69
     },
     {
@@ -6354,7 +6320,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.03391584319844998,
-      "age": 41,
+      "age": 42,
       "rs_rating": 68
     },
     {
@@ -6370,7 +6336,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.0764472064448054,
-      "age": 41,
+      "age": 42,
       "rs_rating": 70
     },
     {
@@ -6386,7 +6352,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": 0.10239498312528239,
-      "age": 42,
+      "age": 43,
       "rs_rating": 75
     },
     {
@@ -6402,7 +6368,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": 0.17751139180735187,
-      "age": 42,
+      "age": 43,
       "rs_rating": 96
     },
     {
@@ -6413,12 +6379,12 @@
       "date": "2026-09-29",
       "price": 22535.0,
       "detail": "Cleared every entry rule \u00b7 rank 151",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 24745.0,
       "active": true,
       "ended": null,
       "since": 0.09806966940315065,
-      "age": 42,
+      "age": 43,
       "rs_rating": 88
     },
     {
@@ -6434,7 +6400,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.02771283799850821,
-      "age": 42,
+      "age": 43,
       "rs_rating": 88
     },
     {
@@ -6445,12 +6411,12 @@
       "date": "2026-09-29",
       "price": 7016.5,
       "detail": "Cleared every entry rule \u00b7 rank 228",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 7858.5,
       "active": true,
       "ended": null,
       "since": 0.1200028504240005,
-      "age": 42,
+      "age": 43,
       "rs_rating": 95
     },
     {
@@ -6466,7 +6432,7 @@
       "active": false,
       "ended": "2026-10-29",
       "since": -0.045987889357123835,
-      "age": 42,
+      "age": 43,
       "rs_rating": 94
     },
     {
@@ -6482,7 +6448,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.034977452213232674,
-      "age": 42,
+      "age": 43,
       "rs_rating": 89
     },
     {
@@ -6498,7 +6464,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.07345577725734986,
-      "age": 42,
+      "age": 43,
       "rs_rating": 70
     },
     {
@@ -6514,7 +6480,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.2668398201825529,
-      "age": 42,
+      "age": 43,
       "rs_rating": 74
     },
     {
@@ -6530,7 +6496,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.16471072954584998,
-      "age": 42,
+      "age": 43,
       "rs_rating": 79
     },
     {
@@ -6546,7 +6512,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.01715234755141748,
-      "age": 42,
+      "age": 43,
       "rs_rating": 76
     },
     {
@@ -6562,7 +6528,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.17234511960039167,
-      "age": 43,
+      "age": 44,
       "rs_rating": 96
     },
     {
@@ -6578,7 +6544,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.18494836414128268,
-      "age": 43,
+      "age": 44,
       "rs_rating": null
     },
     {
@@ -6594,7 +6560,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": 0.011193510172580856,
-      "age": 43,
+      "age": 44,
       "rs_rating": 90
     },
     {
@@ -6610,7 +6576,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": 0.0640908773843345,
-      "age": 43,
+      "age": 44,
       "rs_rating": 92
     },
     {
@@ -6626,7 +6592,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.19575185967306774,
-      "age": 43,
+      "age": 44,
       "rs_rating": 91
     },
     {
@@ -6642,7 +6608,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.03341703622745218,
-      "age": 43,
+      "age": 44,
       "rs_rating": 95
     },
     {
@@ -6658,7 +6624,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": 0.06908237747653811,
-      "age": 43,
+      "age": 44,
       "rs_rating": 88
     },
     {
@@ -6674,7 +6640,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.08974717358388062,
-      "age": 43,
+      "age": 44,
       "rs_rating": null
     },
     {
@@ -6690,7 +6656,7 @@
       "active": false,
       "ended": "2026-10-06",
       "since": -0.026312866548334757,
-      "age": 43,
+      "age": 44,
       "rs_rating": 93
     },
     {
@@ -6706,7 +6672,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": 0.14821494515737088,
-      "age": 43,
+      "age": 44,
       "rs_rating": 92
     },
     {
@@ -6722,7 +6688,7 @@
       "active": false,
       "ended": "2026-10-06",
       "since": -0.09111177950344529,
-      "age": 43,
+      "age": 44,
       "rs_rating": 90
     },
     {
@@ -6738,7 +6704,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.21327605107193992,
-      "age": 43,
+      "age": 44,
       "rs_rating": 85
     },
     {
@@ -6754,7 +6720,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.08031359734847976,
-      "age": 43,
+      "age": 44,
       "rs_rating": 96
     },
     {
@@ -6770,7 +6736,7 @@
       "active": false,
       "ended": "2026-10-07",
       "since": -0.09093896078731711,
-      "age": 43,
+      "age": 44,
       "rs_rating": 89
     },
     {
@@ -6786,7 +6752,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.05673862499289084,
-      "age": 43,
+      "age": 44,
       "rs_rating": 76
     },
     {
@@ -6802,7 +6768,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.23778512465606694,
-      "age": 43,
+      "age": 44,
       "rs_rating": 87
     },
     {
@@ -6818,7 +6784,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.058409130171210855,
-      "age": 44,
+      "age": 45,
       "rs_rating": 87
     },
     {
@@ -6834,7 +6800,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.03771011845940231,
-      "age": 44,
+      "age": 45,
       "rs_rating": 90
     },
     {
@@ -6850,7 +6816,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.10332807537324229,
-      "age": 44,
+      "age": 45,
       "rs_rating": 83
     },
     {
@@ -6866,7 +6832,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.11636664382219397,
-      "age": 44,
+      "age": 45,
       "rs_rating": 70
     },
     {
@@ -6882,7 +6848,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.14347675225537826,
-      "age": 44,
+      "age": 45,
       "rs_rating": 47
     },
     {
@@ -6898,7 +6864,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.19293346507676357,
-      "age": 44,
+      "age": 45,
       "rs_rating": 56
     },
     {
@@ -6914,7 +6880,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.06500479654903402,
-      "age": 44,
+      "age": 45,
       "rs_rating": 94
     },
     {
@@ -6930,7 +6896,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.06500479654903402,
-      "age": 44,
+      "age": 45,
       "rs_rating": 94
     },
     {
@@ -6946,7 +6912,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.15134399153362976,
-      "age": 44,
+      "age": 45,
       "rs_rating": 63
     },
     {
@@ -6962,7 +6928,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.023321833593547336,
-      "age": 44,
+      "age": 45,
       "rs_rating": 82
     },
     {
@@ -6978,7 +6944,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": -0.18444896866045546,
-      "age": 44,
+      "age": 45,
       "rs_rating": 85
     },
     {
@@ -6994,7 +6960,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.0435624382096611,
-      "age": 44,
+      "age": 45,
       "rs_rating": 56
     },
     {
@@ -7010,7 +6976,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.034736780077937235,
-      "age": 44,
+      "age": 45,
       "rs_rating": 80
     },
     {
@@ -7026,7 +6992,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.06669321122834959,
-      "age": 44,
+      "age": 45,
       "rs_rating": 83
     },
     {
@@ -7042,7 +7008,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.1574008908164497,
-      "age": 44,
+      "age": 45,
       "rs_rating": 79
     },
     {
@@ -7058,7 +7024,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": 0.08473964185621075,
-      "age": 44,
+      "age": 45,
       "rs_rating": 95
     },
     {
@@ -7074,7 +7040,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.0868714410517748,
-      "age": 44,
+      "age": 45,
       "rs_rating": 82
     },
     {
@@ -7090,7 +7056,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.1451891708851315,
-      "age": 44,
+      "age": 45,
       "rs_rating": 72
     },
     {
@@ -7106,7 +7072,7 @@
       "active": false,
       "ended": "2026-10-27",
       "since": -0.008742522349056037,
-      "age": 44,
+      "age": 45,
       "rs_rating": 96
     },
     {
@@ -7122,7 +7088,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.16683860456239097,
-      "age": 44,
+      "age": 45,
       "rs_rating": 58
     },
     {
@@ -7133,12 +7099,12 @@
       "date": "2026-09-27",
       "price": 546.1500244140625,
       "detail": "Cleared every entry rule \u00b7 rank 266",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 660.25,
       "active": true,
       "ended": null,
       "since": 0.2089169101628252,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -7154,7 +7120,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.1475292526908687,
-      "age": 44,
+      "age": 45,
       "rs_rating": 42
     },
     {
@@ -7170,7 +7136,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.08839648644108822,
-      "age": 44,
+      "age": 45,
       "rs_rating": 64
     },
     {
@@ -7186,7 +7152,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.06965196617484104,
-      "age": 44,
+      "age": 45,
       "rs_rating": 73
     },
     {
@@ -7202,7 +7168,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.1489012904661512,
-      "age": 44,
+      "age": 45,
       "rs_rating": 73
     },
     {
@@ -7218,7 +7184,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.14344942758876722,
-      "age": 44,
+      "age": 45,
       "rs_rating": null
     },
     {
@@ -7234,7 +7200,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.15618144949726487,
-      "age": 44,
+      "age": 45,
       "rs_rating": 90
     },
     {
@@ -7250,7 +7216,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.002493822758694142,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -7266,7 +7232,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.06472139048945025,
-      "age": 44,
+      "age": 45,
       "rs_rating": 71
     },
     {
@@ -7282,7 +7248,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.22606259631397974,
-      "age": 44,
+      "age": 45,
       "rs_rating": null
     },
     {
@@ -7298,7 +7264,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": -0.03075889989829972,
-      "age": 44,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -7314,7 +7280,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.23284093683416196,
-      "age": 44,
+      "age": 45,
       "rs_rating": 53
     },
     {
@@ -7330,7 +7296,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": 0.1206791995148575,
-      "age": 44,
+      "age": 45,
       "rs_rating": 94
     },
     {
@@ -7346,7 +7312,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.11956955721785545,
-      "age": 44,
+      "age": 45,
       "rs_rating": 74
     },
     {
@@ -7362,7 +7328,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.1232497241589221,
-      "age": 44,
+      "age": 45,
       "rs_rating": 79
     },
     {
@@ -7378,7 +7344,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.23971873054171855,
-      "age": 44,
+      "age": 45,
       "rs_rating": 83
     },
     {
@@ -7389,12 +7355,12 @@
       "date": "2026-09-27",
       "price": 55.93000030517578,
       "detail": "Listed 14 Aug 2026 \u00b7 listing-day high Rs 43",
-      "last_seen": "2026-11-10",
+      "last_seen": "2026-11-11",
       "last_price": 82.05000305175781,
       "active": true,
       "ended": null,
       "since": 0.4670123834089248,
-      "age": 44,
+      "age": 45,
       "rs_rating": null
     },
     {
@@ -7410,7 +7376,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.09058734677948121,
-      "age": 44,
+      "age": 45,
       "rs_rating": 84
     },
     {
@@ -7426,7 +7392,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": -0.14408148493058548,
-      "age": 44,
+      "age": 45,
       "rs_rating": 98
     },
     {
@@ -7442,7 +7408,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.1350368336198029,
-      "age": 44,
+      "age": 45,
       "rs_rating": 95
     },
     {
@@ -7458,7 +7424,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.05017201717803643,
-      "age": 44,
+      "age": 45,
       "rs_rating": 75
     },
     {
@@ -7474,7 +7440,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.14901989218629974,
-      "age": 44,
+      "age": 45,
       "rs_rating": 67
     },
     {
@@ -7490,7 +7456,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.12950866465780386,
-      "age": 44,
+      "age": 45,
       "rs_rating": 99
     },
     {
@@ -7506,7 +7472,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.015398856731899002,
-      "age": 44,
+      "age": 45,
       "rs_rating": 95
     },
     {
@@ -7522,7 +7488,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.061786334587670466,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -7538,7 +7504,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": -0.13124736112333546,
-      "age": 44,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -7554,7 +7520,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.1933701657458563,
-      "age": 44,
+      "age": 45,
       "rs_rating": 75
     },
     {
@@ -7570,7 +7536,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.0915789687842653,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -7586,7 +7552,7 @@
       "active": false,
       "ended": "2026-10-06",
       "since": 0.014080429441146958,
-      "age": 44,
+      "age": 45,
       "rs_rating": 90
     },
     {
@@ -7602,7 +7568,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.055079783217029554,
-      "age": 44,
+      "age": 45,
       "rs_rating": 90
     },
     {
@@ -7618,7 +7584,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.2671768529930336,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -7634,7 +7600,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": 0.2671768529930336,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -7650,7 +7616,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.028435545069862123,
-      "age": 44,
+      "age": 45,
       "rs_rating": 66
     },
     {
@@ -7666,7 +7632,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.12266640388264716,
-      "age": 44,
+      "age": 45,
       "rs_rating": 79
     },
     {
@@ -7682,7 +7648,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.19324131067014283,
-      "age": 44,
+      "age": 45,
       "rs_rating": 58
     },
     {
@@ -7698,7 +7664,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.17932726069246752,
-      "age": 44,
+      "age": 45,
       "rs_rating": 63
     },
     {
@@ -7714,7 +7680,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.010909638301368263,
-      "age": 44,
+      "age": 45,
       "rs_rating": 93
     },
     {
@@ -7730,7 +7696,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.18212604532363508,
-      "age": 44,
+      "age": 45,
       "rs_rating": 36
     },
     {
@@ -7746,7 +7712,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.0023155704890573947,
-      "age": 44,
+      "age": 45,
       "rs_rating": null
     },
     {
@@ -7762,7 +7728,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.16987512467529398,
-      "age": 44,
+      "age": 45,
       "rs_rating": 69
     },
     {
@@ -7774,11 +7740,11 @@
       "price": 534.7999877929688,
       "detail": "Cleared every entry rule \u00b7 rank 94",
       "last_seen": "2026-10-15",
-      "last_price": 433.54998779296875,
+      "last_price": 431.04998779296875,
       "active": false,
       "ended": "2026-10-16",
-      "since": -0.18932311576490868,
-      "age": 44,
+      "since": -0.19399776059861018,
+      "age": 45,
       "rs_rating": 86
     },
     {
@@ -7794,7 +7760,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.03284529220966759,
-      "age": 44,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -7810,7 +7776,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.06752680373919717,
-      "age": 44,
+      "age": 45,
       "rs_rating": 93
     },
     {
@@ -7826,7 +7792,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.11739057761695526,
-      "age": 44,
+      "age": 45,
       "rs_rating": 95
     },
     {
@@ -7842,7 +7808,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": 0.0617974255926379,
-      "age": 44,
+      "age": 45,
       "rs_rating": 88
     },
     {
@@ -7858,7 +7824,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.11655445770451056,
-      "age": 44,
+      "age": 45,
       "rs_rating": 76
     },
     {
@@ -7874,7 +7840,7 @@
       "active": true,
       "ended": null,
       "since": -0.12398612496130557,
-      "age": 44,
+      "age": 45,
       "rs_rating": null
     },
     {
@@ -7890,7 +7856,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.18527268123870055,
-      "age": 44,
+      "age": 45,
       "rs_rating": 76
     },
     {
@@ -7906,7 +7872,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.0588330740300993,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -7922,7 +7888,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.04567343032837434,
-      "age": 44,
+      "age": 45,
       "rs_rating": 68
     },
     {
@@ -7938,7 +7904,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.08369197562071728,
-      "age": 44,
+      "age": 45,
       "rs_rating": 92
     },
     {
@@ -7954,7 +7920,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.05933531792862534,
-      "age": 44,
+      "age": 45,
       "rs_rating": 93
     },
     {
@@ -7970,7 +7936,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.10366199475498827,
-      "age": 44,
+      "age": 45,
       "rs_rating": 45
     },
     {
@@ -7986,7 +7952,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.15013462843409364,
-      "age": 44,
+      "age": 45,
       "rs_rating": 40
     },
     {
@@ -8002,7 +7968,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.12167752942814691,
-      "age": 44,
+      "age": 45,
       "rs_rating": 75
     },
     {
@@ -8018,7 +7984,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.1895479910381136,
-      "age": 44,
+      "age": 45,
       "rs_rating": 57
     },
     {
@@ -8034,7 +8000,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.1895479910381136,
-      "age": 44,
+      "age": 45,
       "rs_rating": 57
     },
     {
@@ -8050,7 +8016,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.14686055871212123,
-      "age": 44,
+      "age": 45,
       "rs_rating": 98
     },
     {
@@ -8066,7 +8032,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.16352782580092606,
-      "age": 44,
+      "age": 45,
       "rs_rating": 51
     },
     {
@@ -8078,11 +8044,11 @@
       "price": 1952.300048828125,
       "detail": "Cleared every entry rule \u00b7 rank 117",
       "last_seen": "2026-10-07",
-      "last_price": 2016.5,
+      "last_price": 2011.5,
       "active": false,
       "ended": "2026-10-08",
-      "since": 0.0328842644912144,
-      "age": 44,
+      "since": 0.03032318275431578,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -8098,7 +8064,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.010730271545501102,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -8114,7 +8080,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.11677207731794559,
-      "age": 44,
+      "age": 45,
       "rs_rating": 61
     },
     {
@@ -8130,7 +8096,7 @@
       "active": false,
       "ended": "2026-11-06",
       "since": 0.3096026464430943,
-      "age": 44,
+      "age": 45,
       "rs_rating": 97
     },
     {
@@ -8146,7 +8112,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.768350148481737,
-      "age": 44,
+      "age": 45,
       "rs_rating": 96
     },
     {
@@ -8162,7 +8128,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": 0.05287083141210758,
-      "age": 44,
+      "age": 45,
       "rs_rating": null
     },
     {
@@ -8178,7 +8144,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": 0.03185994919050894,
-      "age": 44,
+      "age": 45,
       "rs_rating": 93
     },
     {
@@ -8194,7 +8160,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.09587446135790356,
-      "age": 44,
+      "age": 45,
       "rs_rating": 70
     },
     {
@@ -8210,7 +8176,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": -0.09587446135790356,
-      "age": 44,
+      "age": 45,
       "rs_rating": 70
     },
     {
@@ -8226,7 +8192,7 @@
       "active": false,
       "ended": "2026-11-10",
       "since": -0.011462925851703387,
-      "age": 44,
+      "age": 45,
       "rs_rating": 80
     },
     {
@@ -8242,7 +8208,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": 0.040610972612353136,
-      "age": 44,
+      "age": 45,
       "rs_rating": 92
     },
     {
@@ -8258,7 +8224,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.02694578145688764,
-      "age": 44,
+      "age": 45,
       "rs_rating": 85
     },
     {
@@ -8274,7 +8240,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.09883852418300743,
-      "age": 44,
+      "age": 45,
       "rs_rating": 52
     },
     {
@@ -8290,7 +8256,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.01969551014771176,
-      "age": 44,
+      "age": 45,
       "rs_rating": 58
     },
     {
@@ -8306,7 +8272,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.0358005999772828,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -8322,7 +8288,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.07249303622601377,
-      "age": 44,
+      "age": 45,
       "rs_rating": 79
     },
     {
@@ -8338,7 +8304,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.005632279978301402,
-      "age": 44,
+      "age": 45,
       "rs_rating": 83
     },
     {
@@ -8354,7 +8320,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.006072802185894899,
-      "age": 44,
+      "age": 45,
       "rs_rating": 97
     },
     {
@@ -8370,7 +8336,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.16557375143320652,
-      "age": 44,
+      "age": 45,
       "rs_rating": 82
     },
     {
@@ -8386,7 +8352,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.1291154282175233,
-      "age": 44,
+      "age": 45,
       "rs_rating": 81
     },
     {
@@ -8402,7 +8368,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": 0.009278205543389317,
-      "age": 44,
+      "age": 45,
       "rs_rating": 73
     },
     {
@@ -8418,7 +8384,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.011632848571284549,
-      "age": 44,
+      "age": 45,
       "rs_rating": 87
     },
     {
@@ -8434,7 +8400,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.011632848571284549,
-      "age": 44,
+      "age": 45,
       "rs_rating": 87
     },
     {
@@ -8450,7 +8416,7 @@
       "active": false,
       "ended": "2026-11-03",
       "since": 0.0060342040105985095,
-      "age": 44,
+      "age": 45,
       "rs_rating": 94
     },
     {
@@ -8466,7 +8432,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.10191485564260117,
-      "age": 44,
+      "age": 45,
       "rs_rating": 54
     },
     {
@@ -8482,7 +8448,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.10417919791228658,
-      "age": 44,
+      "age": 45,
       "rs_rating": 67
     },
     {
@@ -8498,7 +8464,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.12672643566755515,
-      "age": 44,
+      "age": 45,
       "rs_rating": 86
     },
     {
@@ -8514,7 +8480,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.0701840328553126,
-      "age": 44,
+      "age": 45,
       "rs_rating": 71
     },
     {
@@ -8530,7 +8496,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.25932093424558444,
-      "age": 44,
+      "age": 45,
       "rs_rating": 47
     },
     {
@@ -8546,7 +8512,7 @@
       "active": false,
       "ended": "2026-10-07",
       "since": -0.0696997443964561,
-      "age": 44,
+      "age": 45,
       "rs_rating": 90
     },
     {
@@ -8562,7 +8528,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.23950306384167253,
-      "age": 44,
+      "age": 45,
       "rs_rating": 71
     },
     {
@@ -8578,7 +8544,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": 0.1320444116342232,
-      "age": 44,
+      "age": 45,
       "rs_rating": 94
     },
     {
@@ -8594,7 +8560,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.045859616503359346,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -8610,7 +8576,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": -0.04755540575335049,
-      "age": 44,
+      "age": 45,
       "rs_rating": 69
     },
     {
@@ -8626,7 +8592,7 @@
       "active": false,
       "ended": "2026-10-07",
       "since": -0.045299938157081,
-      "age": 44,
+      "age": 45,
       "rs_rating": 77
     },
     {
@@ -8642,7 +8608,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.15641042931164761,
-      "age": 44,
+      "age": 45,
       "rs_rating": 88
     },
     {
@@ -8658,7 +8624,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": 0.16088475445159967,
-      "age": 44,
+      "age": 45,
       "rs_rating": 96
     },
     {
@@ -8674,7 +8640,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": 0.16088475445159967,
-      "age": 44,
+      "age": 45,
       "rs_rating": 96
     },
     {
@@ -8690,7 +8656,7 @@
       "active": false,
       "ended": "2026-10-14",
       "since": -0.28613529215680567,
-      "age": 44,
+      "age": 45,
       "rs_rating": 67
     },
     {
@@ -8706,7 +8672,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.14573877962682802,
-      "age": 44,
+      "age": 45,
       "rs_rating": 71
     },
     {
@@ -8722,7 +8688,7 @@
       "active": false,
       "ended": "2026-10-23",
       "since": 0.08850362466499084,
-      "age": 44,
+      "age": 45,
       "rs_rating": 90
     },
     {
@@ -8738,7 +8704,7 @@
       "active": false,
       "ended": "2026-10-22",
       "since": -0.016422109024557097,
-      "age": 44,
+      "age": 45,
       "rs_rating": 84
     },
     {
@@ -8754,7 +8720,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": -0.046112461479576705,
-      "age": 44,
+      "age": 45,
       "rs_rating": 95
     },
     {
@@ -8770,7 +8736,7 @@
       "active": false,
       "ended": "2026-10-20",
       "since": -0.16784019931327443,
-      "age": 44,
+      "age": 45,
       "rs_rating": 86
     },
     {
@@ -8786,7 +8752,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.15648485739700335,
-      "age": 44,
+      "age": 45,
       "rs_rating": 94
     },
     {
@@ -8802,7 +8768,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.30278658713014117,
-      "age": 44,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -8818,7 +8784,7 @@
       "active": false,
       "ended": "2026-09-29",
       "since": -0.1363620522960256,
-      "age": 44,
+      "age": 45,
       "rs_rating": 87
     },
     {
@@ -8834,7 +8800,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.05637920970110044,
-      "age": 44,
+      "age": 45,
       "rs_rating": 62
     },
     {
@@ -8850,7 +8816,7 @@
       "active": false,
       "ended": "2026-09-30",
       "since": -0.11731511629208691,
-      "age": 44,
+      "age": 45,
       "rs_rating": 75
     },
     {
@@ -8866,7 +8832,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.05001102716212735,
-      "age": 44,
+      "age": 45,
       "rs_rating": 68
     },
     {
@@ -8882,7 +8848,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.05001102716212735,
-      "age": 44,
+      "age": 45,
       "rs_rating": 68
     },
     {
@@ -8898,7 +8864,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": 0.12003858017551816,
-      "age": 44,
+      "age": 45,
       "rs_rating": 98
     },
     {
@@ -8914,7 +8880,7 @@
       "active": false,
       "ended": "2026-10-07",
       "since": -0.5447542580274256,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -8930,7 +8896,7 @@
       "active": false,
       "ended": "2026-10-16",
       "since": -0.04786868676832967,
-      "age": 44,
+      "age": 45,
       "rs_rating": 97
     },
     {
@@ -8946,7 +8912,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": 0.081659077652533,
-      "age": 44,
+      "age": 45,
       "rs_rating": 91
     },
     {
@@ -8962,7 +8928,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.20313506549280658,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -8978,7 +8944,7 @@
       "active": false,
       "ended": "2026-09-28",
       "since": -0.18400820092260384,
-      "age": 44,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -8994,7 +8960,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.18364978784252173,
-      "age": 44,
+      "age": 45,
       "rs_rating": 78
     },
     {
@@ -9010,7 +8976,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.13990552326929173,
-      "age": 44,
+      "age": 45,
       "rs_rating": 51
     },
     {
@@ -9026,7 +8992,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.13990552326929173,
-      "age": 44,
+      "age": 45,
       "rs_rating": 51
     },
     {
@@ -9042,7 +9008,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": 0.07967197625457056,
-      "age": 44,
+      "age": 45,
       "rs_rating": 87
     },
     {
@@ -9058,7 +9024,7 @@
       "active": false,
       "ended": "2026-10-13",
       "since": -0.06552377891145389,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -9074,7 +9040,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.13810911127613057,
-      "age": 44,
+      "age": 45,
       "rs_rating": 56
     },
     {
@@ -9090,7 +9056,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.10011320000795842,
-      "age": 44,
+      "age": 45,
       "rs_rating": 89
     },
     {
@@ -9106,7 +9072,7 @@
       "active": false,
       "ended": "2026-10-05",
       "since": 0.11366781601107134,
-      "age": 44,
+      "age": 45,
       "rs_rating": 87
     },
     {
@@ -9122,7 +9088,7 @@
       "active": false,
       "ended": "2026-10-01",
       "since": -0.11709074474061976,
-      "age": 44,
+      "age": 45,
       "rs_rating": 79
     },
     {
@@ -9138,7 +9104,7 @@
       "active": false,
       "ended": "2026-10-15",
       "since": -0.048874900020471124,
-      "age": 44,
+      "age": 45,
       "rs_rating": 72
     },
     {
@@ -9154,7 +9120,7 @@
       "active": false,
       "ended": "2026-10-08",
       "since": -0.01931771977512453,
-      "age": 44,
+      "age": 45,
       "rs_rating": 80
     }
   ],
@@ -9409,7 +9375,7 @@
           "symbol": "LALPATHLAB",
           "name": "DR. LAL PATH LABS LTD.",
           "sector": "Healthcare",
-          "price": 2016.5,
+          "price": 2011.5,
           "mcap": 33718,
           "rank": 150,
           "rs": 78,
@@ -9576,11 +9542,11 @@
           "symbol": "PDSL",
           "name": "PDS LIMITED",
           "sector": "Industrials",
-          "price": 407.75,
+          "price": 405.55,
           "mcap": 5759,
           "rank": 76,
           "rs": 76,
-          "since": 0.0,
+          "since": -0.0,
           "pri": true
         },
         {
@@ -9651,17 +9617,6 @@
         }
       ],
       "IPO": [
-        {
-          "symbol": "BONFIG",
-          "name": "BONFIGLIOLI TRANS LIMITED",
-          "sector": "Industrials",
-          "price": 700.2,
-          "mcap": 12597,
-          "rank": null,
-          "rs": null,
-          "since": 0.0,
-          "pri": true
-        },
         {
           "symbol": "FREDUN",
           "name": "FREDUN PHARMACEUTICALS L",
@@ -10183,7 +10138,7 @@
           "mcap": 4938,
           "rank": 71,
           "rs": 77,
-          "since": 0.0141,
+          "since": 0.0086,
           "pri": true
         },
         {
@@ -10619,7 +10574,7 @@
           "mcap": 31556,
           "rank": 120,
           "rs": 80,
-          "since": -0.0064,
+          "since": -0.0088,
           "pri": true
         },
         {
@@ -16258,7 +16213,7 @@
           "mcap": 8979,
           "rank": 15,
           "rs": 80,
-          "since": -0.1219,
+          "since": -0.1291,
           "pri": true
         },
         {
@@ -17136,7 +17091,7 @@
           "mcap": 8979,
           "rank": 19,
           "rs": 80,
-          "since": -0.1228,
+          "since": -0.13,
           "pri": true
         },
         {
@@ -17345,7 +17300,7 @@
           "mcap": 5081,
           "rank": 64,
           "rs": 93,
-          "since": -0.148,
+          "since": -0.1529,
           "pri": true
         },
         {
@@ -18003,7 +17958,7 @@
           "mcap": 8979,
           "rank": 22,
           "rs": 81,
-          "since": -0.149,
+          "since": -0.156,
           "pri": true
         },
         {
@@ -18179,7 +18134,7 @@
           "mcap": 5081,
           "rank": 70,
           "rs": 93,
-          "since": -0.1565,
+          "since": -0.1614,
           "pri": true
         },
         {
@@ -18903,7 +18858,7 @@
           "mcap": 8979,
           "rank": 22,
           "rs": 79,
-          "since": -0.1324,
+          "since": -0.1395,
           "pri": true
         },
         {
@@ -19112,7 +19067,7 @@
           "mcap": 5081,
           "rank": 72,
           "rs": 93,
-          "since": -0.1729,
+          "since": -0.1777,
           "pri": true
         },
         {
@@ -19475,7 +19430,7 @@
           "mcap": 32935,
           "rank": 174,
           "rs": 77,
-          "since": 0.0238,
+          "since": 0.0212,
           "pri": true
         },
         {
@@ -19913,7 +19868,7 @@
           "mcap": 8979,
           "rank": 23,
           "rs": 78,
-          "since": -0.1219,
+          "since": -0.1291,
           "pri": true
         },
         {
@@ -20067,7 +20022,7 @@
           "mcap": 5081,
           "rank": 67,
           "rs": 93,
-          "since": -0.1741,
+          "since": -0.1789,
           "pri": true
         },
         {
@@ -21000,7 +20955,7 @@
           "mcap": 5192,
           "rank": 73,
           "rs": 93,
-          "since": -0.1502,
+          "since": -0.1551,
           "pri": true
         },
         {
@@ -21900,7 +21855,7 @@
           "mcap": 5192,
           "rank": 61,
           "rs": 93,
-          "since": -0.1502,
+          "since": -0.1551,
           "pri": true
         },
         {
@@ -22679,7 +22634,7 @@
           "mcap": 8279,
           "rank": 29,
           "rs": 74,
-          "since": -0.0973,
+          "since": -0.1047,
           "pri": true
         },
         {
@@ -22921,7 +22876,7 @@
           "mcap": 5192,
           "rank": 89,
           "rs": 93,
-          "since": -0.1819,
+          "since": -0.1866,
           "pri": true
         },
         {
@@ -23449,7 +23404,7 @@
           "mcap": 32916,
           "rank": 209,
           "rs": 75,
-          "since": 0.0367,
+          "since": 0.0341,
           "pri": true
         },
         {
@@ -24019,7 +23974,7 @@
           "mcap": 8279,
           "rank": 29,
           "rs": 74,
-          "since": -0.1004,
+          "since": -0.1078,
           "pri": true
         },
         {
@@ -24239,7 +24194,7 @@
           "mcap": 5192,
           "rank": 86,
           "rs": 93,
-          "since": -0.1926,
+          "since": -0.1972,
           "pri": true
         },
         {
@@ -24745,7 +24700,7 @@
           "mcap": 32916,
           "rank": 214,
           "rs": 76,
-          "since": 0.0266,
+          "since": 0.0241,
           "pri": true
         },
         {
@@ -25403,7 +25358,7 @@
           "mcap": 5192,
           "rank": 80,
           "rs": 94,
-          "since": -0.1907,
+          "since": -0.1954,
           "pri": true
         },
         {
@@ -25788,7 +25743,7 @@
           "mcap": 32916,
           "rank": 188,
           "rs": 77,
-          "since": 0.0229,
+          "since": 0.0204,
           "pri": true
         },
         {
@@ -26391,7 +26346,7 @@
           "mcap": 5183,
           "rank": 77,
           "rs": 94,
-          "since": -0.201,
+          "since": -0.2056,
           "pri": true
         },
         {
@@ -26721,7 +26676,7 @@
           "mcap": 32599,
           "rank": 174,
           "rs": 78,
-          "since": 0.0057,
+          "since": 0.0032,
           "pri": true
         },
         {
@@ -27588,7 +27543,7 @@
           "mcap": 5183,
           "rank": 98,
           "rs": 94,
-          "since": -0.1882,
+          "since": -0.1929,
           "pri": true
         },
         {
@@ -27962,7 +27917,7 @@
           "mcap": 32599,
           "rank": 203,
           "rs": 78,
-          "since": 0.0148,
+          "since": 0.0123,
           "pri": true
         },
         {
@@ -29027,7 +28982,7 @@
           "mcap": 5183,
           "rank": 106,
           "rs": 94,
-          "since": -0.1987,
+          "since": -0.2033,
           "pri": true
         },
         {
@@ -29357,7 +29312,7 @@
           "mcap": 32599,
           "rank": 207,
           "rs": 75,
-          "since": 0.0339,
+          "since": 0.0313,
           "pri": true
         },
         {
@@ -30477,7 +30432,7 @@
           "mcap": 5183,
           "rank": 110,
           "rs": 95,
-          "since": -0.1994,
+          "since": -0.204,
           "pri": true
         },
         {
@@ -30774,7 +30729,7 @@
           "mcap": 32599,
           "rank": 201,
           "rs": 76,
-          "since": 0.0383,
+          "since": 0.0357,
           "pri": true
         },
         {
@@ -31905,7 +31860,7 @@
           "mcap": 5183,
           "rank": 123,
           "rs": 93,
-          "since": -0.1893,
+          "since": -0.194,
           "pri": true
         },
         {
@@ -32279,7 +32234,7 @@
           "mcap": 32599,
           "rank": 233,
           "rs": 74,
-          "since": 0.0329,
+          "since": 0.0303,
           "pri": true
         },
         {
