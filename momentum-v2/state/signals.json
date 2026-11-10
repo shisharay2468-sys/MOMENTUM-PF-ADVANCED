@@ -4518,10 +4518,10 @@
   "date": "2026-11-06",
   "price": 670.0499877929688,
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 607",
-  "last_seen": "2026-11-10",
+  "last_seen": "2026-11-11",
   "last_price": 700.2000122070312,
-  "active": false,
-  "ended": "2026-11-11"
+  "active": true,
+  "ended": null
  },
  {
   "type": "Entry",
