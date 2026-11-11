@@ -19830,6 +19830,15 @@
   ],
   "IPO": [
    {
+    "symbol": "BONFIG",
+    "name": "BONFIGLIOLI TRANS LIMITED",
+    "sector": "Industrials",
+    "price": 700.2,
+    "mcap": 12597,
+    "rank": null,
+    "rs": null
+   },
+   {
     "symbol": "FREDUN",
     "name": "FREDUN PHARMACEUTICALS L",
     "sector": "Healthcare",
