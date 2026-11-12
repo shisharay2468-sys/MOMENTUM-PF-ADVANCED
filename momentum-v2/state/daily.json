@@ -20405,6 +20405,15 @@
   ],
   "IPO": [
    {
+    "symbol": "BONFIG",
+    "name": "BONFIGLIOLI TRANS LIMITED",
+    "sector": "Industrials",
+    "price": 716.0,
+    "mcap": 12597,
+    "rank": null,
+    "rs": null
+   },
+   {
     "symbol": "BPLPHARMA",
     "name": "BHARAT PARENTERALS LTD.",
     "sector": "Healthcare",
