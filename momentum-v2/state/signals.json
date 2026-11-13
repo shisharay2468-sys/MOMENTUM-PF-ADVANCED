@@ -4519,9 +4519,9 @@
   "price": 670.0499877929688,
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 607",
   "last_seen": "2026-11-14",
-  "last_price": 722.3499755859375,
-  "active": true,
-  "ended": null
+  "last_price": 794.5,
+  "active": false,
+  "ended": "2026-11-14"
  },
  {
   "type": "Entry",
