@@ -15,11 +15,6 @@
       "entry_date": "2026-09-27",
       "weight": 0.0475
     },
-    "PREMIERPOL.NS": {
-      "entry_price": 98.25,
-      "entry_date": "2026-10-08",
-      "weight": 0.0475
-    },
     "KOPRAN.NS": {
       "entry_price": 254.3000030517578,
       "entry_date": "2026-10-08",
@@ -59,9 +54,24 @@
       "entry_price": 1739.300048828125,
       "entry_date": "2026-11-06",
       "weight": 0.07916666666666666
+    },
+    "UTTAMSUGAR.NS": {
+      "entry_price": 374.70001220703125,
+      "entry_date": "2026-11-17",
+      "weight": 0.06785714285714285
+    },
+    "GUFICBIO.NS": {
+      "entry_price": 473.04998779296875,
+      "entry_date": "2026-11-17",
+      "weight": 0.06785714285714285
+    },
+    "INDGN.NS": {
+      "entry_price": 666.2000122070312,
+      "entry_date": "2026-11-17",
+      "weight": 0.06785714285714285
     }
   },
-  "last_rebalance": "2026-11-06",
+  "last_rebalance": "2026-11-17",
   "history": [
     {
       "date": "2026-09-27",
@@ -167,19 +177,35 @@
       "sold": [
         "OAL"
       ]
+    },
+    {
+      "date": "2026-11-17",
+      "bought": [
+        "UTTAMSUGAR",
+        "GUFICBIO",
+        "INDGN"
+      ],
+      "sold": [
+        "PREMIERPOL"
+      ]
     }
   ],
   "buyable": [
+    "AARTIPHARM.NS",
     "ABDL.NS",
     "ACUTAAS.NS",
     "AGARWALEYE.NS",
+    "ALIVUS.NS",
     "ANANDRATHI.NS",
-    "ASKAUTOLTD.NS",
     "BHAGERIA.NS",
     "BLUSPRING.NS",
+    "DIACABS.NS",
     "FILATEX.NS",
+    "GABRIEL.NS",
     "GLAND.NS",
+    "GPPL.NS",
     "GRWRHITECH.NS",
+    "GUFICBIO.NS",
     "INDGN.NS",
     "KARURVYSYA.NS",
     "KDDL.NS",
@@ -188,13 +214,14 @@
     "KROSS.NS",
     "LALPATHLAB.NS",
     "LTTS.NS",
-    "MARINE.NS",
     "NAZARA.NS",
     "NITINSPIN.NS",
     "ORIENTHOT.NS",
+    "PETRONET.NS",
     "PGIL.NS",
     "PPLPHARMA.NS",
     "PTCIL.NS",
+    "RATNAVEER.NS",
     "RAYMOND.NS",
     "ROSSTECH.NS",
     "RPEL.NS",
@@ -203,7 +230,7 @@
     "SHYAMMETL.NS",
     "SONACOMS.NS",
     "SOUTHBANK.NS",
-    "SUNTV.NS",
+    "TCPLPACK.NS",
     "THELEELA.NS",
     "TIPSMUSIC.NS",
     "UTTAMSUGAR.NS",
