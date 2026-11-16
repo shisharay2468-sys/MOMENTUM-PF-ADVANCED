@@ -4143,8 +4143,8 @@
   "detail": "Listed 18 Aug 2026 \u00b7 listing-day high Rs 106",
   "last_seen": "2026-11-17",
   "last_price": 12.020000457763672,
-  "active": true,
-  "ended": null
+  "active": false,
+  "ended": "2026-11-17"
  },
  {
   "type": "Entry",

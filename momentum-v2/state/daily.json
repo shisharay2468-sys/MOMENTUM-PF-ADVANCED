@@ -21115,7 +21115,7 @@
     "sector": "Basic Materials",
     "price": 380.3,
     "mcap": 1547,
-    "rank": 3,
+    "rank": 1,
     "rs": 98
    },
    {
@@ -21141,8 +21141,8 @@
     "name": "UTTAM SUGAR MILLS LTD.",
     "sector": "Consumer Defensive",
     "price": 374.7,
-    "mcap": 1371,
-    "rank": 26,
+    "mcap": 1409,
+    "rank": 16,
     "rs": 94
    },
    {
@@ -21151,7 +21151,7 @@
     "sector": "Consumer Cyclical",
     "price": 670.75,
     "mcap": 3866,
-    "rank": 32,
+    "rank": 28,
     "rs": 94
    },
    {
@@ -21159,8 +21159,8 @@
     "name": "GUFIC BIOSCIENCES LTD.",
     "sector": "Healthcare",
     "price": 473.05,
-    "mcap": 4757,
-    "rank": 39,
+    "mcap": 4426,
+    "rank": 37,
     "rs": 87
    },
    {
@@ -21169,7 +21169,7 @@
     "sector": "Consumer Cyclical",
     "price": 175.44,
     "mcap": 3128,
-    "rank": 56,
+    "rank": 60,
     "rs": 93
    },
    {
@@ -21177,8 +21177,8 @@
     "name": "INDEGENE LIMITED",
     "sector": "Healthcare",
     "price": 666.2,
-    "mcap": 14801,
-    "rank": 59,
+    "mcap": 15952,
+    "rank": 66,
     "rs": 79
    },
    {
@@ -21187,7 +21187,7 @@
     "sector": "Basic Materials",
     "price": 164.47,
     "mcap": 4829,
-    "rank": 68,
+    "rank": 67,
     "rs": 91
    },
    {
@@ -21196,62 +21196,26 @@
     "sector": "Healthcare",
     "price": 244.54,
     "mcap": 32671,
-    "rank": 78,
-    "rs": 82
-   },
-   {
-    "symbol": "FILATEX",
-    "name": "FILATEX INDIA LTD",
-    "sector": "Consumer Cyclical",
-    "price": 100.69,
-    "mcap": 4171,
     "rank": 80,
-    "rs": 95
+    "rs": 82
    },
    {
     "symbol": "KDDL",
     "name": "KDDL LIMITED",
     "sector": "Consumer Cyclical",
     "price": 4163.3,
-    "mcap": 5162,
-    "rank": 88,
+    "mcap": 4814,
+    "rank": 84,
     "rs": 91
    },
    {
-    "symbol": "ACUTAAS",
-    "name": "ACUTAAS CHEMICALS LIMITED",
-    "sector": "Basic Materials",
-    "price": 4039.1,
-    "mcap": 32317,
-    "rank": 100,
-    "rs": 95
-   },
-   {
-    "symbol": "SANATHAN",
-    "name": "SANATHAN TEXTILES LIMITED",
+    "symbol": "FILATEX",
+    "name": "FILATEX INDIA LTD",
     "sector": "Consumer Cyclical",
-    "price": 591.15,
-    "mcap": 4638,
-    "rank": 101,
-    "rs": 81
-   },
-   {
-    "symbol": "ROSSTECH",
-    "name": "ROSSELL TECHSYS LIMITED",
-    "sector": "Industrials",
-    "price": 1543.4,
-    "mcap": 5957,
-    "rank": 104,
-    "rs": 97
-   },
-   {
-    "symbol": "ALIVUS",
-    "name": "ALIVUS LIFE SCIENCES LTD",
-    "sector": "Healthcare",
-    "price": 1460.6,
-    "mcap": 17813,
-    "rank": 109,
-    "rs": 85
+    "price": 100.69,
+    "mcap": 4595,
+    "rank": 95,
+    "rs": 95
    },
    {
     "symbol": "PTCIL",
@@ -21259,17 +21223,44 @@
     "sector": "Industrials",
     "price": 24365.0,
     "mcap": 39214,
-    "rank": 110,
+    "rank": 96,
     "rs": 86
    },
    {
-    "symbol": "TIPSMUSIC",
-    "name": "TIPS MUSIC LIMITED",
-    "sector": "Communication Services",
-    "price": 816.45,
-    "mcap": 10037,
-    "rank": 118,
-    "rs": 87
+    "symbol": "ACUTAAS",
+    "name": "ACUTAAS CHEMICALS LIMITED",
+    "sector": "Basic Materials",
+    "price": 4039.1,
+    "mcap": 32317,
+    "rank": 104,
+    "rs": 95
+   },
+   {
+    "symbol": "ROSSTECH",
+    "name": "ROSSELL TECHSYS LIMITED",
+    "sector": "Industrials",
+    "price": 1543.4,
+    "mcap": 5957,
+    "rank": 107,
+    "rs": 97
+   },
+   {
+    "symbol": "SANATHAN",
+    "name": "SANATHAN TEXTILES LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 591.15,
+    "mcap": 4638,
+    "rank": 108,
+    "rs": 81
+   },
+   {
+    "symbol": "ALIVUS",
+    "name": "ALIVUS LIFE SCIENCES LTD",
+    "sector": "Healthcare",
+    "price": 1460.6,
+    "mcap": 17813,
+    "rank": 113,
+    "rs": 85
    },
    {
     "symbol": "RAYMOND",
@@ -21277,8 +21268,17 @@
     "sector": "Industrials",
     "price": 1149.0,
     "mcap": 7279,
-    "rank": 120,
+    "rank": 119,
     "rs": 99
+   },
+   {
+    "symbol": "TIPSMUSIC",
+    "name": "TIPS MUSIC LIMITED",
+    "sector": "Communication Services",
+    "price": 816.45,
+    "mcap": 10037,
+    "rank": 121,
+    "rs": 87
    },
    {
     "symbol": "AARTIPHARM",
@@ -21286,7 +21286,7 @@
     "sector": "Healthcare",
     "price": 997.95,
     "mcap": 8948,
-    "rank": 121,
+    "rank": 123,
     "rs": 76
    },
    {
@@ -21295,7 +21295,7 @@
     "sector": "Basic Materials",
     "price": 1946.2,
     "mcap": 8815,
-    "rank": 124,
+    "rank": 126,
     "rs": 98
    },
    {
@@ -21304,7 +21304,7 @@
     "sector": "Technology",
     "price": 4247.2,
     "mcap": 44580,
-    "rank": 132,
+    "rank": 133,
     "rs": 71
    },
    {
@@ -21313,7 +21313,7 @@
     "sector": "Basic Materials",
     "price": 364.35,
     "mcap": 3041,
-    "rank": 140,
+    "rank": 146,
     "rs": 98
    },
    {
@@ -21326,22 +21326,22 @@
     "rs": 95
    },
    {
-    "symbol": "GPPL",
-    "name": "GUJARAT PIPAVAV PORT LTD",
-    "sector": "Industrials",
-    "price": 173.59,
-    "mcap": 8250,
-    "rank": 157,
-    "rs": 71
-   },
-   {
     "symbol": "TCPLPACK",
     "name": "TCPL PACKAGING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 4481.5,
     "mcap": 4060,
-    "rank": 159,
+    "rank": 160,
     "rs": 86
+   },
+   {
+    "symbol": "GPPL",
+    "name": "GUJARAT PIPAVAV PORT LTD",
+    "sector": "Industrials",
+    "price": 173.59,
+    "mcap": 8523,
+    "rank": 162,
+    "rs": 71
    },
    {
     "symbol": "PETRONET",
@@ -21349,26 +21349,8 @@
     "sector": "Energy",
     "price": 324.05,
     "mcap": 48068,
-    "rank": 164,
+    "rank": 165,
     "rs": 74
-   },
-   {
-    "symbol": "GABRIEL",
-    "name": "GABRIEL INDIA LTD",
-    "sector": "Consumer Cyclical",
-    "price": 1552.7,
-    "mcap": 27216,
-    "rank": 175,
-    "rs": 80
-   },
-   {
-    "symbol": "ABDL",
-    "name": "ALLIED BLEND N DISTILS L",
-    "sector": "Consumer Defensive",
-    "price": 757.7,
-    "mcap": 21936,
-    "rank": 181,
-    "rs": 83
    },
    {
     "symbol": "BLUSPRING",
@@ -21376,8 +21358,35 @@
     "sector": "Industrials",
     "price": 162.73,
     "mcap": 2354,
-    "rank": 184,
+    "rank": 176,
     "rs": 98
+   },
+   {
+    "symbol": "GABRIEL",
+    "name": "GABRIEL INDIA LTD",
+    "sector": "Consumer Cyclical",
+    "price": 1552.7,
+    "mcap": 28596,
+    "rank": 181,
+    "rs": 81
+   },
+   {
+    "symbol": "ABDL",
+    "name": "ALLIED BLEND N DISTILS L",
+    "sector": "Consumer Defensive",
+    "price": 757.7,
+    "mcap": 21936,
+    "rank": 182,
+    "rs": 83
+   },
+   {
+    "symbol": "GRWRHITECH",
+    "name": "GARWARE HI-TECH FILMS LTD",
+    "sector": "Basic Materials",
+    "price": 7522.5,
+    "mcap": 17767,
+    "rank": 189,
+    "rs": 93
    },
    {
     "symbol": "SOUTHBANK",
@@ -21385,17 +21394,8 @@
     "sector": "Financial Services",
     "price": 61.86,
     "mcap": 15376,
-    "rank": 185,
+    "rank": 190,
     "rs": 92
-   },
-   {
-    "symbol": "GRWRHITECH",
-    "name": "GARWARE HI-TECH FILMS LTD",
-    "sector": "Basic Materials",
-    "price": 7522.5,
-    "mcap": 18257,
-    "rank": 192,
-    "rs": 93
    },
    {
     "symbol": "NAZARA",
@@ -21403,7 +21403,7 @@
     "sector": "Communication Services",
     "price": 425.4,
     "mcap": 16666,
-    "rank": 193,
+    "rank": 195,
     "rs": 90
    },
    {
@@ -21411,8 +21411,8 @@
     "name": "DR. LAL PATH LABS LTD.",
     "sector": "Healthcare",
     "price": 1993.0,
-    "mcap": 33718,
-    "rank": 194,
+    "mcap": 33454,
+    "rank": 196,
     "rs": 75
    },
    {
@@ -21421,7 +21421,7 @@
     "sector": "Healthcare",
     "price": 550.8,
     "mcap": 17463,
-    "rank": 199,
+    "rank": 200,
     "rs": 69
    },
    {
@@ -21429,8 +21429,8 @@
     "name": "KRISHANA PHOSCHEM LIMITED",
     "sector": "Basic Materials",
     "price": 247.71,
-    "mcap": 7580,
-    "rank": 203,
+    "mcap": 7513,
+    "rank": 206,
     "rs": 97
    },
    {
@@ -21439,17 +21439,8 @@
     "sector": "Consumer Cyclical",
     "price": 1333.1,
     "mcap": 12412,
-    "rank": 205,
+    "rank": 208,
     "rs": 92
-   },
-   {
-    "symbol": "KARURVYSYA",
-    "name": "KARUR VYSYA BANK LTD",
-    "sector": "Financial Services",
-    "price": 381.55,
-    "mcap": 35767,
-    "rank": 207,
-    "rs": 81
    },
    {
     "symbol": "THELEELA",
@@ -21457,8 +21448,17 @@
     "sector": "Consumer Cyclical",
     "price": 666.35,
     "mcap": 22050,
-    "rank": 210,
+    "rank": 211,
     "rs": 91
+   },
+   {
+    "symbol": "KARURVYSYA",
+    "name": "KARUR VYSYA BANK LTD",
+    "sector": "Financial Services",
+    "price": 381.55,
+    "mcap": 37724,
+    "rank": 212,
+    "rs": 81
    },
    {
     "symbol": "SHYAMMETL",
@@ -21466,7 +21466,7 @@
     "sector": "Basic Materials",
     "price": 1315.9,
     "mcap": 36760,
-    "rank": 217,
+    "rank": 216,
     "rs": 91
    },
    {
@@ -21475,7 +21475,7 @@
     "sector": "Industrials",
     "price": 378.15,
     "mcap": 22015,
-    "rank": 231,
+    "rank": 229,
     "rs": 98
    },
    {
@@ -21484,7 +21484,7 @@
     "sector": "Financial Services",
     "price": 2381.2,
     "mcap": 39639,
-    "rank": 232,
+    "rank": 235,
     "rs": 85
    },
    {
@@ -21493,7 +21493,7 @@
     "sector": "Consumer Cyclical",
     "price": 919.0,
     "mcap": 57766,
-    "rank": 241,
+    "rank": 243,
     "rs": 92
    },
    {
@@ -21501,8 +21501,8 @@
     "name": "GLAND PHARMA LIMITED",
     "sector": "Healthcare",
     "price": 3334.1,
-    "mcap": 54493,
-    "rank": 243,
+    "mcap": 55871,
+    "rank": 245,
     "rs": 93
    }
   ],
@@ -21513,17 +21513,8 @@
     "sector": "Industrials",
     "price": 2722.9,
     "mcap": 3025,
-    "rank": 5,
+    "rank": 6,
     "rs": 63
-   },
-   {
-    "symbol": "AUTOAXLES",
-    "name": "AUTOMOTIVE AXLES LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 1815.3,
-    "mcap": 2776,
-    "rank": 17,
-    "rs": 56
    },
    {
     "symbol": "PGEL",
@@ -21531,8 +21522,17 @@
     "sector": "Technology",
     "price": 566.8,
     "mcap": 16173,
-    "rank": 29,
-    "rs": 51
+    "rank": 14,
+    "rs": 52
+   },
+   {
+    "symbol": "AUTOAXLES",
+    "name": "AUTOMOTIVE AXLES LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 1815.3,
+    "mcap": 2776,
+    "rank": 20,
+    "rs": 56
    },
    {
     "symbol": "SEJALLTD",
@@ -21540,8 +21540,8 @@
     "sector": "Industrials",
     "price": 904.9,
     "mcap": 1020,
-    "rank": 57,
-    "rs": 78
+    "rank": 58,
+    "rs": 79
    },
    {
     "symbol": "ALICON",
@@ -21549,17 +21549,8 @@
     "sector": "Industrials",
     "price": 976.15,
     "mcap": 1578,
-    "rank": 64,
+    "rank": 68,
     "rs": 79
-   },
-   {
-    "symbol": "FIEMIND",
-    "name": "FIEM INDUSTRIES LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 2133.3,
-    "mcap": 5117,
-    "rank": 83,
-    "rs": 37
    },
    {
     "symbol": "APLLTD",
@@ -21576,16 +21567,25 @@
     "sector": "Industrials",
     "price": 412.25,
     "mcap": 5759,
-    "rank": 93,
+    "rank": 98,
     "rs": 73
+   },
+   {
+    "symbol": "FIEMIND",
+    "name": "FIEM INDUSTRIES LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 2133.3,
+    "mcap": 5693,
+    "rank": 99,
+    "rs": 37
    },
    {
     "symbol": "IGIL",
     "name": "INTL GEMOLOGICAL INST LTD",
     "sector": "Basic Materials",
     "price": 438.9,
-    "mcap": 18445,
-    "rank": 96,
+    "mcap": 18743,
+    "rank": 102,
     "rs": 83
    },
    {
@@ -21593,8 +21593,8 @@
     "name": "ENTERO HEALTHCARE SOLU L",
     "sector": "Healthcare",
     "price": 1968.7,
-    "mcap": 9214,
-    "rank": 107,
+    "mcap": 8555,
+    "rank": 105,
     "rs": 94
    },
    {
@@ -21603,7 +21603,7 @@
     "sector": "Financial Services",
     "price": 1847.8,
     "mcap": 34529,
-    "rank": 155,
+    "rank": 157,
     "rs": 75
    },
    {
@@ -21612,7 +21612,7 @@
     "sector": "Basic Materials",
     "price": 481.95,
     "mcap": 17212,
-    "rank": 156,
+    "rank": 158,
     "rs": 56
    },
    {
@@ -21621,17 +21621,17 @@
     "sector": "Technology",
     "price": 726.05,
     "mcap": 17975,
-    "rank": 169,
+    "rank": 172,
     "rs": 45
    },
    {
-    "symbol": "MPHASIS",
-    "name": "MPHASIS LIMITED",
-    "sector": "Technology",
-    "price": 2455.0,
-    "mcap": 46859,
-    "rank": 211,
-    "rs": 51
+    "symbol": "STARHEALTH",
+    "name": "STAR HEALTH & AL INS CO L",
+    "sector": "Financial Services",
+    "price": 572.9,
+    "mcap": 32259,
+    "rank": 201,
+    "rs": 66
    },
    {
     "symbol": "BALUFORGE",
@@ -21643,21 +21643,21 @@
     "rs": 68
    },
    {
-    "symbol": "STARHEALTH",
-    "name": "STAR HEALTH & AL INS CO L",
-    "sector": "Financial Services",
-    "price": 572.9,
-    "mcap": 32259,
+    "symbol": "MPHASIS",
+    "name": "MPHASIS LIMITED",
+    "sector": "Technology",
+    "price": 2455.0,
+    "mcap": 46859,
     "rank": 215,
-    "rs": 66
+    "rs": 51
    },
    {
     "symbol": "FORCEMOT",
     "name": "FORCE MOTORS LIMITED",
     "sector": "Consumer Cyclical",
     "price": 19600.0,
-    "mcap": 24820,
-    "rank": 234,
+    "mcap": 25547,
+    "rank": 239,
     "rs": 54
    },
    {
@@ -21666,7 +21666,7 @@
     "sector": "Basic Materials",
     "price": 6850.5,
     "mcap": 57946,
-    "rank": 242,
+    "rank": 244,
     "rs": 59
    }
   ],
@@ -21685,16 +21685,7 @@
     "name": "FREDUN PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 1500.8,
-    "mcap": 2595,
-    "rank": null,
-    "rs": null
-   },
-   {
-    "symbol": "GNRL",
-    "name": "GUJARAT NATURAL RES L",
-    "sector": "Energy",
-    "price": 12.02,
-    "mcap": 1809,
+    "mcap": 2542,
     "rank": null,
     "rs": null
    },
@@ -21703,16 +21694,16 @@
     "name": "GYFTR LIMITED",
     "sector": "Industrials",
     "price": 220.47,
-    "mcap": 1610,
+    "mcap": 1722,
     "rank": null,
-    "rs": 84
+    "rs": 85
    },
    {
     "symbol": "KANOHAR",
     "name": "KANOHAR ELECTRICALS LTD",
     "sector": "Industrials",
     "price": 1045.25,
-    "mcap": 7972,
+    "mcap": 8505,
     "rank": null,
     "rs": null
    },
@@ -21721,7 +21712,7 @@
     "name": "K M C SPECIALITY HOSP I L",
     "sector": "Healthcare",
     "price": 167.89,
-    "mcap": 2683,
+    "mcap": 2743,
     "rank": null,
     "rs": null
    },
@@ -21730,7 +21721,7 @@
     "name": "KNACK PACKAGING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 205.71,
-    "mcap": 2512,
+    "mcap": 2495,
     "rank": null,
     "rs": 64
    },
@@ -21739,7 +21730,7 @@
     "name": "KWALITY PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 3822.6,
-    "mcap": 4001,
+    "mcap": 4201,
     "rank": null,
     "rs": null
    },
