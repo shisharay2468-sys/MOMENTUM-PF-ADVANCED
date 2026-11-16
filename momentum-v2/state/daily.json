@@ -21133,7 +21133,7 @@
     "sector": "Consumer Cyclical",
     "price": 305.9,
     "mcap": 1869,
-    "rank": 11,
+    "rank": 12,
     "rs": 93
    },
    {
@@ -21142,7 +21142,7 @@
     "sector": "Consumer Defensive",
     "price": 374.7,
     "mcap": 1409,
-    "rank": 19,
+    "rank": 21,
     "rs": 94
    },
    {
@@ -21151,7 +21151,7 @@
     "sector": "Consumer Cyclical",
     "price": 670.75,
     "mcap": 3866,
-    "rank": 29,
+    "rank": 30,
     "rs": 94
    },
    {
@@ -21160,7 +21160,7 @@
     "sector": "Healthcare",
     "price": 473.05,
     "mcap": 4426,
-    "rank": 37,
+    "rank": 39,
     "rs": 87
    },
    {
@@ -21169,7 +21169,7 @@
     "sector": "Consumer Cyclical",
     "price": 175.44,
     "mcap": 3128,
-    "rank": 59,
+    "rank": 62,
     "rs": 93
    },
    {
@@ -21178,7 +21178,7 @@
     "sector": "Healthcare",
     "price": 666.2,
     "mcap": 15952,
-    "rank": 67,
+    "rank": 69,
     "rs": 79
    },
    {
@@ -21186,9 +21186,18 @@
     "name": "SAMBHV STEEL TUBES LTD",
     "sector": "Basic Materials",
     "price": 164.47,
-    "mcap": 4829,
-    "rank": 69,
-    "rs": 91
+    "mcap": 4765,
+    "rank": 71,
+    "rs": 92
+   },
+   {
+    "symbol": "SANATHAN",
+    "name": "SANATHAN TEXTILES LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 591.15,
+    "mcap": 5106,
+    "rank": 77,
+    "rs": 81
    },
    {
     "symbol": "PPLPHARMA",
@@ -21196,7 +21205,7 @@
     "sector": "Healthcare",
     "price": 244.54,
     "mcap": 32480,
-    "rank": 78,
+    "rank": 82,
     "rs": 82
    },
    {
@@ -21205,7 +21214,7 @@
     "sector": "Consumer Cyclical",
     "price": 4163.3,
     "mcap": 4814,
-    "rank": 85,
+    "rank": 88,
     "rs": 91
    },
    {
@@ -21214,7 +21223,7 @@
     "sector": "Industrials",
     "price": 24365.0,
     "mcap": 37796,
-    "rank": 93,
+    "rank": 97,
     "rs": 86
    },
    {
@@ -21223,7 +21232,7 @@
     "sector": "Consumer Cyclical",
     "price": 100.69,
     "mcap": 4595,
-    "rank": 97,
+    "rank": 99,
     "rs": 95
    },
    {
@@ -21232,7 +21241,7 @@
     "sector": "Basic Materials",
     "price": 4039.1,
     "mcap": 32317,
-    "rank": 104,
+    "rank": 107,
     "rs": 95
    },
    {
@@ -21241,17 +21250,8 @@
     "sector": "Industrials",
     "price": 1543.4,
     "mcap": 5957,
-    "rank": 107,
+    "rank": 111,
     "rs": 97
-   },
-   {
-    "symbol": "SANATHAN",
-    "name": "SANATHAN TEXTILES LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 591.15,
-    "mcap": 4638,
-    "rank": 109,
-    "rs": 81
    },
    {
     "symbol": "ALIVUS",
@@ -21259,7 +21259,7 @@
     "sector": "Healthcare",
     "price": 1460.6,
     "mcap": 17813,
-    "rank": 114,
+    "rank": 117,
     "rs": 85
    },
    {
@@ -21267,8 +21267,8 @@
     "name": "TIPS MUSIC LIMITED",
     "sector": "Communication Services",
     "price": 816.45,
-    "mcap": 10037,
-    "rank": 121,
+    "mcap": 10264,
+    "rank": 124,
     "rs": 87
    },
    {
@@ -21277,7 +21277,7 @@
     "sector": "Healthcare",
     "price": 997.95,
     "mcap": 8948,
-    "rank": 123,
+    "rank": 125,
     "rs": 76
    },
    {
@@ -21286,7 +21286,7 @@
     "sector": "Industrials",
     "price": 1149.0,
     "mcap": 7910,
-    "rank": 124,
+    "rank": 126,
     "rs": 99
    },
    {
@@ -21295,7 +21295,7 @@
     "sector": "Basic Materials",
     "price": 1946.2,
     "mcap": 9080,
-    "rank": 129,
+    "rank": 131,
     "rs": 98
    },
    {
@@ -21304,8 +21304,17 @@
     "sector": "Technology",
     "price": 4247.2,
     "mcap": 44836,
-    "rank": 135,
+    "rank": 137,
     "rs": 71
+   },
+   {
+    "symbol": "WELSPUNLIV",
+    "name": "WELSPUN LIVING LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 250.14,
+    "mcap": 23172,
+    "rank": 145,
+    "rs": 95
    },
    {
     "symbol": "RATNAVEER",
@@ -21313,25 +21322,16 @@
     "sector": "Basic Materials",
     "price": 364.35,
     "mcap": 3041,
-    "rank": 146,
+    "rank": 150,
     "rs": 98
-   },
-   {
-    "symbol": "WELSPUNLIV",
-    "name": "WELSPUN LIVING LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 250.14,
-    "mcap": 23744,
-    "rank": 148,
-    "rs": 95
    },
    {
     "symbol": "TCPLPACK",
     "name": "TCPL PACKAGING LIMITED",
     "sector": "Consumer Cyclical",
     "price": 4481.5,
-    "mcap": 4060,
-    "rank": 161,
+    "mcap": 4026,
+    "rank": 163,
     "rs": 86
    },
    {
@@ -21340,7 +21340,7 @@
     "sector": "Industrials",
     "price": 173.59,
     "mcap": 8523,
-    "rank": 163,
+    "rank": 166,
     "rs": 71
    },
    {
@@ -21349,7 +21349,7 @@
     "sector": "Energy",
     "price": 324.05,
     "mcap": 48900,
-    "rank": 166,
+    "rank": 168,
     "rs": 74
    },
    {
@@ -21358,7 +21358,7 @@
     "sector": "Industrials",
     "price": 162.73,
     "mcap": 2354,
-    "rank": 176,
+    "rank": 180,
     "rs": 98
    },
    {
@@ -21367,8 +21367,8 @@
     "sector": "Consumer Cyclical",
     "price": 1552.7,
     "mcap": 28596,
-    "rank": 182,
-    "rs": 81
+    "rank": 184,
+    "rs": 80
    },
    {
     "symbol": "ABDL",
@@ -21376,7 +21376,7 @@
     "sector": "Consumer Defensive",
     "price": 757.7,
     "mcap": 21936,
-    "rank": 184,
+    "rank": 187,
     "rs": 83
    },
    {
@@ -21385,7 +21385,7 @@
     "sector": "Basic Materials",
     "price": 7522.5,
     "mcap": 17767,
-    "rank": 189,
+    "rank": 192,
     "rs": 93
    },
    {
@@ -21393,8 +21393,8 @@
     "name": "THE SOUTH INDIAN BANK LTD",
     "sector": "Financial Services",
     "price": 61.86,
-    "mcap": 15376,
-    "rank": 190,
+    "mcap": 16206,
+    "rank": 196,
     "rs": 92
    },
    {
@@ -21403,7 +21403,7 @@
     "sector": "Communication Services",
     "price": 425.4,
     "mcap": 17585,
-    "rank": 195,
+    "rank": 198,
     "rs": 90
    },
    {
@@ -21412,7 +21412,7 @@
     "sector": "Healthcare",
     "price": 1993.0,
     "mcap": 33454,
-    "rank": 196,
+    "rank": 199,
     "rs": 75
    },
    {
@@ -21421,7 +21421,7 @@
     "sector": "Healthcare",
     "price": 550.8,
     "mcap": 17463,
-    "rank": 201,
+    "rank": 203,
     "rs": 69
    },
    {
@@ -21430,7 +21430,7 @@
     "sector": "Consumer Cyclical",
     "price": 1333.1,
     "mcap": 12160,
-    "rank": 202,
+    "rank": 205,
     "rs": 92
    },
    {
@@ -21439,17 +21439,8 @@
     "sector": "Basic Materials",
     "price": 247.71,
     "mcap": 7513,
-    "rank": 208,
+    "rank": 211,
     "rs": 97
-   },
-   {
-    "symbol": "THELEELA",
-    "name": "LEELA PALACES HOTEL LTD",
-    "sector": "Consumer Cyclical",
-    "price": 666.35,
-    "mcap": 22050,
-    "rank": 212,
-    "rs": 91
    },
    {
     "symbol": "KARURVYSYA",
@@ -21457,15 +21448,24 @@
     "sector": "Financial Services",
     "price": 381.55,
     "mcap": 37724,
-    "rank": 214,
+    "rank": 216,
     "rs": 81
+   },
+   {
+    "symbol": "THELEELA",
+    "name": "LEELA PALACES HOTEL LTD",
+    "sector": "Consumer Cyclical",
+    "price": 666.35,
+    "mcap": 22462,
+    "rank": 217,
+    "rs": 91
    },
    {
     "symbol": "SHYAMMETL",
     "name": "SHYAM METALICS AND ENGY L",
     "sector": "Basic Materials",
     "price": 1315.9,
-    "mcap": 36760,
+    "mcap": 36635,
     "rank": 218,
     "rs": 91
    },
@@ -21475,7 +21475,7 @@
     "sector": "Industrials",
     "price": 378.15,
     "mcap": 22015,
-    "rank": 230,
+    "rank": 232,
     "rs": 98
    },
    {
@@ -21484,7 +21484,7 @@
     "sector": "Financial Services",
     "price": 2381.2,
     "mcap": 39639,
-    "rank": 236,
+    "rank": 237,
     "rs": 85
    },
    {
@@ -21492,8 +21492,8 @@
     "name": "SONA BLW PRECISION FRGS L",
     "sector": "Consumer Cyclical",
     "price": 919.0,
-    "mcap": 57766,
-    "rank": 243,
+    "mcap": 56203,
+    "rank": 245,
     "rs": 92
    },
    {
@@ -21502,7 +21502,7 @@
     "sector": "Healthcare",
     "price": 3334.1,
     "mcap": 55871,
-    "rank": 245,
+    "rank": 247,
     "rs": 93
    }
   ],
@@ -21514,7 +21514,7 @@
     "price": 2722.9,
     "mcap": 3025,
     "rank": 6,
-    "rs": 64
+    "rs": 63
    },
    {
     "symbol": "PGEL",
@@ -21522,8 +21522,8 @@
     "sector": "Technology",
     "price": 566.8,
     "mcap": 15267,
-    "rank": 15,
-    "rs": 52
+    "rank": 16,
+    "rs": 51
    },
    {
     "symbol": "AUTOAXLES",
@@ -21531,7 +21531,7 @@
     "sector": "Consumer Cyclical",
     "price": 1815.3,
     "mcap": 2776,
-    "rank": 22,
+    "rank": 24,
     "rs": 56
    },
    {
@@ -21540,7 +21540,7 @@
     "sector": "Industrials",
     "price": 153.49,
     "mcap": 1312,
-    "rank": 32,
+    "rank": 33,
     "rs": 79
    },
    {
@@ -21548,9 +21548,9 @@
     "name": "SEJAL GLASS LIMITED",
     "sector": "Industrials",
     "price": 904.9,
-    "mcap": 1020,
-    "rank": 63,
-    "rs": 79
+    "mcap": 1017,
+    "rank": 66,
+    "rs": 78
    },
    {
     "symbol": "ALICON",
@@ -21558,7 +21558,7 @@
     "sector": "Industrials",
     "price": 976.15,
     "mcap": 1578,
-    "rank": 73,
+    "rank": 76,
     "rs": 79
    },
    {
@@ -21567,7 +21567,7 @@
     "sector": "Healthcare",
     "price": 1030.15,
     "mcap": 20779,
-    "rank": 88,
+    "rank": 92,
     "rs": 78
    },
    {
@@ -21576,7 +21576,7 @@
     "sector": "Consumer Cyclical",
     "price": 2133.3,
     "mcap": 5693,
-    "rank": 98,
+    "rank": 102,
     "rs": 37
    },
    {
@@ -21585,7 +21585,7 @@
     "sector": "Industrials",
     "price": 412.25,
     "mcap": 5876,
-    "rank": 100,
+    "rank": 104,
     "rs": 73
    },
    {
@@ -21594,7 +21594,7 @@
     "sector": "Basic Materials",
     "price": 438.9,
     "mcap": 18743,
-    "rank": 103,
+    "rank": 108,
     "rs": 83
    },
    {
@@ -21603,7 +21603,7 @@
     "sector": "Healthcare",
     "price": 1968.7,
     "mcap": 8555,
-    "rank": 105,
+    "rank": 109,
     "rs": 94
    },
    {
@@ -21612,7 +21612,7 @@
     "sector": "Financial Services",
     "price": 1847.8,
     "mcap": 34334,
-    "rank": 158,
+    "rank": 160,
     "rs": 75
    },
    {
@@ -21621,7 +21621,7 @@
     "sector": "Basic Materials",
     "price": 481.95,
     "mcap": 17212,
-    "rank": 159,
+    "rank": 162,
     "rs": 56
    },
    {
@@ -21630,7 +21630,7 @@
     "sector": "Technology",
     "price": 726.05,
     "mcap": 17975,
-    "rank": 172,
+    "rank": 174,
     "rs": 45
    },
    {
@@ -21638,8 +21638,8 @@
     "name": "STAR HEALTH & AL INS CO L",
     "sector": "Financial Services",
     "price": 572.9,
-    "mcap": 32259,
-    "rank": 203,
+    "mcap": 33424,
+    "rank": 208,
     "rs": 66
    },
    {
@@ -21648,7 +21648,7 @@
     "sector": "Technology",
     "price": 2455.0,
     "mcap": 46474,
-    "rank": 216,
+    "rank": 220,
     "rs": 51
    },
    {
@@ -21657,7 +21657,7 @@
     "sector": "Industrials",
     "price": 550.3,
     "mcap": 6317,
-    "rank": 217,
+    "rank": 221,
     "rs": 68
    },
    {
@@ -21666,7 +21666,7 @@
     "sector": "Consumer Cyclical",
     "price": 19600.0,
     "mcap": 25547,
-    "rank": 239,
+    "rank": 241,
     "rs": 54
    },
    {
@@ -21675,20 +21675,11 @@
     "sector": "Basic Materials",
     "price": 6850.5,
     "mcap": 58944,
-    "rank": 244,
+    "rank": 246,
     "rs": 59
    }
   ],
   "IPO": [
-   {
-    "symbol": "BONFIG",
-    "name": "BONFIGLIOLI TRANS LIMITED",
-    "sector": "Industrials",
-    "price": 794.5,
-    "mcap": 14936,
-    "rank": null,
-    "rs": null
-   },
    {
     "symbol": "BPLPHARMA",
     "name": "BHARAT PARENTERALS LTD.",
@@ -21784,7 +21775,25 @@
     "name": "SHUKRA PHARMACEUTICALS L",
     "sector": "Healthcare",
     "price": 82.23,
-    "mcap": 3631,
+    "mcap": 3639,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "SYMBIOTEC",
+    "name": "SYMBIOTEC PHARMALAB LTD",
+    "sector": "Healthcare",
+    "price": 1611.3,
+    "mcap": 10111,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "TGVSL",
+    "name": "T G V SRAAC LTD.",
+    "sector": "Basic Materials",
+    "price": 125.16,
+    "mcap": 1309,
     "rank": null,
     "rs": null
    }
