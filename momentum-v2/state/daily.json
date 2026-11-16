@@ -21142,7 +21142,7 @@
     "sector": "Consumer Defensive",
     "price": 374.7,
     "mcap": 1409,
-    "rank": 16,
+    "rank": 19,
     "rs": 94
    },
    {
@@ -21151,7 +21151,7 @@
     "sector": "Consumer Cyclical",
     "price": 670.75,
     "mcap": 3866,
-    "rank": 28,
+    "rank": 29,
     "rs": 94
    },
    {
@@ -21169,7 +21169,7 @@
     "sector": "Consumer Cyclical",
     "price": 175.44,
     "mcap": 3128,
-    "rank": 60,
+    "rank": 59,
     "rs": 93
    },
    {
@@ -21178,7 +21178,7 @@
     "sector": "Healthcare",
     "price": 666.2,
     "mcap": 15952,
-    "rank": 66,
+    "rank": 67,
     "rs": 79
    },
    {
@@ -21187,7 +21187,7 @@
     "sector": "Basic Materials",
     "price": 164.47,
     "mcap": 4829,
-    "rank": 67,
+    "rank": 69,
     "rs": 91
    },
    {
@@ -21195,8 +21195,8 @@
     "name": "PIRAMAL PHARMA LIMITED",
     "sector": "Healthcare",
     "price": 244.54,
-    "mcap": 32671,
-    "rank": 80,
+    "mcap": 32480,
+    "rank": 78,
     "rs": 82
    },
    {
@@ -21205,8 +21205,17 @@
     "sector": "Consumer Cyclical",
     "price": 4163.3,
     "mcap": 4814,
-    "rank": 84,
+    "rank": 85,
     "rs": 91
+   },
+   {
+    "symbol": "PTCIL",
+    "name": "PTC INDUSTRIES LIMITED",
+    "sector": "Industrials",
+    "price": 24365.0,
+    "mcap": 37796,
+    "rank": 93,
+    "rs": 86
    },
    {
     "symbol": "FILATEX",
@@ -21214,17 +21223,8 @@
     "sector": "Consumer Cyclical",
     "price": 100.69,
     "mcap": 4595,
-    "rank": 95,
+    "rank": 97,
     "rs": 95
-   },
-   {
-    "symbol": "PTCIL",
-    "name": "PTC INDUSTRIES LIMITED",
-    "sector": "Industrials",
-    "price": 24365.0,
-    "mcap": 39214,
-    "rank": 96,
-    "rs": 86
    },
    {
     "symbol": "ACUTAAS",
@@ -21250,7 +21250,7 @@
     "sector": "Consumer Cyclical",
     "price": 591.15,
     "mcap": 4638,
-    "rank": 108,
+    "rank": 109,
     "rs": 81
    },
    {
@@ -21259,17 +21259,8 @@
     "sector": "Healthcare",
     "price": 1460.6,
     "mcap": 17813,
-    "rank": 113,
+    "rank": 114,
     "rs": 85
-   },
-   {
-    "symbol": "RAYMOND",
-    "name": "RAYMOND LTD",
-    "sector": "Industrials",
-    "price": 1149.0,
-    "mcap": 7279,
-    "rank": 119,
-    "rs": 99
    },
    {
     "symbol": "TIPSMUSIC",
@@ -21290,12 +21281,21 @@
     "rs": 76
    },
    {
+    "symbol": "RAYMOND",
+    "name": "RAYMOND LTD",
+    "sector": "Industrials",
+    "price": 1149.0,
+    "mcap": 7910,
+    "rank": 124,
+    "rs": 99
+   },
+   {
     "symbol": "RPEL",
     "name": "RAGHAV PRODUCTIVITY ENH L",
     "sector": "Basic Materials",
     "price": 1946.2,
-    "mcap": 8815,
-    "rank": 126,
+    "mcap": 9080,
+    "rank": 129,
     "rs": 98
    },
    {
@@ -21303,8 +21303,8 @@
     "name": "L&T TECHNOLOGY SER. LTD.",
     "sector": "Technology",
     "price": 4247.2,
-    "mcap": 44580,
-    "rank": 133,
+    "mcap": 44836,
+    "rank": 135,
     "rs": 71
    },
    {
@@ -21331,7 +21331,7 @@
     "sector": "Consumer Cyclical",
     "price": 4481.5,
     "mcap": 4060,
-    "rank": 160,
+    "rank": 161,
     "rs": 86
    },
    {
@@ -21340,7 +21340,7 @@
     "sector": "Industrials",
     "price": 173.59,
     "mcap": 8523,
-    "rank": 162,
+    "rank": 163,
     "rs": 71
    },
    {
@@ -21348,8 +21348,8 @@
     "name": "PETRONET LNG LIMITED",
     "sector": "Energy",
     "price": 324.05,
-    "mcap": 48068,
-    "rank": 165,
+    "mcap": 48900,
+    "rank": 166,
     "rs": 74
    },
    {
@@ -21367,7 +21367,7 @@
     "sector": "Consumer Cyclical",
     "price": 1552.7,
     "mcap": 28596,
-    "rank": 181,
+    "rank": 182,
     "rs": 81
    },
    {
@@ -21376,7 +21376,7 @@
     "sector": "Consumer Defensive",
     "price": 757.7,
     "mcap": 21936,
-    "rank": 182,
+    "rank": 184,
     "rs": 83
    },
    {
@@ -21402,7 +21402,7 @@
     "name": "NAZARA TECHNOLOGIES LTD",
     "sector": "Communication Services",
     "price": 425.4,
-    "mcap": 16666,
+    "mcap": 17585,
     "rank": 195,
     "rs": 90
    },
@@ -21421,8 +21421,17 @@
     "sector": "Healthcare",
     "price": 550.8,
     "mcap": 17463,
-    "rank": 200,
+    "rank": 201,
     "rs": 69
+   },
+   {
+    "symbol": "PGIL",
+    "name": "PEARL GLOBAL IND LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 1333.1,
+    "mcap": 12160,
+    "rank": 202,
+    "rs": 92
    },
    {
     "symbol": "KRISHANA",
@@ -21430,17 +21439,8 @@
     "sector": "Basic Materials",
     "price": 247.71,
     "mcap": 7513,
-    "rank": 206,
-    "rs": 97
-   },
-   {
-    "symbol": "PGIL",
-    "name": "PEARL GLOBAL IND LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 1333.1,
-    "mcap": 12412,
     "rank": 208,
-    "rs": 92
+    "rs": 97
    },
    {
     "symbol": "THELEELA",
@@ -21448,7 +21448,7 @@
     "sector": "Consumer Cyclical",
     "price": 666.35,
     "mcap": 22050,
-    "rank": 211,
+    "rank": 212,
     "rs": 91
    },
    {
@@ -21457,7 +21457,7 @@
     "sector": "Financial Services",
     "price": 381.55,
     "mcap": 37724,
-    "rank": 212,
+    "rank": 214,
     "rs": 81
    },
    {
@@ -21466,7 +21466,7 @@
     "sector": "Basic Materials",
     "price": 1315.9,
     "mcap": 36760,
-    "rank": 216,
+    "rank": 218,
     "rs": 91
    },
    {
@@ -21475,7 +21475,7 @@
     "sector": "Industrials",
     "price": 378.15,
     "mcap": 22015,
-    "rank": 229,
+    "rank": 230,
     "rs": 98
    },
    {
@@ -21484,7 +21484,7 @@
     "sector": "Financial Services",
     "price": 2381.2,
     "mcap": 39639,
-    "rank": 235,
+    "rank": 236,
     "rs": 85
    },
    {
@@ -21514,15 +21514,15 @@
     "price": 2722.9,
     "mcap": 3025,
     "rank": 6,
-    "rs": 63
+    "rs": 64
    },
    {
     "symbol": "PGEL",
     "name": "PG ELECTROPLAST LTD",
     "sector": "Technology",
     "price": 566.8,
-    "mcap": 16173,
-    "rank": 14,
+    "mcap": 15267,
+    "rank": 15,
     "rs": 52
    },
    {
@@ -21531,8 +21531,17 @@
     "sector": "Consumer Cyclical",
     "price": 1815.3,
     "mcap": 2776,
-    "rank": 20,
+    "rank": 22,
     "rs": 56
+   },
+   {
+    "symbol": "NELCAST",
+    "name": "NELCAST LIMITED",
+    "sector": "Industrials",
+    "price": 153.49,
+    "mcap": 1312,
+    "rank": 32,
+    "rs": 79
    },
    {
     "symbol": "SEJALLTD",
@@ -21540,7 +21549,7 @@
     "sector": "Industrials",
     "price": 904.9,
     "mcap": 1020,
-    "rank": 58,
+    "rank": 63,
     "rs": 79
    },
    {
@@ -21549,7 +21558,7 @@
     "sector": "Industrials",
     "price": 976.15,
     "mcap": 1578,
-    "rank": 68,
+    "rank": 73,
     "rs": 79
    },
    {
@@ -21558,17 +21567,8 @@
     "sector": "Healthcare",
     "price": 1030.15,
     "mcap": 20779,
-    "rank": 89,
+    "rank": 88,
     "rs": 78
-   },
-   {
-    "symbol": "PDSL",
-    "name": "PDS LIMITED",
-    "sector": "Industrials",
-    "price": 412.25,
-    "mcap": 5759,
-    "rank": 98,
-    "rs": 73
    },
    {
     "symbol": "FIEMIND",
@@ -21576,8 +21576,17 @@
     "sector": "Consumer Cyclical",
     "price": 2133.3,
     "mcap": 5693,
-    "rank": 99,
+    "rank": 98,
     "rs": 37
+   },
+   {
+    "symbol": "PDSL",
+    "name": "PDS LIMITED",
+    "sector": "Industrials",
+    "price": 412.25,
+    "mcap": 5876,
+    "rank": 100,
+    "rs": 73
    },
    {
     "symbol": "IGIL",
@@ -21585,7 +21594,7 @@
     "sector": "Basic Materials",
     "price": 438.9,
     "mcap": 18743,
-    "rank": 102,
+    "rank": 103,
     "rs": 83
    },
    {
@@ -21602,8 +21611,8 @@
     "name": "NUVAMA WEALTH MANAGE LTD",
     "sector": "Financial Services",
     "price": 1847.8,
-    "mcap": 34529,
-    "rank": 157,
+    "mcap": 34334,
+    "rank": 158,
     "rs": 75
    },
    {
@@ -21612,7 +21621,7 @@
     "sector": "Basic Materials",
     "price": 481.95,
     "mcap": 17212,
-    "rank": 158,
+    "rank": 159,
     "rs": 56
    },
    {
@@ -21630,8 +21639,17 @@
     "sector": "Financial Services",
     "price": 572.9,
     "mcap": 32259,
-    "rank": 201,
+    "rank": 203,
     "rs": 66
+   },
+   {
+    "symbol": "MPHASIS",
+    "name": "MPHASIS LIMITED",
+    "sector": "Technology",
+    "price": 2455.0,
+    "mcap": 46474,
+    "rank": 216,
+    "rs": 51
    },
    {
     "symbol": "BALUFORGE",
@@ -21639,17 +21657,8 @@
     "sector": "Industrials",
     "price": 550.3,
     "mcap": 6317,
-    "rank": 213,
+    "rank": 217,
     "rs": 68
-   },
-   {
-    "symbol": "MPHASIS",
-    "name": "MPHASIS LIMITED",
-    "sector": "Technology",
-    "price": 2455.0,
-    "mcap": 46859,
-    "rank": 215,
-    "rs": 51
    },
    {
     "symbol": "FORCEMOT",
@@ -21665,12 +21674,21 @@
     "name": "LINDE INDIA LIMITED",
     "sector": "Basic Materials",
     "price": 6850.5,
-    "mcap": 57946,
+    "mcap": 58944,
     "rank": 244,
     "rs": 59
    }
   ],
   "IPO": [
+   {
+    "symbol": "BONFIG",
+    "name": "BONFIGLIOLI TRANS LIMITED",
+    "sector": "Industrials",
+    "price": 794.5,
+    "mcap": 14936,
+    "rank": null,
+    "rs": null
+   },
    {
     "symbol": "BPLPHARMA",
     "name": "BHARAT PARENTERALS LTD.",
@@ -21696,7 +21714,7 @@
     "price": 220.47,
     "mcap": 1722,
     "rank": null,
-    "rs": 85
+    "rs": 84
    },
    {
     "symbol": "KANOHAR",
@@ -21739,7 +21757,7 @@
     "name": "PANORAMA STUDIOS INTL. L",
     "sector": "Communication Services",
     "price": 60.09,
-    "mcap": 1579,
+    "mcap": 1537,
     "rank": null,
     "rs": null
    },
@@ -21748,7 +21766,7 @@
     "name": "PERMANENT MAGNETS LTD.",
     "sector": "Industrials",
     "price": 1198.7,
-    "mcap": 1038,
+    "mcap": 1061,
     "rank": null,
     "rs": null
    },
@@ -21757,7 +21775,7 @@
     "name": "PRASOL CHEMICALS LIMITED",
     "sector": "Basic Materials",
     "price": 801.65,
-    "mcap": 4575,
+    "mcap": 4623,
     "rank": null,
     "rs": null
    },
