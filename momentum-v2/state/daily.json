@@ -22215,7 +22215,7 @@
     "price": 474.5,
     "mcap": 17212,
     "rank": 151,
-    "rs": 56
+    "rs": 57
    },
    {
     "symbol": "WONDERLA",
@@ -22242,7 +22242,7 @@
     "price": 2432.9,
     "mcap": 46474,
     "rank": 204,
-    "rs": 52
+    "rs": 53
    },
    {
     "symbol": "BALUFORGE",
@@ -22251,7 +22251,7 @@
     "price": 520.4,
     "mcap": 6317,
     "rank": 207,
-    "rs": 65
+    "rs": 66
    },
    {
     "symbol": "APOLLOTYRE",
@@ -22306,15 +22306,6 @@
     "sector": "Healthcare",
     "price": 2213.6,
     "mcap": 1526,
-    "rank": null,
-    "rs": null
-   },
-   {
-    "symbol": "DRAGARWQ",
-    "name": "DR. AGARWAL'S EYE HOSP L",
-    "sector": "Healthcare",
-    "price": 5995.5,
-    "mcap": 2898,
     "rank": null,
     "rs": null
    },
