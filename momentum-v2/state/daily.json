@@ -23057,7 +23057,7 @@
     "price": 680.3,
     "mcap": 3866,
     "rank": 22,
-    "rs": 94
+    "rs": 95
    },
    {
     "symbol": "EIMCOELECO",
@@ -23075,7 +23075,7 @@
     "price": 161.82,
     "mcap": 2028,
     "rank": 53,
-    "rs": 87
+    "rs": 88
    },
    {
     "symbol": "SAMBHV",
@@ -23282,7 +23282,7 @@
     "price": 829.85,
     "mcap": 7358,
     "rank": 161,
-    "rs": 95
+    "rs": 96
    },
    {
     "symbol": "SOUTHBANK",
@@ -23701,15 +23701,6 @@
     "mcap": 4623,
     "rank": null,
     "rs": null
-   },
-   {
-    "symbol": "SHUKRAPHAR",
-    "name": "SHUKRA PHARMACEUTICALS L",
-    "sector": "Healthcare",
-    "price": 82.2,
-    "mcap": 3639,
-    "rank": null,
-    "rs": 98
    },
    {
     "symbol": "SYMBIOTEC",
