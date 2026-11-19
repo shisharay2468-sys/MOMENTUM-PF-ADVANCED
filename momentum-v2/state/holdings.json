@@ -60,18 +60,28 @@
       "entry_date": "2026-11-17",
       "weight": 0.06785714285714285
     },
-    "GUFICBIO.NS": {
-      "entry_price": 473.04998779296875,
-      "entry_date": "2026-11-17",
-      "weight": 0.06785714285714285
-    },
     "INDGN.NS": {
       "entry_price": 666.2000122070312,
       "entry_date": "2026-11-17",
       "weight": 0.06785714285714285
+    },
+    "AVTNPL.NS": {
+      "entry_price": 103.43000030517578,
+      "entry_date": "2026-11-20",
+      "weight": 0.059375
+    },
+    "AARTIDRUGS.NS": {
+      "entry_price": 505.75,
+      "entry_date": "2026-11-20",
+      "weight": 0.059375
+    },
+    "SAMBHV.NS": {
+      "entry_price": 161.05999755859375,
+      "entry_date": "2026-11-20",
+      "weight": 0.059375
     }
   },
-  "last_rebalance": "2026-11-17",
+  "last_rebalance": "2026-11-20",
   "history": [
     {
       "date": "2026-09-27",
@@ -188,14 +198,29 @@
       "sold": [
         "PREMIERPOL"
       ]
+    },
+    {
+      "date": "2026-11-20",
+      "bought": [
+        "AVTNPL",
+        "AARTIDRUGS",
+        "SAMBHV"
+      ],
+      "sold": [
+        "GUFICBIO"
+      ]
     }
   ],
   "buyable": [
+    "AARTIDRUGS.NS",
     "AARTIPHARM.NS",
     "ABDL.NS",
+    "ACUTAAS.NS",
     "ANANDRATHI.NS",
+    "AVTNPL.NS",
+    "BLUSPRING.NS",
+    "CNL.NS",
     "EIMCOELECO.NS",
-    "GALAPREC.NS",
     "GLAND.NS",
     "GPPL.NS",
     "GRWRHITECH.NS",
@@ -203,10 +228,11 @@
     "INDGN.NS",
     "KARURVYSYA.NS",
     "KRISHANA.NS",
-    "LTTS.NS",
+    "LUMAXTECH.NS",
     "MANAKCOAT.NS",
     "NAZARA.NS",
     "NITINSPIN.NS",
+    "OPTIEMUS.NS",
     "ORIENTHOT.NS",
     "PDSL.NS",
     "PETRONET.NS",
@@ -219,13 +245,15 @@
     "SAILIFE.NS",
     "SAMBHV.NS",
     "SANATHAN.NS",
+    "SANGAMIND.NS",
     "SHYAMMETL.NS",
     "SONACOMS.NS",
     "SOUTHBANK.NS",
-    "SUNTV.NS",
+    "TASTYBITE.NS",
     "TCPLPACK.NS",
     "THELEELA.NS",
     "TIPSMUSIC.NS",
-    "UNIMECH.NS"
+    "VRLLOG.NS",
+    "WELSPUNLIV.NS"
   ]
 }
