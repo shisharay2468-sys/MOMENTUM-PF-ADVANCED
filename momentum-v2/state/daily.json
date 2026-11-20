@@ -23866,7 +23866,7 @@
     "price": 437.3,
     "mcap": 18743,
     "rank": 107,
-    "rs": 85
+    "rs": 84
    },
    {
     "symbol": "AARTIPHARM",
@@ -24264,7 +24264,7 @@
     "price": 437.3,
     "mcap": 18743,
     "rank": 107,
-    "rs": 85
+    "rs": 84
    },
    {
     "symbol": "CYIENT",
@@ -24291,7 +24291,7 @@
     "price": 1449.9,
     "mcap": 17095,
     "rank": 144,
-    "rs": 68
+    "rs": 67
    },
    {
     "symbol": "NUVAMA",
@@ -24358,6 +24358,15 @@
    }
   ],
   "IPO": [
+   {
+    "symbol": "BONFIG",
+    "name": "BONFIGLIOLI TRANS LIMITED",
+    "sector": "Industrials",
+    "price": 801.9,
+    "mcap": 15058,
+    "rank": null,
+    "rs": null
+   },
    {
     "symbol": "BPLPHARMA",
     "name": "BHARAT PARENTERALS LTD.",
@@ -24454,6 +24463,15 @@
     "sector": "Basic Materials",
     "price": 776.7,
     "mcap": 4623,
+    "rank": null,
+    "rs": null
+   },
+   {
+    "symbol": "SMT",
+    "name": "SAHAJANAND MEDICAL TECH L",
+    "sector": "Healthcare",
+    "price": 539.05,
+    "mcap": 5363,
     "rank": null,
     "rs": null
    },
