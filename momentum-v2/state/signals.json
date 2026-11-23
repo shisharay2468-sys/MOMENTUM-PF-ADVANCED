@@ -4312,8 +4312,8 @@
   "detail": "Listed 10 Jul 2026 \u00b7 listing-day high Rs 175",
   "last_seen": "2026-11-24",
   "last_price": 221.8800048828125,
-  "active": true,
-  "ended": null
+  "active": false,
+  "ended": "2026-11-24"
  },
  {
   "type": "IPO",
@@ -4519,9 +4519,9 @@
   "price": 670.0499877929688,
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 607",
   "last_seen": "2026-11-24",
-  "last_price": 800.9500122070312,
-  "active": true,
-  "ended": null
+  "last_price": 825.5,
+  "active": false,
+  "ended": "2026-11-24"
  },
  {
   "type": "Entry",
@@ -5481,9 +5481,9 @@
   "price": 539.0499877929688,
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 410",
   "last_seen": "2026-11-24",
-  "last_price": 527.5999755859375,
-  "active": true,
-  "ended": null
+  "last_price": 557.4500122070312,
+  "active": false,
+  "ended": "2026-11-24"
  },
  {
   "type": "Entry",
