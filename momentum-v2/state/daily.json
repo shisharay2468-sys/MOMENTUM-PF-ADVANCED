@@ -24512,8 +24512,17 @@
     "sector": "Industrials",
     "price": 340.55,
     "mcap": 5953,
-    "rank": 47,
+    "rank": 48,
     "rs": 80
+   },
+   {
+    "symbol": "PPLPHARMA",
+    "name": "PIRAMAL PHARMA LIMITED",
+    "sector": "Healthcare",
+    "price": 239.3,
+    "mcap": 31414,
+    "rank": 51,
+    "rs": 84
    },
    {
     "symbol": "INDGN",
@@ -24521,17 +24530,8 @@
     "sector": "Healthcare",
     "price": 657.65,
     "mcap": 15697,
-    "rank": 53,
-    "rs": 83
-   },
-   {
-    "symbol": "PPLPHARMA",
-    "name": "PIRAMAL PHARMA LIMITED",
-    "sector": "Healthcare",
-    "price": 239.3,
-    "mcap": 32480,
     "rank": 54,
-    "rs": 84
+    "rs": 83
    },
    {
     "symbol": "CNL",
@@ -24543,22 +24543,22 @@
     "rs": 96
    },
    {
-    "symbol": "PTCIL",
-    "name": "PTC INDUSTRIES LIMITED",
-    "sector": "Industrials",
-    "price": 24120.0,
-    "mcap": 37796,
-    "rank": 71,
-    "rs": 87
-   },
-   {
     "symbol": "PDSL",
     "name": "PDS LIMITED",
     "sector": "Industrials",
     "price": 408.3,
-    "mcap": 5876,
-    "rank": 75,
+    "mcap": 5836,
+    "rank": 74,
     "rs": 78
+   },
+   {
+    "symbol": "EMCURE",
+    "name": "EMCURE PHARMACEUTICALS L",
+    "sector": "Healthcare",
+    "price": 2337.8,
+    "mcap": 43821,
+    "rank": 77,
+    "rs": 91
    },
    {
     "symbol": "SSWL",
@@ -24570,22 +24570,22 @@
     "rs": 99
    },
    {
-    "symbol": "EMCURE",
-    "name": "EMCURE PHARMACEUTICALS L",
-    "sector": "Healthcare",
-    "price": 2337.8,
-    "mcap": 43821,
-    "rank": 79,
-    "rs": 91
-   },
-   {
     "symbol": "ROSSTECH",
     "name": "ROSSELL TECHSYS LIMITED",
     "sector": "Industrials",
     "price": 1528.6,
     "mcap": 5783,
-    "rank": 87,
+    "rank": 86,
     "rs": 97
+   },
+   {
+    "symbol": "PTCIL",
+    "name": "PTC INDUSTRIES LIMITED",
+    "sector": "Industrials",
+    "price": 24120.0,
+    "mcap": 38722,
+    "rank": 94,
+    "rs": 87
    },
    {
     "symbol": "BOROLTD",
@@ -24602,7 +24602,7 @@
     "sector": "Basic Materials",
     "price": 422.2,
     "mcap": 18630,
-    "rank": 100,
+    "rank": 102,
     "rs": 83
    },
    {
@@ -24628,18 +24628,9 @@
     "name": "SAI LIFE SCIENCES LIMITED",
     "sector": "Healthcare",
     "price": 1800.7,
-    "mcap": 38249,
-    "rank": 123,
+    "mcap": 38438,
+    "rank": 122,
     "rs": 95
-   },
-   {
-    "symbol": "SUNTV",
-    "name": "SUN TV NETWORK LIMITED",
-    "sector": "Communication Services",
-    "price": 694.2,
-    "mcap": 25939,
-    "rank": 125,
-    "rs": 87
    },
    {
     "symbol": "HONASA",
@@ -24647,8 +24638,17 @@
     "sector": "Consumer Defensive",
     "price": 525.4,
     "mcap": 17611,
-    "rank": 126,
+    "rank": 125,
     "rs": 93
+   },
+   {
+    "symbol": "SUNTV",
+    "name": "SUN TV NETWORK LIMITED",
+    "sector": "Communication Services",
+    "price": 694.2,
+    "mcap": 25939,
+    "rank": 126,
+    "rs": 87
    },
    {
     "symbol": "RATNAVEER",
@@ -24656,7 +24656,7 @@
     "sector": "Basic Materials",
     "price": 370.25,
     "mcap": 3385,
-    "rank": 135,
+    "rank": 134,
     "rs": 99
    },
    {
@@ -24673,9 +24673,18 @@
     "name": "PETRONET LNG LIMITED",
     "sector": "Energy",
     "price": 329.15,
-    "mcap": 48900,
+    "mcap": 48908,
     "rank": 145,
     "rs": 79
+   },
+   {
+    "symbol": "MBAPL",
+    "name": "MADHYA BHARAT AGRO P. LTD",
+    "sector": "Basic Materials",
+    "price": 195.14,
+    "mcap": 8421,
+    "rank": 147,
+    "rs": 96
    },
    {
     "symbol": "ORIENTHOT",
@@ -24683,7 +24692,7 @@
     "sector": "Consumer Cyclical",
     "price": 179.98,
     "mcap": 3215,
-    "rank": 149,
+    "rank": 151,
     "rs": 94
    },
    {
@@ -24692,7 +24701,7 @@
     "sector": "Industrials",
     "price": 157.47,
     "mcap": 2290,
-    "rank": 151,
+    "rank": 152,
     "rs": 98
    },
    {
@@ -24701,7 +24710,7 @@
     "sector": "Industrials",
     "price": 175.53,
     "mcap": 8458,
-    "rank": 154,
+    "rank": 155,
     "rs": 68
    },
    {
@@ -24710,7 +24719,7 @@
     "sector": "Financial Services",
     "price": 233.53,
     "mcap": 7668,
-    "rank": 155,
+    "rank": 156,
     "rs": 85
    },
    {
@@ -24719,7 +24728,7 @@
     "sector": "Consumer Cyclical",
     "price": 1559.8,
     "mcap": 28897,
-    "rank": 159,
+    "rank": 161,
     "rs": 85
    },
    {
@@ -24728,7 +24737,7 @@
     "sector": "Consumer Defensive",
     "price": 794.3,
     "mcap": 22457,
-    "rank": 180,
+    "rank": 178,
     "rs": 90
    },
    {
@@ -24755,7 +24764,7 @@
     "sector": "Basic Materials",
     "price": 246.17,
     "mcap": 7458,
-    "rank": 184,
+    "rank": 185,
     "rs": 97
    },
    {
@@ -24764,24 +24773,15 @@
     "sector": "Healthcare",
     "price": 553.4,
     "mcap": 18296,
-    "rank": 187,
+    "rank": 188,
     "rs": 72
-   },
-   {
-    "symbol": "PGIL",
-    "name": "PEARL GLOBAL IND LIMITED",
-    "sector": "Consumer Cyclical",
-    "price": 1435.5,
-    "mcap": 12160,
-    "rank": 189,
-    "rs": 94
    },
    {
     "symbol": "NAZARA",
     "name": "NAZARA TECHNOLOGIES LTD",
     "sector": "Communication Services",
     "price": 414.55,
-    "mcap": 17585,
+    "mcap": 16750,
     "rank": 190,
     "rs": 88
    },
@@ -24795,12 +24795,21 @@
     "rs": 93
    },
    {
+    "symbol": "PGIL",
+    "name": "PEARL GLOBAL IND LIMITED",
+    "sector": "Consumer Cyclical",
+    "price": 1435.5,
+    "mcap": 13683,
+    "rank": 197,
+    "rs": 94
+   },
+   {
     "symbol": "SHYAMMETL",
     "name": "SHYAM METALICS AND ENGY L",
     "sector": "Basic Materials",
     "price": 1314.3,
     "mcap": 36635,
-    "rank": 197,
+    "rank": 200,
     "rs": 91
    },
    {
@@ -24809,16 +24818,16 @@
     "sector": "Financial Services",
     "price": 377.0,
     "mcap": 37130,
-    "rank": 204,
-    "rs": 83
+    "rank": 205,
+    "rs": 84
    },
    {
     "symbol": "LUMAXTECH",
     "name": "LUMAX AUTO TECH LTD",
     "sector": "Consumer Cyclical",
     "price": 2330.3,
-    "mcap": 15740,
-    "rank": 211,
+    "mcap": 15856,
+    "rank": 212,
     "rs": 87
    },
    {
@@ -24827,7 +24836,7 @@
     "sector": "Financial Services",
     "price": 2375.8,
     "mcap": 39118,
-    "rank": 214,
+    "rank": 215,
     "rs": 87
    },
    {
@@ -24836,7 +24845,7 @@
     "sector": "Consumer Cyclical",
     "price": 11723.0,
     "mcap": 30467,
-    "rank": 221,
+    "rank": 222,
     "rs": 87
    },
    {
@@ -24844,8 +24853,8 @@
     "name": "LEMON TREE HOTELS LTD",
     "sector": "Consumer Cyclical",
     "price": 127.54,
-    "mcap": 9833,
-    "rank": 222,
+    "mcap": 10106,
+    "rank": 223,
     "rs": 64
    },
    {
@@ -24854,7 +24863,7 @@
     "sector": "Consumer Cyclical",
     "price": 892.5,
     "mcap": 56203,
-    "rank": 233,
+    "rank": 234,
     "rs": 92
    },
    {
@@ -24863,7 +24872,7 @@
     "sector": "Healthcare",
     "price": 3331.9,
     "mcap": 54412,
-    "rank": 234,
+    "rank": 235,
     "rs": 93
    },
    {
@@ -24872,7 +24881,7 @@
     "sector": "Basic Materials",
     "price": 4932.7,
     "mcap": 53772,
-    "rank": 237,
+    "rank": 238,
     "rs": 82
    },
    {
@@ -24881,7 +24890,7 @@
     "sector": "Healthcare",
     "price": 951.05,
     "mcap": 53949,
-    "rank": 239,
+    "rank": 240,
     "rs": 81
    },
    {
@@ -24889,8 +24898,8 @@
     "name": "NAVIN FLUORINE INT. LTD",
     "sector": "Basic Materials",
     "price": 10077.0,
-    "mcap": 50767,
-    "rank": 241,
+    "mcap": 52122,
+    "rank": 242,
     "rs": 91
    }
   ],
@@ -24919,7 +24928,7 @@
     "sector": "Consumer Cyclical",
     "price": 1765.2,
     "mcap": 2684,
-    "rank": 18,
+    "rank": 19,
     "rs": 54
    },
    {
@@ -24927,8 +24936,8 @@
     "name": "PG ELECTROPLAST LTD",
     "sector": "Technology",
     "price": 588.7,
-    "mcap": 15267,
-    "rank": 19,
+    "mcap": 16827,
+    "rank": 24,
     "rs": 62
    },
    {
@@ -24936,8 +24945,8 @@
     "name": "NELCAST LIMITED",
     "sector": "Industrials",
     "price": 146.3,
-    "mcap": 1312,
-    "rank": 25,
+    "mcap": 1335,
+    "rank": 27,
     "rs": 81
    },
    {
@@ -24946,7 +24955,7 @@
     "sector": "Healthcare",
     "price": 317.4,
     "mcap": 9751,
-    "rank": 55,
+    "rank": 56,
     "rs": 68
    },
    {
@@ -24964,7 +24973,7 @@
     "sector": "Industrials",
     "price": 1075.75,
     "mcap": 1681,
-    "rank": 66,
+    "rank": 67,
     "rs": 91
    },
    {
@@ -24973,7 +24982,7 @@
     "sector": "Consumer Cyclical",
     "price": 2137.2,
     "mcap": 5486,
-    "rank": 69,
+    "rank": 70,
     "rs": 48
    },
    {
@@ -24981,8 +24990,8 @@
     "name": "PDS LIMITED",
     "sector": "Industrials",
     "price": 408.3,
-    "mcap": 5876,
-    "rank": 75,
+    "mcap": 5836,
+    "rank": 74,
     "rs": 78
    },
    {
@@ -24991,7 +25000,7 @@
     "sector": "Healthcare",
     "price": 1901.8,
     "mcap": 8207,
-    "rank": 77,
+    "rank": 76,
     "rs": 93
    },
    {
@@ -25009,7 +25018,7 @@
     "sector": "Basic Materials",
     "price": 422.2,
     "mcap": 18630,
-    "rank": 100,
+    "rank": 102,
     "rs": 83
    },
    {
@@ -25022,29 +25031,29 @@
     "rs": 67
    },
    {
-    "symbol": "PRIVISCL",
-    "name": "PRIVI SPECIALITY CHE LTD",
-    "sector": "Basic Materials",
-    "price": 3565.5,
-    "mcap": 13140,
-    "rank": 133,
-    "rs": 69
-   },
-   {
     "symbol": "NUVAMA",
     "name": "NUVAMA WEALTH MANAGE LTD",
     "sector": "Financial Services",
     "price": 1820.8,
-    "mcap": 34334,
-    "rank": 139,
-    "rs": 78
+    "mcap": 32451,
+    "rank": 136,
+    "rs": 77
+   },
+   {
+    "symbol": "PRIVISCL",
+    "name": "PRIVI SPECIALITY CHE LTD",
+    "sector": "Basic Materials",
+    "price": 3565.5,
+    "mcap": 14129,
+    "rank": 138,
+    "rs": 69
    },
    {
     "symbol": "LTFOODS",
     "name": "LT FOODS LIMITED",
     "sector": "Consumer Defensive",
     "price": 432.4,
-    "mcap": 14739,
+    "mcap": 14722,
     "rank": 183,
     "rs": 60
    },
@@ -25054,7 +25063,7 @@
     "sector": "Financial Services",
     "price": 556.05,
     "mcap": 33424,
-    "rank": 199,
+    "rank": 198,
     "rs": 63
    },
    {
@@ -25062,8 +25071,8 @@
     "name": "MPHASIS LIMITED",
     "sector": "Technology",
     "price": 2420.0,
-    "mcap": 46474,
-    "rank": 205,
+    "mcap": 47152,
+    "rank": 207,
     "rs": 54
    },
    {
@@ -25072,7 +25081,7 @@
     "sector": "Industrials",
     "price": 515.7,
     "mcap": 6082,
-    "rank": 208,
+    "rank": 209,
     "rs": 50
    },
    {
@@ -25081,7 +25090,7 @@
     "sector": "Financial Services",
     "price": 348.3,
     "mcap": 30840,
-    "rank": 213,
+    "rank": 214,
     "rs": 80
    },
    {
@@ -25089,8 +25098,8 @@
     "name": "LEMON TREE HOTELS LTD",
     "sector": "Consumer Cyclical",
     "price": 127.54,
-    "mcap": 9833,
-    "rank": 222,
+    "mcap": 10106,
+    "rank": 223,
     "rs": 64
    },
    {
@@ -25099,7 +25108,7 @@
     "sector": "Consumer Defensive",
     "price": 422.2,
     "mcap": 17885,
-    "rank": 227,
+    "rank": 228,
     "rs": 48
    },
    {
@@ -25108,7 +25117,7 @@
     "sector": "Consumer Cyclical",
     "price": 20285.0,
     "mcap": 26482,
-    "rank": 230,
+    "rank": 231,
     "rs": 66
    }
   ],
@@ -25190,7 +25199,7 @@
     "name": "PERMANENT MAGNETS LTD.",
     "sector": "Industrials",
     "price": 1128.75,
-    "mcap": 1061,
+    "mcap": 1149,
     "rank": null,
     "rs": 88
    },
@@ -25199,7 +25208,7 @@
     "name": "PRASOL CHEMICALS LIMITED",
     "sector": "Basic Materials",
     "price": 782.5,
-    "mcap": 4623,
+    "mcap": 4517,
     "rank": null,
     "rs": null
    },

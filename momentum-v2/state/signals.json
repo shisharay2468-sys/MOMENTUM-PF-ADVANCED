@@ -5614,5 +5614,18 @@
   "last_price": 323.6499938964844,
   "active": true,
   "ended": null
+ },
+ {
+  "type": "Entry",
+  "symbol": "MBAPL",
+  "name": "MADHYA BHARAT AGRO P. LTD",
+  "sector": "Basic Materials",
+  "date": "2026-11-24",
+  "price": 195.13999938964844,
+  "detail": "Cleared every entry rule \u00b7 rank 147",
+  "last_seen": "2026-11-24",
+  "last_price": 195.13999938964844,
+  "active": true,
+  "ended": null
  }
 ]
