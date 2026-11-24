@@ -4520,8 +4520,8 @@
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 607",
   "last_seen": "2026-11-25",
   "last_price": 825.5,
-  "active": true,
-  "ended": null
+  "active": false,
+  "ended": "2026-11-25"
  },
  {
   "type": "Entry",
@@ -5482,8 +5482,8 @@
   "detail": "Listed 23 Oct 2026 \u00b7 listing-day high Rs 410",
   "last_seen": "2026-11-25",
   "last_price": 557.4500122070312,
-  "active": true,
-  "ended": null
+  "active": false,
+  "ended": "2026-11-25"
  },
  {
   "type": "Entry",
