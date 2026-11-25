@@ -25466,7 +25466,7 @@
     "price": 326.05,
     "mcap": 48908,
     "rank": 137,
-    "rs": 77
+    "rs": 78
    },
    {
     "symbol": "MBAPL",
@@ -25628,7 +25628,7 @@
     "price": 10154.0,
     "mcap": 52122,
     "rank": 226,
-    "rs": 91
+    "rs": 92
    }
   ],
   "OBV": [
@@ -25860,15 +25860,6 @@
   ],
   "IPO": [
    {
-    "symbol": "BONFIG",
-    "name": "BONFIGLIOLI TRANS LIMITED",
-    "sector": "Industrials",
-    "price": 825.5,
-    "mcap": 15058,
-    "rank": null,
-    "rs": null
-   },
-   {
     "symbol": "BPLPHARMA",
     "name": "BHARAT PARENTERALS LTD.",
     "sector": "Healthcare",
@@ -25939,15 +25930,6 @@
     "mcap": 1149,
     "rank": null,
     "rs": 95
-   },
-   {
-    "symbol": "SMT",
-    "name": "SAHAJANAND MEDICAL TECH L",
-    "sector": "Healthcare",
-    "price": 557.45,
-    "mcap": 5363,
-    "rank": null,
-    "rs": null
    },
    {
     "symbol": "TECHNOCRAF",
