@@ -10,11 +10,6 @@
       "entry_date": "2026-09-27",
       "weight": 0.0475
     },
-    "VINDHYATEL.NS": {
-      "entry_price": 2719.800048828125,
-      "entry_date": "2026-09-27",
-      "weight": 0.0475
-    },
     "KOPRAN.NS": {
       "entry_price": 254.3000030517578,
       "entry_date": "2026-10-08",
@@ -79,9 +74,24 @@
       "entry_price": 161.05999755859375,
       "entry_date": "2026-11-20",
       "weight": 0.059375
+    },
+    "CNL.NS": {
+      "entry_price": 1351.699951171875,
+      "entry_date": "2026-11-27",
+      "weight": 0.05277777777777777
+    },
+    "ALICON.NS": {
+      "entry_price": 1009.5999755859375,
+      "entry_date": "2026-11-27",
+      "weight": 0.05277777777777777
+    },
+    "SSWL.NS": {
+      "entry_price": 494.20001220703125,
+      "entry_date": "2026-11-27",
+      "weight": 0.05277777777777777
     }
   },
-  "last_rebalance": "2026-11-20",
+  "last_rebalance": "2026-11-27",
   "history": [
     {
       "date": "2026-09-27",
@@ -209,17 +219,30 @@
       "sold": [
         "GUFICBIO"
       ]
+    },
+    {
+      "date": "2026-11-27",
+      "bought": [
+        "CNL",
+        "ALICON",
+        "SSWL"
+      ],
+      "sold": [
+        "VINDHYATEL"
+      ]
     }
   ],
   "buyable": [
     "AARTIPHARM.NS",
     "ABDL.NS",
+    "AGARWALEYE.NS",
+    "ALICON.NS",
     "ANANDRATHI.NS",
     "ANTHEM.NS",
     "APLLTD.NS",
     "CNL.NS",
+    "CRAFTSMAN.NS",
     "EMCURE.NS",
-    "FILATEX.NS",
     "GHCLTEXTIL.NS",
     "GLAND.NS",
     "GPPL.NS",
@@ -230,19 +253,17 @@
     "KARURVYSYA.NS",
     "KDDL.NS",
     "KRISHANA.NS",
-    "LEMONTREE.NS",
-    "LTTS.NS",
     "LUMAXTECH.NS",
     "MBAPL.NS",
     "NAVINFLUOR.NS",
-    "NAZARA.NS",
-    "NEOGEN.NS",
     "NITINSPIN.NS",
     "ORIENTHOT.NS",
+    "PARAGMILK.NS",
     "PDSL.NS",
     "PETRONET.NS",
-    "PPLPHARMA.NS",
+    "PGIL.NS",
     "PTCIL.NS",
+    "RPEL.NS",
     "SAILIFE.NS",
     "SAMBHV.NS",
     "SANGAMIND.NS",
@@ -251,10 +272,8 @@
     "SONACOMS.NS",
     "SOUTHBANK.NS",
     "SSWL.NS",
-    "SUNTV.NS",
     "THELEELA.NS",
-    "TIPSMUSIC.NS",
-    "VRLLOG.NS",
+    "VIJAYA.NS",
     "WELSPUNLIV.NS"
   ]
 }
