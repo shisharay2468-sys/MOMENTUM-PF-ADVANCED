@@ -27370,6 +27370,15 @@
   ],
   "IPO": [
    {
+    "symbol": "BONFIG",
+    "name": "BONFIGLIOLI TRANS LIMITED",
+    "sector": "Industrials",
+    "price": 803.25,
+    "mcap": 15096,
+    "rank": null,
+    "rs": null
+   },
+   {
     "symbol": "BPLPHARMA",
     "name": "BHARAT PARENTERALS LTD.",
     "sector": "Healthcare",
@@ -27421,7 +27430,7 @@
     "price": 204.68,
     "mcap": 2524,
     "rank": null,
-    "rs": 68
+    "rs": 67
    },
    {
     "symbol": "KPL",
@@ -27458,6 +27467,15 @@
     "mcap": 1149,
     "rank": null,
     "rs": 93
+   },
+   {
+    "symbol": "SMT",
+    "name": "SAHAJANAND MEDICAL TECH L",
+    "sector": "Healthcare",
+    "price": 553.3,
+    "mcap": 5365,
+    "rank": null,
+    "rs": null
    },
    {
     "symbol": "TECHNOCRAF",
